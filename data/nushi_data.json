@@ -1,0 +1,9875 @@
+[
+ {
+  "id": 4915,
+  "name": "Mahi-Mahi",
+  "nameJa": "マヒマヒ",
+  "spotId": 47,
+  "spotName": "Oschon's Torch",
+  "spotNameJa": "オシュオン灯台",
+  "zoneName": "Lower La Noscea",
+  "zoneNameJa": "低地ラノシア",
+  "territoryId": 135,
+  "startHour": 10,
+  "endHour": 18,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Yumizuno"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2
+ },
+ {
+  "id": 4924,
+  "name": "Titanic Sawfish",
+  "nameJa": "タイタニックソー",
+  "spotId": 74,
+  "spotName": "Cape Westwind",
+  "spotNameJa": "ウエストウインド岬",
+  "zoneName": "Western Thanalan",
+  "zoneNameJa": "西ザナラーン",
+  "territoryId": 140,
+  "startHour": 9,
+  "endHour": 15,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Lugworm",
+   "Merlthor Goby",
+   "Wahoo"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2
+ },
+ {
+  "id": 4919,
+  "name": "Giant Squid",
+  "nameJa": "ジャイアントスキッド",
+  "spotId": null,
+  "spotName": null,
+  "spotNameJa": null,
+  "zoneName": null,
+  "zoneNameJa": null,
+  "territoryId": null,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Lugworm",
+   "Merlthor Goby",
+   "Wahoo"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2
+ },
+ {
+  "id": 7678,
+  "name": "Zalera",
+  "nameJa": "ザルエラ",
+  "spotId": 37,
+  "spotName": "Zephyr Drift",
+  "spotNameJa": "ゼファードリフト沿岸",
+  "zoneName": "Middle La Noscea",
+  "zoneNameJa": "中央ラノシア",
+  "territoryId": 134,
+  "startHour": 9,
+  "endHour": 14,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Rat Tail"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7679,
+  "name": "Beguiler Chub",
+  "nameJa": "トリックスター",
+  "spotId": 39,
+  "spotName": "Rogue River",
+  "spotNameJa": "ローグ川",
+  "zoneName": "Middle La Noscea",
+  "zoneNameJa": "中央ラノシア",
+  "territoryId": 134,
+  "startHour": 9,
+  "endHour": 14,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Moth Pupa"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7680,
+  "name": "Oschon's Print",
+  "nameJa": "オシュオンプリント",
+  "spotId": 44,
+  "spotName": "Moraby Bay",
+  "spotNameJa": "モラビー湾西岸",
+  "zoneName": "Lower La Noscea",
+  "zoneNameJa": "低地ラノシア",
+  "territoryId": 135,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Goby Ball"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7681,
+  "name": "Caterwauler",
+  "nameJa": "オオゴエナマズ",
+  "spotId": 43,
+  "spotName": "The Mourning Widow",
+  "spotNameJa": "モーニングウィドー",
+  "zoneName": "Lower La Noscea",
+  "zoneNameJa": "低地ラノシア",
+  "territoryId": 135,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Moth Pupa"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7682,
+  "name": "Crystal Perch",
+  "nameJa": "クリスタルパーチ",
+  "spotId": 42,
+  "spotName": "Woad Whisper Canyon",
+  "spotNameJa": "ささやきの谷",
+  "zoneName": "Middle La Noscea",
+  "zoneNameJa": "中央ラノシア",
+  "territoryId": 134,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4,
+   3,
+   5
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Butterworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7683,
+  "name": "Moldva",
+  "nameJa": "モルバ",
+  "spotId": 8,
+  "spotName": "Springripple Brook",
+  "spotNameJa": "さざなみ小川",
+  "zoneName": "East Shroud",
+  "zoneNameJa": "黒衣森：東部森林",
+  "territoryId": 152,
+  "startHour": 18,
+  "endHour": 2,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Midge Basket",
+   "Ala Mhigan Fighting Fish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7684,
+  "name": "Junkmonger",
+  "nameJa": "ジャンクモンガー",
+  "spotId": 60,
+  "spotName": "Skull Valley",
+  "spotNameJa": "スカルバレー沿岸部",
+  "zoneName": "Western La Noscea",
+  "zoneNameJa": "西ラノシア",
+  "territoryId": 138,
+  "startHour": 16,
+  "endHour": 2,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Lugworm",
+   "Merlthor Goby",
+   "Wahoo"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7685,
+  "name": "Goldenfin",
+  "nameJa": "ゴールデンフィン",
+  "spotId": 36,
+  "spotName": "Limsa Lominsa Upper Decks",
+  "spotNameJa": "リムサ・ロミンサ：上甲板層",
+  "zoneName": "Limsa Lominsa Upper Decks",
+  "zoneNameJa": "リムサ・ロミンサ：上甲板層",
+  "territoryId": 128,
+  "startHour": 9,
+  "endHour": 14,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Pill Bug"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7686,
+  "name": "Gigantshark",
+  "nameJa": "ギガシャーク",
+  "spotId": 38,
+  "spotName": "Summerford",
+  "spotNameJa": "サマーフォード沿岸",
+  "zoneName": "Middle La Noscea",
+  "zoneNameJa": "中央ラノシア",
+  "territoryId": 134,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Floating Minnow",
+   "Harbor Herring"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7687,
+  "name": "Armorer",
+  "nameJa": "スケーリーフット",
+  "spotId": 59,
+  "spotName": "Swiftperch",
+  "spotNameJa": "スウィフトパーチ入植地",
+  "zoneName": "Western La Noscea",
+  "zoneNameJa": "西ラノシア",
+  "territoryId": 138,
+  "startHour": 19,
+  "endHour": 3,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Northern Krill"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7688,
+  "name": "Great Gudgeon",
+  "nameJa": "スナガクレ",
+  "spotId": 40,
+  "spotName": "West Agelyss River",
+  "spotNameJa": "西アジェレス川",
+  "zoneName": "Middle La Noscea",
+  "zoneNameJa": "中央ラノシア",
+  "territoryId": 134,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Crayfish Ball"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7689,
+  "name": "Dark Knight",
+  "nameJa": "ダークナイト",
+  "spotId": 77,
+  "spotName": "The Unholy Heir",
+  "spotNameJa": "アンホーリーエアー",
+  "zoneName": "Central Thanalan",
+  "zoneNameJa": "中央ザナラーン",
+  "territoryId": 141,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4,
+   3,
+   11
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Crow Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7690,
+  "name": "Silver Sovereign",
+  "nameJa": "シルバーソブリン",
+  "spotId": 47,
+  "spotName": "Oschon's Torch",
+  "spotNameJa": "オシュオン灯台",
+  "zoneName": "Lower La Noscea",
+  "zoneNameJa": "低地ラノシア",
+  "territoryId": 135,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Yumizuno"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7691,
+  "name": "Sabertooth Cod",
+  "nameJa": "サーベルタイガーコッド",
+  "spotId": 49,
+  "spotName": "Candlekeep Quay",
+  "spotNameJa": "キャンドルキープ埠頭",
+  "zoneName": "Lower La Noscea",
+  "zoneNameJa": "低地ラノシア",
+  "territoryId": 135,
+  "startHour": 16,
+  "endHour": 22,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Goby Ball"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7692,
+  "name": "Dream Goby",
+  "nameJa": "ドリームゴビー",
+  "spotId": 75,
+  "spotName": "Upper Soot Creek",
+  "spotNameJa": "スートクリーク上流",
+  "zoneName": "Central Thanalan",
+  "zoneNameJa": "中央ザナラーン",
+  "territoryId": 141,
+  "startHour": 17,
+  "endHour": 3,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Crayfish Ball"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7693,
+  "name": "Navigator's Brand",
+  "nameJa": "リムレーンズソード",
+  "spotId": 64,
+  "spotName": "The Brewer's Beacon",
+  "spotNameJa": "ブルワーズ灯台",
+  "zoneName": "Western La Noscea",
+  "zoneNameJa": "西ラノシア",
+  "territoryId": 138,
+  "startHour": 9,
+  "endHour": 14,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Yumizuno"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7694,
+  "name": "Dark Ambusher",
+  "nameJa": "ダークアンブッシャー",
+  "spotId": 6,
+  "spotName": "Sweetbloom Pier",
+  "spotNameJa": "花蜜桟橋",
+  "zoneName": "East Shroud",
+  "zoneNameJa": "黒衣森：東部森林",
+  "territoryId": 152,
+  "startHour": 21,
+  "endHour": 3,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Moth Pupa",
+   "Striped Goby"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7695,
+  "name": "Judgeray",
+  "nameJa": "ジャッジレイ",
+  "spotId": 19,
+  "spotName": "Fallgourd Float",
+  "spotNameJa": "フォールゴウド秋瓜湖畔",
+  "zoneName": "North Shroud",
+  "zoneNameJa": "黒衣森：北部森林",
+  "territoryId": 154,
+  "startHour": 17,
+  "endHour": 21,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Wildfowl Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7696,
+  "name": "Bloody Brewer",
+  "nameJa": "ブラッディブルワー",
+  "spotId": 91,
+  "spotName": "Lower Black Tea Brook",
+  "spotNameJa": "グリダニア：紅茶川水系下流",
+  "zoneName": "New Gridania",
+  "zoneNameJa": "グリダニア：新市街",
+  "territoryId": 132,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Crayfish Ball"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7697,
+  "name": "Faerie Queen",
+  "nameJa": "フェアリークィーン",
+  "spotId": 50,
+  "spotName": "Empty Heart",
+  "spotNameJa": "エンプティハート",
+  "zoneName": "Lower La Noscea",
+  "zoneNameJa": "低地ラノシア",
+  "territoryId": 135,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4,
+   3,
+   5
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Spinnerbait"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7698,
+  "name": "Slime King",
+  "nameJa": "ヌルヌルキング",
+  "spotId": 76,
+  "spotName": "Lower Soot Creek",
+  "spotNameJa": "スートクリーク下流",
+  "zoneName": "Central Thanalan",
+  "zoneNameJa": "中央ザナラーン",
+  "territoryId": 141,
+  "startHour": 19,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Crayfish Ball"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7699,
+  "name": "Blue Widow",
+  "nameJa": "ブルーウィドー",
+  "spotId": 18,
+  "spotName": "Murmur Rills",
+  "spotNameJa": "さざめき川",
+  "zoneName": "North Shroud",
+  "zoneNameJa": "黒衣森：北部森林",
+  "territoryId": 154,
+  "startHour": 9,
+  "endHour": 14,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Floating Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7700,
+  "name": "Ghost Carp",
+  "nameJa": "人面魚",
+  "spotId": 3,
+  "spotName": "The Mirror",
+  "spotNameJa": "鏡池",
+  "zoneName": "Central Shroud",
+  "zoneNameJa": "黒衣森：中央森林",
+  "territoryId": 148,
+  "startHour": 21,
+  "endHour": 3,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Butterworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7701,
+  "name": "Carp Diem",
+  "nameJa": "意地ブナ",
+  "spotId": 100,
+  "spotName": "Upper Black Tea Brook",
+  "spotNameJa": "グリダニア：紅茶川水系上流",
+  "zoneName": "Old Gridania",
+  "zoneNameJa": "グリダニア：旧市街",
+  "territoryId": 133,
+  "startHour": 9,
+  "endHour": 14,
+  "weatherSet": [
+   4,
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Crow Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7702,
+  "name": "Mud Pilgrim",
+  "nameJa": "マッドピルグリム",
+  "spotId": 79,
+  "spotName": "South Drybone",
+  "spotNameJa": "ドライボーン南湧水地",
+  "zoneName": "Eastern Thanalan",
+  "zoneNameJa": "東ザナラーン",
+  "territoryId": 145,
+  "startHour": 17,
+  "endHour": 7,
+  "weatherSet": [
+   7,
+   8
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Midge Basket"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7703,
+  "name": "Old Softie",
+  "nameJa": "オールドソフティ",
+  "spotId": 96,
+  "spotName": "The Clutch",
+  "spotNameJa": "クラッチ狭間",
+  "zoneName": "Central Thanalan",
+  "zoneNameJa": "中央ザナラーン",
+  "territoryId": 141,
+  "startHour": 17,
+  "endHour": 21,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Bloodworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7704,
+  "name": "Marrow Sucker",
+  "nameJa": "ジンコツシャブリ",
+  "spotId": 78,
+  "spotName": "North Drybone",
+  "spotNameJa": "ドライボーン北湧水地",
+  "zoneName": "Eastern Thanalan",
+  "zoneNameJa": "東ザナラーン",
+  "territoryId": 145,
+  "startHour": 20,
+  "endHour": 3,
+  "weatherSet": [
+   7,
+   8
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Syrphid Basket"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7705,
+  "name": "Chirurgeon",
+  "nameJa": "カイラージョン",
+  "spotId": 2,
+  "spotName": "The Vein",
+  "spotNameJa": "葉脈水系",
+  "zoneName": "Central Shroud",
+  "zoneNameJa": "黒衣森：中央森林",
+  "territoryId": 148,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Moth Pupa",
+   "Striped Goby"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7706,
+  "name": "Mud Golem",
+  "nameJa": "マッドゴーレム",
+  "spotId": 73,
+  "spotName": "The Footfalls",
+  "spotNameJa": "足跡の谷",
+  "zoneName": "Western Thanalan",
+  "zoneNameJa": "西ザナラーン",
+  "territoryId": 140,
+  "startHour": 21,
+  "endHour": 3,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Butterworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7707,
+  "name": "Octomammoth",
+  "nameJa": "メガオクトパス",
+  "spotId": 35,
+  "spotName": "Limsa Lominsa Lower Decks",
+  "spotNameJa": "リムサ・ロミンサ：下甲板層",
+  "zoneName": "Limsa Lominsa Lower Decks",
+  "zoneNameJa": "リムサ・ロミンサ：下甲板層",
+  "territoryId": 129,
+  "startHour": 9,
+  "endHour": 17,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Pill Bug",
+   "Harbor Herring"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7708,
+  "name": "Matron Carp",
+  "nameJa": "マトロンカープ",
+  "spotId": 81,
+  "spotName": "Whispering Gorge",
+  "spotNameJa": "グリダニア：囁きの渓谷",
+  "zoneName": "Old Gridania",
+  "zoneNameJa": "グリダニア：旧市街",
+  "territoryId": 133,
+  "startHour": 15,
+  "endHour": 21,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Bloodworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7709,
+  "name": "High Perch",
+  "nameJa": "ハイパーチ",
+  "spotId": 41,
+  "spotName": "Nym River",
+  "spotNameJa": "ニーム川",
+  "zoneName": "Middle La Noscea",
+  "zoneNameJa": "中央ラノシア",
+  "territoryId": 134,
+  "startHour": 5,
+  "endHour": 8,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Sinking Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7710,
+  "name": "Syldra",
+  "nameJa": "シルドラ",
+  "spotId": 45,
+  "spotName": "Cedarwood",
+  "spotNameJa": "シダーウッド沿岸部",
+  "zoneName": "Lower La Noscea",
+  "zoneNameJa": "低地ラノシア",
+  "territoryId": 135,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Spoon Worm"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7711,
+  "name": "Rivet Oyster",
+  "nameJa": "リベットオイスター",
+  "spotId": 70,
+  "spotName": "Vesper Bay",
+  "spotNameJa": "ベスパーベイ",
+  "zoneName": "Western Thanalan",
+  "zoneNameJa": "西ザナラーン",
+  "territoryId": 140,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Heavy Steel Jig"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7712,
+  "name": "Jacques the Snipper",
+  "nameJa": "ザ・リッパー",
+  "spotId": 46,
+  "spotName": "Moraby Drydocks",
+  "spotNameJa": "モラビー造船廠",
+  "zoneName": "Lower La Noscea",
+  "zoneNameJa": "低地ラノシア",
+  "territoryId": 135,
+  "startHour": 21,
+  "endHour": 3,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Goby Ball"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7713,
+  "name": "Stormdancer",
+  "nameJa": "招嵐王",
+  "spotId": 90,
+  "spotName": "Jadeite Flood",
+  "spotNameJa": "グリダニア：翡翠湖畔",
+  "zoneName": "New Gridania",
+  "zoneNameJa": "グリダニア：新市街",
+  "territoryId": 132,
+  "startHour": 17,
+  "endHour": 2,
+  "weatherSet": [
+   7,
+   15
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stem Borer"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7714,
+  "name": "Glimmerscale",
+  "nameJa": "銅鏡",
+  "spotId": 72,
+  "spotName": "Nophica's Wells",
+  "spotNameJa": "ノフィカの井戸",
+  "zoneName": "Western Thanalan",
+  "zoneNameJa": "西ザナラーン",
+  "territoryId": 140,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Butterworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.2
+ },
+ {
+  "id": 7902,
+  "name": "Cupfish",
+  "nameJa": "オヤジウオ",
+  "spotId": 97,
+  "spotName": "Blind Iron Mines",
+  "spotNameJa": "ブラインドアイアン坑道",
+  "zoneName": "Lower La Noscea",
+  "zoneNameJa": "低地ラノシア",
+  "territoryId": 135,
+  "startHour": 17,
+  "endHour": 18.5,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Syrphid Basket"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7903,
+  "name": "Meteor Survivor",
+  "nameJa": "メテオサバイバー",
+  "spotId": 48,
+  "spotName": "The Salt Strand",
+  "spotNameJa": "ソルトストランド",
+  "zoneName": "Lower La Noscea",
+  "zoneNameJa": "低地ラノシア",
+  "territoryId": 135,
+  "startHour": 3,
+  "endHour": 5,
+  "weatherSet": [
+   3,
+   4,
+   5
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Rat Tail"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7904,
+  "name": "Joan of Trout",
+  "nameJa": "ジャンヌ・トラウト",
+  "spotId": 67,
+  "spotName": "Fool Falls",
+  "spotNameJa": "愚か者の滝",
+  "zoneName": "Upper La Noscea",
+  "zoneNameJa": "高地ラノシア",
+  "territoryId": 139,
+  "startHour": 4,
+  "endHour": 6,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Crow Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7905,
+  "name": "Toramafish",
+  "nameJa": "トラマフィッシュ",
+  "spotId": 66,
+  "spotName": "Oakwood",
+  "spotNameJa": "オークウッド",
+  "zoneName": "Upper La Noscea",
+  "zoneNameJa": "高地ラノシア",
+  "territoryId": 139,
+  "startHour": 17,
+  "endHour": 19.5,
+  "weatherSet": [
+   3,
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Spinner",
+   "Common Sculpin"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7906,
+  "name": "Fingers",
+  "nameJa": "フィンガーズ",
+  "spotId": 71,
+  "spotName": "Crescent Cove",
+  "spotNameJa": "クレセントコーヴ",
+  "zoneName": "Western Thanalan",
+  "zoneNameJa": "西ザナラーン",
+  "territoryId": 140,
+  "startHour": 17.5,
+  "endHour": 18,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Northern Krill"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7907,
+  "name": "The Assassin",
+  "nameJa": "ターミネーター",
+  "spotId": 10,
+  "spotName": "Sanctum of the Twelve",
+  "spotNameJa": "十二神大聖堂",
+  "zoneName": "East Shroud",
+  "zoneNameJa": "黒衣森：東部森林",
+  "territoryId": 152,
+  "startHour": 21,
+  "endHour": 23,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Butterworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7908,
+  "name": "Vip Viper",
+  "nameJa": "ビッグバイパー",
+  "spotId": 11,
+  "spotName": "Upper Hathoeva River",
+  "spotNameJa": "ハズーバ支流：上流",
+  "zoneName": "South Shroud",
+  "zoneNameJa": "黒衣森：南部森林",
+  "territoryId": 153,
+  "startHour": 18,
+  "endHour": 19,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Butterworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7909,
+  "name": "The Greatest Bream in the World",
+  "nameJa": "ビアナックブーン",
+  "spotId": 51,
+  "spotName": "South Bloodshore",
+  "spotNameJa": "南ブラッドショア",
+  "zoneName": "Eastern La Noscea",
+  "zoneNameJa": "東ラノシア",
+  "territoryId": 137,
+  "startHour": 20,
+  "endHour": 23,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Shrimp Cage Feeder"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7910,
+  "name": "Dirty Herry",
+  "nameJa": "ダーティーヘリング",
+  "spotId": 69,
+  "spotName": "The Silver Bazaar",
+  "spotNameJa": "シルバーバザー",
+  "zoneName": "Western Thanalan",
+  "zoneNameJa": "西ザナラーン",
+  "territoryId": 140,
+  "startHour": 20,
+  "endHour": 22,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Northern Krill"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7911,
+  "name": "Old Hollow Eyes",
+  "nameJa": "ホローアイズ",
+  "spotId": 83,
+  "spotName": "Burnt Lizard Creek",
+  "spotNameJa": "リザードクリーク",
+  "zoneName": "Southern Thanalan",
+  "zoneNameJa": "南ザナラーン",
+  "territoryId": 146,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Midge Basket",
+   "Copperfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7912,
+  "name": "Sylphsbane",
+  "nameJa": "シルフズベーン",
+  "spotId": 7,
+  "spotName": "Verdant Drop",
+  "spotNameJa": "青翠の奈落",
+  "zoneName": "East Shroud",
+  "zoneNameJa": "黒衣森：東部森林",
+  "territoryId": 152,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Butterworm",
+   "Copperfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7913,
+  "name": "Floating Boulder",
+  "nameJa": "フローティングボルダー",
+  "spotId": 13,
+  "spotName": "Lower Hathoeva River",
+  "spotNameJa": "ハズーバ支流：下流",
+  "zoneName": "South Shroud",
+  "zoneNameJa": "黒衣森：南部森林",
+  "territoryId": 153,
+  "startHour": 0,
+  "endHour": 8,
+  "weatherSet": [
+   4,
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Bass Ball"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7914,
+  "name": "The Grinner",
+  "nameJa": "グリナー",
+  "spotId": 14,
+  "spotName": "East Hathoeva River",
+  "spotNameJa": "ハズーバ支流：東",
+  "zoneName": "South Shroud",
+  "zoneNameJa": "黒衣森：南部森林",
+  "territoryId": 153,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Syrphid Basket"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7915,
+  "name": "Shark Tuna",
+  "nameJa": "シャークトゥーナ",
+  "spotId": 52,
+  "spotName": "Costa del Sol",
+  "spotNameJa": "コスタ・デル・ソル",
+  "zoneName": "Eastern La Noscea",
+  "zoneNameJa": "東ラノシア",
+  "territoryId": 137,
+  "startHour": 19,
+  "endHour": 21,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Spoon Worm",
+   "Fullmoon Sardine"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7916,
+  "name": "Worm of Nym",
+  "nameJa": "ワーム・オブ・ニーム",
+  "spotId": 98,
+  "spotName": "Bronze Lake Shallows",
+  "spotNameJa": "ブロンズレイク・シャロー",
+  "zoneName": "Upper La Noscea",
+  "zoneNameJa": "高地ラノシア",
+  "territoryId": 139,
+  "startHour": 19,
+  "endHour": 22,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Butterworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7917,
+  "name": "Twitchbeard",
+  "nameJa": "トゥイッチビアード",
+  "spotId": 104,
+  "spotName": "Mist",
+  "spotNameJa": "ミスト・ヴィレッジ",
+  "zoneName": "Mist",
+  "zoneNameJa": "ミスト・ヴィレッジ",
+  "territoryId": 339,
+  "startHour": 4,
+  "endHour": 6,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Spoon Worm",
+   "Fullmoon Sardine"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7918,
+  "name": "The Warden's Wand",
+  "nameJa": "ワーデンズワンド",
+  "spotId": 80,
+  "spotName": "Yugr'am River",
+  "spotNameJa": "ユグラム川",
+  "zoneName": "Eastern Thanalan",
+  "zoneNameJa": "東ザナラーン",
+  "territoryId": 145,
+  "startHour": 17.5,
+  "endHour": 20,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Honey Worm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7919,
+  "name": "Spearnose",
+  "nameJa": "スピアノーズ",
+  "spotId": 106,
+  "spotName": "The Goblet",
+  "spotNameJa": "ゴブレットビュート",
+  "zoneName": "The Goblet",
+  "zoneNameJa": "ゴブレットビュート",
+  "territoryId": 341,
+  "startHour": 21,
+  "endHour": 24,
+  "weatherSet": [
+   4,
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Caddisfly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7920,
+  "name": "Levinlight",
+  "nameJa": "レヴィンライト",
+  "spotId": 4,
+  "spotName": "Everschade",
+  "spotNameJa": "エバーシェイド",
+  "zoneName": "Central Shroud",
+  "zoneNameJa": "黒衣森：中央森林",
+  "territoryId": 148,
+  "startHour": 18,
+  "endHour": 23,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Syrphid Basket"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7921,
+  "name": "The Sinker",
+  "nameJa": "シンカー",
+  "spotId": 12,
+  "spotName": "Middle Hathoeva River",
+  "spotNameJa": "ハズーバ支流：中流",
+  "zoneName": "South Shroud",
+  "zoneNameJa": "黒衣森：南部森林",
+  "territoryId": 153,
+  "startHour": 21.5,
+  "endHour": 3,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Sinking Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7922,
+  "name": "The Gobfather",
+  "nameJa": "ゴブスレイヤー",
+  "spotId": 15,
+  "spotName": "Goblinblood",
+  "spotNameJa": "ゴブリン族の生簀",
+  "zoneName": "South Shroud",
+  "zoneNameJa": "黒衣森：南部森林",
+  "territoryId": 153,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   9,
+   10
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Honey Worm",
+   "Silverfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7923,
+  "name": "Sweetnewt",
+  "nameJa": "スウィートニュート",
+  "spotId": 105,
+  "spotName": "The Lavender Beds",
+  "spotNameJa": "ラベンダーベッド",
+  "zoneName": "The Lavender Beds",
+  "zoneNameJa": "ラベンダーベッド",
+  "territoryId": 340,
+  "startHour": 23,
+  "endHour": 4,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Midge Basket",
+   "Ala Mhigan Fighting Fish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7924,
+  "name": "Bombardfish",
+  "nameJa": "ボンバードフィッシュ",
+  "spotId": 53,
+  "spotName": "North Bloodshore",
+  "spotNameJa": "北ブラッドショア",
+  "zoneName": "Eastern La Noscea",
+  "zoneNameJa": "東ラノシア",
+  "territoryId": 137,
+  "startHour": 9,
+  "endHour": 15,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Herring Ball"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7926,
+  "name": "The Lone Ripper",
+  "nameJa": "ローンリッパー",
+  "spotId": 61,
+  "spotName": "Halfstone",
+  "spotNameJa": "ハーフストーン沿岸部",
+  "zoneName": "Western La Noscea",
+  "zoneNameJa": "西ラノシア",
+  "territoryId": 138,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   6
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Heavy Steel Jig"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7927,
+  "name": "King of the Spring",
+  "nameJa": "スプリングキング",
+  "spotId": 155,
+  "spotName": "Northwest Bronze Lake",
+  "spotNameJa": "ブロンズレイク北西岸",
+  "zoneName": "Outer La Noscea",
+  "zoneNameJa": "外地ラノシア",
+  "territoryId": 180,
+  "startHour": 16,
+  "endHour": 18.75,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Spinnerbait"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7928,
+  "name": "Discobolus",
+  "nameJa": "ディスコボルス",
+  "spotId": 84,
+  "spotName": "Zahar'ak",
+  "spotNameJa": "ザハラクの湧水",
+  "zoneName": "Southern Thanalan",
+  "zoneNameJa": "南ザナラーン",
+  "territoryId": 146,
+  "startHour": 12,
+  "endHour": 18,
+  "weatherSet": [
+   14
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Glowworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7929,
+  "name": "Iron Noose",
+  "nameJa": "アイアンヌース",
+  "spotId": 85,
+  "spotName": "Forgotten Springs",
+  "spotNameJa": "忘れられたオアシス",
+  "zoneName": "Southern Thanalan",
+  "zoneNameJa": "南ザナラーン",
+  "territoryId": 146,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Spinner"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7930,
+  "name": "Olgoi-Khorkhoi",
+  "nameJa": "オルゴイコルコイ",
+  "spotId": 87,
+  "spotName": "Sagolii Dunes",
+  "spotNameJa": "サゴリー砂丘",
+  "zoneName": "Southern Thanalan",
+  "zoneNameJa": "南ザナラーン",
+  "territoryId": 146,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   14
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Sand Leech",
+   "Storm Rider"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7931,
+  "name": "Magic Carpet",
+  "nameJa": "ホーリーカーペット",
+  "spotId": 86,
+  "spotName": "Sagolii Desert",
+  "spotNameJa": "サゴリー砂海",
+  "zoneName": "Southern Thanalan",
+  "zoneNameJa": "南ザナラーン",
+  "territoryId": 146,
+  "startHour": 9,
+  "endHour": 16,
+  "weatherSet": [
+   14
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Sand Leech",
+   "Storm Rider"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7932,
+  "name": "Daniffen's Mark",
+  "nameJa": "ダナフェンズマーク",
+  "spotId": 26,
+  "spotName": "Coerthas River",
+  "spotNameJa": "クルザス川",
+  "zoneName": "Coerthas Central Highlands",
+  "zoneNameJa": "クルザス中央高地",
+  "territoryId": 155,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   16
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Wildfowl Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7933,
+  "name": "Charon's Lantern",
+  "nameJa": "カローンズランタン",
+  "spotId": 31,
+  "spotName": "Daniffen Pass",
+  "spotNameJa": "聖ダナフェンの旅程",
+  "zoneName": "Coerthas Central Highlands",
+  "zoneNameJa": "クルザス中央高地",
+  "territoryId": 155,
+  "startHour": 22,
+  "endHour": 4,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Glowworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7934,
+  "name": "The Green Jester",
+  "nameJa": "グリーンジェスター",
+  "spotId": 5,
+  "spotName": "Hopeseed Pond",
+  "spotNameJa": "芽吹の池",
+  "zoneName": "Central Shroud",
+  "zoneNameJa": "黒衣森：中央森林",
+  "territoryId": 148,
+  "startHour": 18,
+  "endHour": 21,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Honey Worm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7935,
+  "name": "Bloodbath",
+  "nameJa": "ブラッドバス",
+  "spotId": 92,
+  "spotName": "Haukke Manor",
+  "spotNameJa": "ハウケタ御用邸",
+  "zoneName": "Central Shroud",
+  "zoneNameJa": "黒衣森：中央森林",
+  "territoryId": 148,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   9
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Honey Worm",
+   "Silverfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7936,
+  "name": "Son of Levin",
+  "nameJa": "雷皇子",
+  "spotId": 16,
+  "spotName": "Rootslake",
+  "spotNameJa": "根渡り沼",
+  "zoneName": "South Shroud",
+  "zoneNameJa": "黒衣森：南部森林",
+  "territoryId": 153,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   10
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Caddisfly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7937,
+  "name": "Thundergut",
+  "nameJa": "サンダーガット",
+  "spotId": 99,
+  "spotName": "The Long Climb",
+  "spotNameJa": "ロングクライム渓谷",
+  "zoneName": "Outer La Noscea",
+  "zoneNameJa": "外地ラノシア",
+  "territoryId": 180,
+  "startHour": 19.5,
+  "endHour": 2.75,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stem Borer"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7938,
+  "name": "The Drowned Sniper",
+  "nameJa": "ドラウンドスナイパー",
+  "spotId": 55,
+  "spotName": "East Agelyss River",
+  "spotNameJa": "東アジェレス川",
+  "zoneName": "Eastern La Noscea",
+  "zoneNameJa": "東ラノシア",
+  "territoryId": 137,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Snurble Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7939,
+  "name": "The Terpsichorean",
+  "nameJa": "テルプシコレアン",
+  "spotId": 56,
+  "spotName": "Raincatcher Gully",
+  "spotNameJa": "レインキャッチャー樹林",
+  "zoneName": "Eastern La Noscea",
+  "zoneNameJa": "東ラノシア",
+  "territoryId": 137,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Honey Worm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7940,
+  "name": "Mirrorscale",
+  "nameJa": "ミラースケイル",
+  "spotId": 57,
+  "spotName": "The Juggernaut",
+  "spotNameJa": "レインキャッチャー沼沢地",
+  "zoneName": "Eastern La Noscea",
+  "zoneNameJa": "東ラノシア",
+  "territoryId": 137,
+  "startHour": 9,
+  "endHour": 16,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Midge Basket",
+   "Copperfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7941,
+  "name": "Helmsman's Hand",
+  "nameJa": "ヘルムズマンズハンド",
+  "spotId": 62,
+  "spotName": "Isles of Umbra Northshore",
+  "spotNameJa": "幻影諸島北岸",
+  "zoneName": "Western La Noscea",
+  "zoneNameJa": "西ラノシア",
+  "territoryId": 138,
+  "startHour": 9,
+  "endHour": 15,
+  "weatherSet": [
+   4,
+   3,
+   5
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Pill Bug",
+   "Ocean Cloud"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7942,
+  "name": "The Thousand-year Itch",
+  "nameJa": "サウザンドイヤー・イーチ",
+  "spotId": 82,
+  "spotName": "The Burning Wall",
+  "spotNameJa": "バーニングウォール",
+  "zoneName": "Eastern Thanalan",
+  "zoneNameJa": "東ザナラーン",
+  "territoryId": 145,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stem Borer"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7943,
+  "name": "Hannibal",
+  "nameJa": "ハンニバル",
+  "spotId": 89,
+  "spotName": "Bluefog",
+  "spotNameJa": "ブルーフォグ湧水地",
+  "zoneName": "Northern Thanalan",
+  "zoneNameJa": "北ザナラーン",
+  "territoryId": 147,
+  "startHour": 22,
+  "endHour": 4,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Spinnerbait",
+   "Common Sculpin"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7944,
+  "name": "Dawn Maiden",
+  "nameJa": "ドーンメイデン",
+  "spotId": 30,
+  "spotName": "Dragonhead Latrines",
+  "spotNameJa": "キャンプ・ドラゴンヘッド溜池",
+  "zoneName": "Coerthas Central Highlands",
+  "zoneNameJa": "クルザス中央高地",
+  "territoryId": 155,
+  "startHour": 5,
+  "endHour": 7,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Wildfowl Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7945,
+  "name": "Starbright",
+  "nameJa": "スターブライト",
+  "spotId": 28,
+  "spotName": "The Nail",
+  "spotNameJa": "剣ヶ峰山麓",
+  "zoneName": "Coerthas Central Highlands",
+  "zoneNameJa": "クルザス中央高地",
+  "territoryId": 155,
+  "startHour": 20,
+  "endHour": 4,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Syrphid Basket",
+   "Abalathian Smelt"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7946,
+  "name": "The Matriarch",
+  "nameJa": "メイトリアーク",
+  "spotId": 32,
+  "spotName": "Exploratory Ice Hole",
+  "spotNameJa": "調査隊の氷穴",
+  "zoneName": "Coerthas Central Highlands",
+  "zoneNameJa": "クルザス中央高地",
+  "territoryId": 155,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Honey Worm",
+   "Abalathian Smelt"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7947,
+  "name": "Shadowstreak",
+  "nameJa": "シャドーストリーク",
+  "spotId": 20,
+  "spotName": "Proud Creek",
+  "spotNameJa": "プラウドクリーク",
+  "zoneName": "North Shroud",
+  "zoneNameJa": "黒衣森：北部森林",
+  "territoryId": 154,
+  "startHour": 4.5,
+  "endHour": 10,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Topwater Frog"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7948,
+  "name": "The Captain's Chalice",
+  "nameJa": "キャプテンズチャリス",
+  "spotId": 101,
+  "spotName": "Sapsa Spawning Grounds",
+  "spotNameJa": "サプサ産卵地",
+  "zoneName": "Western La Noscea",
+  "zoneNameJa": "西ラノシア",
+  "territoryId": 138,
+  "startHour": 23.5,
+  "endHour": 1.0833333333333333,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Steel Jig",
+   "Fullmoon Sardine"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7949,
+  "name": "Anomalocaris",
+  "nameJa": "アノマロカリス",
+  "spotId": 34,
+  "spotName": "Sea of Clouds",
+  "spotNameJa": "イシュガルド大雲海",
+  "zoneName": "Coerthas Central Highlands",
+  "zoneNameJa": "クルザス中央高地",
+  "territoryId": 155,
+  "startHour": 10,
+  "endHour": 15,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Hoverworm",
+   "Cloud Cutter"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7950,
+  "name": "Frilled Shark",
+  "nameJa": "ラブカ",
+  "spotId": 65,
+  "spotName": "The Ship Graveyard",
+  "spotNameJa": "船の墓場",
+  "zoneName": "Western La Noscea",
+  "zoneNameJa": "西ラノシア",
+  "territoryId": 138,
+  "startHour": 17,
+  "endHour": 3,
+  "weatherSet": [
+   4,
+   3,
+   5
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Lugworm",
+   "Merlthor Goby",
+   "Wahoo",
+   "Giant Squid"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 7951,
+  "name": "Aetherlouse",
+  "nameJa": "エーテルラウス",
+  "spotId": 22,
+  "spotName": "North Silvertear",
+  "spotNameJa": "銀泪湖北岸",
+  "zoneName": "Mor Dhona",
+  "zoneNameJa": "モードゥナ",
+  "territoryId": 156,
+  "startHour": 3,
+  "endHour": 13,
+  "weatherSet": [
+   17
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Glowworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.3
+ },
+ {
+  "id": 8752,
+  "name": "Imperial Goldfish",
+  "nameJa": "黄金魚",
+  "spotId": 58,
+  "spotName": "Red Mantis Falls",
+  "spotNameJa": "レッドマンティス滝",
+  "zoneName": "Eastern La Noscea",
+  "zoneNameJa": "東ラノシア",
+  "territoryId": 137,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Honey Worm",
+   "Silverfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 2.4
+ },
+ {
+  "id": 8753,
+  "name": "The Old Man in the Sea",
+  "nameJa": "オールドマーリン",
+  "spotId": 107,
+  "spotName": "Rhotano Sea (Privateer Forecastle)",
+  "spotNameJa": "ロータノ海沖合：船首",
+  "zoneName": "Eastern La Noscea",
+  "zoneNameJa": "東ラノシア",
+  "territoryId": 137,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   7,
+   8
+  ],
+  "bestCatchPath": [
+   "Pill Bug",
+   "Harbor Herring",
+   "Ogre Barracuda"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8754,
+  "name": "Nepto Dragon",
+  "nameJa": "ネプトの竜",
+  "spotId": 108,
+  "spotName": "Rhotano Sea (Privateer Sterncastle)",
+  "spotNameJa": "ロータノ海沖合：船尾",
+  "zoneName": "Eastern La Noscea",
+  "zoneNameJa": "東ラノシア",
+  "territoryId": 137,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   7,
+   8
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Northern Krill"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 2.4
+ },
+ {
+  "id": 8755,
+  "name": "Coelacanthus",
+  "nameJa": "コエラカントゥス",
+  "spotId": 63,
+  "spotName": "Isles of Umbra Southshore",
+  "spotNameJa": "幻影諸島南岸",
+  "zoneName": "Western La Noscea",
+  "zoneNameJa": "西ラノシア",
+  "territoryId": 138,
+  "startHour": 22,
+  "endHour": 3,
+  "weatherSet": [
+   4,
+   3,
+   5
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Spoon Worm",
+   "Fullmoon Sardine"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8756,
+  "name": "Endoceras",
+  "nameJa": "エンドセラス",
+  "spotId": 63,
+  "spotName": "Isles of Umbra Southshore",
+  "spotNameJa": "幻影諸島南岸",
+  "zoneName": "Western La Noscea",
+  "zoneNameJa": "西ラノシア",
+  "territoryId": 138,
+  "startHour": 20,
+  "endHour": 4,
+  "weatherSet": [
+   4,
+   3,
+   5
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Spoon Worm",
+   "Fullmoon Sardine"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8757,
+  "name": "Seahag",
+  "nameJa": "シーハッグ",
+  "spotId": 102,
+  "spotName": "Reaver Hide",
+  "spotNameJa": "船隠しの港",
+  "zoneName": "Western La Noscea",
+  "zoneNameJa": "西ラノシア",
+  "territoryId": 138,
+  "startHour": 19,
+  "endHour": 2,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Lugworm",
+   "Merlthor Goby",
+   "Wahoo"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8758,
+  "name": "Ignus Horn",
+  "nameJa": "インフェルノホーン",
+  "spotId": 25,
+  "spotName": "The Deep Tangle",
+  "spotNameJa": "タングル湿林源流",
+  "zoneName": "Mor Dhona",
+  "zoneNameJa": "モードゥナ",
+  "territoryId": 156,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [
+   17
+  ],
+  "bestCatchPath": [
+   "Glowworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8759,
+  "name": "Void Bass",
+  "nameJa": "ヴォイドバス",
+  "spotId": 23,
+  "spotName": "Rathefrost",
+  "spotNameJa": "早霜峠",
+  "zoneName": "Mor Dhona",
+  "zoneNameJa": "モードゥナ",
+  "territoryId": 156,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   17
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Glowworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8760,
+  "name": "Cornelia",
+  "nameJa": "コーネリア",
+  "spotId": 21,
+  "spotName": "Lake Tahtotl",
+  "spotNameJa": "タホトトル湖畔",
+  "zoneName": "North Shroud",
+  "zoneNameJa": "黒衣森：北部森林",
+  "territoryId": 154,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Rainbow Spoon Lure"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 2.4
+ },
+ {
+  "id": 8761,
+  "name": "Ninja Betta",
+  "nameJa": "ニンジャベタ",
+  "spotId": 24,
+  "spotName": "The Tangle",
+  "spotNameJa": "タングル湿林",
+  "zoneName": "Mor Dhona",
+  "zoneNameJa": "モードゥナ",
+  "territoryId": 156,
+  "startHour": 18,
+  "endHour": 9,
+  "weatherSet": [
+   17
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Midge Basket",
+   "Ala Mhigan Fighting Fish",
+   "Assassin Betta"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8762,
+  "name": "Canavan",
+  "nameJa": "ジャノ",
+  "spotId": 94,
+  "spotName": "The North Shards",
+  "spotNameJa": "唄う裂谷北部",
+  "zoneName": "Mor Dhona",
+  "zoneNameJa": "モードゥナ",
+  "territoryId": 156,
+  "startHour": 8,
+  "endHour": 18,
+  "weatherSet": [
+   17
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Honey Worm",
+   "Silverfish",
+   "Goldfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8763,
+  "name": "Kuno the Killer",
+  "nameJa": "クノ・ザ・キラー",
+  "spotId": 94,
+  "spotName": "The North Shards",
+  "spotNameJa": "唄う裂谷北部",
+  "zoneName": "Mor Dhona",
+  "zoneNameJa": "モードゥナ",
+  "territoryId": 156,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Honey Worm",
+   "Silverfish",
+   "Assassin Betta"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 2.4
+ },
+ {
+  "id": 8764,
+  "name": "Pirate's Bane",
+  "nameJa": "パイレーツハンター",
+  "spotId": 74,
+  "spotName": "Cape Westwind",
+  "spotNameJa": "ウエストウインド岬",
+  "zoneName": "Western Thanalan",
+  "zoneNameJa": "西ザナラーン",
+  "territoryId": 140,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Lugworm",
+   "Merlthor Goby",
+   "Wahoo"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 2.4
+ },
+ {
+  "id": 8765,
+  "name": "Ndendecki",
+  "nameJa": "ンデンデキ",
+  "spotId": 103,
+  "spotName": "Moondrip",
+  "spotNameJa": "ムーンドリップ洞窟",
+  "zoneName": "Western Thanalan",
+  "zoneNameJa": "西ザナラーン",
+  "territoryId": 140,
+  "startHour": 18,
+  "endHour": 5,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Honey Worm",
+   "Silverfish",
+   "Assassin Betta"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8766,
+  "name": "Bat-o'-Nine-Tails",
+  "nameJa": "ヴァンパイアウィップ",
+  "spotId": 95,
+  "spotName": "Parata's Peace",
+  "spotNameJa": "パラタの墓所",
+  "zoneName": "Western Thanalan",
+  "zoneNameJa": "西ザナラーン",
+  "territoryId": 140,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4,
+   3,
+   1,
+   2
+  ],
+  "previousWeatherSet": [
+   7
+  ],
+  "bestCatchPath": [
+   "Honey Worm",
+   "Silverfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8767,
+  "name": "Wootz Knifefish Zenith",
+  "nameJa": "ウーツナイフ・ゼニス",
+  "spotId": 88,
+  "spotName": "Ceruleum Field",
+  "spotNameJa": "青燐泉",
+  "zoneName": "Northern Thanalan",
+  "zoneNameJa": "北ザナラーン",
+  "territoryId": 147,
+  "startHour": 1,
+  "endHour": 3.3333333333333335,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Honey Worm",
+   "Silverfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8768,
+  "name": "Helicoprion",
+  "nameJa": "ヘリコプリオン",
+  "spotId": 86,
+  "spotName": "Sagolii Desert",
+  "spotNameJa": "サゴリー砂海",
+  "zoneName": "Southern Thanalan",
+  "zoneNameJa": "南ザナラーン",
+  "territoryId": 146,
+  "startHour": 8,
+  "endHour": 20,
+  "weatherSet": [
+   14
+  ],
+  "previousWeatherSet": [
+   4,
+   3
+  ],
+  "bestCatchPath": [
+   "Sand Leech",
+   "Storm Rider"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8769,
+  "name": "Darkstar",
+  "nameJa": "ダークスター",
+  "spotId": 29,
+  "spotName": "The Weeping Saint",
+  "spotNameJa": "聖ダナフェンの落涙",
+  "zoneName": "Coerthas Central Highlands",
+  "zoneNameJa": "クルザス中央高地",
+  "territoryId": 155,
+  "startHour": 19,
+  "endHour": 4,
+  "weatherSet": [
+   16,
+   15
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Honey Worm",
+   "Abalathian Smelt"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 2.4
+ },
+ {
+  "id": 8770,
+  "name": "Blue Corpse",
+  "nameJa": "ブルーコープス",
+  "spotId": 33,
+  "spotName": "Snowcloak",
+  "spotNameJa": "スノークローク大氷壁",
+  "zoneName": "Coerthas Central Highlands",
+  "zoneNameJa": "クルザス中央高地",
+  "territoryId": 155,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [
+   16,
+   15
+  ],
+  "bestCatchPath": [
+   "Caddisfly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8771,
+  "name": "Mahar",
+  "nameJa": "マハール",
+  "spotId": 27,
+  "spotName": "Witchdrop",
+  "spotNameJa": "ウィッチドロップ",
+  "zoneName": "Coerthas Central Highlands",
+  "zoneNameJa": "クルザス中央高地",
+  "territoryId": 155,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   16
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Hoverworm",
+   "Cloud Cutter"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8772,
+  "name": "Shonisaurus",
+  "nameJa": "ショニサウルス",
+  "spotId": 27,
+  "spotName": "Witchdrop",
+  "spotNameJa": "ウィッチドロップ",
+  "zoneName": "Coerthas Central Highlands",
+  "zoneNameJa": "クルザス中央高地",
+  "territoryId": 155,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   16
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Hoverworm",
+   "Cloud Cutter",
+   "Mahar"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8773,
+  "name": "Magicked Mushroom",
+  "nameJa": "マジック・マッシュルームクラブ",
+  "spotId": 9,
+  "spotName": "Sylphlands",
+  "spotNameJa": "シルフランド渓谷",
+  "zoneName": "East Shroud",
+  "zoneNameJa": "黒衣森：東部森林",
+  "territoryId": 152,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4,
+   3
+  ],
+  "previousWeatherSet": [
+   7,
+   9
+  ],
+  "bestCatchPath": [
+   "Spinner",
+   "Common Sculpin"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8774,
+  "name": "Giant Takitaro",
+  "nameJa": "オオタキタロ",
+  "spotId": 17,
+  "spotName": "Urth's Gift",
+  "spotNameJa": "ウルズの恵み",
+  "zoneName": "South Shroud",
+  "zoneNameJa": "黒衣森：南部森林",
+  "territoryId": 153,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   9,
+   10
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Glowworm"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 8775,
+  "name": "Namitaro",
+  "nameJa": "ナミタロ",
+  "spotId": 17,
+  "spotName": "Urth's Gift",
+  "spotNameJa": "ウルズの恵み",
+  "zoneName": "South Shroud",
+  "zoneNameJa": "黒衣森：南部森林",
+  "territoryId": 153,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Topwater Frog"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 2.4
+ },
+ {
+  "id": 8776,
+  "name": "Blood Red Bonytongue",
+  "nameJa": "血紅龍",
+  "spotId": 93,
+  "spotName": "Singing Shards",
+  "spotNameJa": "唄う裂谷",
+  "zoneName": "Mor Dhona",
+  "zoneNameJa": "モードゥナ",
+  "territoryId": 156,
+  "startHour": 4.5,
+  "endHour": 11.5,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Honey Worm",
+   "Silverfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.4
+ },
+ {
+  "id": 10123,
+  "name": "Gigant Clam",
+  "nameJa": "オオシャル貝",
+  "spotId": 51,
+  "spotName": "South Bloodshore",
+  "spotNameJa": "南ブラッドショア",
+  "zoneName": "Eastern La Noscea",
+  "zoneNameJa": "東ラノシア",
+  "territoryId": 137,
+  "startHour": 23,
+  "endHour": 2,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Heavy Steel Jig"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 2.5
+ },
+ {
+  "id": 12802,
+  "name": "Caiman",
+  "nameJa": "カイマン",
+  "spotId": 135,
+  "spotName": "Voor Sian Siran",
+  "spotNameJa": "ヴール・シアンシラン",
+  "zoneName": "The Sea of Clouds",
+  "zoneNameJa": "アバラシア雲海",
+  "territoryId": 401,
+  "startHour": 18,
+  "endHour": 20.5,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Bladed Steel Jig",
+   "Bullfrog"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3
+ },
+ {
+  "id": 12803,
+  "name": "Euphotic Pirarucu",
+  "nameJa": "バイオピラルク",
+  "spotId": 143,
+  "spotName": "Delta Quadrant",
+  "spotNameJa": "デルタ管区",
+  "zoneName": "Azys Lla",
+  "zoneNameJa": "アジス・ラー",
+  "territoryId": 402,
+  "startHour": 18,
+  "endHour": 3,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3
+ },
+ {
+  "id": 12821,
+  "name": "Pteranodon",
+  "nameJa": "プテラノドン",
+  "spotId": 133,
+  "spotName": "Sohm Al Summit",
+  "spotNameJa": "ソーム・アル笠雲",
+  "zoneName": "The Churning Mists",
+  "zoneNameJa": "ドラヴァニア雲海",
+  "territoryId": 400,
+  "startHour": 9,
+  "endHour": 16.5,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Giant Crane Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3
+ },
+ {
+  "id": 12825,
+  "name": "Stupendemys",
+  "nameJa": "スチュペンデミス",
+  "spotId": 145,
+  "spotName": "The Habisphere",
+  "spotNameJa": "ハビスフィア",
+  "zoneName": "Azys Lla",
+  "zoneNameJa": "アジス・ラー",
+  "territoryId": 402,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Giant Crane Fly",
+   "Rudderfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3
+ },
+ {
+  "id": 12829,
+  "name": "Catkiller",
+  "nameJa": "ゲイラキラー",
+  "spotId": 136,
+  "spotName": "The Eddies",
+  "spotNameJa": "雲溜まり",
+  "zoneName": "The Sea of Clouds",
+  "zoneNameJa": "アバラシア雲海",
+  "territoryId": 401,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   2,
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3
+ },
+ {
+  "id": 12830,
+  "name": "Loosetongue",
+  "nameJa": "フィロソファーアロワナ",
+  "spotId": 127,
+  "spotName": "Upper Thaliak River",
+  "spotNameJa": "サリャク河上流",
+  "zoneName": "The Dravanian Hinterlands",
+  "zoneNameJa": "低地ドラヴァニア",
+  "territoryId": 399,
+  "startHour": 13,
+  "endHour": 20,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3
+ },
+ {
+  "id": 12831,
+  "name": "Thaliak Caiman",
+  "nameJa": "サリャクカイマン",
+  "spotId": 128,
+  "spotName": "Middle Thaliak River",
+  "spotNameJa": "サリャク河中州",
+  "zoneName": "The Dravanian Hinterlands",
+  "zoneNameJa": "低地ドラヴァニア",
+  "territoryId": 399,
+  "startHour": 15,
+  "endHour": 18,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Bladed Steel Jig",
+   "Bullfrog"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3
+ },
+ {
+  "id": 12832,
+  "name": "Lavalord",
+  "nameJa": "溶岩王",
+  "spotId": 124,
+  "spotName": "Halo",
+  "spotNameJa": "光輪の祭壇",
+  "zoneName": "The Dravanian Forelands",
+  "zoneNameJa": "高地ドラヴァニア",
+  "territoryId": 398,
+  "startHour": 9,
+  "endHour": 17,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Metal Spinner",
+   "Granite Crab"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3
+ },
+ {
+  "id": 12833,
+  "name": "Tupuxuara",
+  "nameJa": "トゥプクスアラ",
+  "spotId": 145,
+  "spotName": "The Habisphere",
+  "spotNameJa": "ハビスフィア",
+  "zoneName": "Azys Lla",
+  "zoneNameJa": "アジス・ラー",
+  "territoryId": 402,
+  "startHour": 15,
+  "endHour": 18,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Balloon"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3
+ },
+ {
+  "id": 12835,
+  "name": "Storm Chaser",
+  "nameJa": "ストームライダー",
+  "spotId": 134,
+  "spotName": "Tharl Oom Khash",
+  "spotNameJa": "サルウーム・カシュ",
+  "zoneName": "The Churning Mists",
+  "zoneNameJa": "ドラヴァニア雲海",
+  "territoryId": 400,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Giant Crane Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3
+ },
+ {
+  "id": 14211,
+  "name": "Amber Salamander",
+  "nameJa": "アンバーサラマンダー",
+  "spotId": 120,
+  "spotName": "The Iron Feast",
+  "spotNameJa": "餌食の台地",
+  "zoneName": "The Dravanian Forelands",
+  "zoneNameJa": "高地ドラヴァニア",
+  "territoryId": 398,
+  "startHour": 6,
+  "endHour": 12,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.2
+ },
+ {
+  "id": 14219,
+  "name": "Mountain Kraken",
+  "nameJa": "ベーンクラーケン",
+  "spotId": 114,
+  "spotName": "South Banepool",
+  "spotNameJa": "ベーンプール南",
+  "zoneName": "Coerthas Western Highlands",
+  "zoneNameJa": "クルザス西部高地",
+  "territoryId": 397,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.2
+ },
+ {
+  "id": 15439,
+  "name": "Magic Bucket",
+  "nameJa": "マジックバケツ",
+  "spotId": 114,
+  "spotName": "South Banepool",
+  "spotNameJa": "ベーンプール南",
+  "zoneName": "Coerthas Western Highlands",
+  "zoneNameJa": "クルザス西部高地",
+  "territoryId": 397,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15626,
+  "name": "Fat Purse",
+  "nameJa": "ファットパース",
+  "spotId": 109,
+  "spotName": "Riversmeet",
+  "spotNameJa": "リバーズミート",
+  "zoneName": "Coerthas Western Highlands",
+  "zoneNameJa": "クルザス西部高地",
+  "territoryId": 397,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15627,
+  "name": "The Impaler",
+  "nameJa": "イエティキラー",
+  "spotId": 113,
+  "spotName": "Dragonspit",
+  "spotNameJa": "ドラゴンスピット",
+  "zoneName": "Coerthas Western Highlands",
+  "zoneNameJa": "クルザス西部高地",
+  "territoryId": 397,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15628,
+  "name": "La Reale",
+  "nameJa": "ラ・レアル",
+  "spotId": 115,
+  "spotName": "Ashpool",
+  "spotNameJa": "アッシュプール",
+  "zoneName": "Coerthas Western Highlands",
+  "zoneNameJa": "クルザス西部高地",
+  "territoryId": 397,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15629,
+  "name": "Scaleripper",
+  "nameJa": "スケイルリッパー",
+  "spotId": 117,
+  "spotName": "The Hundred Throes",
+  "spotNameJa": "悲嘆の飛泉",
+  "zoneName": "The Dravanian Forelands",
+  "zoneNameJa": "高地ドラヴァニア",
+  "territoryId": 398,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   11,
+   4,
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15630,
+  "name": "The Dreamweaver",
+  "nameJa": "アクムノタネ",
+  "spotId": 119,
+  "spotName": "The Smoldering Wastes",
+  "spotNameJa": "スモーキングウェイスト",
+  "zoneName": "The Dravanian Forelands",
+  "zoneNameJa": "高地ドラヴァニア",
+  "territoryId": 398,
+  "startHour": 22,
+  "endHour": 2,
+  "weatherSet": [
+   11,
+   4,
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15631,
+  "name": "Meteortoise",
+  "nameJa": "メテオトータス",
+  "spotId": 121,
+  "spotName": "Mourn",
+  "spotNameJa": "モーン大岩窟",
+  "zoneName": "The Dravanian Forelands",
+  "zoneNameJa": "高地ドラヴァニア",
+  "territoryId": 398,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Magma Worm",
+   "Granite Crab"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15632,
+  "name": "The Ewer King",
+  "nameJa": "水瓶王",
+  "spotId": 125,
+  "spotName": "Thaliak River",
+  "spotNameJa": "サリャク河",
+  "zoneName": "The Dravanian Hinterlands",
+  "zoneNameJa": "低地ドラヴァニア",
+  "territoryId": 399,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Bladed Steel Jig",
+   "Sweetfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15633,
+  "name": "Vidofnir",
+  "nameJa": "ヴィゾーヴニル",
+  "spotId": 129,
+  "spotName": "Eil Tohm",
+  "spotNameJa": "エイル・トーム",
+  "zoneName": "The Churning Mists",
+  "zoneNameJa": "ドラヴァニア雲海",
+  "territoryId": 400,
+  "startHour": 8,
+  "endHour": 10,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15634,
+  "name": "The Soul of the Martyr",
+  "nameJa": "ラタトスクソウル",
+  "spotId": 132,
+  "spotName": "Landlord Colony",
+  "spotNameJa": "ランドロード遺構",
+  "zoneName": "The Churning Mists",
+  "zoneNameJa": "ドラヴァニア雲海",
+  "territoryId": 400,
+  "startHour": 4,
+  "endHour": 6,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Giant Crane Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15635,
+  "name": "Inkfish",
+  "nameJa": "水墨魚",
+  "spotId": 135,
+  "spotName": "Voor Sian Siran",
+  "spotNameJa": "ヴール・シアンシラン",
+  "zoneName": "The Sea of Clouds",
+  "zoneNameJa": "アバラシア雲海",
+  "territoryId": 401,
+  "startHour": 14,
+  "endHour": 16,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15636,
+  "name": "The Second One",
+  "nameJa": "ザ・セカンドワン",
+  "spotId": 138,
+  "spotName": "The Blue Window",
+  "spotNameJa": "ブルーウィンドウ",
+  "zoneName": "The Sea of Clouds",
+  "zoneNameJa": "アバラシア雲海",
+  "territoryId": 401,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   5
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Giant Crane Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15637,
+  "name": "Augmented High Allagan Helmet",
+  "nameJa": "ハイアラガンクラブ改",
+  "spotId": 140,
+  "spotName": "Alpha Quadrant",
+  "spotNameJa": "アルファ管区",
+  "zoneName": "Azys Lla",
+  "zoneNameJa": "アジス・ラー",
+  "territoryId": 402,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Fiend Worm",
+   "Platinum Fish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 15638,
+  "name": "Aphotic Pirarucu",
+  "nameJa": "バイオガピラルク",
+  "spotId": 143,
+  "spotName": "Delta Quadrant",
+  "spotNameJa": "デルタ管区",
+  "zoneName": "Azys Lla",
+  "zoneNameJa": "アジス・ラー",
+  "territoryId": 402,
+  "startHour": 21,
+  "endHour": 2,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Purse Web Spider",
+   "Aether Eye"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.3
+ },
+ {
+  "id": 16742,
+  "name": "Dimorphodon",
+  "nameJa": "ディモルフォドン",
+  "spotId": 133,
+  "spotName": "Sohm Al Summit",
+  "spotNameJa": "ソーム・アル笠雲",
+  "zoneName": "The Churning Mists",
+  "zoneNameJa": "ドラヴァニア雲海",
+  "territoryId": 400,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   6
+  ],
+  "previousWeatherSet": [
+   1
+  ],
+  "bestCatchPath": [
+   "Giant Crane Fly",
+   "Rudderfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16743,
+  "name": "Basking Shark",
+  "nameJa": "バスキングシャーク",
+  "spotId": 139,
+  "spotName": "Mok Oogl Island",
+  "spotNameJa": "モック・ウーグル島",
+  "zoneName": "The Sea of Clouds",
+  "zoneNameJa": "アバラシア雲海",
+  "territoryId": 401,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   4
+  ],
+  "bestCatchPath": [
+   "Metal Spinner",
+   "Sky Faerie"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16744,
+  "name": "Allagan Bladeshark",
+  "nameJa": "アラガンブレード・シャーク",
+  "spotId": 146,
+  "spotName": "The Flagship",
+  "spotNameJa": "アジス・ラー旗艦島",
+  "zoneName": "Azys Lla",
+  "zoneNameJa": "アジス・ラー",
+  "territoryId": 402,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   9
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Signature Skyball",
+   "Platinum Fish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16745,
+  "name": "Hailfinder",
+  "nameJa": "ヘイルイーター",
+  "spotId": 110,
+  "spotName": "Greytail Falls",
+  "spotNameJa": "グレイテール滝",
+  "zoneName": "Coerthas Western Highlands",
+  "zoneNameJa": "クルザス西部高地",
+  "territoryId": 397,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   16
+  ],
+  "previousWeatherSet": [
+   16,
+   15
+  ],
+  "bestCatchPath": [
+   "Red Balloon",
+   "Glacier Core"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16746,
+  "name": "Flarefish",
+  "nameJa": "フレアフィッシュ",
+  "spotId": 111,
+  "spotName": "Unfrozen Pond",
+  "spotNameJa": "クルザス不凍池",
+  "zoneName": "Coerthas Western Highlands",
+  "zoneNameJa": "クルザス西部高地",
+  "territoryId": 397,
+  "startHour": 10,
+  "endHour": 18,
+  "weatherSet": [
+   16
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Purse Web Spider",
+   "Ice Faerie"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16747,
+  "name": "Twin-tongued Carp",
+  "nameJa": "フォークタン",
+  "spotId": 118,
+  "spotName": "Whilom River",
+  "spotNameJa": "ウィロームリバー",
+  "zoneName": "The Dravanian Forelands",
+  "zoneNameJa": "高地ドラヴァニア",
+  "territoryId": 398,
+  "startHour": 12,
+  "endHour": 16,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   3,
+   4,
+   11
+  ],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16748,
+  "name": "Madam Butterfly",
+  "nameJa": "マダムバタフライ",
+  "spotId": 126,
+  "spotName": "Quickspill Delta",
+  "spotNameJa": "クイックスピル・デルタ",
+  "zoneName": "The Dravanian Hinterlands",
+  "zoneNameJa": "低地ドラヴァニア",
+  "territoryId": 399,
+  "startHour": 21,
+  "endHour": 2,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Purse Web Spider",
+   "Hedgemole Cricket"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16749,
+  "name": "Moggle Mogpom",
+  "nameJa": "モグルグポンポン",
+  "spotId": 130,
+  "spotName": "Greensward",
+  "spotNameJa": "グリーンスウォード島",
+  "zoneName": "The Churning Mists",
+  "zoneNameJa": "ドラヴァニア雲海",
+  "territoryId": 400,
+  "startHour": 10,
+  "endHour": 13,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   6
+  ],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16750,
+  "name": "Cirrostratus",
+  "nameJa": "シーロストラタスモトロ",
+  "spotId": 137,
+  "spotName": "Cloudtop",
+  "spotNameJa": "クラウドトップ",
+  "zoneName": "The Sea of Clouds",
+  "zoneNameJa": "アバラシア雲海",
+  "territoryId": 401,
+  "startHour": 10,
+  "endHour": 13,
+  "weatherSet": [
+   2,
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Giant Crane Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16751,
+  "name": "Hraesvelgr's Tear",
+  "nameJa": "聖竜の涙",
+  "spotId": 122,
+  "spotName": "West Mourn",
+  "spotNameJa": "モーン大岩窟西",
+  "zoneName": "The Dravanian Forelands",
+  "zoneNameJa": "高地ドラヴァニア",
+  "territoryId": 398,
+  "startHour": 2,
+  "endHour": 6,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Magma Worm"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16752,
+  "name": "Aetherochemical Compound #666",
+  "nameJa": "魔科学物質666",
+  "spotId": 141,
+  "spotName": "Aetherochemical Spill",
+  "spotNameJa": "廃液溜まり",
+  "zoneName": "Azys Lla",
+  "zoneNameJa": "アジス・ラー",
+  "territoryId": 402,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Fiend Worm",
+   "Platinum Fish"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16753,
+  "name": "Hundred-eyed Axolotl",
+  "nameJa": "ハンドレッドアイ",
+  "spotId": 144,
+  "spotName": "The Pappus Tree",
+  "spotNameJa": "パプスの大樹",
+  "zoneName": "Azys Lla",
+  "zoneNameJa": "アジス・ラー",
+  "territoryId": 402,
+  "startHour": 6,
+  "endHour": 10,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Purse Web Spider",
+   "Aether Eye"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16754,
+  "name": "Bobgoblin Bass",
+  "nameJa": "万能のゴブリバス",
+  "spotId": 128,
+  "spotName": "Middle Thaliak River",
+  "spotNameJa": "サリャク河中州",
+  "zoneName": "The Dravanian Hinterlands",
+  "zoneNameJa": "低地ドラヴァニア",
+  "territoryId": 399,
+  "startHour": 2,
+  "endHour": 6,
+  "weatherSet": [
+   8
+  ],
+  "previousWeatherSet": [
+   7
+  ],
+  "bestCatchPath": [
+   "Goblin Jig",
+   "Sweetfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 16756,
+  "name": "Merciless",
+  "nameJa": "氷の巫女",
+  "spotId": 116,
+  "spotName": "West Banepool",
+  "spotNameJa": "ベーンプール西",
+  "zoneName": "Coerthas Western Highlands",
+  "zoneNameJa": "クルザス西部高地",
+  "territoryId": 397,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   16
+  ],
+  "previousWeatherSet": [
+   15,
+   16
+  ],
+  "bestCatchPath": [
+   "Caddisfly Larva",
+   "Ice Faerie"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.4
+ },
+ {
+  "id": 17577,
+  "name": "Bishopfish",
+  "nameJa": "ビショップフィッシュ",
+  "spotId": 112,
+  "spotName": "Clearpool",
+  "spotNameJa": "クリアプール",
+  "zoneName": "Coerthas Western Highlands",
+  "zoneNameJa": "クルザス西部高地",
+  "territoryId": 397,
+  "startHour": 10,
+  "endHour": 14,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.5
+ },
+ {
+  "id": 17578,
+  "name": "Captain Nemo",
+  "nameJa": "ネモ",
+  "spotId": 114,
+  "spotName": "South Banepool",
+  "spotNameJa": "ベーンプール南",
+  "zoneName": "Coerthas Western Highlands",
+  "zoneNameJa": "クルザス西部高地",
+  "territoryId": 397,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   16
+  ],
+  "previousWeatherSet": [
+   15
+  ],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.5
+ },
+ {
+  "id": 17579,
+  "name": "Paikiller",
+  "nameJa": "パイッサキラー",
+  "spotId": 136,
+  "spotName": "The Eddies",
+  "spotNameJa": "雲溜まり",
+  "zoneName": "The Sea of Clouds",
+  "zoneNameJa": "アバラシア雲海",
+  "territoryId": 401,
+  "startHour": 8,
+  "endHour": 12,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   4
+  ],
+  "bestCatchPath": [
+   "Bladed Steel Jig",
+   "Bullfrog"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.5
+ },
+ {
+  "id": 17580,
+  "name": "Ceti",
+  "nameJa": "セティ",
+  "spotId": 142,
+  "spotName": "Hyperstellar Downconverter",
+  "spotNameJa": "超星間交信塔",
+  "zoneName": "Azys Lla",
+  "zoneNameJa": "アジス・ラー",
+  "territoryId": 402,
+  "startHour": 18,
+  "endHour": 22,
+  "weatherSet": [
+   9
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Fiend Worm"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.5
+ },
+ {
+  "id": 17581,
+  "name": "Crystal Pigeon",
+  "nameJa": "クリスタルピジョン",
+  "spotId": 145,
+  "spotName": "The Habisphere",
+  "spotNameJa": "ハビスフィア",
+  "zoneName": "Azys Lla",
+  "zoneNameJa": "アジス・ラー",
+  "territoryId": 402,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   9
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Giant Crane Fly",
+   "Rudderfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.5
+ },
+ {
+  "id": 17582,
+  "name": "Thunderscale",
+  "nameJa": "サンダースケイル",
+  "spotId": 120,
+  "spotName": "The Iron Feast",
+  "spotNameJa": "餌食の台地",
+  "zoneName": "The Dravanian Forelands",
+  "zoneNameJa": "高地ドラヴァニア",
+  "territoryId": 398,
+  "startHour": 6,
+  "endHour": 8,
+  "weatherSet": [
+   9
+  ],
+  "previousWeatherSet": [
+   11,
+   3,
+   4
+  ],
+  "bestCatchPath": [
+   "Stonefly Nymph",
+   "Blueclaw Shrimp"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.5
+ },
+ {
+  "id": 17583,
+  "name": "Riddle",
+  "nameJa": "リドル",
+  "spotId": 123,
+  "spotName": "Anyx Old",
+  "spotNameJa": "アネス・ソー",
+  "zoneName": "The Dravanian Forelands",
+  "zoneNameJa": "高地ドラヴァニア",
+  "territoryId": 398,
+  "startHour": 8,
+  "endHour": 16,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   1
+  ],
+  "bestCatchPath": [
+   "Magma Worm",
+   "Granite Crab"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.5
+ },
+ {
+  "id": 17584,
+  "name": "The Lord of Lords",
+  "nameJa": "溶岩帝王",
+  "spotId": 124,
+  "spotName": "Halo",
+  "spotNameJa": "光輪の祭壇",
+  "zoneName": "The Dravanian Forelands",
+  "zoneNameJa": "高地ドラヴァニア",
+  "territoryId": 398,
+  "startHour": 8,
+  "endHour": 16,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [
+   4,
+   11,
+   3
+  ],
+  "bestCatchPath": [
+   "Metal Spinner",
+   "Granite Crab"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.5
+ },
+ {
+  "id": 17585,
+  "name": "The Speaker",
+  "nameJa": "スピーカー",
+  "spotId": 127,
+  "spotName": "Upper Thaliak River",
+  "spotNameJa": "サリャク河上流",
+  "zoneName": "The Dravanian Hinterlands",
+  "zoneNameJa": "低地ドラヴァニア",
+  "territoryId": 399,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   8
+  ],
+  "previousWeatherSet": [
+   3,
+   4
+  ],
+  "bestCatchPath": [
+   "Stonefly Nymph",
+   "Hedgemole Cricket"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 3.5
+ },
+ {
+  "id": 17586,
+  "name": "Thousand Fin",
+  "nameJa": "ボサボサ",
+  "spotId": 131,
+  "spotName": "Weston Waters",
+  "spotNameJa": "ウェストン・ウォーター",
+  "zoneName": "The Churning Mists",
+  "zoneNameJa": "ドラヴァニア雲海",
+  "territoryId": 400,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   6
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Brute Leech"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.5
+ },
+ {
+  "id": 17587,
+  "name": "Bloodchaser",
+  "nameJa": "ストームブラッドライダー",
+  "spotId": 134,
+  "spotName": "Tharl Oom Khash",
+  "spotNameJa": "サルウーム・カシュ",
+  "zoneName": "The Churning Mists",
+  "zoneNameJa": "ドラヴァニア雲海",
+  "territoryId": 400,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   6
+  ],
+  "previousWeatherSet": [
+   1
+  ],
+  "bestCatchPath": [
+   "Giant Crane Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 3.5
+ },
+ {
+  "id": 17588,
+  "name": "Problematicus",
+  "nameJa": "プロブレマティカス",
+  "spotId": 124,
+  "spotName": "Halo",
+  "spotNameJa": "光輪の祭壇",
+  "zoneName": "The Dravanian Forelands",
+  "zoneNameJa": "高地ドラヴァニア",
+  "territoryId": 398,
+  "startHour": 10,
+  "endHour": 15,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Metal Spinner",
+   "Granite Crab"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 3.5
+ },
+ {
+  "id": 17589,
+  "name": "Opabinia",
+  "nameJa": "オパビニア",
+  "spotId": 146,
+  "spotName": "The Flagship",
+  "spotNameJa": "アジス・ラー旗艦島",
+  "zoneName": "Azys Lla",
+  "zoneNameJa": "アジス・ラー",
+  "territoryId": 402,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   9
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Signature Skyball",
+   "Platinum Fish"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 3.5
+ },
+ {
+  "id": 17590,
+  "name": "Armor Fish",
+  "nameJa": "鎧魚",
+  "spotId": 127,
+  "spotName": "Upper Thaliak River",
+  "spotNameJa": "サリャク河上流",
+  "zoneName": "The Dravanian Hinterlands",
+  "zoneNameJa": "低地ドラヴァニア",
+  "territoryId": 399,
+  "startHour": 1,
+  "endHour": 4,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Purse Web Spider",
+   "Hedgemole Cricket"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 3.5
+ },
+ {
+  "id": 17591,
+  "name": "Sea Butterfly",
+  "nameJa": "クラウドバタフライ",
+  "spotId": 139,
+  "spotName": "Mok Oogl Island",
+  "spotNameJa": "モック・ウーグル島",
+  "zoneName": "The Sea of Clouds",
+  "zoneNameJa": "アバラシア雲海",
+  "territoryId": 401,
+  "startHour": 5,
+  "endHour": 7,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Giant Crane Fly"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 3.5
+ },
+ {
+  "id": 17592,
+  "name": "Charibenet",
+  "nameJa": "シャリベネ",
+  "spotId": 112,
+  "spotName": "Clearpool",
+  "spotNameJa": "クリアプール",
+  "zoneName": "Coerthas Western Highlands",
+  "zoneNameJa": "クルザス西部高地",
+  "territoryId": 397,
+  "startHour": 0,
+  "endHour": 3,
+  "weatherSet": [
+   16
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Purse Web Spider",
+   "Ice Faerie"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 3.5
+ },
+ {
+  "id": 17593,
+  "name": "Raimdellopterus",
+  "nameJa": "ランデロプテルス",
+  "spotId": 134,
+  "spotName": "Tharl Oom Khash",
+  "spotNameJa": "サルウーム・カシュ",
+  "zoneName": "The Churning Mists",
+  "zoneNameJa": "ドラヴァニア雲海",
+  "territoryId": 400,
+  "startHour": 5,
+  "endHour": 8,
+  "weatherSet": [
+   6
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Giant Crane Fly",
+   "Rudderfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 3.5
+ },
+ {
+  "id": 20018,
+  "name": "Liopleurodon",
+  "nameJa": "鰭竜",
+  "spotId": 159,
+  "spotName": "Hells' Lid",
+  "spotNameJa": "獄之蓋近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   9
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Live Shrimp",
+   "Ruby Shrimp"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.0
+ },
+ {
+  "id": 20020,
+  "name": "Yanxian Barramundi",
+  "nameJa": "ヤンサアカメ",
+  "spotId": 172,
+  "spotName": "The One River (East)",
+  "spotNameJa": "無二江東",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.0
+ },
+ {
+  "id": 20027,
+  "name": "Doman Grass Carp",
+  "nameJa": "無二草魚",
+  "spotId": 171,
+  "spotName": "Mercantile Docks",
+  "spotNameJa": "城下船場",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 20,
+  "endHour": 4,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Midge Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.0
+ },
+ {
+  "id": 20040,
+  "name": "Sculptor",
+  "nameJa": "スカルプター",
+  "spotId": 196,
+  "spotName": "Loch Seld",
+  "spotNameJa": "ロッホ・セル湖",
+  "zoneName": "The Lochs",
+  "zoneNameJa": "ギラバニア湖畔地帯",
+  "territoryId": 621,
+  "startHour": 12,
+  "endHour": 18,
+  "weatherSet": [
+   10
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Silkworm",
+   "Rock Saltfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 4.0
+ },
+ {
+  "id": 20051,
+  "name": "Silken Koi",
+  "nameJa": "絹鯉",
+  "spotId": 174,
+  "spotName": "Plum Spring",
+  "spotNameJa": "梅泉郷",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 4.0
+ },
+ {
+  "id": 20074,
+  "name": "Deemster",
+  "nameJa": "裁定魚",
+  "spotId": 193,
+  "spotName": "The Ephor",
+  "spotNameJa": "裁定者の像",
+  "zoneName": "The Peaks",
+  "zoneNameJa": "ギラバニア山岳地帯",
+  "territoryId": 620,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   5
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.0
+ },
+ {
+  "id": 20100,
+  "name": "Swordfish",
+  "nameJa": "メカジキ",
+  "spotId": 162,
+  "spotName": "Onokoro",
+  "spotNameJa": "オノコロ島近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 8,
+  "endHour": 16,
+  "weatherSet": [
+   3,
+   5
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Blue Bobbit"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 4.0
+ },
+ {
+  "id": 20104,
+  "name": "Daio Squid",
+  "nameJa": "ダイオウイカ",
+  "spotId": 164,
+  "spotName": "The Isle of Zekki",
+  "spotNameJa": "ゼッキ島近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Bream Lure"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.0
+ },
+ {
+  "id": 20105,
+  "name": "Koromo Octopus",
+  "nameJa": "コロモダコ",
+  "spotId": 164,
+  "spotName": "The Isle of Zekki",
+  "spotNameJa": "ゼッキ島近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Bream Lure"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.0
+ },
+ {
+  "id": 20141,
+  "name": "Eastern Pike",
+  "nameJa": "イースタンパイク",
+  "spotId": 195,
+  "spotName": "The Arms of Meed",
+  "spotNameJa": "アームズ・オブ・ミード",
+  "zoneName": "The Peaks",
+  "zoneNameJa": "ギラバニア山岳地帯",
+  "territoryId": 620,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Suspending Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.0
+ },
+ {
+  "id": 20524,
+  "name": "Castaway Chocobo Chick",
+  "nameJa": "海チョコチョコボ",
+  "spotId": 156,
+  "spotName": "North Isle of Endless Summer",
+  "spotNameJa": "常夏の島北",
+  "zoneName": "Eastern La Noscea",
+  "zoneNameJa": "東ラノシア",
+  "territoryId": 137,
+  "startHour": 8,
+  "endHour": 16,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Lugworm",
+   "Merlthor Goby",
+   "Wahoo"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.0
+ },
+ {
+  "id": 21176,
+  "name": "Ukiki",
+  "nameJa": "ウキキ",
+  "spotId": 159,
+  "spotName": "Hells' Lid",
+  "spotNameJa": "獄之蓋近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 8,
+  "endHour": 12,
+  "weatherSet": [
+   5
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Blue Bobbit"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.1
+ },
+ {
+  "id": 22394,
+  "name": "Saltmill",
+  "nameJa": "ソルトミル",
+  "spotId": 196,
+  "spotName": "Loch Seld",
+  "spotNameJa": "ロッホ・セル湖",
+  "zoneName": "The Lochs",
+  "zoneNameJa": "ギラバニア湖畔地帯",
+  "territoryId": 621,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   3,
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Silkworm",
+   "Rock Saltfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.2
+ },
+ {
+  "id": 22393,
+  "name": "Usuginu Octopus",
+  "nameJa": "ウスギヌダコ",
+  "spotId": 160,
+  "spotName": "The Isle of Bekko",
+  "spotNameJa": "ベッコウ島近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Live Shrimp"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.2
+ },
+ {
+  "id": 22392,
+  "name": "Redtail",
+  "nameJa": "レッドテイル",
+  "spotId": 184,
+  "spotName": "The Outer Fist",
+  "spotNameJa": "星導山寺院入口",
+  "zoneName": "Rhalgr's Reach",
+  "zoneNameJa": "ラールガーズリーチ",
+  "territoryId": 635,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   3,
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Salmon Roe",
+   "Balloon Frog"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.2
+ },
+ {
+  "id": 22389,
+  "name": "Mirage Mahi",
+  "nameJa": "ミラージュマヒ",
+  "spotId": 189,
+  "spotName": "Mirage Creek",
+  "spotNameJa": "ミラージュクリーク",
+  "zoneName": "The Fringes",
+  "zoneNameJa": "ギラバニア辺境地帯",
+  "territoryId": 612,
+  "startHour": 4,
+  "endHour": 8,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.2
+ },
+ {
+  "id": 23057,
+  "name": "Hookstealer",
+  "nameJa": "フックスティーラー",
+  "spotId": 182,
+  "spotName": "Upper Mirage Creek",
+  "spotNameJa": "ミラージュクリーク上流",
+  "zoneName": "Rhalgr's Reach",
+  "zoneNameJa": "ラールガーズリーチ",
+  "territoryId": 635,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Midge Larva",
+   "Gyr Abanian Trout"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23058,
+  "name": "Sapphire Fan",
+  "nameJa": "サファイアファン",
+  "spotId": 186,
+  "spotName": "Dimwold",
+  "spotNameJa": "夜の森",
+  "zoneName": "The Fringes",
+  "zoneNameJa": "ギラバニア辺境地帯",
+  "territoryId": 612,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   9
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23059,
+  "name": "The Archbishop",
+  "nameJa": "アークビショップフィッシュ",
+  "spotId": 187,
+  "spotName": "The Comet's Tail",
+  "spotNameJa": "流星の尾",
+  "zoneName": "The Fringes",
+  "zoneNameJa": "ギラバニア辺境地帯",
+  "territoryId": 612,
+  "startHour": 12,
+  "endHour": 16,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Suspending Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23060,
+  "name": "Bondsplitter",
+  "nameJa": "ボンドスプリッター",
+  "spotId": 190,
+  "spotName": "Grymm & Enid",
+  "spotNameJa": "夫婦池",
+  "zoneName": "The Peaks",
+  "zoneNameJa": "ギラバニア山岳地帯",
+  "territoryId": 620,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   11
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Suspending Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23061,
+  "name": "The Undecided",
+  "nameJa": "ナガレクダリ",
+  "spotId": 191,
+  "spotName": "The Slow Wash",
+  "spotNameJa": "スロウウォッシュ",
+  "zoneName": "The Peaks",
+  "zoneNameJa": "ギラバニア山岳地帯",
+  "territoryId": 620,
+  "startHour": 8,
+  "endHour": 12,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Midge Larva",
+   "Gyr Abanian Trout"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23062,
+  "name": "Diamond-eye",
+  "nameJa": "ダイヤモンドアイ",
+  "spotId": 196,
+  "spotName": "Loch Seld",
+  "spotNameJa": "ロッホ・セル湖",
+  "zoneName": "The Lochs",
+  "zoneNameJa": "ギラバニア湖畔地帯",
+  "territoryId": 621,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Silkworm",
+   "Rock Saltfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23063,
+  "name": "Rising Dragon",
+  "nameJa": "ノボリリュウ",
+  "spotId": 157,
+  "spotName": "Kugane Piers",
+  "spotNameJa": "波止場全体",
+  "zoneName": "Kugane",
+  "zoneNameJa": "クガネ",
+  "territoryId": 628,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Live Shrimp",
+   "Ruby Shrimp"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23064,
+  "name": "The Gambler",
+  "nameJa": "バクチウチ",
+  "spotId": 197,
+  "spotName": "Shirogane",
+  "spotNameJa": "シロガネ",
+  "zoneName": "Shirogane",
+  "zoneNameJa": "シロガネ",
+  "territoryId": 641,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Blue Bobbit"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23065,
+  "name": "The Winter Queen",
+  "nameJa": "春不知",
+  "spotId": 161,
+  "spotName": "Shoal Rock",
+  "spotNameJa": "沖之岩近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 16,
+  "endHour": 20,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Blue Bobbit"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23066,
+  "name": "Rakshasa",
+  "nameJa": "ソクシツキ",
+  "spotId": 164,
+  "spotName": "The Isle of Zekki",
+  "spotNameJa": "ゼッキ島近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   9
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Live Shrimp",
+   "Ruby Shrimp"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23067,
+  "name": "Bokuden",
+  "nameJa": "ボクデン",
+  "spotId": 170,
+  "spotName": "Doma Castle",
+  "spotNameJa": "ドマ城前",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 12,
+  "endHour": 14,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23068,
+  "name": "Hagoromo Koi",
+  "nameJa": "羽衣鯉",
+  "spotId": 174,
+  "spotName": "Plum Spring",
+  "spotNameJa": "梅泉郷",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23069,
+  "name": "The Word of God",
+  "nameJa": "シンタクヤブリ",
+  "spotId": 179,
+  "spotName": "Tao Khaal",
+  "spotNameJa": "タオ・カール",
+  "zoneName": "The Azim Steppe",
+  "zoneNameJa": "アジムステップ",
+  "territoryId": 622,
+  "startHour": 20,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 23070,
+  "name": "Yat Khan",
+  "nameJa": "ヤトカガン",
+  "spotId": 180,
+  "spotName": "Lower Yat Khaal",
+  "spotNameJa": "ヤト・カール下流",
+  "zoneName": "The Azim Steppe",
+  "zoneNameJa": "アジムステップ",
+  "territoryId": 622,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   5
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.3
+ },
+ {
+  "id": 24205,
+  "name": "Watcher Catfish",
+  "nameJa": "シデンナマズ",
+  "spotId": 183,
+  "spotName": "Rhalgr's Reach",
+  "spotNameJa": "ラールガーズリーチ",
+  "zoneName": "Rhalgr's Reach",
+  "zoneNameJa": "ラールガーズリーチ",
+  "territoryId": 635,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   9
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Midge Larva",
+   "Gyr Abanian Trout"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24206,
+  "name": "Bloodtail Zombie",
+  "nameJa": "レッドテイルゾンビー",
+  "spotId": 184,
+  "spotName": "The Outer Fist",
+  "spotNameJa": "星導山寺院入口",
+  "zoneName": "Rhalgr's Reach",
+  "zoneNameJa": "ラールガーズリーチ",
+  "territoryId": 635,
+  "startHour": 8,
+  "endHour": 12,
+  "weatherSet": [
+   3,
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Salmon Roe",
+   "Balloon Frog"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24207,
+  "name": "Hardhead Trout",
+  "nameJa": "サーメットヘッド",
+  "spotId": 185,
+  "spotName": "Timmon Beck",
+  "spotNameJa": "ティモン川",
+  "zoneName": "The Fringes",
+  "zoneNameJa": "ギラバニア辺境地帯",
+  "territoryId": 612,
+  "startHour": 16,
+  "endHour": 20,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24208,
+  "name": "Downstream Loach",
+  "nameJa": "タニクダリ",
+  "spotId": 188,
+  "spotName": "The Velodyna River",
+  "spotNameJa": "ベロジナ川",
+  "zoneName": "The Fringes",
+  "zoneNameJa": "ギラバニア辺境地帯",
+  "territoryId": 612,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24209,
+  "name": "Corpse Chub",
+  "nameJa": "コープスチャブ",
+  "spotId": 189,
+  "spotName": "Mirage Creek",
+  "spotNameJa": "ミラージュクリーク",
+  "zoneName": "The Fringes",
+  "zoneNameJa": "ギラバニア辺境地帯",
+  "territoryId": 612,
+  "startHour": 20,
+  "endHour": 24,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Suspending Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24210,
+  "name": "The Last Tear",
+  "nameJa": "ラストティアー",
+  "spotId": 192,
+  "spotName": "Heather Falls",
+  "spotNameJa": "ヒース滝",
+  "zoneName": "The Peaks",
+  "zoneNameJa": "ギラバニア山岳地帯",
+  "territoryId": 620,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   4
+  ],
+  "bestCatchPath": [
+   "Salmon Roe"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24211,
+  "name": "Hemon",
+  "nameJa": "ヘモン",
+  "spotId": 194,
+  "spotName": "The Bull's Bath",
+  "spotNameJa": "ブルズバス",
+  "zoneName": "The Peaks",
+  "zoneNameJa": "ギラバニア山岳地帯",
+  "territoryId": 620,
+  "startHour": 16,
+  "endHour": 20,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Suspending Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24212,
+  "name": "Moksha",
+  "nameJa": "解脱魚",
+  "spotId": 193,
+  "spotName": "The Ephor",
+  "spotNameJa": "裁定者の像",
+  "zoneName": "The Peaks",
+  "zoneNameJa": "ギラバニア山岳地帯",
+  "territoryId": 620,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   3,
+   5,
+   4,
+   11
+  ],
+  "bestCatchPath": [
+   "Suspending Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24213,
+  "name": "Princess Killifish",
+  "nameJa": "ヒメダカ",
+  "spotId": 198,
+  "spotName": "The Silver Canal",
+  "spotNameJa": "シロガネ水路",
+  "zoneName": "Shirogane",
+  "zoneNameJa": "シロガネ",
+  "territoryId": 641,
+  "startHour": 4,
+  "endHour": 6,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Nightcrawler"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24214,
+  "name": "Ku'er",
+  "nameJa": "クアル",
+  "spotId": 158,
+  "spotName": "The Ruby Price",
+  "spotNameJa": "紅玉台場近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 0,
+  "endHour": 8,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [
+   9
+  ],
+  "bestCatchPath": [
+   "Blue Bobbit"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24215,
+  "name": "Argonautica",
+  "nameJa": "ウミダイジャ",
+  "spotId": 162,
+  "spotName": "Onokoro",
+  "spotNameJa": "オノコロ島近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   5
+  ],
+  "previousWeatherSet": [
+   2,
+   1
+  ],
+  "bestCatchPath": [
+   "Live Shrimp",
+   "Ruby Shrimp"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24216,
+  "name": "Hagoromo Bijin",
+  "nameJa": "羽衣美女",
+  "spotId": 173,
+  "spotName": "The One River (West)",
+  "spotNameJa": "無二江西",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   2,
+   1
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24217,
+  "name": "Duskfish",
+  "nameJa": "暮れの魚",
+  "spotId": 178,
+  "spotName": "Azim Khaat",
+  "spotNameJa": "アジム・カート",
+  "zoneName": "The Azim Steppe",
+  "zoneNameJa": "アジムステップ",
+  "territoryId": 622,
+  "startHour": 8,
+  "endHour": 16,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [
+   7,
+   6
+  ],
+  "bestCatchPath": [
+   "Nightcrawler",
+   "Zagas Khaal"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24218,
+  "name": "Blade Skipper",
+  "nameJa": "ブレードスキッパー",
+  "spotId": 177,
+  "spotName": "Upper Yat Khaal",
+  "spotNameJa": "ヤト・カール上流",
+  "zoneName": "The Azim Steppe",
+  "zoneNameJa": "アジムステップ",
+  "territoryId": 622,
+  "startHour": 4,
+  "endHour": 8,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Suspending Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.4
+ },
+ {
+  "id": 24881,
+  "name": "Lily of the Veil",
+  "nameJa": "アラミガンベール",
+  "spotId": 195,
+  "spotName": "The Arms of Meed",
+  "spotNameJa": "アームズ・オブ・ミード",
+  "zoneName": "The Peaks",
+  "zoneNameJa": "ギラバニア山岳地帯",
+  "territoryId": 620,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   1
+  ],
+  "bestCatchPath": [
+   "Suspending Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24882,
+  "name": "The Vegetarian",
+  "nameJa": "菜食王",
+  "spotId": 159,
+  "spotName": "Hells' Lid",
+  "spotNameJa": "獄之蓋近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 20,
+  "endHour": 24,
+  "weatherSet": [
+   9
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Live Shrimp",
+   "Ruby Shrimp"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24883,
+  "name": "Seven Stars",
+  "nameJa": "ナナツボシ",
+  "spotId": 160,
+  "spotName": "The Isle of Bekko",
+  "spotNameJa": "ベッコウ島近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 10,
+  "endHour": 18,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   9
+  ],
+  "bestCatchPath": [
+   "Blue Bobbit"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24884,
+  "name": "Pinhead",
+  "nameJa": "バリマンボン",
+  "spotId": 163,
+  "spotName": "Isari",
+  "spotNameJa": "イサリ村沿岸",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 16,
+  "endHour": 24,
+  "weatherSet": [
+   9
+  ],
+  "previousWeatherSet": [
+   2,
+   1
+  ],
+  "bestCatchPath": [
+   "Live Shrimp"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24885,
+  "name": "Pomegranate Trout",
+  "nameJa": "ザクロウミ",
+  "spotId": 165,
+  "spotName": "The Heron's Nest",
+  "spotNameJa": "アオサギ池",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Nightcrawler"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24886,
+  "name": "Glarramundi",
+  "nameJa": "オニニラミ",
+  "spotId": 166,
+  "spotName": "The Heron's Way",
+  "spotNameJa": "アオサギ川",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Suspending Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24887,
+  "name": "Hermit's End",
+  "nameJa": "仙寿の翁",
+  "spotId": 167,
+  "spotName": "Namai",
+  "spotNameJa": "ナマイ村溜池",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 20,
+  "endHour": 24,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24888,
+  "name": "Suiten Ippeki",
+  "nameJa": "水天一碧",
+  "spotId": 171,
+  "spotName": "Mercantile Docks",
+  "spotNameJa": "城下船場",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 16,
+  "endHour": 24,
+  "weatherSet": [
+   8
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24889,
+  "name": "Axelrod",
+  "nameJa": "シャジクノミ",
+  "spotId": 172,
+  "spotName": "The One River (East)",
+  "spotNameJa": "無二江東",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 0,
+  "endHour": 8,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24890,
+  "name": "The Unraveled Bow",
+  "nameJa": "ニジノヒトスジ",
+  "spotId": 169,
+  "spotName": "Prism Canyon",
+  "spotNameJa": "七彩渓谷",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 12,
+  "endHour": 16,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Suspending Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24891,
+  "name": "Nhaama's Treasure",
+  "nameJa": "ナーマの愛寵",
+  "spotId": 181,
+  "spotName": "Dotharl Khaa",
+  "spotNameJa": "ドタール・カー",
+  "zoneName": "The Azim Steppe",
+  "zoneNameJa": "アジムステップ",
+  "territoryId": 622,
+  "startHour": 4,
+  "endHour": 8,
+  "weatherSet": [
+   2,
+   1
+  ],
+  "previousWeatherSet": [
+   7
+  ],
+  "bestCatchPath": [
+   "Suspending Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24892,
+  "name": "Garden Skipper",
+  "nameJa": "ベジースキッパー",
+  "spotId": 175,
+  "spotName": "Nem Khaal",
+  "spotNameJa": "ネム・カール",
+  "zoneName": "The Azim Steppe",
+  "zoneNameJa": "アジムステップ",
+  "territoryId": 622,
+  "startHour": 8,
+  "endHour": 12,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Midge Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24893,
+  "name": "Banderole",
+  "nameJa": "明けの旗魚",
+  "spotId": 176,
+  "spotName": "Hak Khaal",
+  "spotNameJa": "ハク・カール",
+  "zoneName": "The Azim Steppe",
+  "zoneNameJa": "アジムステップ",
+  "territoryId": 622,
+  "startHour": 0,
+  "endHour": 8,
+  "weatherSet": [
+   4,
+   3,
+   5
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Nightcrawler",
+   "Zagas Khaal"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24990,
+  "name": "Xenacanthus",
+  "nameJa": "クセナカンサス",
+  "spotId": 185,
+  "spotName": "Timmon Beck",
+  "spotNameJa": "ティモン川",
+  "zoneName": "The Fringes",
+  "zoneNameJa": "ギラバニア辺境地帯",
+  "territoryId": 612,
+  "startHour": 16,
+  "endHour": 20,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva",
+   "Hardhead Trout"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24991,
+  "name": "Drepanaspis",
+  "nameJa": "ドレパナスピス",
+  "spotId": 190,
+  "spotName": "Grymm & Enid",
+  "spotNameJa": "夫婦池",
+  "zoneName": "The Peaks",
+  "zoneNameJa": "ギラバニア山岳地帯",
+  "territoryId": 620,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   11
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Suspending Minnow"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 4.5
+ },
+ {
+  "id": 24992,
+  "name": "Stethacanthus",
+  "nameJa": "ステタカントゥス",
+  "spotId": 196,
+  "spotName": "Loch Seld",
+  "spotNameJa": "ロッホ・セル湖",
+  "zoneName": "The Lochs",
+  "zoneNameJa": "ギラバニア湖畔地帯",
+  "territoryId": 621,
+  "startHour": 16,
+  "endHour": 18,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Silkworm",
+   "Rock Saltfish"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 4.5
+ },
+ {
+  "id": 24993,
+  "name": "The Ruby Dragon",
+  "nameJa": "紅龍",
+  "spotId": 158,
+  "spotName": "The Ruby Price",
+  "spotNameJa": "紅玉台場近海",
+  "zoneName": "The Ruby Sea",
+  "zoneNameJa": "紅玉海",
+  "territoryId": 613,
+  "startHour": 4,
+  "endHour": 8,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [
+   9
+  ],
+  "bestCatchPath": [
+   "Blue Bobbit",
+   "Ku'er"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 24994,
+  "name": "Warden of the Seven Hues",
+  "nameJa": "七彩天主",
+  "spotId": 168,
+  "spotName": "Prism Lake",
+  "spotNameJa": "七彩溝",
+  "zoneName": "Yanxia",
+  "zoneNameJa": "ヤンサ",
+  "territoryId": 614,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Powerful",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 4.5
+ },
+ {
+  "id": 24995,
+  "name": "The Unconditional",
+  "nameJa": "神々の愛",
+  "spotId": 181,
+  "spotName": "Dotharl Khaa",
+  "spotNameJa": "ドタール・カー",
+  "zoneName": "The Azim Steppe",
+  "zoneNameJa": "アジムステップ",
+  "territoryId": 622,
+  "startHour": 5.5,
+  "endHour": 6.5,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   7
+  ],
+  "bestCatchPath": [
+   "Stonefly Larva"
+  ],
+  "tug": "legendary",
+  "hookset": "Precision",
+  "folklore": true,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 4.5
+ },
+ {
+  "id": 27437,
+  "name": "Vicejaw",
+  "nameJa": "バイスジョー",
+  "spotId": 206,
+  "spotName": "The Isle of Ken",
+  "spotNameJa": "ケンの島",
+  "zoneName": "Lakeland",
+  "zoneNameJa": "レイクランド",
+  "territoryId": 813,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.0
+ },
+ {
+  "id": 27456,
+  "name": "Henodus",
+  "nameJa": "ヘノドゥス",
+  "spotId": 213,
+  "spotName": "The Eastern Kholusian Coast",
+  "spotNameJa": "コルシア島沿岸東",
+  "zoneName": "Kholusia",
+  "zoneNameJa": "コルシア島",
+  "territoryId": 814,
+  "startHour": 16,
+  "endHour": 24,
+  "weatherSet": [
+   4,
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Short Bill Minnow",
+   "Spearhead Squid"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.0
+ },
+ {
+  "id": 27467,
+  "name": "Thorned Lizard",
+  "nameJa": "トゲトカゲ",
+  "spotId": 216,
+  "spotName": "The Hills of Amber",
+  "spotNameJa": "アンバーヒル",
+  "zoneName": "Amh Araeng",
+  "zoneNameJa": "アム・アレーン",
+  "territoryId": 815,
+  "startHour": 10,
+  "endHour": 18,
+  "weatherSet": [
+   14,
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Desert Dessert Frog",
+   "Web-footed Sand Gecko"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.0
+ },
+ {
+  "id": 27464,
+  "name": "Desert Saw",
+  "nameJa": "デザートソー",
+  "spotId": 217,
+  "spotName": "The Nabaath Severance",
+  "spotNameJa": "ナバースの断絶",
+  "zoneName": "Amh Araeng",
+  "zoneNameJa": "アム・アレーン",
+  "territoryId": 815,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Jerked Ovim"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.0
+ },
+ {
+  "id": 27508,
+  "name": "Aapoak",
+  "nameJa": "アーポアク",
+  "spotId": 233,
+  "spotName": "West Caliban Gap",
+  "spotNameJa": "キャリバンの古巣穴西",
+  "zoneName": "The Tempest",
+  "zoneNameJa": "テンペスト",
+  "territoryId": 818,
+  "startHour": 12,
+  "endHour": 16,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Short Bill Minnow",
+   "Ancient Shrimp"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 5.0
+ },
+ {
+  "id": 28065,
+  "name": "Loose Pendant",
+  "nameJa": "ペンダントヘッド",
+  "spotId": 201,
+  "spotName": "Crystarium Personal Suites",
+  "spotNameJa": "クリスタリウム居室",
+  "zoneName": "The Crystarium",
+  "zoneNameJa": "クリスタリウム",
+  "territoryId": 819,
+  "startHour": 18,
+  "endHour": 22,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.1
+ },
+ {
+  "id": 28067,
+  "name": "The Unforgiven",
+  "nameJa": "アンフォーギヴン・クラブ",
+  "spotId": 204,
+  "spotName": "The Source",
+  "spotNameJa": "始まりの湖",
+  "zoneName": "Lakeland",
+  "zoneNameJa": "レイクランド",
+  "territoryId": 813,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.1
+ },
+ {
+  "id": 28068,
+  "name": "Bronze Sole",
+  "nameJa": "ブロンズソール",
+  "spotId": 210,
+  "spotName": "Sharptongue Drip",
+  "spotNameJa": "シャープタンの泉",
+  "zoneName": "Kholusia",
+  "zoneNameJa": "コルシア島",
+  "territoryId": 814,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Marble Nymph"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.1
+ },
+ {
+  "id": 28066,
+  "name": "Winged Dame",
+  "nameJa": "グランドデイムバタフライ",
+  "spotId": 214,
+  "spotName": "The Derelicts",
+  "spotNameJa": "廃船街",
+  "zoneName": "Eulmore",
+  "zoneNameJa": "ユールモア",
+  "territoryId": 820,
+  "startHour": 12,
+  "endHour": 20,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Squid Strip"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.1
+ },
+ {
+  "id": 28069,
+  "name": "The Horned King",
+  "nameJa": "カンムリカブリ",
+  "spotId": 215,
+  "spotName": "The River of Sand",
+  "spotNameJa": "砂の川",
+  "zoneName": "Amh Araeng",
+  "zoneNameJa": "アム・アレーン",
+  "territoryId": 815,
+  "startHour": 0,
+  "endHour": 6,
+  "weatherSet": [
+   11
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Jerked Ovim",
+   "Hornhelm"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.1
+ },
+ {
+  "id": 28070,
+  "name": "The Sound of Fury",
+  "nameJa": "フューリィベタ",
+  "spotId": 219,
+  "spotName": "Longmirror Lake",
+  "spotNameJa": "姿見の湖",
+  "zoneName": "Il Mheg",
+  "zoneNameJa": "イル・メグ",
+  "territoryId": 816,
+  "startHour": 20,
+  "endHour": 24,
+  "weatherSet": [
+   2,
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.1
+ },
+ {
+  "id": 28071,
+  "name": "Priest of Yx'Lokwa",
+  "nameJa": "ロックワの衛士",
+  "spotId": 225,
+  "spotName": "Lake Tusi Mek'ta",
+  "spotNameJa": "トゥシ・メキタ湖",
+  "zoneName": "The Rak'tika Greatwood",
+  "zoneNameJa": "ラケティカ大森林",
+  "territoryId": 817,
+  "startHour": 10,
+  "endHour": 12,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Robber Ball",
+   "Clown Tetra",
+   "Eryops"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.1
+ },
+ {
+  "id": 28072,
+  "name": "Starchaser",
+  "nameJa": "スターチェイサー",
+  "spotId": 235,
+  "spotName": "Purpure",
+  "spotNameJa": "プルプラ洞",
+  "zoneName": "The Tempest",
+  "zoneNameJa": "テンペスト",
+  "territoryId": 818,
+  "startHour": 6,
+  "endHour": 10,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Squid Strip"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": true,
+  "intuition": false,
+  "patch": 5.1
+ },
+ {
+  "id": 28925,
+  "name": "The Jaws of Undeath",
+  "nameJa": "イモータルジョー",
+  "spotId": 206,
+  "spotName": "The Isle of Ken",
+  "spotNameJa": "ケンの島",
+  "zoneName": "Lakeland",
+  "zoneNameJa": "レイクランド",
+  "territoryId": 813,
+  "startHour": 16,
+  "endHour": 24,
+  "weatherSet": [
+   3,
+   4
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.2
+ },
+ {
+  "id": 28926,
+  "name": "White Ronso",
+  "nameJa": "ホワイトロンゾ",
+  "spotId": 209,
+  "spotName": "Lower Watts River",
+  "spotNameJa": "ワッツリバー下流",
+  "zoneName": "Kholusia",
+  "zoneNameJa": "コルシア島",
+  "territoryId": 814,
+  "startHour": 0,
+  "endHour": 2,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.2
+ },
+ {
+  "id": 28927,
+  "name": "Ambling Caltrop",
+  "nameJa": "クギトカゲ",
+  "spotId": 216,
+  "spotName": "The Hills of Amber",
+  "spotNameJa": "アンバーヒル",
+  "zoneName": "Amh Araeng",
+  "zoneNameJa": "アム・アレーン",
+  "territoryId": 815,
+  "startHour": 12,
+  "endHour": 16,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Desert Dessert Frog",
+   "Web-footed Sand Gecko"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.2
+ },
+ {
+  "id": 28928,
+  "name": "Fae Rainbow",
+  "nameJa": "ピクシーレインボー",
+  "spotId": 221,
+  "spotName": "The Jealous One",
+  "spotNameJa": "中の子らの流れ",
+  "zoneName": "Il Mheg",
+  "zoneNameJa": "イル・メグ",
+  "territoryId": 816,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   2,
+   1
+  ],
+  "bestCatchPath": [
+   "Marble Nymph"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.2
+ },
+ {
+  "id": 28929,
+  "name": "Black Jet",
+  "nameJa": "ブラックジェットストリーム",
+  "spotId": 227,
+  "spotName": "The Lozatl",
+  "spotNameJa": "ロツァトル川",
+  "zoneName": "The Rak'tika Greatwood",
+  "zoneNameJa": "ラケティカ大森林",
+  "territoryId": 817,
+  "startHour": 2,
+  "endHour": 12,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [
+   3,
+   4
+  ],
+  "bestCatchPath": [
+   "Robber Ball"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.2
+ },
+ {
+  "id": 28930,
+  "name": "Ondo Sigh",
+  "nameJa": "オンドの溜息",
+  "spotId": 230,
+  "spotName": "The Flounders' Floor",
+  "spotNameJa": "フラウンダーの穴蔵",
+  "zoneName": "The Tempest",
+  "zoneNameJa": "テンペスト",
+  "territoryId": 818,
+  "startHour": 12,
+  "endHour": 14,
+  "weatherSet": [
+   2,
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Squid Strip"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.2
+ },
+ {
+  "id": 30432,
+  "name": "The Sinsteeped",
+  "nameJa": "罪撒き",
+  "spotId": 200,
+  "spotName": "The Quadrivium",
+  "spotNameJa": "四学科の座",
+  "zoneName": "The Crystarium",
+  "zoneNameJa": "クリスタリウム",
+  "territoryId": 819,
+  "startHour": 22.5,
+  "endHour": 23.5,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Fruit Worm"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.3
+ },
+ {
+  "id": 30433,
+  "name": "Sweetheart",
+  "nameJa": "マンイーター",
+  "spotId": 202,
+  "spotName": "The Rift of Sighs",
+  "spotNameJa": "風化した裂け目",
+  "zoneName": "Lakeland",
+  "zoneNameJa": "レイクランド",
+  "territoryId": 813,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [
+   4
+  ],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.3
+ },
+ {
+  "id": 30434,
+  "name": "Giant Taimen",
+  "nameJa": "ヒモウオ",
+  "spotId": 207,
+  "spotName": "Upper Watts River",
+  "spotNameJa": "ワッツリバー上流",
+  "zoneName": "Kholusia",
+  "zoneNameJa": "コルシア島",
+  "territoryId": 814,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.3
+ },
+ {
+  "id": 30435,
+  "name": "Leannisg",
+  "nameJa": "ラウニスク",
+  "spotId": 218,
+  "spotName": "Handmirror Lake",
+  "spotNameJa": "手鏡の湖",
+  "zoneName": "Il Mheg",
+  "zoneNameJa": "イル・メグ",
+  "territoryId": 816,
+  "startHour": 6,
+  "endHour": 8,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Marble Nymph"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.3
+ },
+ {
+  "id": 30436,
+  "name": "Gold Hammer",
+  "nameJa": "ゴールドハマー",
+  "spotId": 224,
+  "spotName": "Saint Fathric's Temple",
+  "spotNameJa": "聖ファスリクの額",
+  "zoneName": "Il Mheg",
+  "zoneNameJa": "イル・メグ",
+  "territoryId": 816,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.3
+ },
+ {
+  "id": 30437,
+  "name": "Recordkiller",
+  "nameJa": "レコードキラー",
+  "spotId": 228,
+  "spotName": "South Mjrl's Regret",
+  "spotNameJa": "ミュリルの郷愁南",
+  "zoneName": "The Rak'tika Greatwood",
+  "zoneNameJa": "ラケティカ大森林",
+  "territoryId": 817,
+  "startHour": 18,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.3
+ },
+ {
+  "id": 30438,
+  "name": "The Mother of All Pancakes",
+  "nameJa": "オヤメンダコ",
+  "spotId": 234,
+  "spotName": "East Caliban Gap",
+  "spotNameJa": "キャリバンの古巣穴東",
+  "zoneName": "The Tempest",
+  "zoneNameJa": "テンペスト",
+  "territoryId": 818,
+  "startHour": 0,
+  "endHour": 3,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Squid Strip"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.3
+ },
+ {
+  "id": 30439,
+  "name": "Opal Shrimp",
+  "nameJa": "オパールシュリンプ",
+  "spotId": 236,
+  "spotName": "The Norvrandt Slope",
+  "spotNameJa": "ノルヴラント大陸斜面",
+  "zoneName": "The Tempest",
+  "zoneNameJa": "テンペスト",
+  "territoryId": 818,
+  "startHour": 18,
+  "endHour": 20,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Squid Strip"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.3
+ },
+ {
+  "id": 32049,
+  "name": "Moonlight Guppy",
+  "nameJa": "ムーンライトグッピー",
+  "spotId": 203,
+  "spotName": "The Rusted Reservoir",
+  "spotNameJa": "錆ついた貯水池",
+  "zoneName": "Lakeland",
+  "zoneNameJa": "レイクランド",
+  "territoryId": 813,
+  "startHour": 6,
+  "endHour": 8,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   1
+  ],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.4
+ },
+ {
+  "id": 32050,
+  "name": "Steel Fan",
+  "nameJa": "ドンの軍扇",
+  "spotId": 208,
+  "spotName": "White Oil Falls",
+  "spotNameJa": "ホワイトオイルフォールズ",
+  "zoneName": "Kholusia",
+  "zoneNameJa": "コルシア島",
+  "territoryId": 814,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   3,
+   4
+  ],
+  "bestCatchPath": [
+   "Marble Nymph"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.4
+ },
+ {
+  "id": 32051,
+  "name": "Henodus Grandis",
+  "nameJa": "ヘノドゥス・グランディス",
+  "spotId": 213,
+  "spotName": "The Eastern Kholusian Coast",
+  "spotNameJa": "コルシア島沿岸東",
+  "zoneName": "Kholusia",
+  "zoneNameJa": "コルシア島",
+  "territoryId": 814,
+  "startHour": 22,
+  "endHour": 24,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Short Bill Minnow",
+   "Spearhead Squid"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.4
+ },
+ {
+  "id": 32052,
+  "name": "Sunken Tome",
+  "nameJa": "深泳の古書",
+  "spotId": 220,
+  "spotName": "The Haughty One",
+  "spotNameJa": "上の子らの流れ",
+  "zoneName": "Il Mheg",
+  "zoneNameJa": "イル・メグ",
+  "territoryId": 816,
+  "startHour": 12,
+  "endHour": 16,
+  "weatherSet": [
+   10
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Marble Nymph"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.4
+ },
+ {
+  "id": 32053,
+  "name": "Pearl Pipira",
+  "nameJa": "パーリーピピラ",
+  "spotId": 226,
+  "spotName": "The Red Chalice",
+  "spotNameJa": "血の酒坏",
+  "zoneName": "The Rak'tika Greatwood",
+  "zoneNameJa": "ラケティカ大森林",
+  "territoryId": 817,
+  "startHour": 17,
+  "endHour": 20,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Robber Ball",
+   "Diamond Pipira"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.4
+ },
+ {
+  "id": 32054,
+  "name": "The Ondotaker",
+  "nameJa": "オンドの仇敵",
+  "spotId": 231,
+  "spotName": "Where the Dry Return",
+  "spotNameJa": "陸人の墓標",
+  "zoneName": "The Tempest",
+  "zoneNameJa": "テンペスト",
+  "territoryId": 818,
+  "startHour": 8,
+  "endHour": 10,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [
+   1
+  ],
+  "bestCatchPath": [
+   "Squid Strip"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.4
+ },
+ {
+  "id": 33316,
+  "name": "Aster Trivi",
+  "nameJa": "アスタートリヴィ",
+  "spotId": 199,
+  "spotName": "The Trivium",
+  "spotNameJa": "三学科の座",
+  "zoneName": "The Crystarium",
+  "zoneNameJa": "クリスタリウム",
+  "territoryId": 819,
+  "startHour": 22,
+  "endHour": 24,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   1
+  ],
+  "bestCatchPath": [
+   "Marble Nymph"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.5
+ },
+ {
+  "id": 33317,
+  "name": "Python Discus",
+  "nameJa": "パイソンディスカス",
+  "spotId": 205,
+  "spotName": "Sullen",
+  "spotNameJa": "サレン郷",
+  "zoneName": "Lakeland",
+  "zoneNameJa": "レイクランド",
+  "territoryId": 813,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   10
+  ],
+  "previousWeatherSet": [
+   7
+  ],
+  "bestCatchPath": [
+   "Fruit Worm"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.5
+ },
+ {
+  "id": 33318,
+  "name": "Steel Razor",
+  "nameJa": "スチールレイザーフィッシュ",
+  "spotId": 211,
+  "spotName": "The Western Kholusian Coast",
+  "spotNameJa": "コルシア島沿岸西",
+  "zoneName": "Kholusia",
+  "zoneNameJa": "コルシア島",
+  "territoryId": 814,
+  "startHour": 6,
+  "endHour": 8,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Moyebi Shrimp"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.5
+ },
+ {
+  "id": 33319,
+  "name": "Shadeshifter",
+  "nameJa": "シャドウシフター",
+  "spotId": 212,
+  "spotName": "Seagazer Shoals",
+  "spotNameJa": "シーゲイザーの入江",
+  "zoneName": "Kholusia",
+  "zoneNameJa": "コルシア島",
+  "territoryId": 814,
+  "startHour": 10,
+  "endHour": 14,
+  "weatherSet": [
+   6
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Squid Strip"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.5
+ },
+ {
+  "id": 33320,
+  "name": "Nabaath Saw",
+  "nameJa": "ナバースソー",
+  "spotId": 217,
+  "spotName": "The Nabaath Severance",
+  "spotNameJa": "ナバースの断絶",
+  "zoneName": "Amh Araeng",
+  "zoneNameJa": "アム・アレーン",
+  "territoryId": 815,
+  "startHour": 6,
+  "endHour": 10,
+  "weatherSet": [
+   14
+  ],
+  "previousWeatherSet": [
+   1,
+   2,
+   14
+  ],
+  "bestCatchPath": [
+   "Jerked Ovim",
+   "Desert Saw"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.5
+ },
+ {
+  "id": 33322,
+  "name": "Celestial",
+  "nameJa": "頂天眼",
+  "spotId": 222,
+  "spotName": "Father Collard's Failings",
+  "spotNameJa": "コラードの排水溝",
+  "zoneName": "Il Mheg",
+  "zoneNameJa": "イル・メグ",
+  "territoryId": 816,
+  "startHour": 7,
+  "endHour": 17,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   10
+  ],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.5
+ },
+ {
+  "id": 33321,
+  "name": "Dammroen Herring",
+  "nameJa": "ダメルンズチェリー",
+  "spotId": 223,
+  "spotName": "The Spoiled One",
+  "spotNameJa": "末の子らの流れ",
+  "zoneName": "Il Mheg",
+  "zoneNameJa": "イル・メグ",
+  "territoryId": 816,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.5
+ },
+ {
+  "id": 33323,
+  "name": "Deephaunt",
+  "nameJa": "底闇魚",
+  "spotId": 229,
+  "spotName": "Woven Oath",
+  "spotNameJa": "ウォーヴンオウス",
+  "zoneName": "The Rak'tika Greatwood",
+  "zoneNameJa": "ラケティカ大森林",
+  "territoryId": 817,
+  "startHour": 2,
+  "endHour": 6,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.5
+ },
+ {
+  "id": 33325,
+  "name": "Mora Tecta",
+  "nameJa": "モラ・テクタ",
+  "spotId": 232,
+  "spotName": "Northwest Caliban Gorge",
+  "spotNameJa": "キャリバン海底谷北西",
+  "zoneName": "The Tempest",
+  "zoneNameJa": "テンペスト",
+  "territoryId": 818,
+  "startHour": 22,
+  "endHour": 24,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Short Bill Minnow"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.5
+ },
+ {
+  "id": 33326,
+  "name": "Maru Crab",
+  "nameJa": "マルヒルスタ",
+  "spotId": 233,
+  "spotName": "West Caliban Gap",
+  "spotNameJa": "キャリバンの古巣穴西",
+  "zoneName": "The Tempest",
+  "zoneNameJa": "テンペスト",
+  "territoryId": 818,
+  "startHour": 16,
+  "endHour": 20,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Short Bill Minnow",
+   "Ancient Shrimp"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.5
+ },
+ {
+  "id": 33324,
+  "name": "Golden Pipira",
+  "nameJa": "ゴールデンピピラ",
+  "spotId": 245,
+  "spotName": "Mjrl's Tears",
+  "spotNameJa": "ミュリルの落涙",
+  "zoneName": "The Rak'tika Greatwood",
+  "zoneNameJa": "ラケティカ大森林",
+  "territoryId": 817,
+  "startHour": 6,
+  "endHour": 7,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Robber Ball"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.5
+ },
+ {
+  "id": 33239,
+  "name": "Listracanthus",
+  "nameJa": "リストラカントゥス",
+  "spotId": 206,
+  "spotName": "The Isle of Ken",
+  "spotNameJa": "ケンの島",
+  "zoneName": "Lakeland",
+  "zoneNameJa": "レイクランド",
+  "territoryId": 813,
+  "startHour": 16,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Baitbugs",
+   "The Jaws of Undeath"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.55
+ },
+ {
+  "id": 33240,
+  "name": "Aquamaton",
+  "nameJa": "アクアマトン",
+  "spotId": 212,
+  "spotName": "Seagazer Shoals",
+  "spotNameJa": "シーゲイザーの入江",
+  "zoneName": "Kholusia",
+  "zoneNameJa": "コルシア島",
+  "territoryId": 814,
+  "startHour": 10,
+  "endHour": 16,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Short Bill Minnow"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 5.55
+ },
+ {
+  "id": 33241,
+  "name": "Cinder Surprise",
+  "nameJa": "サプライズエッグ",
+  "spotId": 215,
+  "spotName": "The River of Sand",
+  "spotNameJa": "砂の川",
+  "zoneName": "Amh Araeng",
+  "zoneNameJa": "アム・アレーン",
+  "territoryId": 815,
+  "startHour": 0,
+  "endHour": 2,
+  "weatherSet": [
+   14
+  ],
+  "previousWeatherSet": [
+   11
+  ],
+  "bestCatchPath": [
+   "Desert Dessert Frog"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 5.55
+ },
+ {
+  "id": 33242,
+  "name": "Ealad Skaan",
+  "nameJa": "イラッド・スカーン",
+  "spotId": 219,
+  "spotName": "Longmirror Lake",
+  "spotNameJa": "姿見の湖",
+  "zoneName": "Il Mheg",
+  "zoneNameJa": "イル・メグ",
+  "territoryId": 816,
+  "startHour": 23.5,
+  "endHour": 24,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   10
+  ],
+  "bestCatchPath": [
+   "Baitbugs"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.55
+ },
+ {
+  "id": 33243,
+  "name": "Greater Serpent of Ronka",
+  "nameJa": "ロンカの大水蛇？",
+  "spotId": 225,
+  "spotName": "Lake Tusi Mek'ta",
+  "spotNameJa": "トゥシ・メキタ湖",
+  "zoneName": "The Rak'tika Greatwood",
+  "zoneNameJa": "ラケティカ大森林",
+  "territoryId": 817,
+  "startHour": 10,
+  "endHour": 12,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Robber Ball",
+   "Clown Tetra",
+   "Eryops",
+   "Priest of Yx'Lokwa"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 5.55
+ },
+ {
+  "id": 33244,
+  "name": "Lancetfish",
+  "nameJa": "ミズウオ",
+  "spotId": 232,
+  "spotName": "Northwest Caliban Gorge",
+  "spotNameJa": "キャリバン海底谷北西",
+  "zoneName": "The Tempest",
+  "zoneNameJa": "テンペスト",
+  "territoryId": 818,
+  "startHour": 0,
+  "endHour": 2,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Squid Strip"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 5.55
+ },
+ {
+  "id": 36454,
+  "name": "Basilosaurus",
+  "nameJa": "ドルドン",
+  "spotId": 269,
+  "spotName": "The Perfumed Tides",
+  "spotNameJa": "薫香の浜",
+  "zoneName": "Thavnair",
+  "zoneNameJa": "サベネア島",
+  "territoryId": 957,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Mackerel Strip",
+   "Puff-paya"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.0
+ },
+ {
+  "id": 36472,
+  "name": "Lunar Deathworm",
+  "nameJa": "ルナ・デスワーム",
+  "spotId": 273,
+  "spotName": "The Chlorophospond",
+  "spotNameJa": "クロロフォス・ポンド",
+  "zoneName": "Mare Lamentorum",
+  "zoneNameJa": "嘆きの海",
+  "territoryId": 959,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Grey Worm",
+   "Calicia"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.0
+ },
+ {
+  "id": 36521,
+  "name": "Phallaina",
+  "nameJa": "パライナ",
+  "spotId": 285,
+  "spotName": "Limne 3-β",
+  "spotNameJa": "リムニ・トゥリアβ",
+  "zoneName": "Ultima Thule",
+  "zoneNameJa": "ウルティマ・トゥーレ",
+  "territoryId": 960,
+  "startHour": 0,
+  "endHour": 4,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   [
+    "Stardust",
+    "Panic Jig"
+   ],
+   "Horizon Event"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.0
+ },
+ {
+  "id": 36679,
+  "name": "Aetherolectric Guitarfish",
+  "nameJa": "エレキギターフィッシュ",
+  "spotId": 252,
+  "spotName": "Scholar's Harbor",
+  "spotNameJa": "知神の港",
+  "zoneName": "Old Sharlayan",
+  "zoneNameJa": "オールド・シャーレアン",
+  "territoryId": 962,
+  "startHour": 20,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Mackerel Strip"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.1
+ },
+ {
+  "id": 36680,
+  "name": "Jumbo Snook",
+  "nameJa": "ジャンボスヌーク",
+  "spotId": 255,
+  "spotName": "Unmoved Source Alpha",
+  "spotNameJa": "一号天球口",
+  "zoneName": "Labyrinthos",
+  "zoneNameJa": "ラヴィリンソス",
+  "territoryId": 956,
+  "startHour": 18,
+  "endHour": 22,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.1
+ },
+ {
+  "id": 36681,
+  "name": "Earful",
+  "nameJa": "イアフルサンフィッシュ",
+  "spotId": 260,
+  "spotName": "Meghaduta",
+  "spotNameJa": "メーガドゥータの飛沫",
+  "zoneName": "Radz-at-Han",
+  "zoneNameJa": "ラザハン",
+  "territoryId": 963,
+  "startHour": 4,
+  "endHour": 8,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.1
+ },
+ {
+  "id": 36682,
+  "name": "Hippo Frog",
+  "nameJa": "ヒッポフロッグ",
+  "spotId": 264,
+  "spotName": "Giantsgall Grounds",
+  "spotNameJa": "ギガントガル採石場",
+  "zoneName": "Thavnair",
+  "zoneNameJa": "サベネア島",
+  "territoryId": 957,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   8
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.1
+ },
+ {
+  "id": 36683,
+  "name": "Rimepike",
+  "nameJa": "フリジッドガー",
+  "spotId": 270,
+  "spotName": "The Eblan Thaw",
+  "spotNameJa": "エブラーナ不凍池",
+  "zoneName": "Garlemald",
+  "zoneNameJa": "ガレマルド",
+  "territoryId": 958,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   15
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Mayfly",
+   "Cerule Core"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.1
+ },
+ {
+  "id": 36684,
+  "name": "Foun Ahlm",
+  "nameJa": "フォン・アールム",
+  "spotId": 279,
+  "spotName": "Apohelos 18-β",
+  "spotNameJa": "ヘロス・デカオクトβ",
+  "zoneName": "Ultima Thule",
+  "zoneNameJa": "ウルティマ・トゥーレ",
+  "territoryId": 960,
+  "startHour": 10,
+  "endHour": 14,
+  "weatherSet": [
+   49
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Chimera Worm"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.1
+ },
+ {
+  "id": 36685,
+  "name": "Forbiddingway",
+  "nameJa": "フォービディングウェイ",
+  "spotId": 283,
+  "spotName": "Limne 18",
+  "spotNameJa": "リムニ・デカオクト",
+  "zoneName": "Ultima Thule",
+  "zoneNameJa": "ウルティマ・トゥーレ",
+  "territoryId": 960,
+  "startHour": 8,
+  "endHour": 12,
+  "weatherSet": [
+   149
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stardust"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.1
+ },
+ {
+  "id": 37845,
+  "name": "Greatsword Snook",
+  "nameJa": "グレートソードスヌーク",
+  "spotId": 253,
+  "spotName": "Oinops",
+  "spotNameJa": "碧き谷",
+  "zoneName": "Old Sharlayan",
+  "zoneNameJa": "オールド・シャーレアン",
+  "territoryId": 962,
+  "startHour": 16,
+  "endHour": 20,
+  "weatherSet": [
+   15
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.2
+ },
+ {
+  "id": 37846,
+  "name": "Swampsucker Bowfin",
+  "nameJa": "スワンプボウフィン",
+  "spotId": 257,
+  "spotName": "Unmoved Source Beta",
+  "spotNameJa": "二号天球口",
+  "zoneName": "Labyrinthos",
+  "zoneNameJa": "ラヴィリンソス",
+  "territoryId": 956,
+  "startHour": 8,
+  "endHour": 16,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Sky Spoon Lure"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.2
+ },
+ {
+  "id": 37847,
+  "name": "Lale Crab",
+  "nameJa": "ラーレギュルクラブ",
+  "spotId": 261,
+  "spotName": "Yedlihmad",
+  "spotNameJa": "イェドリマン沿岸",
+  "zoneName": "Thavnair",
+  "zoneNameJa": "サベネア島",
+  "territoryId": 957,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Shrimp Ball"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.2
+ },
+ {
+  "id": 37848,
+  "name": "Bigcuda",
+  "nameJa": "ビッグビックーダ",
+  "spotId": 266,
+  "spotName": "Ksiroda",
+  "spotNameJa": "クシールローダ川",
+  "zoneName": "Thavnair",
+  "zoneNameJa": "サベネア島",
+  "territoryId": 957,
+  "startHour": 8,
+  "endHour": 16,
+  "weatherSet": [
+   7,
+   8
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Sky Spoon Lure"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.2
+ },
+ {
+  "id": 37849,
+  "name": "Sovereign Shadow",
+  "nameJa": "影なる帝冠",
+  "spotId": 271,
+  "spotName": "The Stainless Course",
+  "spotNameJa": "潔白の環濠",
+  "zoneName": "Garlemald",
+  "zoneNameJa": "ガレマルド",
+  "territoryId": 958,
+  "startHour": 2,
+  "endHour": 8,
+  "weatherSet": [
+   15
+  ],
+  "previousWeatherSet": [
+   3,
+   4
+  ],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.2
+ },
+ {
+  "id": 37850,
+  "name": "Disappirarucu",
+  "nameJa": "イミテーションピラルク",
+  "spotId": 272,
+  "spotName": "Greatest Endsvale",
+  "spotNameJa": "グレーテスト・エンズヴィル",
+  "zoneName": "Mare Lamentorum",
+  "zoneNameJa": "嘆きの海",
+  "territoryId": 959,
+  "startHour": 0,
+  "endHour": 2,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.2
+ },
+ {
+  "id": 37853,
+  "name": "Planetes",
+  "nameJa": "水面の恒星",
+  "spotId": 275,
+  "spotName": "Rumination's Ramble",
+  "spotNameJa": "逍遥水径",
+  "zoneName": "Elpis",
+  "zoneNameJa": "エルピス",
+  "territoryId": 961,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   49
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Mayfly",
+   "Albino Loach"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.2
+ },
+ {
+  "id": 37851,
+  "name": "Starscryer",
+  "nameJa": "破軍星の欠片",
+  "spotId": 281,
+  "spotName": "The Wellspring of Regret",
+  "spotNameJa": "逡巡の泉",
+  "zoneName": "Ultima Thule",
+  "zoneNameJa": "ウルティマ・トゥーレ",
+  "territoryId": 960,
+  "startHour": 2,
+  "endHour": 4,
+  "weatherSet": [
+   149
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.2
+ },
+ {
+  "id": 37852,
+  "name": "Argonauta argo",
+  "nameJa": "アルゴノート・アルゴ",
+  "spotId": 284,
+  "spotName": "Limne 3-α",
+  "spotNameJa": "リムニ・トゥリアα",
+  "zoneName": "Ultima Thule",
+  "zoneNameJa": "ウルティマ・トゥーレ",
+  "territoryId": 960,
+  "startHour": 2,
+  "endHour": 4,
+  "weatherSet": [
+   49
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Stardust"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.2
+ },
+ {
+  "id": 38830,
+  "name": "Catastrophizer",
+  "nameJa": "万慮魚",
+  "spotId": 254,
+  "spotName": "Reflecting Pool",
+  "spotNameJa": "沈思の泉",
+  "zoneName": "Old Sharlayan",
+  "zoneNameJa": "オールド・シャーレアン",
+  "territoryId": 962,
+  "startHour": 8,
+  "endHour": 14,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.3
+ },
+ {
+  "id": 38831,
+  "name": "Mossgill Salmon",
+  "nameJa": "モスグリーンサーモン",
+  "spotId": 256,
+  "spotName": "The Mover Alpha",
+  "spotNameJa": "一号排出路",
+  "zoneName": "Labyrinthos",
+  "zoneNameJa": "ラヴィリンソス",
+  "territoryId": 956,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Sky Spoon Lure"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.3
+ },
+ {
+  "id": 38832,
+  "name": "Vidyutvat Wrasse",
+  "nameJa": "ヴィジュヴァト・ラス",
+  "spotId": 263,
+  "spotName": "The Great Runoff",
+  "spotNameJa": "デミールの遺烈郷沿岸",
+  "zoneName": "Thavnair",
+  "zoneNameJa": "サベネア島",
+  "territoryId": 957,
+  "startHour": 20,
+  "endHour": 24,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Shrimp Ball"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.3
+ },
+ {
+  "id": 38833,
+  "name": "Browned Banana Eel",
+  "nameJa": "ブラウンバナナイール",
+  "spotId": 267,
+  "spotName": "Pavana's Remorse",
+  "spotNameJa": "パワナの悔悟",
+  "zoneName": "Thavnair",
+  "zoneNameJa": "サベネア島",
+  "territoryId": 957,
+  "startHour": 22,
+  "endHour": 2,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.3
+ },
+ {
+  "id": 38834,
+  "name": "Frozen Regotoise",
+  "nameJa": "フローズン・レゴリストータス",
+  "spotId": 274,
+  "spotName": "The Frozen Fissure",
+  "spotNameJa": "氷土の亀裂",
+  "zoneName": "Mare Lamentorum",
+  "zoneNameJa": "嘆きの海",
+  "territoryId": 959,
+  "startHour": 10,
+  "endHour": 13,
+  "weatherSet": [
+   49
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Chimera Worm"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.3
+ },
+ {
+  "id": 38836,
+  "name": "Antheian Dahlia",
+  "nameJa": "アンテイア・ダーリア",
+  "spotId": 277,
+  "spotName": "Lethe",
+  "spotNameJa": "レーテー海",
+  "zoneName": "Elpis",
+  "zoneNameJa": "エルピス",
+  "territoryId": 961,
+  "startHour": 4,
+  "endHour": 10,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.3
+ },
+ {
+  "id": 38835,
+  "name": "Cosmic Haze",
+  "nameJa": "コズミック・ヘイズ",
+  "spotId": 278,
+  "spotName": "Apohelos 18-γ",
+  "spotNameJa": "ヘロス・デカオクトγ",
+  "zoneName": "Ultima Thule",
+  "zoneNameJa": "ウルティマ・トゥーレ",
+  "territoryId": 960,
+  "startHour": 20,
+  "endHour": 4,
+  "weatherSet": [
+   149
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Chimera Worm",
+   "Vacuum Shrimp"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.3
+ },
+ {
+  "id": 39879,
+  "name": "Onyx Knifefish",
+  "nameJa": "オニキスナイフフィッシュ",
+  "spotId": 258,
+  "spotName": "The Mover Beta",
+  "spotNameJa": "二号排出路",
+  "zoneName": "Labyrinthos",
+  "zoneNameJa": "ラヴィリンソス",
+  "territoryId": 956,
+  "startHour": 22,
+  "endHour": 2,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   7
+  ],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.4
+ },
+ {
+  "id": 39880,
+  "name": "Wakeful Warden",
+  "nameJa": "トラーナの目付役",
+  "spotId": 265,
+  "spotName": "The Wakeful Torana",
+  "spotNameJa": "トラーナ関門",
+  "zoneName": "Thavnair",
+  "zoneNameJa": "サベネア島",
+  "territoryId": 957,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [
+   4
+  ],
+  "bestCatchPath": [
+   "Leech"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.4
+ },
+ {
+  "id": 39881,
+  "name": "Basilosaurus Rex",
+  "nameJa": "ドンドルドン",
+  "spotId": 269,
+  "spotName": "The Perfumed Tides",
+  "spotNameJa": "薫香の浜",
+  "zoneName": "Thavnair",
+  "zoneNameJa": "サベネア島",
+  "territoryId": 957,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Mackerel Strip",
+   "Puff-paya",
+   "Basilosaurus"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.4
+ },
+ {
+  "id": 39883,
+  "name": "Gilt Dermogenys",
+  "nameJa": "ゴールデン・デルモゲニー",
+  "spotId": 276,
+  "spotName": "The Lower Hungering Gardens",
+  "spotNameJa": "牙の園下層",
+  "zoneName": "Elpis",
+  "zoneNameJa": "エルピス",
+  "territoryId": 961,
+  "startHour": 20,
+  "endHour": 22,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [
+   49
+  ],
+  "bestCatchPath": [
+   "Sky Spoon Lure"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.4
+ },
+ {
+  "id": 39882,
+  "name": "Eehs Fan",
+  "nameJa": "エー・ファン",
+  "spotId": 280,
+  "spotName": "Apohelos 18-α",
+  "spotNameJa": "ヘロス・デカオクトα",
+  "zoneName": "Ultima Thule",
+  "zoneNameJa": "ウルティマ・トゥーレ",
+  "territoryId": 960,
+  "startHour": 12,
+  "endHour": 20,
+  "weatherSet": [
+   49
+  ],
+  "previousWeatherSet": [
+   149
+  ],
+  "bestCatchPath": [
+   "Chimera Worm"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.4
+ },
+ {
+  "id": 41401,
+  "name": "Circuit Tilapia",
+  "nameJa": "サーキット・ティラピア",
+  "spotId": 259,
+  "spotName": "Deepmoat",
+  "spotNameJa": "ディープモート",
+  "zoneName": "Labyrinthos",
+  "zoneNameJa": "ラヴィリンソス",
+  "territoryId": 956,
+  "startHour": 8,
+  "endHour": 12,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Mayfly",
+   "Astacus Aetherius"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.5
+ },
+ {
+  "id": 41402,
+  "name": "Durdina Fish",
+  "nameJa": "ドゥルディナフィッシュ",
+  "spotId": 262,
+  "spotName": "The Thavnairian Coast",
+  "spotNameJa": "サベネア島近海",
+  "zoneName": "Thavnair",
+  "zoneNameJa": "サベネア島",
+  "territoryId": 957,
+  "startHour": 0,
+  "endHour": 4,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Shrimp Ball",
+   "Shadowdart Sardine"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.5
+ },
+ {
+  "id": 41403,
+  "name": "Mayaman",
+  "nameJa": "マーヤーカイマン",
+  "spotId": 268,
+  "spotName": "The Font of Maya",
+  "spotNameJa": "マーヤーの幻泉",
+  "zoneName": "Thavnair",
+  "zoneNameJa": "サベネア島",
+  "territoryId": 957,
+  "startHour": 4,
+  "endHour": 8,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 6.5
+ },
+ {
+  "id": 41404,
+  "name": "Chlorophos Deathworm",
+  "nameJa": "クロロフォス・デスワーム",
+  "spotId": 273,
+  "spotName": "The Chlorophospond",
+  "spotNameJa": "クロロフォス・ポンド",
+  "zoneName": "Mare Lamentorum",
+  "zoneNameJa": "嘆きの海",
+  "territoryId": 959,
+  "startHour": 2,
+  "endHour": 8,
+  "weatherSet": [
+   148
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Chimera Worm",
+   "Calicia"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.5
+ },
+ {
+  "id": 41405,
+  "name": "Starscale Ephemeris",
+  "nameJa": "オービティングスター",
+  "spotId": 282,
+  "spotName": "Abode of the Ea",
+  "spotNameJa": "イーアの里",
+  "zoneName": "Ultima Thule",
+  "zoneNameJa": "ウルティマ・トゥーレ",
+  "territoryId": 960,
+  "startHour": 18,
+  "endHour": 22,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   149
+  ],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.5
+ },
+ {
+  "id": 41406,
+  "name": "E.B.E.-852738",
+  "nameJa": "E.B.E-852738",
+  "spotId": 285,
+  "spotName": "Limne 3-β",
+  "spotNameJa": "リムニ・トゥリアβ",
+  "zoneName": "Ultima Thule",
+  "zoneNameJa": "ウルティマ・トゥーレ",
+  "territoryId": 960,
+  "startHour": 12,
+  "endHour": 16,
+  "weatherSet": [
+   49
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Stardust"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.5
+ },
+ {
+  "id": 41407,
+  "name": "Hyphalosaurus",
+  "nameJa": "ヒファロサウルス",
+  "spotId": 259,
+  "spotName": "Deepmoat",
+  "spotNameJa": "ディープモート",
+  "zoneName": "Labyrinthos",
+  "zoneNameJa": "ラヴィリンソス",
+  "territoryId": 956,
+  "startHour": 9,
+  "endHour": 12,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   1
+  ],
+  "bestCatchPath": [
+   "Mayfly",
+   "Astacus Aetherius"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 6.55
+ },
+ {
+  "id": 41408,
+  "name": "Gharlichthys",
+  "nameJa": "ガールシクティス",
+  "spotId": 269,
+  "spotName": "The Perfumed Tides",
+  "spotNameJa": "薫香の浜",
+  "zoneName": "Thavnair",
+  "zoneNameJa": "サベネア島",
+  "territoryId": 957,
+  "startHour": 14,
+  "endHour": 16,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   8
+  ],
+  "bestCatchPath": [
+   "Mackerel Strip"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 6.55
+ },
+ {
+  "id": 41409,
+  "name": "Snowy Parexus",
+  "nameJa": "スノウパレクス",
+  "spotId": 270,
+  "spotName": "The Eblan Thaw",
+  "spotNameJa": "エブラーナ不凍池",
+  "zoneName": "Garlemald",
+  "zoneNameJa": "ガレマルド",
+  "territoryId": 958,
+  "startHour": 16,
+  "endHour": 24,
+  "weatherSet": [
+   15
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Mayfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 6.55
+ },
+ {
+  "id": 41411,
+  "name": "Lopoceras Elegans",
+  "nameJa": "レポセラス・エレガンス",
+  "spotId": 273,
+  "spotName": "The Chlorophospond",
+  "spotNameJa": "クロロフォス・ポンド",
+  "zoneName": "Mare Lamentorum",
+  "zoneNameJa": "嘆きの海",
+  "territoryId": 959,
+  "startHour": 8,
+  "endHour": 10,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   148
+  ],
+  "bestCatchPath": [
+   "Chimera Worm"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.55
+ },
+ {
+  "id": 41410,
+  "name": "Furcacauda",
+  "nameJa": "フルカカウダ",
+  "spotId": 277,
+  "spotName": "Lethe",
+  "spotNameJa": "レーテー海",
+  "zoneName": "Elpis",
+  "zoneNameJa": "エルピス",
+  "territoryId": 961,
+  "startHour": 15.5,
+  "endHour": 16.5,
+  "weatherSet": [
+   49
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Sky Spoon Lure"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 6.55
+ },
+ {
+  "id": 41412,
+  "name": "Sidereal Whale",
+  "nameJa": "スターホエール",
+  "spotId": 285,
+  "spotName": "Limne 3-β",
+  "spotNameJa": "リムニ・トゥリアβ",
+  "zoneName": "Ultima Thule",
+  "zoneNameJa": "ウルティマ・トゥーレ",
+  "territoryId": 960,
+  "startHour": 0,
+  "endHour": 8,
+  "weatherSet": [
+   149
+  ],
+  "previousWeatherSet": [
+   49
+  ],
+  "bestCatchPath": [
+   [
+    "Stardust",
+    "Panic Jig"
+   ],
+   "Horizon Event"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 6.55
+ },
+ {
+  "id": 44339,
+  "name": "Icuvlo's Barter",
+  "nameJa": "イクブロフロッグ",
+  "spotId": 294,
+  "spotName": "Downripple",
+  "spotNameJa": "嘴休めの泉",
+  "zoneName": "Tuliyollal",
+  "zoneNameJa": "トライヨラ",
+  "territoryId": 1185,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.1
+ },
+ {
+  "id": 44340,
+  "name": "Moongripper",
+  "nameJa": "ムーンキャッチャー",
+  "spotId": 297,
+  "spotName": "Sunken Stars",
+  "spotNameJa": "涙浮かぶ星池",
+  "zoneName": "Urqopacha",
+  "zoneNameJa": "オルコ・パチャ",
+  "territoryId": 1187,
+  "startHour": 12,
+  "endHour": 14,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "White Worm"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.1
+ },
+ {
+  "id": 44341,
+  "name": "Cazuela Crab",
+  "nameJa": "ナベブタガニ",
+  "spotId": 301,
+  "spotName": "Waters Hanu",
+  "spotNameJa": "ハヌの水辺",
+  "zoneName": "Kozama'uka",
+  "zoneNameJa": "コザマル・カ",
+  "territoryId": 1188,
+  "startHour": 16,
+  "endHour": 20,
+  "weatherSet": [
+   3,
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.1
+ },
+ {
+  "id": 44343,
+  "name": "Ilyon Asoh Cichlid",
+  "nameJa": "イヨンアソ・シクリッド",
+  "spotId": 308,
+  "spotName": "Xd'aa Talat Tsoly",
+  "spotNameJa": "シャダータラト・ゾユ",
+  "zoneName": "Yak T'el",
+  "zoneNameJa": "ヤクテル樹海",
+  "territoryId": 1189,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.1
+ },
+ {
+  "id": 44342,
+  "name": "Stardust Sleeper",
+  "nameJa": "スターダスト・スリーパー",
+  "spotId": 318,
+  "spotName": "Xty'iinbek Tsoly",
+  "spotNameJa": "シャティーンベク・ゾユ",
+  "zoneName": "Yak T'el",
+  "zoneNameJa": "ヤクテル樹海",
+  "territoryId": 1189,
+  "startHour": 20,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   [
+    "Crimson Lugworm",
+    "Ghost Nipper"
+   ],
+   "Sharknose Goby",
+   "Yak T'el Crab"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.1
+ },
+ {
+  "id": 44345,
+  "name": "Hwittayoanaan Cichlid",
+  "nameJa": "ウィダヨーナン・シクリッド",
+  "spotId": 319,
+  "spotName": "Niikwerepi",
+  "spotNameJa": "ニーケレピ川",
+  "zoneName": "Shaaloani",
+  "zoneNameJa": "シャーローニ荒野",
+  "territoryId": 1190,
+  "startHour": 4,
+  "endHour": 8,
+  "weatherSet": [
+   1,
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.1
+ },
+ {
+  "id": 44346,
+  "name": "Thunderswift Trout",
+  "nameJa": "サンダードリフトトラウト",
+  "spotId": 324,
+  "spotName": "The Driftdowns",
+  "spotNameJa": "ドリフトダウンズ",
+  "zoneName": "Heritage Found",
+  "zoneNameJa": "ヘリテージファウンド",
+  "territoryId": 1191,
+  "startHour": 9,
+  "endHour": 11,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.1
+ },
+ {
+  "id": 44344,
+  "name": "Pixel Loach",
+  "nameJa": "ピクセルローチ",
+  "spotId": 327,
+  "spotName": "Residential Sector",
+  "spotNameJa": "レジデンシャルセクター",
+  "zoneName": "Solution Nine",
+  "zoneNameJa": "ソリューション・ナイン",
+  "territoryId": 1186,
+  "startHour": 0,
+  "endHour": 4,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.1
+ },
+ {
+  "id": 47988,
+  "name": "Cabinkeep Permit",
+  "nameJa": "キャビンキープ・パーミット",
+  "spotId": 295,
+  "spotName": "The For'ard Cabins",
+  "spotNameJa": "フォルアード・キャビンズ",
+  "zoneName": "Tuliyollal",
+  "zoneNameJa": "トライヨラ",
+  "territoryId": 1185,
+  "startHour": 5,
+  "endHour": 7,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Ghost Nipper"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.2
+ },
+ {
+  "id": 47989,
+  "name": "Muttering Matamata",
+  "nameJa": "マダ・マタマタ",
+  "spotId": 300,
+  "spotName": "Bopo'uihih",
+  "spotNameJa": "ボポル・ウィヒヒ",
+  "zoneName": "Kozama'uka",
+  "zoneNameJa": "コザマル・カ",
+  "territoryId": 1188,
+  "startHour": 12,
+  "endHour": 14,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   [
+    "Honeybee",
+    "Golden Stonefly Nymph"
+   ],
+   "Poison Dyefrog"
+  ],
+  "tug": "heavy",
+  "hookset": null,
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.2
+ },
+ {
+  "id": 47990,
+  "name": "Riverlong Candiru",
+  "nameJa": "リバーロング・カンディル",
+  "spotId": 302,
+  "spotName": "Miyakabek'zu",
+  "spotNameJa": "ミヤカ・ベック下流",
+  "zoneName": "Kozama'uka",
+  "zoneNameJa": "コザマル・カ",
+  "territoryId": 1188,
+  "startHour": 0,
+  "endHour": 4,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.2
+ },
+ {
+  "id": 47991,
+  "name": "Deep Canopy",
+  "nameJa": "央森の枯葉",
+  "spotId": 309,
+  "spotName": "Iq Br'aax Reservoir",
+  "spotNameJa": "イクブラーシャの溜池",
+  "zoneName": "Yak T'el",
+  "zoneNameJa": "ヤクテル樹海",
+  "territoryId": 1189,
+  "startHour": 10,
+  "endHour": 12,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.2
+ },
+ {
+  "id": 47992,
+  "name": "Awaksbane Apoda",
+  "nameJa": "アワクスベイン・アポダ",
+  "spotId": 310,
+  "spotName": "Yak Awak Tsoly",
+  "spotNameJa": "ヤクアワク・ゾユ",
+  "zoneName": "Yak T'el",
+  "zoneNameJa": "ヤクテル樹海",
+  "territoryId": 1189,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   3,
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.2
+ },
+ {
+  "id": 47993,
+  "name": "Ttokatoa",
+  "nameJa": "ドクトー",
+  "spotId": 320,
+  "spotName": "Lake Toari",
+  "spotNameJa": "トーリ湖",
+  "zoneName": "Shaaloani",
+  "zoneNameJa": "シャーローニ荒野",
+  "territoryId": 1190,
+  "startHour": 20,
+  "endHour": 24,
+  "weatherSet": [
+   11
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Popper Lure",
+   "Niikwerepi Trout"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.2
+ },
+ {
+  "id": 47994,
+  "name": "Thunderous Flounder",
+  "nameJa": "サンダラスフラウンダー",
+  "spotId": 325,
+  "spotName": "Crackling Canyons",
+  "spotNameJa": "帯雷危険水域",
+  "zoneName": "Heritage Found",
+  "zoneNameJa": "ヘリテージファウンド",
+  "territoryId": 1191,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.2
+ },
+ {
+  "id": 47995,
+  "name": "Harlequin Queen",
+  "nameJa": "ハーレクインクイーン",
+  "spotId": 328,
+  "spotName": "The Knowable",
+  "spotNameJa": "ザ・ノーアブル",
+  "zoneName": "Living Memory",
+  "zoneNameJa": "リビング・メモリー",
+  "territoryId": 1192,
+  "startHour": 16,
+  "endHour": 18,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.2
+ },
+ {
+  "id": 46189,
+  "name": "Prime Adjudicator",
+  "nameJa": "深奥の代言人",
+  "spotId": 299,
+  "spotName": "Karvarhur the First",
+  "spotNameJa": "カーヴァーフー湖",
+  "zoneName": "Urqopacha",
+  "zoneNameJa": "オルコ・パチャ",
+  "territoryId": 1187,
+  "startHour": 12,
+  "endHour": 16,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.3
+ },
+ {
+  "id": 46190,
+  "name": "Crenicichla Miyaka",
+  "nameJa": "クレニシクラ・ミヤカ",
+  "spotId": 303,
+  "spotName": "The Dewspun Bank",
+  "spotNameJa": "デュースパン・バンク",
+  "zoneName": "Kozama'uka",
+  "zoneNameJa": "コザマル・カ",
+  "territoryId": 1188,
+  "startHour": 6,
+  "endHour": 8,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.3
+ },
+ {
+  "id": 46191,
+  "name": "Iron Shadowtongue",
+  "nameJa": "アイロンブラックアロワナ",
+  "spotId": 311,
+  "spotName": "Iq Rrax Tsoly",
+  "spotNameJa": "イクラシュ・ゾユ",
+  "zoneName": "Yak T'el",
+  "zoneNameJa": "ヤクテル樹海",
+  "territoryId": 1189,
+  "startHour": 16,
+  "endHour": 18,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.3
+ },
+ {
+  "id": 46192,
+  "name": "Lotl-in-waiting",
+  "nameJa": "コンソートアクソロトル",
+  "spotId": 312,
+  "spotName": "Xobr'it Tsoly",
+  "spotNameJa": "ショブリト・ゾユ",
+  "zoneName": "Yak T'el",
+  "zoneNameJa": "ヤクテル樹海",
+  "territoryId": 1189,
+  "startHour": 0,
+  "endHour": 4,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "bestCatchPath": [
+   [
+    "Golden Stonefly Nymph",
+    "Honeybee"
+   ],
+   "Cloud-eye Carp"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.3
+ },
+ {
+  "id": 46779,
+  "name": "Sunray Ray",
+  "nameJa": "エイエイ",
+  "spotId": 321,
+  "spotName": "Westbound Zorgor",
+  "spotNameJa": "ゾーゴー海峡西",
+  "zoneName": "Shaaloani",
+  "zoneNameJa": "シャーローニ荒野",
+  "territoryId": 1190,
+  "startHour": 0,
+  "endHour": 24,
+  "weatherSet": [],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Dragonfly"
+  ],
+  "tug": "heavy",
+  "hookset": null,
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.3
+ },
+ {
+  "id": 46193,
+  "name": "Azure Diver",
+  "nameJa": "スカイングスキッド",
+  "spotId": 322,
+  "spotName": "Eastbound Zorgor",
+  "spotNameJa": "ゾーゴー海峡東",
+  "zoneName": "Shaaloani",
+  "zoneNameJa": "シャーローニ荒野",
+  "territoryId": 1190,
+  "startHour": 18,
+  "endHour": 24,
+  "weatherSet": [
+   6
+  ],
+  "previousWeatherSet": [
+   1,
+   2
+  ],
+  "bestCatchPath": [
+   "Dragonfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.3
+ },
+ {
+  "id": 46194,
+  "name": "Sprouting Perch",
+  "nameJa": "パンプキンスプラウトフィッシュ",
+  "spotId": 323,
+  "spotName": "Outskirts Shallows",
+  "spotNameJa": "アウトスカーツ大濠",
+  "zoneName": "Heritage Found",
+  "zoneNameJa": "ヘリテージファウンド",
+  "territoryId": 1191,
+  "startHour": 20,
+  "endHour": 24,
+  "weatherSet": [
+   10
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.3
+ },
+ {
+  "id": 46195,
+  "name": "Gigagiant Snakehead",
+  "nameJa": "ジャイアントスネークヘッド",
+  "spotId": 329,
+  "spotName": "Mu Springs Eternal",
+  "spotNameJa": "ムーの泉",
+  "zoneName": "Living Memory",
+  "zoneNameJa": "リビング・メモリー",
+  "territoryId": 1192,
+  "startHour": 4,
+  "endHour": 6,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 7.3
+ },
+ {
+  "id": 46196,
+  "name": "Gondola Louvar",
+  "nameJa": "ゴンドラルーヴァー",
+  "spotId": 331,
+  "spotName": "Canal Town South",
+  "spotNameJa": "カナルタウン南",
+  "zoneName": "Living Memory",
+  "zoneNameJa": "リビング・メモリー",
+  "territoryId": 1192,
+  "startHour": 8,
+  "endHour": 12,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   7
+  ],
+  "bestCatchPath": [
+   "Ghost Nipper"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.3
+ },
+ {
+  "id": 49794,
+  "name": "Purse of Riches",
+  "nameJa": "リッチパース",
+  "spotId": 296,
+  "spotName": "High Tide Harbor",
+  "spotNameJa": "満ちた玄関",
+  "zoneName": "Tuliyollal",
+  "zoneNameJa": "トライヨラ",
+  "territoryId": 1185,
+  "startHour": 16,
+  "endHour": 18,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Ghost Nipper"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.4
+ },
+ {
+  "id": 49795,
+  "name": "Punutiy Pain",
+  "nameJa": "プヌベイン",
+  "spotId": 304,
+  "spotName": "Peaks Poga",
+  "spotNameJa": "ポガの岸辺",
+  "zoneName": "Kozama'uka",
+  "zoneNameJa": "コザマル・カ",
+  "territoryId": 1188,
+  "startHour": 8,
+  "endHour": 12,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   [
+    "Golden Stonefly Nymph",
+    "Honeybee"
+   ],
+   "Hunu Peacock Bass"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.4
+ },
+ {
+  "id": 49796,
+  "name": "Shuckfin Dace",
+  "nameJa": "コーンシャックデイス",
+  "spotId": 305,
+  "spotName": "Ku'uxage",
+  "spotNameJa": "クル・シャゲ",
+  "zoneName": "Kozama'uka",
+  "zoneNameJa": "コザマル・カ",
+  "territoryId": 1188,
+  "startHour": 4,
+  "endHour": 6,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.4
+ },
+ {
+  "id": 49797,
+  "name": "Shin Snuffler",
+  "nameJa": "スネナマズ",
+  "spotId": 313,
+  "spotName": "Ankledeep",
+  "spotNameJa": "足首の小セノーテ",
+  "zoneName": "Yak T'el",
+  "zoneNameJa": "ヤクテル樹海",
+  "territoryId": 1189,
+  "startHour": 0,
+  "endHour": 2,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 7.4
+ },
+ {
+  "id": 49798,
+  "name": "Moxutural Greatgar",
+  "nameJa": "モシュトラル・グレートガー",
+  "spotId": 314,
+  "spotName": "Cenote Moxutural",
+  "spotNameJa": "セノーテ・モシュトラル",
+  "zoneName": "Yak T'el",
+  "zoneNameJa": "ヤクテル樹海",
+  "territoryId": 1189,
+  "startHour": 20,
+  "endHour": 22,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [],
+  "bestCatchPath": [
+   "Popper Lure",
+   "Checkered Cichlid"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.4
+ },
+ {
+  "id": 49799,
+  "name": "Heirloom Goldgrouper",
+  "nameJa": "ヘリテージグルーパー",
+  "spotId": 326,
+  "spotName": "Alexandrian Ruins",
+  "spotNameJa": "アレクサンドリア旧市街",
+  "zoneName": "Heritage Found",
+  "zoneNameJa": "ヘリテージファウンド",
+  "territoryId": 1191,
+  "startHour": 12,
+  "endHour": 16,
+  "weatherSet": [
+   2
+  ],
+  "previousWeatherSet": [
+   4
+  ],
+  "bestCatchPath": [
+   "Popper Lure"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.4
+ },
+ {
+  "id": 49800,
+  "name": "Datnioides Aeroplanos",
+  "nameJa": "ウィンディ・ダトニオ",
+  "spotId": 330,
+  "spotName": "Leynode Aero",
+  "spotNameJa": "レイノード・ウィンド",
+  "zoneName": "Living Memory",
+  "zoneNameJa": "リビング・メモリー",
+  "territoryId": 1192,
+  "startHour": 2,
+  "endHour": 4,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [
+   4
+  ],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.4
+ },
+ {
+  "id": 49801,
+  "name": "Esperance Carp",
+  "nameJa": "フィッシュ・エスペランサ",
+  "spotId": 333,
+  "spotName": "Proto Alexandria",
+  "spotNameJa": "プロト・アレクサンドリア",
+  "zoneName": "Living Memory",
+  "zoneNameJa": "リビング・メモリー",
+  "territoryId": 1192,
+  "startHour": 22,
+  "endHour": 24,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [
+   7
+  ],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 7.4
+ },
+ {
+  "id": 51999,
+  "name": "Ole Ole Ole",
+  "nameJa": "オーレーオーレーオーレー",
+  "spotId": 298,
+  "spotName": "Chirwagur Lake",
+  "spotNameJa": "チーワグー塩池",
+  "zoneName": "Urqopacha",
+  "zoneNameJa": "オルコ・パチャ",
+  "territoryId": 1187,
+  "startHour": 0,
+  "endHour": 2,
+  "weatherSet": [
+   15
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "White Worm"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.5
+ },
+ {
+  "id": 52000,
+  "name": "Iron Oxydoras",
+  "nameJa": "ブラックオキシドラス",
+  "spotId": 306,
+  "spotName": "Miyakabek'zoma",
+  "spotNameJa": "ミヤカ・ベック上流",
+  "zoneName": "Kozama'uka",
+  "zoneNameJa": "コザマル・カ",
+  "territoryId": 1188,
+  "startHour": 13,
+  "endHour": 15,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Golden Stonefly Nymph",
+   "Dumplingfish"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.5
+ },
+ {
+  "id": 52001,
+  "name": "Excavator Catfish",
+  "nameJa": "スコップノーズキャット",
+  "spotId": 307,
+  "spotName": "Marsh Ligaka",
+  "spotNameJa": "リガカの潟",
+  "zoneName": "Kozama'uka",
+  "zoneNameJa": "コザマル・カ",
+  "territoryId": 1188,
+  "startHour": 4,
+  "endHour": 6,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [
+   7
+  ],
+  "bestCatchPath": [
+   "Popper Lure"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.5
+ },
+ {
+  "id": 52002,
+  "name": "Moonmarking Saucer",
+  "nameJa": "アントゥルーソーサー",
+  "spotId": 315,
+  "spotName": "Cenote Jayunja",
+  "spotNameJa": "セノーテ・ジャユンジャ",
+  "zoneName": "Yak T'el",
+  "zoneNameJa": "ヤクテル樹海",
+  "territoryId": 1189,
+  "startHour": 16,
+  "endHour": 21,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [
+   1
+  ],
+  "bestCatchPath": [
+   "Red Maggots",
+   "Flawless Saucer"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.5
+ },
+ {
+  "id": 52003,
+  "name": "Autarch's Supper",
+  "nameJa": "ロイヤル・ファロウェラ",
+  "spotId": 316,
+  "spotName": "Sapsweet Cenote",
+  "spotNameJa": "甘い涌き水",
+  "zoneName": "Yak T'el",
+  "zoneNameJa": "ヤクテル樹海",
+  "territoryId": 1189,
+  "startHour": 16,
+  "endHour": 18,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   7
+  ],
+  "bestCatchPath": [
+   "Red Maggots"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.5
+ },
+ {
+  "id": 52004,
+  "name": "Bitterbark Caiman",
+  "nameJa": "ビターバークカイマン",
+  "spotId": 317,
+  "spotName": "Bitterbark Cenote",
+  "spotNameJa": "辛水のセノーテ",
+  "zoneName": "Yak T'el",
+  "zoneNameJa": "ヤクテル樹海",
+  "territoryId": 1189,
+  "startHour": 16,
+  "endHour": 18,
+  "weatherSet": [
+   1
+  ],
+  "previousWeatherSet": [
+   4
+  ],
+  "bestCatchPath": [
+   "Red Maggots",
+   "Blind Brotula"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.5
+ },
+ {
+  "id": 52005,
+  "name": "Vagrant Keeper",
+  "nameJa": "深穴の徨霊",
+  "spotId": 321,
+  "spotName": "Westbound Zorgor",
+  "spotNameJa": "ゾーゴー海峡西",
+  "zoneName": "Shaaloani",
+  "zoneNameJa": "シャーローニ荒野",
+  "territoryId": 1190,
+  "startHour": 6,
+  "endHour": 8,
+  "weatherSet": [
+   3
+  ],
+  "previousWeatherSet": [
+   6
+  ],
+  "bestCatchPath": [
+   "Dragonfly"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": true,
+  "patch": 7.5
+ },
+ {
+  "id": 52006,
+  "name": "Shined Copper Shark",
+  "nameJa": "ブライトカッパーシャーク",
+  "spotId": 332,
+  "spotName": "Canal Town North",
+  "spotNameJa": "カナルタウン北",
+  "zoneName": "Living Memory",
+  "zoneNameJa": "リビング・メモリー",
+  "territoryId": 1192,
+  "startHour": 8,
+  "endHour": 13,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "bestCatchPath": [
+   "Ghost Nipper"
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "folklore": false,
+  "fishEyes": false,
+  "intuition": false,
+  "patch": 7.5
+ }
+]
