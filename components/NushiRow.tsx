@@ -268,7 +268,6 @@ export default function NushiRow({
                 alt={nushi.nameJa ?? nushi.name}
                 width={36}
                 height={36}
-                loading="lazy"
                 className="rounded border border-abyss-600 bg-abyss-900"
               />
             </a>
@@ -278,7 +277,6 @@ export default function NushiRow({
               alt={nushi.nameJa ?? nushi.name}
               width={36}
               height={36}
-              loading="lazy"
               className="shrink-0 rounded border border-abyss-600 bg-abyss-900"
             />
           ))}

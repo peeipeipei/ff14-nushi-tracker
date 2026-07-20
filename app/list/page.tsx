@@ -146,7 +146,6 @@ export default function ListPage() {
                               alt={n.nameJa ?? n.name}
                               width={40}
                               height={40}
-                              loading="lazy"
                               className="rounded border border-abyss-600 bg-abyss-900"
                             />
                           </a>
@@ -156,7 +155,6 @@ export default function ListPage() {
                             alt={n.nameJa ?? n.name}
                             width={40}
                             height={40}
-                            loading="lazy"
                             className="shrink-0 rounded border border-abyss-600 bg-abyss-900"
                           />
                         ))}
