@@ -64,6 +64,10 @@ def main():
     name_to_id = {v["name_en"].strip().lower(): int(k) for k, v in items.items()}
     weather_name_to_id = {v["name_en"].lower(): int(k) for k, v in weather_types.items()}
 
+    # ゲーム内アイテム説明文に「オオヌシ」記載がある個体 (fetch_descriptions.py で生成)
+    oonushi_path = HERE / "oonushi_ids.json"
+    oonushi_ids = set(json.loads(oonushi_path.read_text(encoding="utf-8"))) if oonushi_path.exists() else set()
+
     lodestone_ids = load_lodestone_ids()
     used_map_ids = {v["map_id"] for v in weather_rates.values() if v.get("map_id")}
     map_ids = load_map_ids(used_map_ids)
@@ -171,6 +175,7 @@ def main():
             "name": name_en,
             "nameJa": item["name_ja"] if item else None,
             "bigFish": bool(repo_fish and repo_fish.get("bigFish")),
+            "oonushi": item_id in oonushi_ids,
             "baitPath": bait_path,
             "predators": predators,
             "folkloreNameJa": folklore_info["book_ja"] if folklore_info else None,

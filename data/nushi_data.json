@@ -4,6 +4,7 @@
   "name": "Mahi-Mahi",
   "nameJa": "マヒマヒ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "弓角",
@@ -43,6 +44,7 @@
   "name": "Titanic Sawfish",
   "nameJa": "タイタニックソー",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ラグワーム",
@@ -93,6 +95,7 @@
   "name": "Giant Squid",
   "nameJa": "ジャイアントスキッド",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ラグワーム",
@@ -137,6 +140,7 @@
   "name": "Zalera",
   "nameJa": "ザルエラ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ラットの尾",
@@ -176,6 +180,7 @@
   "name": "Beguiler Chub",
   "nameJa": "トリックスター",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "モスプパ",
@@ -215,6 +220,7 @@
   "name": "Oschon's Print",
   "nameJa": "オシュオンプリント",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ゴビーボール",
@@ -254,6 +260,7 @@
   "name": "Caterwauler",
   "nameJa": "オオゴエナマズ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "モスプパ",
@@ -293,6 +300,7 @@
   "name": "Crystal Perch",
   "nameJa": "クリスタルパーチ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "バターワーム",
@@ -336,6 +344,7 @@
   "name": "Moldva",
   "nameJa": "モルバ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ユスリカ",
@@ -379,6 +388,7 @@
   "name": "Junkmonger",
   "nameJa": "ジャンクモンガー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ラグワーム",
@@ -426,6 +436,7 @@
   "name": "Goldenfin",
   "nameJa": "ゴールデンフィン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ピルバグ",
@@ -465,6 +476,7 @@
   "name": "Gigantshark",
   "nameJa": "ギガシャーク",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "フローティングミノー",
@@ -511,6 +523,7 @@
   "name": "Armorer",
   "nameJa": "スケーリーフット",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ポーラークリル",
@@ -550,6 +563,7 @@
   "name": "Great Gudgeon",
   "nameJa": "スナガクレ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザリガニボール",
@@ -589,6 +603,7 @@
   "name": "Dark Knight",
   "nameJa": "ダークナイト",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "クロウフライ",
@@ -632,6 +647,7 @@
   "name": "Silver Sovereign",
   "nameJa": "シルバーソブリン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "弓角",
@@ -671,6 +687,7 @@
   "name": "Sabertooth Cod",
   "nameJa": "サーベルタイガーコッド",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ゴビーボール",
@@ -710,6 +727,7 @@
   "name": "Dream Goby",
   "nameJa": "ドリームゴビー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザリガニボール",
@@ -749,6 +767,7 @@
   "name": "Navigator's Brand",
   "nameJa": "リムレーンズソード",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "弓角",
@@ -791,6 +810,7 @@
   "name": "Dark Ambusher",
   "nameJa": "ダークアンブッシャー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "モスプパ",
@@ -834,6 +854,7 @@
   "name": "Judgeray",
   "nameJa": "ジャッジレイ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "フェザントフライ",
@@ -873,6 +894,7 @@
   "name": "Bloody Brewer",
   "nameJa": "ブラッディブルワー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザリガニボール",
@@ -912,6 +934,7 @@
   "name": "Faerie Queen",
   "nameJa": "フェアリークィーン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スピナーベイト",
@@ -955,6 +978,7 @@
   "name": "Slime King",
   "nameJa": "ヌルヌルキング",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザリガニボール",
@@ -994,6 +1018,7 @@
   "name": "Blue Widow",
   "nameJa": "ブルーウィドー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "フローティングミノー",
@@ -1033,6 +1058,7 @@
   "name": "Ghost Carp",
   "nameJa": "人面魚",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "バターワーム",
@@ -1074,6 +1100,7 @@
   "name": "Carp Diem",
   "nameJa": "意地ブナ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "クロウフライ",
@@ -1116,6 +1143,7 @@
   "name": "Mud Pilgrim",
   "nameJa": "マッドピルグリム",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ユスリカ",
@@ -1158,6 +1186,7 @@
   "name": "Old Softie",
   "nameJa": "オールドソフティ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブラッドワーム",
@@ -1197,6 +1226,7 @@
   "name": "Marrow Sucker",
   "nameJa": "ジンコツシャブリ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハナアブ",
@@ -1239,6 +1269,7 @@
   "name": "Chirurgeon",
   "nameJa": "カイラージョン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "モスプパ",
@@ -1282,6 +1313,7 @@
   "name": "Mud Golem",
   "nameJa": "マッドゴーレム",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "バターワーム",
@@ -1321,6 +1353,7 @@
   "name": "Octomammoth",
   "nameJa": "メガオクトパス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ピルバグ",
@@ -1364,6 +1397,7 @@
   "name": "Matron Carp",
   "nameJa": "マトロンカープ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブラッドワーム",
@@ -1403,6 +1437,7 @@
   "name": "High Perch",
   "nameJa": "ハイパーチ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "シンキングミノー",
@@ -1442,6 +1477,7 @@
   "name": "Syldra",
   "nameJa": "シルドラ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スプーンワーム",
@@ -1483,6 +1519,7 @@
   "name": "Rivet Oyster",
   "nameJa": "リベットオイスター",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ヘヴィメタルジグ",
@@ -1522,6 +1559,7 @@
   "name": "Jacques the Snipper",
   "nameJa": "ザ・リッパー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ゴビーボール",
@@ -1561,6 +1599,7 @@
   "name": "Stormdancer",
   "nameJa": "招嵐王",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "テッポウムシ",
@@ -1603,6 +1642,7 @@
   "name": "Glimmerscale",
   "nameJa": "銅鏡",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "バターワーム",
@@ -1645,6 +1685,7 @@
   "name": "Cupfish",
   "nameJa": "オヤジウオ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハナアブ",
@@ -1684,6 +1725,7 @@
   "name": "Meteor Survivor",
   "nameJa": "メテオサバイバー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ラットの尾",
@@ -1727,6 +1769,7 @@
   "name": "Joan of Trout",
   "nameJa": "ジャンヌ・トラウト",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "クロウフライ",
@@ -1766,6 +1809,7 @@
   "name": "Toramafish",
   "nameJa": "トラマフィッシュ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スピナー",
@@ -1812,6 +1856,7 @@
   "name": "Fingers",
   "nameJa": "フィンガーズ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ポーラークリル",
@@ -1851,6 +1896,7 @@
   "name": "The Assassin",
   "nameJa": "ターミネーター",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "バターワーム",
@@ -1890,6 +1936,7 @@
   "name": "Vip Viper",
   "nameJa": "ビッグバイパー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "バターワーム",
@@ -1929,6 +1976,7 @@
   "name": "The Greatest Bream in the World",
   "nameJa": "ビアナックブーン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "シュリンプフィーダー",
@@ -1968,6 +2016,7 @@
   "name": "Dirty Herry",
   "nameJa": "ダーティーヘリング",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ポーラークリル",
@@ -2007,6 +2056,7 @@
   "name": "Old Hollow Eyes",
   "nameJa": "ホローアイズ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ユスリカ",
@@ -2052,6 +2102,7 @@
   "name": "Sylphsbane",
   "nameJa": "シルフズベーン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "バターワーム",
@@ -2097,6 +2148,7 @@
   "name": "Floating Boulder",
   "nameJa": "フローティングボルダー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "バスボール",
@@ -2139,6 +2191,7 @@
   "name": "The Grinner",
   "nameJa": "グリナー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハナアブ",
@@ -2178,6 +2231,7 @@
   "name": "Shark Tuna",
   "nameJa": "シャークトゥーナ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スプーンワーム",
@@ -2224,6 +2278,7 @@
   "name": "Worm of Nym",
   "nameJa": "ワーム・オブ・ニーム",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "バターワーム",
@@ -2263,6 +2318,7 @@
   "name": "Twitchbeard",
   "nameJa": "トゥイッチビアード",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スプーンワーム",
@@ -2309,6 +2365,7 @@
   "name": "The Warden's Wand",
   "nameJa": "ワーデンズワンド",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -2350,6 +2407,7 @@
   "name": "Spearnose",
   "nameJa": "スピアノーズ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カディスラーヴァ",
@@ -2392,6 +2450,7 @@
   "name": "Levinlight",
   "nameJa": "レヴィンライト",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハナアブ",
@@ -2431,6 +2490,7 @@
   "name": "The Sinker",
   "nameJa": "シンカー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "シンキングミノー",
@@ -2473,6 +2533,7 @@
   "name": "The Gobfather",
   "nameJa": "ゴブスレイヤー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -2519,6 +2580,7 @@
   "name": "Sweetnewt",
   "nameJa": "スウィートニュート",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ユスリカ",
@@ -2564,6 +2626,7 @@
   "name": "Bombardfish",
   "nameJa": "ボンバードフィッシュ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ヘリングボール",
@@ -2605,6 +2668,7 @@
   "name": "The Salter",
   "nameJa": "ソルター",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -2644,6 +2708,7 @@
   "name": "The Lone Ripper",
   "nameJa": "ローンリッパー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ヘヴィメタルジグ",
@@ -2685,6 +2750,7 @@
   "name": "King of the Spring",
   "nameJa": "スプリングキング",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スピナーベイト",
@@ -2724,6 +2790,7 @@
   "name": "Discobolus",
   "nameJa": "ディスコボルス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "グロウワーム",
@@ -2765,6 +2832,7 @@
   "name": "Iron Noose",
   "nameJa": "アイアンヌース",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スピナー",
@@ -2806,6 +2874,7 @@
   "name": "Olgoi-Khorkhoi",
   "nameJa": "オルゴイコルコイ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サンドリーチ",
@@ -2851,6 +2920,7 @@
   "name": "Magic Carpet",
   "nameJa": "ホーリーカーペット",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サンドリーチ",
@@ -2896,6 +2966,7 @@
   "name": "Daniffen's Mark",
   "nameJa": "ダナフェンズマーク",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "フェザントフライ",
@@ -2937,6 +3008,7 @@
   "name": "Charon's Lantern",
   "nameJa": "カローンズランタン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "グロウワーム",
@@ -2976,6 +3048,7 @@
   "name": "The Green Jester",
   "nameJa": "グリーンジェスター",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -3015,6 +3088,7 @@
   "name": "Bloodbath",
   "nameJa": "ブラッドバス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -3060,6 +3134,7 @@
   "name": "Son of Levin",
   "nameJa": "雷皇子",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カディスラーヴァ",
@@ -3101,6 +3176,7 @@
   "name": "Thundergut",
   "nameJa": "サンダーガット",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "テッポウムシ",
@@ -3142,6 +3218,7 @@
   "name": "The Drowned Sniper",
   "nameJa": "ドラウンドスナイパー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スナーブルフライ",
@@ -3184,6 +3261,7 @@
   "name": "The Terpsichorean",
   "nameJa": "テルプシコレアン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -3225,6 +3303,7 @@
   "name": "Mirrorscale",
   "nameJa": "ミラースケイル",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ユスリカ",
@@ -3271,6 +3350,7 @@
   "name": "Helmsman's Hand",
   "nameJa": "ヘルムズマンズハンド",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ピルバグ",
@@ -3318,6 +3398,7 @@
   "name": "The Thousand-year Itch",
   "nameJa": "サウザンドイヤー・イーチ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "テッポウムシ",
@@ -3359,6 +3440,7 @@
   "name": "Hannibal",
   "nameJa": "ハンニバル",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スピナーベイト",
@@ -3404,6 +3486,7 @@
   "name": "Dawn Maiden",
   "nameJa": "ドーンメイデン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "フェザントフライ",
@@ -3446,6 +3529,7 @@
   "name": "Starbright",
   "nameJa": "スターブライト",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハナアブ",
@@ -3492,6 +3576,7 @@
   "name": "The Matriarch",
   "nameJa": "メイトリアーク",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -3535,6 +3620,7 @@
   "name": "Shadowstreak",
   "nameJa": "シャドーストリーク",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "トップウォーターフロッグ",
@@ -3576,6 +3662,7 @@
   "name": "The Captain's Chalice",
   "nameJa": "キャプテンズチャリス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "メタルジグ",
@@ -3619,6 +3706,7 @@
   "name": "Anomalocaris",
   "nameJa": "アノマロカリス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ホバーワーム",
@@ -3665,6 +3753,7 @@
   "name": "Frilled Shark",
   "nameJa": "ラブカ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ラグワーム",
@@ -3720,6 +3809,7 @@
   "name": "Aetherlouse",
   "nameJa": "エーテルラウス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "グロウワーム",
@@ -3761,6 +3851,7 @@
   "name": "Imperial Goldfish",
   "nameJa": "黄金魚",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -3810,6 +3901,7 @@
   "name": "The Old Man in the Sea",
   "nameJa": "オールドマーリン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ピルバグ",
@@ -3862,6 +3954,7 @@
   "name": "Nepto Dragon",
   "nameJa": "ネプトの竜",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "ポーラークリル",
@@ -3910,6 +4003,7 @@
   "name": "Coelacanthus",
   "nameJa": "コエラカントゥス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スプーンワーム",
@@ -3957,6 +4051,7 @@
   "name": "Endoceras",
   "nameJa": "エンドセラス",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "スプーンワーム",
@@ -4007,6 +4102,7 @@
   "name": "Seahag",
   "nameJa": "シーハッグ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ラグワーム",
@@ -4057,6 +4153,7 @@
   "name": "Ignus Horn",
   "nameJa": "インフェルノホーン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "グロウワーム",
@@ -4101,6 +4198,7 @@
   "name": "Void Bass",
   "nameJa": "ヴォイドバス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "グロウワーム",
@@ -4145,6 +4243,7 @@
   "name": "Cornelia",
   "nameJa": "コーネリア",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "レインボースプーン",
@@ -4190,6 +4289,7 @@
   "name": "Ninja Betta",
   "nameJa": "ニンジャベタ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ユスリカ",
@@ -4239,6 +4339,7 @@
   "name": "Canavan",
   "nameJa": "ジャノ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -4288,6 +4389,7 @@
   "name": "Kuno the Killer",
   "nameJa": "クノ・ザ・キラー",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -4341,6 +4443,7 @@
   "name": "Pirate's Bane",
   "nameJa": "パイレーツハンター",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ラグワーム",
@@ -4394,6 +4497,7 @@
   "name": "Ndendecki",
   "nameJa": "ンデンデキ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -4443,6 +4547,7 @@
   "name": "Bat-o'-Nine-Tails",
   "nameJa": "ヴァンパイアウィップ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -4493,6 +4598,7 @@
   "name": "Wootz Knifefish Zenith",
   "nameJa": "ウーツナイフ・ゼニス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -4541,6 +4647,7 @@
   "name": "Helicoprion",
   "nameJa": "ヘリコプリオン",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "サンドリーチ",
@@ -4589,6 +4696,7 @@
   "name": "Darkstar",
   "nameJa": "ダークスター",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -4641,6 +4749,7 @@
   "name": "Blue Corpse",
   "nameJa": "ブルーコープス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カディスラーヴァ",
@@ -4686,6 +4795,7 @@
   "name": "Mahar",
   "nameJa": "マハール",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ホバーワーム",
@@ -4734,6 +4844,7 @@
   "name": "Shonisaurus",
   "nameJa": "ショニサウルス",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "ホバーワーム",
@@ -4786,6 +4897,7 @@
   "name": "Magicked Mushroom",
   "nameJa": "マジック・マッシュルームクラブ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スピナー",
@@ -4835,6 +4947,7 @@
   "name": "Giant Takitaro",
   "nameJa": "オオタキタロ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "グロウワーム",
@@ -4877,6 +4990,7 @@
   "name": "Namitaro",
   "nameJa": "ナミタロ",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "トップウォーターフロッグ",
@@ -4922,6 +5036,7 @@
   "name": "Blood Red Bonytongue",
   "nameJa": "血紅龍",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ハニーワーム",
@@ -4970,6 +5085,7 @@
   "name": "Gigant Clam",
   "nameJa": "オオシャル貝",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ヘヴィメタルジグ",
@@ -5009,6 +5125,7 @@
   "name": "Caiman",
   "nameJa": "カイマン",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブレーデッドジグ",
@@ -5052,6 +5169,7 @@
   "name": "Euphotic Pirarucu",
   "nameJa": "バイオピラルク",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5093,6 +5211,7 @@
   "name": "Pteranodon",
   "nameJa": "プテラノドン",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
@@ -5132,6 +5251,7 @@
   "name": "Stupendemys",
   "nameJa": "スチュペンデミス",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
@@ -5175,6 +5295,7 @@
   "name": "Catkiller",
   "nameJa": "ゲイラキラー",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5217,6 +5338,7 @@
   "name": "Loosetongue",
   "nameJa": "フィロソファーアロワナ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5256,6 +5378,7 @@
   "name": "Thaliak Caiman",
   "nameJa": "サリャクカイマン",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブレーデッドジグ",
@@ -5299,6 +5422,7 @@
   "name": "Lavalord",
   "nameJa": "溶岩王",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "メタルスピナー",
@@ -5345,6 +5469,7 @@
   "name": "Tupuxuara",
   "nameJa": "トゥプクスアラ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "レッドバルーン",
@@ -5384,6 +5509,7 @@
   "name": "Storm Chaser",
   "nameJa": "ストームライダー",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
@@ -5423,6 +5549,7 @@
   "name": "Amber Salamander",
   "nameJa": "アンバーサラマンダー",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5462,6 +5589,7 @@
   "name": "Mountain Kraken",
   "nameJa": "ベーンクラーケン",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5501,6 +5629,7 @@
   "name": "Magic Bucket",
   "nameJa": "マジックバケツ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5540,6 +5669,7 @@
   "name": "Fat Purse",
   "nameJa": "ファットパース",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5579,6 +5709,7 @@
   "name": "The Impaler",
   "nameJa": "イエティキラー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5618,6 +5749,7 @@
   "name": "La Reale",
   "nameJa": "ラ・レアル",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5657,6 +5789,7 @@
   "name": "Scaleripper",
   "nameJa": "スケイルリッパー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5700,6 +5833,7 @@
   "name": "The Dreamweaver",
   "nameJa": "アクムノタネ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5743,6 +5877,7 @@
   "name": "Meteortoise",
   "nameJa": "メテオトータス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "マグマワーム",
@@ -5786,6 +5921,7 @@
   "name": "The Ewer King",
   "nameJa": "水瓶王",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブレーデッドジグ",
@@ -5829,6 +5965,7 @@
   "name": "Vidofnir",
   "nameJa": "ヴィゾーヴニル",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5868,6 +6005,7 @@
   "name": "The Soul of the Martyr",
   "nameJa": "ラタトスクソウル",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
@@ -5910,6 +6048,7 @@
   "name": "Inkfish",
   "nameJa": "水墨魚",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -5949,6 +6088,7 @@
   "name": "The Second One",
   "nameJa": "ザ・セカンドワン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
@@ -5990,6 +6130,7 @@
   "name": "Augmented High Allagan Helmet",
   "nameJa": "ハイアラガンクラブ改",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "バイオレットワーム",
@@ -6033,6 +6174,7 @@
   "name": "Aphotic Pirarucu",
   "nameJa": "バイオガピラルク",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ツチグモ",
@@ -6078,6 +6220,7 @@
   "name": "Dimorphodon",
   "nameJa": "ディモルフォドン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
@@ -6125,6 +6268,7 @@
   "name": "Basking Shark",
   "nameJa": "バスキングシャーク",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "メタルスピナー",
@@ -6172,6 +6316,7 @@
   "name": "Allagan Bladeshark",
   "nameJa": "アラガンブレード・シャーク",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スカイボール",
@@ -6219,6 +6364,7 @@
   "name": "Hailfinder",
   "nameJa": "ヘイルイーター",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "レッドバルーン",
@@ -6267,6 +6413,7 @@
   "name": "Flarefish",
   "nameJa": "フレアフィッシュ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ツチグモ",
@@ -6312,6 +6459,7 @@
   "name": "Twin-tongued Carp",
   "nameJa": "フォークタン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -6357,6 +6505,7 @@
   "name": "Madam Butterfly",
   "nameJa": "マダムバタフライ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ツチグモ",
@@ -6402,6 +6551,7 @@
   "name": "Moggle Mogpom",
   "nameJa": "モグルグポンポン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -6445,6 +6595,7 @@
   "name": "Cirrostratus",
   "nameJa": "シーロストラタスモトロ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
@@ -6487,6 +6638,7 @@
   "name": "Hraesvelgr's Tear",
   "nameJa": "聖竜の涙",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "マグマワーム",
@@ -6526,6 +6678,7 @@
   "name": "Aetherochemical Compound #666",
   "nameJa": "魔科学物質666",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "バイオレットワーム",
@@ -6569,6 +6722,7 @@
   "name": "Hundred-eyed Axolotl",
   "nameJa": "ハンドレッドアイ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ツチグモ",
@@ -6612,6 +6766,7 @@
   "name": "Bobgoblin Bass",
   "nameJa": "万能のゴブリバス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ゴブリンジグ",
@@ -6659,6 +6814,7 @@
   "name": "Merciless",
   "nameJa": "氷の巫女",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カディスラーヴァ",
@@ -6707,6 +6863,7 @@
   "name": "Bishopfish",
   "nameJa": "ビショップフィッシュ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -6748,6 +6905,7 @@
   "name": "Captain Nemo",
   "nameJa": "ネモ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -6791,6 +6949,7 @@
   "name": "Paikiller",
   "nameJa": "パイッサキラー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブレーデッドジグ",
@@ -6838,6 +6997,7 @@
   "name": "Ceti",
   "nameJa": "セティ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "バイオレットワーム",
@@ -6881,6 +7041,7 @@
   "name": "Crystal Pigeon",
   "nameJa": "クリスタルピジョン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
@@ -6928,6 +7089,7 @@
   "name": "Thunderscale",
   "nameJa": "サンダースケイル",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ストーンラーヴァ",
@@ -6977,6 +7139,7 @@
   "name": "Riddle",
   "nameJa": "リドル",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "マグマワーム",
@@ -7024,6 +7187,7 @@
   "name": "The Lord of Lords",
   "nameJa": "溶岩帝王",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "メタルスピナー",
@@ -7074,6 +7238,7 @@
   "name": "The Speaker",
   "nameJa": "スピーカー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ストーンラーヴァ",
@@ -7122,6 +7287,7 @@
   "name": "Thousand Fin",
   "nameJa": "ボサボサ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ブルートリーチ",
@@ -7165,6 +7331,7 @@
   "name": "Bloodchaser",
   "nameJa": "ストームブラッドライダー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
@@ -7208,6 +7375,7 @@
   "name": "Problematicus",
   "nameJa": "プロブレマティカス",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "メタルスピナー",
@@ -7265,6 +7433,7 @@
   "name": "Opabinia",
   "nameJa": "オパビニア",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "スカイボール",
@@ -7316,6 +7485,7 @@
   "name": "Armor Fish",
   "nameJa": "鎧魚",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "ツチグモ",
@@ -7367,6 +7537,7 @@
   "name": "Sea Butterfly",
   "nameJa": "クラウドバタフライ",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
@@ -7419,6 +7590,7 @@
   "name": "Charibenet",
   "nameJa": "シャリベネ",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "ツチグモ",
@@ -7470,6 +7642,7 @@
   "name": "Raimdellopterus",
   "nameJa": "ランデロプテルス",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
@@ -7521,6 +7694,7 @@
   "name": "Liopleurodon",
   "nameJa": "鰭竜",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "活海老",
@@ -7566,6 +7740,7 @@
   "name": "Yanxian Barramundi",
   "nameJa": "ヤンサアカメ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -7605,6 +7780,7 @@
   "name": "Doman Grass Carp",
   "nameJa": "無二草魚",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "赤虫",
@@ -7644,6 +7820,7 @@
   "name": "Sculptor",
   "nameJa": "スカルプター",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蚕蛹",
@@ -7689,6 +7866,7 @@
   "name": "Silken Koi",
   "nameJa": "絹鯉",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -7730,6 +7908,7 @@
   "name": "Deemster",
   "nameJa": "裁定魚",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -7771,6 +7950,7 @@
   "name": "Swordfish",
   "nameJa": "メカジキ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "アオイソメ",
@@ -7813,6 +7993,7 @@
   "name": "Daio Squid",
   "nameJa": "ダイオウイカ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "タイカブラ",
@@ -7852,6 +8033,7 @@
   "name": "Koromo Octopus",
   "nameJa": "コロモダコ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "タイカブラ",
@@ -7891,6 +8073,7 @@
   "name": "Eastern Pike",
   "nameJa": "イースタンパイク",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サスペンドミノー",
@@ -7933,6 +8116,7 @@
   "name": "Little Perykos",
   "nameJa": "リトルペリュコス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ラグワーム",
@@ -7983,6 +8167,7 @@
   "name": "Castaway Chocobo Chick",
   "nameJa": "海チョコチョコボ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ラグワーム",
@@ -8030,6 +8215,7 @@
   "name": "Ukiki",
   "nameJa": "ウキキ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "アオイソメ",
@@ -8071,6 +8257,7 @@
   "name": "Saltmill",
   "nameJa": "ソルトミル",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蚕蛹",
@@ -8117,6 +8304,7 @@
   "name": "Usuginu Octopus",
   "nameJa": "ウスギヌダコ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "活海老",
@@ -8156,6 +8344,7 @@
   "name": "Redtail",
   "nameJa": "レッドテイル",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "イクラ",
@@ -8202,6 +8391,7 @@
   "name": "Mirage Mahi",
   "nameJa": "ミラージュマヒ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -8241,6 +8431,7 @@
   "name": "Hookstealer",
   "nameJa": "フックスティーラー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "赤虫",
@@ -8284,6 +8475,7 @@
   "name": "Sapphire Fan",
   "nameJa": "サファイアファン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -8325,6 +8517,7 @@
   "name": "The Archbishop",
   "nameJa": "アークビショップフィッシュ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サスペンドミノー",
@@ -8364,6 +8557,7 @@
   "name": "Bondsplitter",
   "nameJa": "ボンドスプリッター",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サスペンドミノー",
@@ -8405,6 +8599,7 @@
   "name": "The Undecided",
   "nameJa": "ナガレクダリ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "赤虫",
@@ -8448,6 +8643,7 @@
   "name": "Diamond-eye",
   "nameJa": "ダイヤモンドアイ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蚕蛹",
@@ -8493,6 +8689,7 @@
   "name": "Rising Dragon",
   "nameJa": "ノボリリュウ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "活海老",
@@ -8536,6 +8733,7 @@
   "name": "The Gambler",
   "nameJa": "バクチウチ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "アオイソメ",
@@ -8575,6 +8773,7 @@
   "name": "The Winter Queen",
   "nameJa": "春不知",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "アオイソメ",
@@ -8614,6 +8813,7 @@
   "name": "Rakshasa",
   "nameJa": "ソクシツキ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "活海老",
@@ -8659,6 +8859,7 @@
   "name": "Bokuden",
   "nameJa": "ボクデン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -8698,6 +8899,7 @@
   "name": "Hagoromo Koi",
   "nameJa": "羽衣鯉",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -8739,6 +8941,7 @@
   "name": "The Word of God",
   "nameJa": "シンタクヤブリ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -8778,6 +8981,7 @@
   "name": "Yat Khan",
   "nameJa": "ヤトカガン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -8819,6 +9023,7 @@
   "name": "Watcher Catfish",
   "nameJa": "シデンナマズ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "赤虫",
@@ -8864,6 +9069,7 @@
   "name": "Bloodtail Zombie",
   "nameJa": "レッドテイルゾンビー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "イクラ",
@@ -8910,6 +9116,7 @@
   "name": "Hardhead Trout",
   "nameJa": "サーメットヘッド",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -8949,6 +9156,7 @@
   "name": "Downstream Loach",
   "nameJa": "タニクダリ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -8990,6 +9198,7 @@
   "name": "Corpse Chub",
   "nameJa": "コープスチャブ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サスペンドミノー",
@@ -9031,6 +9240,7 @@
   "name": "The Last Tear",
   "nameJa": "ラストティアー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "イクラ",
@@ -9074,6 +9284,7 @@
   "name": "Hemon",
   "nameJa": "ヘモン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サスペンドミノー",
@@ -9115,6 +9326,7 @@
   "name": "Moksha",
   "nameJa": "解脱魚",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サスペンドミノー",
@@ -9161,6 +9373,7 @@
   "name": "Princess Killifish",
   "nameJa": "ヒメダカ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ドバミミズ",
@@ -9200,6 +9413,7 @@
   "name": "Ku'er",
   "nameJa": "クアル",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "アオイソメ",
@@ -9243,6 +9457,7 @@
   "name": "Argonautica",
   "nameJa": "ウミダイジャ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "活海老",
@@ -9291,6 +9506,7 @@
   "name": "Hagoromo Bijin",
   "nameJa": "羽衣美女",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -9335,6 +9551,7 @@
   "name": "Duskfish",
   "nameJa": "暮れの魚",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ドバミミズ",
@@ -9383,6 +9600,7 @@
   "name": "Blade Skipper",
   "nameJa": "ブレードスキッパー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サスペンドミノー",
@@ -9424,6 +9642,7 @@
   "name": "Lily of the Veil",
   "nameJa": "アラミガンベール",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サスペンドミノー",
@@ -9467,6 +9686,7 @@
   "name": "The Vegetarian",
   "nameJa": "菜食王",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "活海老",
@@ -9512,6 +9732,7 @@
   "name": "Seven Stars",
   "nameJa": "ナナツボシ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "アオイソメ",
@@ -9555,6 +9776,7 @@
   "name": "Pinhead",
   "nameJa": "バリマンボン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "活海老",
@@ -9599,6 +9821,7 @@
   "name": "Pomegranate Trout",
   "nameJa": "ザクロウミ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ドバミミズ",
@@ -9640,6 +9863,7 @@
   "name": "Glarramundi",
   "nameJa": "オニニラミ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サスペンドミノー",
@@ -9683,6 +9907,7 @@
   "name": "Hermit's End",
   "nameJa": "仙寿の翁",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -9724,6 +9949,7 @@
   "name": "Suiten Ippeki",
   "nameJa": "水天一碧",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -9765,6 +9991,7 @@
   "name": "Axelrod",
   "nameJa": "シャジクノミ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -9808,6 +10035,7 @@
   "name": "The Unraveled Bow",
   "nameJa": "ニジノヒトスジ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サスペンドミノー",
@@ -9849,6 +10077,7 @@
   "name": "Nhaama's Treasure",
   "nameJa": "ナーマの愛寵",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サスペンドミノー",
@@ -9893,6 +10122,7 @@
   "name": "Garden Skipper",
   "nameJa": "ベジースキッパー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "赤虫",
@@ -9936,6 +10166,7 @@
   "name": "Banderole",
   "nameJa": "明けの旗魚",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ドバミミズ",
@@ -9985,6 +10216,7 @@
   "name": "Xenacanthus",
   "nameJa": "クセナカンサス",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -10028,6 +10260,7 @@
   "name": "Drepanaspis",
   "nameJa": "ドレパナスピス",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "サスペンドミノー",
@@ -10075,6 +10308,7 @@
   "name": "Stethacanthus",
   "nameJa": "ステタカントゥス",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "蚕蛹",
@@ -10124,6 +10358,7 @@
   "name": "The Ruby Dragon",
   "nameJa": "紅龍",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "アオイソメ",
@@ -10171,6 +10406,7 @@
   "name": "Warden of the Seven Hues",
   "nameJa": "七彩天主",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -10226,6 +10462,7 @@
   "name": "The Unconditional",
   "nameJa": "神々の愛",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "ザザムシ",
@@ -10269,6 +10506,7 @@
   "name": "Vicejaw",
   "nameJa": "バイスジョー",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -10308,6 +10546,7 @@
   "name": "Henodus",
   "nameJa": "ヘノドゥス",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ショートビルミノー",
@@ -10354,6 +10593,7 @@
   "name": "Thorned Lizard",
   "nameJa": "トゲトカゲ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "デザートフロッグ",
@@ -10401,6 +10641,7 @@
   "name": "Desert Saw",
   "nameJa": "デザートソー",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "オヴィムジャーキー",
@@ -10440,6 +10681,7 @@
   "name": "Aapoak",
   "nameJa": "アーポアク",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ショートビルミノー",
@@ -10485,6 +10727,7 @@
   "name": "Loose Pendant",
   "nameJa": "ペンダントヘッド",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -10524,6 +10767,7 @@
   "name": "The Unforgiven",
   "nameJa": "アンフォーギヴン・クラブ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -10565,6 +10809,7 @@
   "name": "Bronze Sole",
   "nameJa": "ブロンズソール",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "マーブルラーヴァ",
@@ -10606,6 +10851,7 @@
   "name": "Winged Dame",
   "nameJa": "グランドデイムバタフライ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "イカの切り身",
@@ -10647,6 +10893,7 @@
   "name": "The Horned King",
   "nameJa": "カンムリカブリ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "オヴィムジャーキー",
@@ -10692,6 +10939,7 @@
   "name": "The Sound of Fury",
   "nameJa": "フューリィベタ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -10734,6 +10982,7 @@
   "name": "Priest of Yx'Lokwa",
   "nameJa": "ロックワの衛士",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ロバーボール",
@@ -10781,6 +11030,7 @@
   "name": "Starchaser",
   "nameJa": "スターチェイサー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "イカの切り身",
@@ -10822,6 +11072,7 @@
   "name": "The Jaws of Undeath",
   "nameJa": "イモータルジョー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -10867,6 +11118,7 @@
   "name": "White Ronso",
   "nameJa": "ホワイトロンゾ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -10906,6 +11158,7 @@
   "name": "Ambling Caltrop",
   "nameJa": "クギトカゲ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "デザートフロッグ",
@@ -10951,6 +11204,7 @@
   "name": "Fae Rainbow",
   "nameJa": "ピクシーレインボー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "マーブルラーヴァ",
@@ -10995,6 +11249,7 @@
   "name": "Black Jet",
   "nameJa": "ブラックジェットストリーム",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ロバーボール",
@@ -11040,6 +11295,7 @@
   "name": "Ondo Sigh",
   "nameJa": "オンドの溜息",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "イカの切り身",
@@ -11082,6 +11338,7 @@
   "name": "The Sinsteeped",
   "nameJa": "罪撒き",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "フルーツワーム",
@@ -11124,6 +11381,7 @@
   "name": "Sweetheart",
   "nameJa": "マンイーター",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -11168,6 +11426,7 @@
   "name": "Giant Taimen",
   "nameJa": "ヒモウオ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -11207,6 +11466,7 @@
   "name": "Leannisg",
   "nameJa": "ラウニスク",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "マーブルラーヴァ",
@@ -11248,6 +11508,7 @@
   "name": "Gold Hammer",
   "nameJa": "ゴールドハマー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -11292,6 +11553,7 @@
   "name": "Recordkiller",
   "nameJa": "レコードキラー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -11336,6 +11598,7 @@
   "name": "The Mother of All Pancakes",
   "nameJa": "オヤメンダコ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "イカの切り身",
@@ -11379,6 +11642,7 @@
   "name": "Opal Shrimp",
   "nameJa": "オパールシュリンプ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "イカの切り身",
@@ -11420,6 +11684,7 @@
   "name": "Moonlight Guppy",
   "nameJa": "ムーンライトグッピー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -11463,6 +11728,7 @@
   "name": "Steel Fan",
   "nameJa": "ドンの軍扇",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "マーブルラーヴァ",
@@ -11507,6 +11773,7 @@
   "name": "Henodus Grandis",
   "nameJa": "ヘノドゥス・グランディス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ショートビルミノー",
@@ -11552,6 +11819,7 @@
   "name": "Sunken Tome",
   "nameJa": "深泳の古書",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "マーブルラーヴァ",
@@ -11595,6 +11863,7 @@
   "name": "Pearl Pipira",
   "nameJa": "パーリーピピラ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ロバーボール",
@@ -11640,6 +11909,7 @@
   "name": "The Ondotaker",
   "nameJa": "オンドの仇敵",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "イカの切り身",
@@ -11683,6 +11953,7 @@
   "name": "Aster Trivi",
   "nameJa": "アスタートリヴィ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "マーブルラーヴァ",
@@ -11726,6 +11997,7 @@
   "name": "Python Discus",
   "nameJa": "パイソンディスカス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "フルーツワーム",
@@ -11769,6 +12041,7 @@
   "name": "Steel Razor",
   "nameJa": "スチールレイザーフィッシュ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "モエビ",
@@ -11808,6 +12081,7 @@
   "name": "Shadeshifter",
   "nameJa": "シャドウシフター",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "イカの切り身",
@@ -11852,6 +12126,7 @@
   "name": "Nabaath Saw",
   "nameJa": "ナバースソー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "オヴィムジャーキー",
@@ -11901,6 +12176,7 @@
   "name": "Celestial",
   "nameJa": "頂天眼",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -11944,6 +12220,7 @@
   "name": "Dammroen Herring",
   "nameJa": "ダメルンズチェリー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -11983,6 +12260,7 @@
   "name": "Deephaunt",
   "nameJa": "底闇魚",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -12026,6 +12304,7 @@
   "name": "Mora Tecta",
   "nameJa": "モラ・テクタ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ショートビルミノー",
@@ -12067,6 +12346,7 @@
   "name": "Maru Crab",
   "nameJa": "マルヒルスタ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ショートビルミノー",
@@ -12112,6 +12392,7 @@
   "name": "Golden Pipira",
   "nameJa": "ゴールデンピピラ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ロバーボール",
@@ -12151,6 +12432,7 @@
   "name": "Listracanthus",
   "nameJa": "リストラカントゥス",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -12199,6 +12481,7 @@
   "name": "Aquamaton",
   "nameJa": "アクアマトン",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "ショートビルミノー",
@@ -12249,6 +12532,7 @@
   "name": "Cinder Surprise",
   "nameJa": "サプライズエッグ",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "デザートフロッグ",
@@ -12298,6 +12582,7 @@
   "name": "Ealad Skaan",
   "nameJa": "イラッド・スカーン",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "蟲箱",
@@ -12341,6 +12626,7 @@
   "name": "Greater Serpent of Ronka",
   "nameJa": "ロンカの大水蛇？",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "ロバーボール",
@@ -12392,6 +12678,7 @@
   "name": "Lancetfish",
   "nameJa": "ミズウオ",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "イカの切り身",
@@ -12441,6 +12728,7 @@
   "name": "Basilosaurus",
   "nameJa": "ドルドン",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サバの切り身",
@@ -12486,6 +12774,7 @@
   "name": "Lunar Deathworm",
   "nameJa": "ルナ・デスワーム",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "グレイワーム",
@@ -12531,6 +12820,7 @@
   "name": "Phallaina",
   "nameJa": "パライナ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": null,
@@ -12574,6 +12864,7 @@
   "name": "Aetherolectric Guitarfish",
   "nameJa": "エレキギターフィッシュ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サバの切り身",
@@ -12613,6 +12904,7 @@
   "name": "Jumbo Snook",
   "nameJa": "ジャンボスヌーク",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -12654,6 +12946,7 @@
   "name": "Earful",
   "nameJa": "イアフルサンフィッシュ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -12693,6 +12986,7 @@
   "name": "Hippo Frog",
   "nameJa": "ヒッポフロッグ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -12734,6 +13028,7 @@
   "name": "Rimepike",
   "nameJa": "フリジッドガー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -12779,6 +13074,7 @@
   "name": "Foun Ahlm",
   "nameJa": "フォン・アールム",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "キメラワーム",
@@ -12820,6 +13116,7 @@
   "name": "Forbiddingway",
   "nameJa": "フォービディングウェイ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スターダスト",
@@ -12861,6 +13158,7 @@
   "name": "Greatsword Snook",
   "nameJa": "グレートソードスヌーク",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -12902,6 +13200,7 @@
   "name": "Swampsucker Bowfin",
   "nameJa": "スワンプボウフィン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スカイスプーン",
@@ -12946,6 +13245,7 @@
   "name": "Lale Crab",
   "nameJa": "ラーレギュルクラブ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "シュリンプボール",
@@ -12990,6 +13290,7 @@
   "name": "Bigcuda",
   "nameJa": "ビッグビックーダ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スカイスプーン",
@@ -13035,6 +13336,7 @@
   "name": "Sovereign Shadow",
   "nameJa": "影なる帝冠",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -13079,6 +13381,7 @@
   "name": "Disappirarucu",
   "nameJa": "イミテーションピラルク",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -13118,6 +13421,7 @@
   "name": "Planetes",
   "nameJa": "水面の恒星",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -13163,6 +13467,7 @@
   "name": "Starscryer",
   "nameJa": "破軍星の欠片",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -13204,6 +13509,7 @@
   "name": "Argonauta argo",
   "nameJa": "アルゴノート・アルゴ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スターダスト",
@@ -13245,6 +13551,7 @@
   "name": "Catastrophizer",
   "nameJa": "万慮魚",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -13288,6 +13595,7 @@
   "name": "Mossgill Salmon",
   "nameJa": "モスグリーンサーモン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スカイスプーン",
@@ -13331,6 +13639,7 @@
   "name": "Vidyutvat Wrasse",
   "nameJa": "ヴィジュヴァト・ラス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "シュリンプボール",
@@ -13374,6 +13683,7 @@
   "name": "Browned Banana Eel",
   "nameJa": "ブラウンバナナイール",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -13415,6 +13725,7 @@
   "name": "Frozen Regotoise",
   "nameJa": "フローズン・レゴリストータス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "キメラワーム",
@@ -13456,6 +13767,7 @@
   "name": "Antheian Dahlia",
   "nameJa": "アンテイア・ダーリア",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -13499,6 +13811,7 @@
   "name": "Cosmic Haze",
   "nameJa": "コズミック・ヘイズ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "キメラワーム",
@@ -13544,6 +13857,7 @@
   "name": "Onyx Knifefish",
   "nameJa": "オニキスナイフフィッシュ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -13587,6 +13901,7 @@
   "name": "Wakeful Warden",
   "nameJa": "トラーナの目付役",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ウマビル",
@@ -13630,6 +13945,7 @@
   "name": "Basilosaurus Rex",
   "nameJa": "ドンドルドン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "サバの切り身",
@@ -13679,6 +13995,7 @@
   "name": "Gilt Dermogenys",
   "nameJa": "ゴールデン・デルモゲニー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スカイスプーン",
@@ -13723,6 +14040,7 @@
   "name": "Eehs Fan",
   "nameJa": "エー・ファン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "キメラワーム",
@@ -13766,6 +14084,7 @@
   "name": "Circuit Tilapia",
   "nameJa": "サーキット・ティラピア",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -13813,6 +14132,7 @@
   "name": "Durdina Fish",
   "nameJa": "ドゥルディナフィッシュ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "シュリンプボール",
@@ -13860,6 +14180,7 @@
   "name": "Mayaman",
   "nameJa": "マーヤーカイマン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -13909,6 +14230,7 @@
   "name": "Chlorophos Deathworm",
   "nameJa": "クロロフォス・デスワーム",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "キメラワーム",
@@ -13956,6 +14278,7 @@
   "name": "Starscale Ephemeris",
   "nameJa": "オービティングスター",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -13999,6 +14322,7 @@
   "name": "E.B.E.-852738",
   "nameJa": "E.B.E-852738",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "スターダスト",
@@ -14042,6 +14366,7 @@
   "name": "Hyphalosaurus",
   "nameJa": "ヒファロサウルス",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -14095,6 +14420,7 @@
   "name": "Gharlichthys",
   "nameJa": "ガールシクティス",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "サバの切り身",
@@ -14144,6 +14470,7 @@
   "name": "Snowy Parexus",
   "nameJa": "スノウパレクス",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "カゲロウ",
@@ -14193,6 +14520,7 @@
   "name": "Lopoceras Elegans",
   "nameJa": "レポセラス・エレガンス",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "キメラワーム",
@@ -14236,6 +14564,7 @@
   "name": "Furcacauda",
   "nameJa": "フルカカウダ",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": "スカイスプーン",
@@ -14279,6 +14608,7 @@
   "name": "Sidereal Whale",
   "nameJa": "スターホエール",
   "bigFish": true,
+  "oonushi": true,
   "baitPath": [
    {
     "ja": null,
@@ -14342,6 +14672,7 @@
   "name": "Icuvlo's Barter",
   "nameJa": "イクブロフロッグ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -14383,6 +14714,7 @@
   "name": "Moongripper",
   "nameJa": "ムーンキャッチャー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ホワイトワーム",
@@ -14422,6 +14754,7 @@
   "name": "Cazuela Crab",
   "nameJa": "ナベブタガニ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -14464,6 +14797,7 @@
   "name": "Ilyon Asoh Cichlid",
   "nameJa": "イヨンアソ・シクリッド",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -14505,6 +14839,7 @@
   "name": "Stardust Sleeper",
   "nameJa": "スターダスト・スリーパー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": null,
@@ -14552,6 +14887,7 @@
   "name": "Hwittayoanaan Cichlid",
   "nameJa": "ウィダヨーナン・シクリッド",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -14594,6 +14930,7 @@
   "name": "Thunderswift Trout",
   "nameJa": "サンダードリフトトラウト",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -14633,6 +14970,7 @@
   "name": "Pixel Loach",
   "nameJa": "ピクセルローチ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -14672,6 +15010,7 @@
   "name": "Cabinkeep Permit",
   "nameJa": "キャビンキープ・パーミット",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ゴーストニッパー",
@@ -14711,6 +15050,7 @@
   "name": "Muttering Matamata",
   "nameJa": "マダ・マタマタ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": null,
@@ -14756,6 +15096,7 @@
   "name": "Riverlong Candiru",
   "nameJa": "リバーロング・カンディル",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -14799,6 +15140,7 @@
   "name": "Deep Canopy",
   "nameJa": "央森の枯葉",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -14838,6 +15180,7 @@
   "name": "Awaksbane Apoda",
   "nameJa": "アワクスベイン・アポダ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -14880,6 +15223,7 @@
   "name": "Ttokatoa",
   "nameJa": "ドクトー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ポッパールアー",
@@ -14927,6 +15271,7 @@
   "name": "Thunderous Flounder",
   "nameJa": "サンダラスフラウンダー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -14968,6 +15313,7 @@
   "name": "Harlequin Queen",
   "nameJa": "ハーレクインクイーン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -15009,6 +15355,7 @@
   "name": "Prime Adjudicator",
   "nameJa": "深奥の代言人",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -15052,6 +15399,7 @@
   "name": "Crenicichla Miyaka",
   "nameJa": "クレニシクラ・ミヤカ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -15093,6 +15441,7 @@
   "name": "Iron Shadowtongue",
   "nameJa": "アイロンブラックアロワナ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -15134,6 +15483,7 @@
   "name": "Lotl-in-waiting",
   "nameJa": "コンソートアクソロトル",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": null,
@@ -15181,6 +15531,7 @@
   "name": "Sunray Ray",
   "nameJa": "エイエイ",
   "bigFish": false,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "トンボ",
@@ -15220,6 +15571,7 @@
   "name": "Azure Diver",
   "nameJa": "スカイングスキッド",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "トンボ",
@@ -15264,6 +15616,7 @@
   "name": "Sprouting Perch",
   "nameJa": "パンプキンスプラウトフィッシュ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -15305,6 +15658,7 @@
   "name": "Gigagiant Snakehead",
   "nameJa": "ジャイアントスネークヘッド",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -15352,6 +15706,7 @@
   "name": "Gondola Louvar",
   "nameJa": "ゴンドラルーヴァー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ゴーストニッパー",
@@ -15395,6 +15750,7 @@
   "name": "Purse of Riches",
   "nameJa": "リッチパース",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ゴーストニッパー",
@@ -15438,6 +15794,7 @@
   "name": "Punutiy Pain",
   "nameJa": "プヌベイン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": null,
@@ -15485,6 +15842,7 @@
   "name": "Shuckfin Dace",
   "nameJa": "コーンシャックデイス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -15526,6 +15884,7 @@
   "name": "Shin Snuffler",
   "nameJa": "スネナマズ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -15573,6 +15932,7 @@
   "name": "Moxutural Greatgar",
   "nameJa": "モシュトラル・グレートガー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ポッパールアー",
@@ -15618,6 +15978,7 @@
   "name": "Heirloom Goldgrouper",
   "nameJa": "ヘリテージグルーパー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ポッパールアー",
@@ -15661,6 +16022,7 @@
   "name": "Datnioides Aeroplanos",
   "nameJa": "ウィンディ・ダトニオ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -15704,6 +16066,7 @@
   "name": "Esperance Carp",
   "nameJa": "フィッシュ・エスペランサ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -15758,6 +16121,7 @@
   "name": "Ole Ole Ole",
   "nameJa": "オーレーオーレーオーレー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ホワイトワーム",
@@ -15801,6 +16165,7 @@
   "name": "Iron Oxydoras",
   "nameJa": "ブラックオキシドラス",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ゴールデンラーヴァ",
@@ -15848,6 +16213,7 @@
   "name": "Excavator Catfish",
   "nameJa": "スコップノーズキャット",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ポッパールアー",
@@ -15891,6 +16257,7 @@
   "name": "Moonmarking Saucer",
   "nameJa": "アントゥルーソーサー",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -15938,6 +16305,7 @@
   "name": "Autarch's Supper",
   "nameJa": "ロイヤル・ファロウェラ",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -15981,6 +16349,7 @@
   "name": "Bitterbark Caiman",
   "nameJa": "ビターバークカイマン",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "紅サシ",
@@ -16028,6 +16397,7 @@
   "name": "Vagrant Keeper",
   "nameJa": "深穴の徨霊",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "トンボ",
@@ -16077,6 +16447,7 @@
   "name": "Shined Copper Shark",
   "nameJa": "ブライトカッパーシャーク",
   "bigFish": true,
+  "oonushi": false,
   "baitPath": [
    {
     "ja": "ゴーストニッパー",

@@ -289,10 +289,16 @@ export default function NushiRow({
             }`}
           >
             {nushi.nameJa ?? nushi.name}
-            {nushi.bigFish && (
-              <span className="ml-1.5 rounded border border-hookgold-deep px-1 text-[10px] text-hookgold align-middle">
-                ヌシ
+            {nushi.oonushi ? (
+              <span className="ml-1.5 rounded bg-hookgold px-1 text-[10px] font-bold text-abyss align-middle">
+                オオヌシ
               </span>
+            ) : (
+              nushi.bigFish && (
+                <span className="ml-1.5 rounded border border-hookgold-deep px-1 text-[10px] text-hookgold align-middle">
+                  ヌシ
+                </span>
+              )
             )}
             {nushi.folkloreNameJa && (
               <span className="ml-1 rounded border border-moonlight-faint px-1 text-[10px] text-moonlight-dim align-middle">
@@ -307,6 +313,13 @@ export default function NushiRow({
           </div>
           <div className="text-xs text-moonlight-faint">
             {nushi.name} ・ Patch {nushi.patch}
+          </div>
+          {/* モバイルでは場所列が消えるため名前の下に出す */}
+          <div className="text-xs text-moonlight-dim sm:hidden">
+            {nushi.spotNameJa ?? nushi.spotName ?? "—"}
+            {nushi.zoneNameJa && (
+              <span className="text-moonlight-faint"> ・ {nushi.zoneNameJa}</span>
+            )}
           </div>
         </div>
 

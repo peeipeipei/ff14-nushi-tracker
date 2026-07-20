@@ -22,9 +22,12 @@ function expansionOf(patch: number | string): number {
   return Math.floor(parseFloat(String(patch)));
 }
 
+type TypeFilter = "all" | "nushi" | "oonushi";
+
 export default function ListPage() {
   const [query, setQuery] = useState("");
   const [uncaughtOnly, setUncaughtOnly] = useState(false);
+  const [typeFilter, setTypeFilter] = useState<TypeFilter>("all");
   const { caught, toggle, loaded } = useCaught();
 
   const sections = useMemo(() => {
@@ -36,6 +39,8 @@ export default function ListPage() {
       ).length;
       const visible = fish.filter((n) => {
         if (uncaughtOnly && n.id !== null && caught.has(n.id)) return false;
+        if (typeFilter === "nushi" && !n.bigFish) return false;
+        if (typeFilter === "oonushi" && !n.oonushi) return false;
         if (!q) return true;
         return (
           n.name.toLowerCase().includes(q) ||
@@ -46,7 +51,7 @@ export default function ListPage() {
       });
       return { ...exp, fish, caughtCount, visible };
     });
-  }, [query, uncaughtOnly, caught]);
+  }, [query, uncaughtOnly, typeFilter, caught]);
 
   const totalCaught = allNushi.filter(
     (n) => n.id !== null && caught.has(n.id)
@@ -95,6 +100,27 @@ export default function ListPage() {
             />
             未釣獲のみ
           </label>
+          <div className="flex items-center gap-1.5">
+            {(
+              [
+                ["all", "すべて"],
+                ["nushi", "ヌシのみ"],
+                ["oonushi", "オオヌシ"],
+              ] as const
+            ).map(([key, label]) => (
+              <button
+                key={key}
+                onClick={() => setTypeFilter(key)}
+                className={`rounded-full px-3 py-1 text-xs transition-colors ${
+                  typeFilter === key
+                    ? "bg-hookgold text-abyss font-bold"
+                    : "border border-abyss-600 text-moonlight-dim hover:border-hookgold-deep hover:text-moonlight"
+                }`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
         </div>
       </header>
 
@@ -167,10 +193,16 @@ export default function ListPage() {
                           }`}
                         >
                           {n.nameJa ?? n.name}
-                          {n.bigFish && (
-                            <span className="ml-1.5 rounded border border-hookgold-deep px-1 text-[10px] text-hookgold align-middle">
-                              ヌシ
+                          {n.oonushi ? (
+                            <span className="ml-1.5 rounded bg-hookgold px-1 text-[10px] font-bold text-abyss align-middle">
+                              オオヌシ
                             </span>
+                          ) : (
+                            n.bigFish && (
+                              <span className="ml-1.5 rounded border border-hookgold-deep px-1 text-[10px] text-hookgold align-middle">
+                                ヌシ
+                              </span>
+                            )
                           )}
                         </div>
                         <div className="truncate text-xs text-moonlight-faint">

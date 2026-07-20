@@ -30,20 +30,72 @@ function sortKey(row: Row, nowMs: number): number {
   return row.window.startMs - nowMs;
 }
 
+const EXPANSIONS = [
+  { key: 2, label: "新生" },
+  { key: 3, label: "蒼天" },
+  { key: 4, label: "紅蓮" },
+  { key: 5, label: "漆黒" },
+  { key: 6, label: "暁月" },
+  { key: 7, label: "黄金" },
+] as const;
+
+type TypeFilter = "all" | "nushi" | "oonushi";
+type SortMode = "window" | "patch" | "name";
+
+function expansionOf(patch: number | string): number {
+  return Math.floor(parseFloat(String(patch)));
+}
+
+const FILTER_STORAGE_KEY = "nushi-filters-v1";
+
 export default function Home() {
   // SSR とのハイドレーション不一致を避けるため、時刻はマウント後に初期化する
   const [nowMs, setNowMs] = useState<number | null>(null);
   const [query, setQuery] = useState("");
   const [activeOnly, setActiveOnly] = useState(false);
   const [uncaughtOnly, setUncaughtOnly] = useState(false);
+  const [expFilter, setExpFilter] = useState<number | null>(null);
+  const [typeFilter, setTypeFilter] = useState<TypeFilter>("all");
+  const [sortMode, setSortMode] = useState<SortMode>("window");
   const [expandedId, setExpandedId] = useState<number | null>(null);
   const { caught, toggle } = useCaught();
 
   useEffect(() => {
+    // 保存済みフィルタの復元
+    try {
+      const raw = localStorage.getItem(FILTER_STORAGE_KEY);
+      if (raw) {
+        const f = JSON.parse(raw);
+        if (typeof f.activeOnly === "boolean") setActiveOnly(f.activeOnly);
+        if (typeof f.uncaughtOnly === "boolean") setUncaughtOnly(f.uncaughtOnly);
+        if (f.expFilter === null || typeof f.expFilter === "number")
+          setExpFilter(f.expFilter);
+        if (["all", "nushi", "oonushi"].includes(f.typeFilter))
+          setTypeFilter(f.typeFilter);
+        if (["window", "patch", "name"].includes(f.sortMode))
+          setSortMode(f.sortMode);
+      }
+    } catch {
+      // 壊れた保存値は無視
+    }
     setNowMs(Date.now());
     const t = setInterval(() => setNowMs(Date.now()), 1000);
     return () => clearInterval(t);
   }, []);
+
+  // フィルタ状態の保存 (初期化前は保存しない)
+  useEffect(() => {
+    if (nowMs === null) return;
+    try {
+      localStorage.setItem(
+        FILTER_STORAGE_KEY,
+        JSON.stringify({ activeOnly, uncaughtOnly, expFilter, typeFilter, sortMode })
+      );
+    } catch {
+      // ストレージ不可でも動作は継続
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeOnly, uncaughtOnly, expFilter, typeFilter, sortMode]);
 
   // 窓の再計算は30秒粒度 (計算自体は数十msなので体感遅延なし)
   const computeTick = nowMs === null ? null : Math.floor(nowMs / 30000);
@@ -62,26 +114,44 @@ export default function Home() {
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return rows
-      .filter((r) => {
-        if (activeOnly && !(r.window?.isActiveNow ?? false)) return false;
-        if (uncaughtOnly && r.nushi.id !== null && caught.has(r.nushi.id)) return false;
-        if (!q) return true;
-        return (
-          r.nushi.name.toLowerCase().includes(q) ||
-          (r.nushi.nameJa ?? "").toLowerCase().includes(q) ||
-          (r.nushi.spotNameJa ?? "").toLowerCase().includes(q) ||
-          (r.nushi.zoneNameJa ?? "").toLowerCase().includes(q)
-        );
-      })
-      .sort((a, b) => {
-        // 順序は30秒毎の窓再計算時のみ変わる。毎秒ソートすると DOM 移動で
-        // lazy 画像のロードが中断され続けるため、tick 時刻で安定ソートする
-        const t = (computeTick ?? 0) * 30000;
-        return sortKey(a, t) - sortKey(b, t);
-      });
+    const filtered = rows.filter((r) => {
+      const n = r.nushi;
+      if (activeOnly && !(r.window?.isActiveNow ?? false)) return false;
+      if (uncaughtOnly && n.id !== null && caught.has(n.id)) return false;
+      if (expFilter !== null && expansionOf(n.patch) !== expFilter) return false;
+      if (typeFilter === "nushi" && !n.bigFish) return false;
+      if (typeFilter === "oonushi" && !n.oonushi) return false;
+      if (!q) return true;
+      return (
+        n.name.toLowerCase().includes(q) ||
+        (n.nameJa ?? "").toLowerCase().includes(q) ||
+        (n.spotNameJa ?? "").toLowerCase().includes(q) ||
+        (n.zoneNameJa ?? "").toLowerCase().includes(q)
+      );
+    });
+    if (sortMode === "patch") {
+      return filtered.sort(
+        (a, b) =>
+          parseFloat(String(a.nushi.patch)) - parseFloat(String(b.nushi.patch)) ||
+          (a.nushi.nameJa ?? "").localeCompare(b.nushi.nameJa ?? "", "ja")
+      );
+    }
+    if (sortMode === "name") {
+      return filtered.sort((a, b) =>
+        (a.nushi.nameJa ?? a.nushi.name).localeCompare(
+          b.nushi.nameJa ?? b.nushi.name,
+          "ja"
+        )
+      );
+    }
+    return filtered.sort((a, b) => {
+      // 順序は30秒毎の窓再計算時のみ変わる。毎秒ソートすると DOM 移動が
+      // 画像のロードを中断し続けるため、tick 時刻で安定ソートする
+      const t = (computeTick ?? 0) * 30000;
+      return sortKey(a, t) - sortKey(b, t);
+    });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [rows, query, activeOnly, uncaughtOnly, caught, computeTick]);
+  }, [rows, query, activeOnly, uncaughtOnly, expFilter, typeFilter, sortMode, caught, computeTick]);
 
   const activeCount = rows.filter((r) => r.window?.isActiveNow).length;
   const caughtBig = allNushi.filter(
@@ -131,32 +201,92 @@ export default function Home() {
         </div>
       </header>
 
-      <div className="mb-4 flex flex-wrap items-center gap-4">
-        <input
-          type="search"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          placeholder="魚名・釣り場・エリアで検索…"
-          className="w-64 rounded-md border border-abyss-700 bg-abyss-800 px-3 py-2 text-sm text-moonlight placeholder:text-moonlight-faint focus:border-hookgold focus:outline-none"
-        />
-        <label className="flex cursor-pointer items-center gap-2 text-sm text-moonlight-dim">
+      <div className="sticky top-0 z-10 -mx-4 mb-4 space-y-2.5 border-b border-abyss-700/60 bg-abyss/90 px-4 py-3 backdrop-blur">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
           <input
-            type="checkbox"
-            checked={activeOnly}
-            onChange={(e) => setActiveOnly(e.target.checked)}
-            className="accent-hookgold"
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="魚名・釣り場・エリアで検索…"
+            className="w-64 rounded-md border border-abyss-700 bg-abyss-800 px-3 py-2 text-sm text-moonlight placeholder:text-moonlight-faint focus:border-hookgold focus:outline-none"
           />
-          開催中のみ
-        </label>
-        <label className="flex cursor-pointer items-center gap-2 text-sm text-moonlight-dim">
-          <input
-            type="checkbox"
-            checked={uncaughtOnly}
-            onChange={(e) => setUncaughtOnly(e.target.checked)}
-            className="accent-hookgold"
-          />
-          未釣獲のみ
-        </label>
+          <label className="flex cursor-pointer items-center gap-2 text-sm text-moonlight-dim">
+            <input
+              type="checkbox"
+              checked={activeOnly}
+              onChange={(e) => setActiveOnly(e.target.checked)}
+              className="accent-hookgold"
+            />
+            開催中のみ
+          </label>
+          <label className="flex cursor-pointer items-center gap-2 text-sm text-moonlight-dim">
+            <input
+              type="checkbox"
+              checked={uncaughtOnly}
+              onChange={(e) => setUncaughtOnly(e.target.checked)}
+              className="accent-hookgold"
+            />
+            未釣獲のみ
+          </label>
+          <select
+            value={sortMode}
+            onChange={(e) => setSortMode(e.target.value as SortMode)}
+            className="rounded-md border border-abyss-700 bg-abyss-800 px-2 py-2 text-sm text-moonlight focus:border-hookgold focus:outline-none"
+            aria-label="並び順"
+          >
+            <option value="window">窓が近い順</option>
+            <option value="patch">パッチ順</option>
+            <option value="name">名前順</option>
+          </select>
+          <span className="ml-auto text-xs text-moonlight-faint tabular-nums">
+            表示中 {visible.length} 種
+          </span>
+        </div>
+        <div className="flex flex-wrap items-center gap-1.5">
+          <button
+            onClick={() => setExpFilter(null)}
+            className={`rounded-full px-3 py-1 text-xs transition-colors ${
+              expFilter === null
+                ? "bg-hookgold text-abyss font-bold"
+                : "border border-abyss-600 text-moonlight-dim hover:border-hookgold-deep hover:text-moonlight"
+            }`}
+          >
+            全拡張
+          </button>
+          {EXPANSIONS.map((e) => (
+            <button
+              key={e.key}
+              onClick={() => setExpFilter(expFilter === e.key ? null : e.key)}
+              className={`rounded-full px-3 py-1 text-xs transition-colors ${
+                expFilter === e.key
+                  ? "bg-hookgold text-abyss font-bold"
+                  : "border border-abyss-600 text-moonlight-dim hover:border-hookgold-deep hover:text-moonlight"
+              }`}
+            >
+              {e.label}
+            </button>
+          ))}
+          <span className="mx-1 h-4 w-px bg-abyss-600" />
+          {(
+            [
+              ["all", "すべて"],
+              ["nushi", "ヌシのみ"],
+              ["oonushi", "オオヌシ"],
+            ] as const
+          ).map(([key, label]) => (
+            <button
+              key={key}
+              onClick={() => setTypeFilter(key)}
+              className={`rounded-full px-3 py-1 text-xs transition-colors ${
+                typeFilter === key
+                  ? "bg-hookgold text-abyss font-bold"
+                  : "border border-abyss-600 text-moonlight-dim hover:border-hookgold-deep hover:text-moonlight"
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
       </div>
 
       <div className="overflow-hidden rounded-xl border border-abyss-700 bg-abyss-900/70 shadow-deep">

@@ -11,6 +11,8 @@ export interface Nushi {
   nameJa: string | null;
   /** ゲーム内「ヌシ」(太公望アチーブメントの対象) か */
   bigFish: boolean;
+  /** アイテム説明文に「オオヌシ」と記載される最高位のヌシか (各拡張6種) */
+  oonushi: boolean;
   /** 泳がせ釣りルート。先頭が餌、以降は泳がせる中間魚 */
   baitPath: ItemRef[];
   /** 漁師の直感の発動条件 (先に釣る魚と匹数) */
