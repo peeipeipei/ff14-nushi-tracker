@@ -6,11 +6,38 @@ data_repo.js (ff14-fish-tracker-app の生成済みデータ) で
 import json
 import re
 import sys
+import urllib.request
 from pathlib import Path
 
 import yaml
 
 HERE = Path(__file__).parent
+
+def load_lodestone_ids():
+    """Asvel/ffxiv-lodestone-item-id: 行番号(1始まり) = アイテムID"""
+    path = HERE / "lodestone_item_id.txt"
+    if not path.exists():
+        return {}
+    lines = path.read_text(encoding="utf-8").splitlines()
+    return {i + 1: v for i, v in enumerate(lines) if v}
+
+def load_map_ids(map_row_ids):
+    """XIVAPI Map シートから map row id -> Id 文字列 ("s1t1/01" 等)。結果はキャッシュ。"""
+    cache_path = HERE / "map_ids.json"
+    cache = {}
+    if cache_path.exists():
+        cache = json.loads(cache_path.read_text(encoding="utf-8"))
+    missing = [m for m in map_row_ids if str(m) not in cache]
+    for m in missing:
+        url = f"https://v2.xivapi.com/api/sheet/Map/{m}?fields=Id"
+        req = urllib.request.Request(url, headers={"User-Agent": "ff14-nushi-tracker/0.1"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                cache[str(m)] = json.loads(r.read().decode("utf-8"))["fields"]["Id"]
+        except Exception as e:  # 取得失敗はマップ表示なしで続行
+            print(f"  warn: Map {m} fetch failed: {e}")
+    cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
+    return {int(k): v for k, v in cache.items()}
 
 def load_repo_data():
     """data_repo.js -> dict。`const DATA = {...}` の JS を JSON として読む。"""
@@ -36,6 +63,10 @@ def main():
     # data.js 側の name_en に末尾スペースがある個体がいるため strip する
     name_to_id = {v["name_en"].strip().lower(): int(k) for k, v in items.items()}
     weather_name_to_id = {v["name_en"].lower(): int(k) for k, v in weather_types.items()}
+
+    lodestone_ids = load_lodestone_ids()
+    used_map_ids = {v["map_id"] for v in weather_rates.values() if v.get("map_id")}
+    map_ids = load_map_ids(used_map_ids)
 
     # ゲーム内「ヌシ」(太公望アチーブ対象) の集合。tug が light/medium の例外個体
     # (ソルター、リトルペリュコス) も拾うため、tug 条件と OR で判定する
@@ -126,11 +157,14 @@ def main():
         folklore_id = repo_fish.get("folklore") if repo_fish else None
         folklore_info = data["FOLKLORE"].get(str(folklore_id)) if folklore_id else None
 
-        # マップ座標とスケール (ミニマップ表示用)
+        # マップ座標とスケール (ミニマップ表示用)、実マップ画像の Id
         map_coords = spot.get("map_coords") if spot else None
         map_scale = None
+        map_asset_id = None
         if territory_id and str(territory_id) in weather_rates:
-            map_scale = weather_rates[str(territory_id)].get("map_scale")
+            wr = weather_rates[str(territory_id)]
+            map_scale = wr.get("map_scale")
+            map_asset_id = map_ids.get(wr.get("map_id"))
 
         nushi.append({
             "id": item_id,
@@ -143,6 +177,9 @@ def main():
             "intuitionLength": repo_fish.get("intuitionLength") if repo_fish else None,
             "mapCoords": map_coords[:2] if map_coords else None,
             "mapScale": map_scale,
+            "mapId": map_asset_id,
+            "icon": item["icon"] if item else None,
+            "lodestoneId": lodestone_ids.get(item_id) if item_id else None,
             "spotId": spot_id,
             "spotName": spot["name_en"] if spot else (entry.get("location") if isinstance(entry.get("location"), str) else None),
             "spotNameJa": spot["name_ja"] if spot else None,

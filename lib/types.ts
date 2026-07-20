@@ -22,6 +22,12 @@ export interface Nushi {
   mapCoords: [number, number] | null;
   /** マップスケール (座標の最大値の算出に使用) */
   mapScale: number | null;
+  /** ゲーム内マップ画像の ID ("s1f3/01" 形式、XIVAPI アセット用) */
+  mapId: string | null;
+  /** アイテムアイコン ID ("029094" 形式) */
+  icon: string | null;
+  /** ロードストーン エオルゼアデータベースのアイテム ID */
+  lodestoneId: string | null;
   spotId: number | null;
   spotName: string | null;
   spotNameJa: string | null;

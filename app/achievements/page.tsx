@@ -183,12 +183,18 @@ export default function AchievementsPage() {
     <main className="mx-auto max-w-5xl px-4 py-8">
       <header className="mb-6 flex flex-wrap items-end justify-between gap-4">
         <div>
-          <div className="mb-1">
+          <div className="mb-1 flex gap-4 text-sm">
             <Link
               href="/"
-              className="text-sm text-moonlight-dim underline hover:text-moonlight"
+              className="text-moonlight-dim underline hover:text-moonlight"
             >
-              ← ヌシ一覧に戻る
+              ← トラッカーに戻る
+            </Link>
+            <Link
+              href="/list"
+              className="text-moonlight-dim underline hover:text-moonlight"
+            >
+              📖 図鑑
             </Link>
           </div>
           <h1 className="font-display text-3xl font-bold text-moonlight">

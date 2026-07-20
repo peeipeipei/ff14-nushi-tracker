@@ -74,8 +74,14 @@ export default function Home() {
           (r.nushi.zoneNameJa ?? "").toLowerCase().includes(q)
         );
       })
-      .sort((a, b) => sortKey(a, nowMs ?? 0) - sortKey(b, nowMs ?? 0));
-  }, [rows, query, activeOnly, uncaughtOnly, caught, nowMs]);
+      .sort((a, b) => {
+        // 順序は30秒毎の窓再計算時のみ変わる。毎秒ソートすると DOM 移動で
+        // lazy 画像のロードが中断され続けるため、tick 時刻で安定ソートする
+        const t = (computeTick ?? 0) * 30000;
+        return sortKey(a, t) - sortKey(b, t);
+      });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [rows, query, activeOnly, uncaughtOnly, caught, computeTick]);
 
   const activeCount = rows.filter((r) => r.window?.isActiveNow).length;
   const caughtBig = allNushi.filter(
@@ -109,6 +115,12 @@ export default function Home() {
           </p>
         </div>
         <div className="flex items-center gap-3">
+          <Link
+            href="/list"
+            className="rounded-lg border border-hookgold-deep bg-abyss-800 px-4 py-2 text-sm text-hookgold transition-colors hover:bg-abyss-700 hover:text-hookgold-bright"
+          >
+            📖 図鑑
+          </Link>
           <Link
             href="/achievements"
             className="rounded-lg border border-hookgold-deep bg-abyss-800 px-4 py-2 text-sm text-hookgold transition-colors hover:bg-abyss-700 hover:text-hookgold-bright"
@@ -148,8 +160,9 @@ export default function Home() {
       </div>
 
       <div className="overflow-hidden rounded-xl border border-abyss-700 bg-abyss-900/70 shadow-deep">
-        <div className="hidden grid-cols-[auto_minmax(170px,1.2fr)_minmax(140px,1fr)_minmax(150px,1fr)_minmax(120px,0.9fr)] gap-x-3 border-b border-abyss-700 bg-abyss-800 px-4 py-2 text-[11px] uppercase tracking-wider text-moonlight-dim sm:grid">
+        <div className="hidden grid-cols-[auto_auto_minmax(150px,1.2fr)_minmax(140px,1fr)_minmax(150px,1fr)_minmax(120px,0.9fr)] gap-x-3 border-b border-abyss-700 bg-abyss-800 px-4 py-2 text-[11px] uppercase tracking-wider text-moonlight-dim sm:grid">
           <div className="w-4">済</div>
+          <div className="w-9"></div>
           <div>ヌシ</div>
           <div>釣り場</div>
           <div>条件 (ET / 天候)</div>

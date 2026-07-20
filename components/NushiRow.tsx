@@ -1,6 +1,7 @@
 "use client";
 
 import type { Nushi, UpcomingWindow, WeatherTypeInfo } from "@/lib/types";
+import { iconUrl, lodestoneUrl, mapUrl } from "@/lib/assets";
 import TideGauge from "./TideGauge";
 
 function formatCountdown(ms: number): string {
@@ -43,38 +44,54 @@ function coordFraction(coord: number, scale: number): number {
   return Math.min(1, Math.max(0, (coord - 1) / (max - 1)));
 }
 
+/** ゲーム内マップ画像を釣り場中心にズーム表示するミニマップ */
+const MAP_ZOOM = 3;
+
 function MiniMap({ nushi }: { nushi: Nushi }) {
   if (!nushi.mapCoords || !nushi.mapScale) return null;
   const [x, y] = nushi.mapCoords;
   const fx = coordFraction(x, nushi.mapScale);
   const fy = coordFraction(y, nushi.mapScale);
+
+  // background-position P% で画像内の点 fx をコンテナ中央に置く:
+  // (1-S)*P/100 + fx*S = 1/2  →  P = 100*(fx*S - 1/2)/(S-1)
+  const posX = Math.min(100, Math.max(0, (100 * (fx * MAP_ZOOM - 0.5)) / (MAP_ZOOM - 1)));
+  const posY = Math.min(100, Math.max(0, (100 * (fy * MAP_ZOOM - 0.5)) / (MAP_ZOOM - 1)));
+  // 端でクランプされた場合のドットの実位置 (コンテナ内割合)
+  const dotX = ((1 - MAP_ZOOM) * posX) / 100 + fx * MAP_ZOOM;
+  const dotY = ((1 - MAP_ZOOM) * posY) / 100 + fy * MAP_ZOOM;
+
   return (
     <div className="flex items-center gap-3">
-      <svg
-        viewBox="0 0 64 64"
-        className="h-16 w-16 shrink-0 rounded border border-abyss-600 bg-abyss-900"
-        aria-label="釣り場のおおよその位置"
+      <div
+        className="relative h-40 w-40 shrink-0 overflow-hidden rounded-lg border border-abyss-600 bg-abyss-900 shadow-deep"
+        aria-label="釣り場の位置 (ゲーム内マップ)"
       >
-        {[16, 32, 48].map((p) => (
-          <g key={p} className="stroke-abyss-700" strokeWidth="1">
-            <line x1={p} y1="0" x2={p} y2="64" />
-            <line x1="0" y1={p} x2="64" y2={p} />
-          </g>
-        ))}
-        <circle
-          cx={4 + fx * 56}
-          cy={4 + fy * 56}
-          r="3.5"
-          className="fill-hookgold"
-        />
-        <circle
-          cx={4 + fx * 56}
-          cy={4 + fy * 56}
-          r="6"
-          className="fill-none stroke-hookgold-bright/60"
-          strokeWidth="1"
-        />
-      </svg>
+        {nushi.mapId ? (
+          <>
+            <div
+              className="absolute inset-0"
+              style={{
+                backgroundImage: `url(${mapUrl(nushi.mapId)})`,
+                backgroundSize: `${MAP_ZOOM * 100}%`,
+                backgroundPosition: `${posX}% ${posY}%`,
+              }}
+            />
+            <span
+              className="absolute h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-abyss bg-hookgold shadow-lantern"
+              style={{ left: `${dotX * 100}%`, top: `${dotY * 100}%` }}
+            />
+            <span
+              className="absolute h-6 w-6 -translate-x-1/2 -translate-y-1/2 animate-ping rounded-full bg-hookgold/30"
+              style={{ left: `${dotX * 100}%`, top: `${dotY * 100}%` }}
+            />
+          </>
+        ) : (
+          <div className="flex h-full items-center justify-center text-xs text-moonlight-faint">
+            マップなし
+          </div>
+        )}
+      </div>
       <div className="text-xs">
         <div className="text-moonlight">
           {nushi.zoneNameJa ?? nushi.zoneName}
@@ -216,7 +233,7 @@ export default function NushiRow({
     <div>
       <div
         onClick={onToggleExpand}
-        className={`grid cursor-pointer grid-cols-[auto_1fr_auto] items-center gap-x-3 border-b border-abyss-700/60 px-4 py-3 transition-colors hover:bg-abyss-800/60 sm:grid-cols-[auto_minmax(170px,1.2fr)_minmax(140px,1fr)_minmax(150px,1fr)_minmax(120px,0.9fr)] ${
+        className={`grid cursor-pointer grid-cols-[auto_auto_1fr_auto] items-center gap-x-3 border-b border-abyss-700/60 px-4 py-3 transition-colors hover:bg-abyss-800/60 sm:grid-cols-[auto_auto_minmax(150px,1.2fr)_minmax(140px,1fr)_minmax(150px,1fr)_minmax(120px,0.9fr)] ${
           expanded ? "bg-abyss-800/50" : ""
         } ${isCaught ? "opacity-60" : ""}`}
       >
@@ -234,6 +251,37 @@ export default function NushiRow({
             aria-label={`${nushi.nameJa ?? nushi.name} 釣獲済み`}
           />
         </label>
+
+        {/* 魚アイコン (クリックでロードストーンのアイテムページへ) */}
+        {nushi.icon &&
+          (nushi.lodestoneId ? (
+            <a
+              href={lodestoneUrl(nushi.lodestoneId)}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={(e) => e.stopPropagation()}
+              title={`${nushi.nameJa ?? nushi.name} をロードストーンで見る`}
+              className="block shrink-0 transition-transform hover:scale-110"
+            >
+              <img
+                src={iconUrl(nushi.icon)}
+                alt={nushi.nameJa ?? nushi.name}
+                width={36}
+                height={36}
+                loading="lazy"
+                className="rounded border border-abyss-600 bg-abyss-900"
+              />
+            </a>
+          ) : (
+            <img
+              src={iconUrl(nushi.icon)}
+              alt={nushi.nameJa ?? nushi.name}
+              width={36}
+              height={36}
+              loading="lazy"
+              className="shrink-0 rounded border border-abyss-600 bg-abyss-900"
+            />
+          ))}
 
         {/* 魚名 */}
         <div>
