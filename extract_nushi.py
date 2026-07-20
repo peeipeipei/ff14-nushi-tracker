@@ -37,6 +37,10 @@ def main():
     name_to_id = {v["name_en"].strip().lower(): int(k) for k, v in items.items()}
     weather_name_to_id = {v["name_en"].lower(): int(k) for k, v in weather_types.items()}
 
+    # ゲーム内「ヌシ」(太公望アチーブ対象) の集合。tug が light/medium の例外個体
+    # (ソルター、リトルペリュコス) も拾うため、tug 条件と OR で判定する
+    bigfish_ids = {int(k) for k, v in fish_db.items() if v.get("bigFish")}
+
     nushi = []
     tug_counts = {}
     unmatched = []
@@ -45,7 +49,8 @@ def main():
         tug = (entry.get("tug") or "").strip().lower()
         if tug:
             tug_counts[tug] = tug_counts.get(tug, 0) + 1
-        if tug not in ("legendary", "heavy"):
+        entry_id = name_to_id.get(entry["name"].strip().lower())
+        if tug not in ("legendary", "heavy") and entry_id not in bigfish_ids:
             continue
 
         name_en = entry["name"]
@@ -96,10 +101,48 @@ def main():
                 return v / 60
             return v
 
+        # 泳がせ釣りルート: repo の item id 列を優先し、日本語名に解決
+        def item_name(ref):
+            if isinstance(ref, int):
+                it = items.get(str(ref))
+                return {"ja": it["name_ja"], "en": it["name_en"].strip()} if it else {"ja": None, "en": str(ref)}
+            it = items.get(str(name_to_id.get(str(ref).lower())))
+            return {"ja": it["name_ja"], "en": it["name_en"].strip()} if it else {"ja": None, "en": str(ref)}
+
+        if repo_fish and repo_fish.get("bestCatchPath"):
+            bait_path = [item_name(i) for i in repo_fish["bestCatchPath"]]
+        else:
+            bait_path = [item_name(n) for n in (entry.get("bestCatchPath") or [])]
+
+        # 漁師の直感対象 (先に釣る必要のある魚と匹数)
+        predators = []
+        if repo_fish and repo_fish.get("predators"):
+            for pid, count in repo_fish["predators"]:
+                predators.append({**item_name(pid), "count": count})
+        elif entry.get("predators"):
+            for pname, count in entry["predators"].items():
+                predators.append({**item_name(pname), "count": count})
+
+        folklore_id = repo_fish.get("folklore") if repo_fish else None
+        folklore_info = data["FOLKLORE"].get(str(folklore_id)) if folklore_id else None
+
+        # マップ座標とスケール (ミニマップ表示用)
+        map_coords = spot.get("map_coords") if spot else None
+        map_scale = None
+        if territory_id and str(territory_id) in weather_rates:
+            map_scale = weather_rates[str(territory_id)].get("map_scale")
+
         nushi.append({
             "id": item_id,
             "name": name_en,
             "nameJa": item["name_ja"] if item else None,
+            "bigFish": bool(repo_fish and repo_fish.get("bigFish")),
+            "baitPath": bait_path,
+            "predators": predators,
+            "folkloreNameJa": folklore_info["book_ja"] if folklore_info else None,
+            "intuitionLength": repo_fish.get("intuitionLength") if repo_fish else None,
+            "mapCoords": map_coords[:2] if map_coords else None,
+            "mapScale": map_scale,
             "spotId": spot_id,
             "spotName": spot["name_en"] if spot else (entry.get("location") if isinstance(entry.get("location"), str) else None),
             "spotNameJa": spot["name_ja"] if spot else None,
@@ -110,7 +153,6 @@ def main():
             "endHour": resolve_hour("endHour", 24),
             "weatherSet": resolve_weather("weatherSet"),
             "previousWeatherSet": resolve_weather("previousWeatherSet"),
-            "bestCatchPath": entry.get("bestCatchPath") or [],
             "tug": tug,
             "hookset": entry.get("hookset"),
             "folklore": bool(entry.get("folklore")),

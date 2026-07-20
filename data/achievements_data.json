@@ -1,0 +1,1050 @@
+[
+ {
+  "id": 259,
+  "nameJa": "ラノシアの釣り名人：グレード1",
+  "nameEn": "Good Things Come to Those Who Bait: La Noscea I",
+  "descJa": "ラノシアのレベル1-10釣り場で20回釣りをする",
+  "points": 5,
+  "order": 1
+ },
+ {
+  "id": 260,
+  "nameJa": "ラノシアの釣り名人：グレード2",
+  "nameEn": "Good Things Come to Those Who Bait: La Noscea II",
+  "descJa": "ラノシアのレベル11-20釣り場で100回釣りをする",
+  "points": 5,
+  "order": 2
+ },
+ {
+  "id": 261,
+  "nameJa": "ラノシアの釣り名人：グレード3",
+  "nameEn": "Good Things Come to Those Who Bait: La Noscea III",
+  "descJa": "ラノシアのレベル21-30釣り場で300回釣りをする",
+  "points": 5,
+  "order": 3
+ },
+ {
+  "id": 262,
+  "nameJa": "ラノシアの釣り名人：グレード4",
+  "nameEn": "Good Things Come to Those Who Bait: La Noscea IV",
+  "descJa": "ラノシアのレベル31-40釣り場で500回釣りをする",
+  "points": 5,
+  "order": 4
+ },
+ {
+  "id": 263,
+  "nameJa": "ラノシアの釣り名人：グレード5",
+  "nameEn": "Good Things Come to Those Who Bait: La Noscea V",
+  "descJa": "ラノシアのレベル41-50釣り場で1,000回釣りをする",
+  "points": 5,
+  "order": 5
+ },
+ {
+  "id": 264,
+  "nameJa": "ラノシアの釣り王",
+  "nameEn": "A Fisher's Life for Me: La Noscea",
+  "descJa": "アチーブメント「ラノシアの釣り名人：グレード1」～「ラノシアの釣り名人：グレード5」までをすべて達成する",
+  "points": 10,
+  "order": 6
+ },
+ {
+  "id": 265,
+  "nameJa": "黒衣森の釣り名人：グレード1",
+  "nameEn": "Good Things Come to Those Who Bait: Black Shroud I",
+  "descJa": "黒衣森のレベル1-10釣り場で20回釣りをする",
+  "points": 5,
+  "order": 7
+ },
+ {
+  "id": 266,
+  "nameJa": "黒衣森の釣り名人：グレード2",
+  "nameEn": "Good Things Come to Those Who Bait: Black Shroud II",
+  "descJa": "黒衣森のレベル11-20釣り場で100回釣りをする",
+  "points": 5,
+  "order": 8
+ },
+ {
+  "id": 267,
+  "nameJa": "黒衣森の釣り名人：グレード3",
+  "nameEn": "Good Things Come to Those Who Bait: Black Shroud III",
+  "descJa": "黒衣森のレベル21-30釣り場で300回釣りをする",
+  "points": 5,
+  "order": 9
+ },
+ {
+  "id": 268,
+  "nameJa": "黒衣森の釣り名人：グレード4",
+  "nameEn": "Good Things Come to Those Who Bait: Black Shroud IV",
+  "descJa": "黒衣森のレベル31-40釣り場で500回釣りをする",
+  "points": 5,
+  "order": 10
+ },
+ {
+  "id": 269,
+  "nameJa": "黒衣森の釣り名人：グレード5",
+  "nameEn": "Good Things Come to Those Who Bait: Black Shroud V",
+  "descJa": "黒衣森のレベル41-50釣り場で1,000回釣りをする",
+  "points": 5,
+  "order": 11
+ },
+ {
+  "id": 270,
+  "nameJa": "黒衣森の釣り王",
+  "nameEn": "A Fisher's Life for Me: Black Shroud",
+  "descJa": "アチーブメント「黒衣森の釣り名人：グレード1」～「黒衣森の釣り名人：グレード5」までをすべて達成する",
+  "points": 10,
+  "order": 12
+ },
+ {
+  "id": 271,
+  "nameJa": "ザナラーンの釣り名人：グレード1",
+  "nameEn": "Good Things Come to Those Who Bait: Thanalan I",
+  "descJa": "ザナラーンのレベル1-10釣り場で20回釣りをする",
+  "points": 5,
+  "order": 13
+ },
+ {
+  "id": 272,
+  "nameJa": "ザナラーンの釣り名人：グレード2",
+  "nameEn": "Good Things Come to Those Who Bait: Thanalan II",
+  "descJa": "ザナラーンのレベル11-20釣り場で100回釣りをする",
+  "points": 5,
+  "order": 14
+ },
+ {
+  "id": 273,
+  "nameJa": "ザナラーンの釣り名人：グレード3",
+  "nameEn": "Good Things Come to Those Who Bait: Thanalan III",
+  "descJa": "ザナラーンのレベル21-30釣り場で300回釣りをする",
+  "points": 5,
+  "order": 15
+ },
+ {
+  "id": 274,
+  "nameJa": "ザナラーンの釣り名人：グレード4",
+  "nameEn": "Good Things Come to Those Who Bait: Thanalan IV",
+  "descJa": "ザナラーンのレベル31-40釣り場で500回釣りをする",
+  "points": 5,
+  "order": 16
+ },
+ {
+  "id": 275,
+  "nameJa": "ザナラーンの釣り名人：グレード5",
+  "nameEn": "Good Things Come to Those Who Bait: Thanalan V",
+  "descJa": "ザナラーンのレベル41-50釣り場で1,000回釣りをする",
+  "points": 5,
+  "order": 17
+ },
+ {
+  "id": 276,
+  "nameJa": "ザナラーンの釣り王",
+  "nameEn": "A Fisher's Life for Me: Thanalan",
+  "descJa": "アチーブメント「ザナラーンの釣り名人：グレード1」～「ザナラーンの釣り名人：グレード5」までをすべて達成する",
+  "points": 10,
+  "order": 18
+ },
+ {
+  "id": 277,
+  "nameJa": "黄金の釣竿",
+  "nameEn": "A Fisher's Life for Me: Greater Eorzea",
+  "descJa": "アチーブメント「ラノシアの釣り王」「黒衣森の釣り王」「ザナラーンの釣り王」をすべて達成する",
+  "points": 30,
+  "order": 19
+ },
+ {
+  "id": 1311,
+  "nameJa": "蒼天の釣り名人",
+  "nameEn": "Baiting Heavensward",
+  "descJa": "レベル51-60の釣り場で3,000回釣りを行う",
+  "points": 10,
+  "order": 20
+ },
+ {
+  "id": 1858,
+  "nameJa": "紅蓮の釣り名人",
+  "nameEn": "Baiting Stormblood",
+  "descJa": "レベル61-70の釣り場・漁場で3,000回採集を行う",
+  "points": 10,
+  "order": 21
+ },
+ {
+  "id": 2290,
+  "nameJa": "漆黒の釣り名人",
+  "nameEn": "Baiting Shadowbringers",
+  "descJa": "レベル71-80の釣り場・漁場で3,000回採集を行う",
+  "points": 10,
+  "order": 22
+ },
+ {
+  "id": 2938,
+  "nameJa": "暁月の釣り名人",
+  "nameEn": "Baiting the End",
+  "descJa": "レベル81-90の釣り場・漁場で3,000回採集を行う",
+  "points": 10,
+  "order": 23
+ },
+ {
+  "id": 3477,
+  "nameJa": "黄金の釣り名人",
+  "nameEn": "Baiting Dawntrail",
+  "descJa": "レベル91-100の釣り場・漁場で3,000回採集を行う",
+  "points": 10,
+  "order": 24
+ },
+ {
+  "id": 725,
+  "nameJa": "手帳好きの漁師：ランク1",
+  "nameEn": "I Caught That I",
+  "descJa": "漁師の採集可能アイテムのうち、40種類を採集し、釣り手帳に印を付ける",
+  "points": 5,
+  "order": 41
+ },
+ {
+  "id": 726,
+  "nameJa": "手帳好きの漁師：ランク2",
+  "nameEn": "I Caught That II",
+  "descJa": "漁師の採集可能アイテムのうち、80種類を採集し、釣り手帳に印を付ける",
+  "points": 5,
+  "order": 42
+ },
+ {
+  "id": 727,
+  "nameJa": "手帳好きの漁師：ランク3",
+  "nameEn": "I Caught That III",
+  "descJa": "漁師の採集可能アイテムのうち、160種類を採集し、釣り手帳に印を付ける",
+  "points": 10,
+  "order": 43
+ },
+ {
+  "id": 1288,
+  "nameJa": "手帳好きの漁師：ランク4",
+  "nameEn": "I Caught That IV",
+  "descJa": "漁師の採集可能アイテムのうち、400種類を採集し、釣り手帳に印を付ける",
+  "points": 10,
+  "order": 44
+ },
+ {
+  "id": 1731,
+  "nameJa": "手帳好きの漁師：ランク5",
+  "nameEn": "I Caught That V",
+  "descJa": "漁師の採集可能アイテムのうち、460種類を採集し、釣り手帳に印を付ける",
+  "points": 10,
+  "order": 45
+ },
+ {
+  "id": 2176,
+  "nameJa": "手帳好きの漁師：ランク6",
+  "nameEn": "I Caught That VI",
+  "descJa": "漁師の採集可能アイテムのうち、780種類を採集し、釣り手帳に印を付ける",
+  "points": 10,
+  "order": 46
+ },
+ {
+  "id": 2832,
+  "nameJa": "手帳好きの漁師：ランク7",
+  "nameEn": "I Caught That VII",
+  "descJa": "漁師の採集可能アイテムのうち、1,140種類を採集し、釣り手帳に印を付ける",
+  "points": 10,
+  "order": 47
+ },
+ {
+  "id": 3377,
+  "nameJa": "手帳好きの漁師：ランク8",
+  "nameEn": "I Caught That VIII",
+  "descJa": "漁師の採集可能アイテムのうち、1,460種類を採集し、釣り手帳に印を付ける",
+  "points": 10,
+  "order": 48
+ },
+ {
+  "id": 3983,
+  "nameJa": "手帳好きの漁師：ランク9",
+  "nameEn": "I Caught That IX",
+  "descJa": "漁師の採集可能アイテムのうち、1,730種類を採集し、釣り手帳に印を付ける",
+  "points": 10,
+  "order": 49
+ },
+ {
+  "id": 780,
+  "nameJa": "腕利きの漁師：ランク1",
+  "nameEn": "The One That Didn't Get Away I",
+  "descJa": "漁師でラージサイズの水産物を計100回採集する",
+  "points": 5,
+  "order": 60
+ },
+ {
+  "id": 781,
+  "nameJa": "腕利きの漁師：ランク2",
+  "nameEn": "The One That Didn't Get Away II",
+  "descJa": "漁師でラージサイズの水産物を計500回採集する",
+  "points": 5,
+  "order": 61
+ },
+ {
+  "id": 782,
+  "nameJa": "腕利きの漁師：ランク3",
+  "nameEn": "The One That Didn't Get Away III",
+  "descJa": "漁師でラージサイズの水産物を計3,000回採集する",
+  "points": 10,
+  "order": 62
+ },
+ {
+  "id": 1331,
+  "nameJa": "腕利きの漁師：ランク4",
+  "nameEn": "The One that Didn't Get Away IV",
+  "descJa": "漁師でラージサイズの水産物を計10,000回採集する",
+  "points": 10,
+  "order": 63
+ },
+ {
+  "id": 916,
+  "nameJa": "太公望への道：ランク1",
+  "nameEn": "Go Big or Go Home I",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを釣り上げる",
+  "points": 5,
+  "order": 70
+ },
+ {
+  "id": 917,
+  "nameJa": "太公望への道：ランク2",
+  "nameEn": "Go Big or Go Home II",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを16種類、釣り上げる",
+  "points": 10,
+  "order": 71
+ },
+ {
+  "id": 918,
+  "nameJa": "太公望への道：ランク3",
+  "nameEn": "Go Big or Go Home III",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを37種類、釣り上げる",
+  "points": 20,
+  "order": 72
+ },
+ {
+  "id": 1015,
+  "nameJa": "太公望への道：ランク4",
+  "nameEn": "Go Big or Go Home IV",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを56種類、釣り上げる",
+  "points": 20,
+  "order": 73
+ },
+ {
+  "id": 1016,
+  "nameJa": "太公望への道：ランク5",
+  "nameEn": "Go Big or Go Home V",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを71種類、釣り上げる",
+  "points": 20,
+  "order": 74
+ },
+ {
+  "id": 1017,
+  "nameJa": "太公望への道：ランク6",
+  "nameEn": "Go Big or Go Home VI",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを81種類、釣り上げる",
+  "points": 20,
+  "order": 75
+ },
+ {
+  "id": 1018,
+  "nameJa": "太公望への道：ランク7",
+  "nameEn": "Go Big or Go Home VII",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを87種類、釣り上げる",
+  "points": 20,
+  "order": 76
+ },
+ {
+  "id": 1032,
+  "nameJa": "太公望への道：ランク8",
+  "nameEn": "Go Big or Go Home VIII",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを94種類、釣り上げる",
+  "points": 20,
+  "order": 77
+ },
+ {
+  "id": 1033,
+  "nameJa": "太公望への道：ランク9",
+  "nameEn": "Go Big or Go Home IX",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを100種類、釣り上げる",
+  "points": 20,
+  "order": 78
+ },
+ {
+  "id": 1034,
+  "nameJa": "太公望への道：ランク10",
+  "nameEn": "Go Big or Go Home X",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを106種類、釣り上げる",
+  "points": 20,
+  "order": 79
+ },
+ {
+  "id": 1622,
+  "nameJa": "太公望への道：ランク11",
+  "nameEn": "Go Big or Go Home XI",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを119種類、釣り上げる",
+  "points": 20,
+  "order": 80
+ },
+ {
+  "id": 1633,
+  "nameJa": "太公望への道：ランク12",
+  "nameEn": "Go Big or Go Home XII",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを135種類、釣り上げる",
+  "points": 20,
+  "order": 81
+ },
+ {
+  "id": 1732,
+  "nameJa": "太公望への道：ランク13",
+  "nameEn": "Go Big or Go Home XIII",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを156種類、釣り上げる",
+  "points": 20,
+  "order": 82
+ },
+ {
+  "id": 2079,
+  "nameJa": "太公望への道：ランク14",
+  "nameEn": "Go Big or Go Home XIV",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを170種類、釣り上げる",
+  "points": 20,
+  "order": 83
+ },
+ {
+  "id": 2125,
+  "nameJa": "太公望への道：ランク15",
+  "nameEn": "Go Big or Go Home XV",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを185種類、釣り上げる",
+  "points": 20,
+  "order": 84
+ },
+ {
+  "id": 2245,
+  "nameJa": "太公望への道：ランク16",
+  "nameEn": "Go Big or Go Home XVI",
+  "descJa": "新生エオルゼア、蒼天のイシュガルド、紅蓮のリベレーターのエリアにいるヌシを204種類、釣り上げる",
+  "points": 20,
+  "order": 85
+ },
+ {
+  "id": 2486,
+  "nameJa": "第一世界の太公望：ランク1",
+  "nameEn": "Go Big Far from Home I",
+  "descJa": "漆黒のヴィランズのエリアにいるヌシを8種類、釣り上げる",
+  "points": 10,
+  "order": 100
+ },
+ {
+  "id": 2588,
+  "nameJa": "第一世界の太公望：ランク2",
+  "nameEn": "Go Big Far from Home II",
+  "descJa": "漆黒のヴィランズのエリアにいるヌシを14種類、釣り上げる",
+  "points": 10,
+  "order": 101
+ },
+ {
+  "id": 2644,
+  "nameJa": "第一世界の太公望：ランク3",
+  "nameEn": "Go Big Far from Home III",
+  "descJa": "漆黒のヴィランズのエリアにいるヌシを22種類、釣り上げる",
+  "points": 10,
+  "order": 102
+ },
+ {
+  "id": 2716,
+  "nameJa": "第一世界の太公望：ランク4",
+  "nameEn": "Go Big Far from Home IV",
+  "descJa": "漆黒のヴィランズのエリアにいるヌシを28種類、釣り上げる",
+  "points": 10,
+  "order": 103
+ },
+ {
+  "id": 2833,
+  "nameJa": "第一世界の太公望：ランク5",
+  "nameEn": "Go Big Far from Home V",
+  "descJa": "漆黒のヴィランズのエリアにいるヌシを45種類、釣り上げる",
+  "points": 10,
+  "order": 104
+ },
+ {
+  "id": 2834,
+  "nameJa": "真太公望への道",
+  "nameEn": "No River Wide Enough",
+  "descJa": "アチーブメント「太公望への道：ランク16」「第一世界の太公望：ランク5」をすべて達成する",
+  "points": 20,
+  "order": 105
+ },
+ {
+  "id": 3077,
+  "nameJa": "暁月の太公望：ランク1",
+  "nameEn": "Go Big Till the End I",
+  "descJa": "暁月のフィナーレのエリアにいるヌシを7種類、釣り上げる",
+  "points": 10,
+  "order": 106
+ },
+ {
+  "id": 3187,
+  "nameJa": "暁月の太公望：ランク2",
+  "nameEn": "Go Big Till the End II",
+  "descJa": "暁月のフィナーレのエリアにいるヌシを23種類、釣り上げる",
+  "points": 10,
+  "order": 107
+ },
+ {
+  "id": 3378,
+  "nameJa": "暁月の太公望：ランク3",
+  "nameEn": "Go Big Till the End III",
+  "descJa": "暁月のフィナーレのエリアにいるヌシを40種類、釣り上げる",
+  "points": 10,
+  "order": 108
+ },
+ {
+  "id": 3379,
+  "nameJa": "超太公望への道",
+  "nameEn": "Fish Fear Me",
+  "descJa": "アチーブメント「真太公望への道」「暁月の太公望：ランク3」をすべて達成する",
+  "points": 20,
+  "order": 109
+ },
+ {
+  "id": 3610,
+  "nameJa": "黄金の太公望：ランク1",
+  "nameEn": "Go Big on the Trail I",
+  "descJa": "黄金のレガシーのエリアにいるヌシを8種類、釣り上げる",
+  "points": 10,
+  "order": 110
+ },
+ {
+  "id": 3821,
+  "nameJa": "黄金の太公望：ランク2",
+  "nameEn": "Go Big on the Trail II",
+  "descJa": "黄金のレガシーのエリアにいるヌシを24種類、釣り上げる",
+  "points": 10,
+  "order": 111
+ },
+ {
+  "id": 2519,
+  "nameJa": "蒼天街の漁師：ランク1",
+  "nameEn": "Skyward Rod I",
+  "descJa": "イシュガルド復興において、漁師で技巧点を50,000点獲得する",
+  "points": 5,
+  "order": 120
+ },
+ {
+  "id": 2520,
+  "nameJa": "蒼天街の漁師：ランク2",
+  "nameEn": "Skyward Rod II",
+  "descJa": "イシュガルド復興において、漁師で技巧点を150,000点獲得する",
+  "points": 5,
+  "order": 121
+ },
+ {
+  "id": 2521,
+  "nameJa": "蒼天街の漁師マスター",
+  "nameEn": "Skyward Rod III",
+  "descJa": "イシュガルド復興において、漁師で技巧点を500,000点獲得する",
+  "points": 10,
+  "order": 122
+ },
+ {
+  "id": 2547,
+  "nameJa": "属性を知る漁師：ランク1",
+  "nameEn": "Dauntless Treader I",
+  "descJa": "漁師で天候が焔霊風、土霊風、雷霊風、嵐霊風の時のみ釣ることができる魚を、計5匹釣り上げる",
+  "points": 5,
+  "order": 130
+ },
+ {
+  "id": 2548,
+  "nameJa": "属性を知る漁師：ランク2",
+  "nameEn": "Dauntless Treader II",
+  "descJa": "漁師で天候が焔霊風、土霊風、雷霊風、嵐霊風の時のみ釣ることができる魚を、計50匹釣り上げる",
+  "points": 5,
+  "order": 131
+ },
+ {
+  "id": 2549,
+  "nameJa": "属性を知る漁師：ランク3",
+  "nameEn": "Dauntless Treader III",
+  "descJa": "漁師で天候が焔霊風、土霊風、雷霊風、嵐霊風の時のみ釣ることができる魚を、計100匹釣り上げる",
+  "points": 10,
+  "order": 132
+ },
+ {
+  "id": 2537,
+  "nameJa": "ニューネスト居住区の漁師",
+  "nameEn": "The Height of Angling",
+  "descJa": "第二次復興事業計画用の、特注魚を300匹検品する",
+  "points": 10,
+  "order": 140
+ },
+ {
+  "id": 2658,
+  "nameJa": "フェザーフォール商業区の漁師",
+  "nameEn": "Fishers of a Feather",
+  "descJa": "第三次復興事業計画用の、特注魚を300匹検品する",
+  "points": 10,
+  "order": 141
+ },
+ {
+  "id": 2817,
+  "nameJa": "リズンソング文化区の漁師",
+  "nameEn": "An Ode to Angling",
+  "descJa": "第四次復興事業計画用の、特注魚を300匹検品する",
+  "points": 10,
+  "order": 142
+ },
+ {
+  "id": 2553,
+  "nameJa": "ガラディオン湾沖合の魚拓王",
+  "nameEn": "Denizens of Galadion",
+  "descJa": "ガラディオン湾沖合で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 150
+ },
+ {
+  "id": 2603,
+  "nameJa": "ガラディオン湾沖合の幻海王",
+  "nameEn": "Specters of Galadion",
+  "descJa": "ガラディオン湾沖合で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 151
+ },
+ {
+  "id": 2554,
+  "nameJa": "メルトール海峡南の魚拓王",
+  "nameEn": "Denizens of South Merlthor",
+  "descJa": "メルトール海峡南で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 152
+ },
+ {
+  "id": 2604,
+  "nameJa": "メルトール海峡南の幻海王",
+  "nameEn": "Specters of South Merlthor",
+  "descJa": "メルトール海峡南で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 153
+ },
+ {
+  "id": 2556,
+  "nameJa": "メルトール海峡北の魚拓王",
+  "nameEn": "Denizens of North Merlthor",
+  "descJa": "メルトール海峡北で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 154
+ },
+ {
+  "id": 2606,
+  "nameJa": "メルトール海峡北の幻海王",
+  "nameEn": "Specters of North Merlthor",
+  "descJa": "メルトール海峡北で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 155
+ },
+ {
+  "id": 2555,
+  "nameJa": "ロータノ海沖合の魚拓王",
+  "nameEn": "Denizens of the Rhotano",
+  "descJa": "ロータノ海沖合で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 156
+ },
+ {
+  "id": 2605,
+  "nameJa": "ロータノ海沖合の幻海王",
+  "nameEn": "Specters of the Rhotano",
+  "descJa": "ロータノ海沖合で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 157
+ },
+ {
+  "id": 2748,
+  "nameJa": "シェルダレー諸島沖合の魚拓王",
+  "nameEn": "Denizens of the Cieldalaes",
+  "descJa": "シェルダレー諸島沖合で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 158
+ },
+ {
+  "id": 2751,
+  "nameJa": "シェルダレー諸島沖合の幻海王",
+  "nameEn": "Specters of the Cieldalaes",
+  "descJa": "シェルダレー諸島沖合で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 159
+ },
+ {
+  "id": 2749,
+  "nameJa": "緋汐海沖合の魚拓王",
+  "nameEn": "Denizens of the Bloodbrine",
+  "descJa": "緋汐海沖合で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 160
+ },
+ {
+  "id": 2752,
+  "nameJa": "緋汐海沖合の幻海王",
+  "nameEn": "Specters of the Bloodbrine",
+  "descJa": "緋汐海沖合で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 161
+ },
+ {
+  "id": 2750,
+  "nameJa": "ロズリト湾沖合の魚拓王",
+  "nameEn": "Denizens of the Rothlyt Sound",
+  "descJa": "ロズリト湾沖合で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 162
+ },
+ {
+  "id": 2753,
+  "nameJa": "ロズリト湾沖合の幻海王",
+  "nameEn": "Specters of the Rothlyt Sound",
+  "descJa": "ロズリト湾沖合で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 163
+ },
+ {
+  "id": 3256,
+  "nameJa": "セイレーン海沖合の魚拓王",
+  "nameEn": "Denizens of the Sirensong Sea",
+  "descJa": "セイレーン海沖合で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 164
+ },
+ {
+  "id": 3260,
+  "nameJa": "セイレーン海沖合の幻海王",
+  "nameEn": "Specters of the Sirensong Sea",
+  "descJa": "セイレーン海沖合で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 165
+ },
+ {
+  "id": 3257,
+  "nameJa": "クガネ沖合の魚拓王",
+  "nameEn": "Denizens of the Kugane Coast",
+  "descJa": "クガネ沖合で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 166
+ },
+ {
+  "id": 3261,
+  "nameJa": "クガネ沖合の幻海王",
+  "nameEn": "Specters of the Kugane Coast",
+  "descJa": "クガネ沖合で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 167
+ },
+ {
+  "id": 3258,
+  "nameJa": "紅玉海沖合の魚拓王",
+  "nameEn": "Denizens of the Ruby Sea",
+  "descJa": "紅玉海沖合で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 168
+ },
+ {
+  "id": 3262,
+  "nameJa": "紅玉海沖合の幻海王",
+  "nameEn": "Specters of the Ruby Sea",
+  "descJa": "紅玉海沖合で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 169
+ },
+ {
+  "id": 3259,
+  "nameJa": "ヤンサ下流の魚拓王",
+  "nameEn": "Denizens of the One River",
+  "descJa": "ヤンサ下流で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 170
+ },
+ {
+  "id": 3263,
+  "nameJa": "ヤンサ下流の幻海王",
+  "nameEn": "Specters of the One River",
+  "descJa": "ヤンサ下流で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 171
+ },
+ {
+  "id": 3970,
+  "nameJa": "名もなき島の魚拓王",
+  "nameEn": "Denizens of Nowhere",
+  "descJa": "名もなき島で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 172
+ },
+ {
+  "id": 3972,
+  "nameJa": "名もなき島の幻海王",
+  "nameEn": "Specters of Nowhere",
+  "descJa": "名もなき島で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 173
+ },
+ {
+  "id": 3971,
+  "nameJa": "サベネア島沖合の魚拓王",
+  "nameEn": "Denizens of Thavnair Margin",
+  "descJa": "サベネア島沖合で天候が幻海流ではない時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 174
+ },
+ {
+  "id": 3973,
+  "nameJa": "サベネア島沖合の幻海王",
+  "nameEn": "Specters of Thavnair Margin",
+  "descJa": "サベネア島沖合で天候が幻海流の時に釣れる魚を、全種類釣り上げる",
+  "points": 10,
+  "order": 176
+ },
+ {
+  "id": 2557,
+  "nameJa": "世界を釣る者：ランク1",
+  "nameEn": "On a Boat I",
+  "descJa": "オーシャンフィッシングで、釣果点を累計10,000ポイント記録する",
+  "points": 5,
+  "order": 190
+ },
+ {
+  "id": 2558,
+  "nameJa": "世界を釣る者：ランク2",
+  "nameEn": "On a Boat II",
+  "descJa": "オーシャンフィッシングで、釣果点を累計100,000ポイント記録する",
+  "points": 10,
+  "order": 191
+ },
+ {
+  "id": 2559,
+  "nameJa": "世界を釣る者：ランク3",
+  "nameEn": "On a Boat III",
+  "descJa": "オーシャンフィッシングで、釣果点を累計500,000ポイント記録する",
+  "points": 20,
+  "order": 192
+ },
+ {
+  "id": 2757,
+  "nameJa": "世界を釣る者：ランク4",
+  "nameEn": "On a Boat IV",
+  "descJa": "オーシャンフィッシングで、釣果点を累計1,000,000ポイント記録する",
+  "points": 20,
+  "order": 193
+ },
+ {
+  "id": 2758,
+  "nameJa": "世界を釣る者：ランク5",
+  "nameEn": "On a Boat V",
+  "descJa": "オーシャンフィッシングで、釣果点を累計3,000,000ポイント記録する",
+  "points": 20,
+  "order": 194
+ },
+ {
+  "id": 2560,
+  "nameJa": "オーシャンフィッシャー：ランク1",
+  "nameEn": "No More Fish in the Sea I",
+  "descJa": "オーシャンフィッシング（近海）で、1回の航海で5,000ポイント以上の合計釣果点を記録する",
+  "points": 5,
+  "order": 200
+ },
+ {
+  "id": 2561,
+  "nameJa": "オーシャンフィッシャー：ランク2",
+  "nameEn": "No More Fish in the Sea II",
+  "descJa": "オーシャンフィッシング（近海）で、1回の航海で10,000ポイント以上の合計釣果点を記録する",
+  "points": 10,
+  "order": 201
+ },
+ {
+  "id": 2562,
+  "nameJa": "オーシャンフィッシャー：ランク3",
+  "nameEn": "No More Fish in the Sea III",
+  "descJa": "オーシャンフィッシング（近海）で、1回の航海で16,000ポイント以上の合計釣果点を記録する",
+  "points": 20,
+  "order": 202
+ },
+ {
+  "id": 2759,
+  "nameJa": "オーシャンフィッシャー：ランク4",
+  "nameEn": "No More Fish in the Sea IV",
+  "descJa": "オーシャンフィッシング（近海）で、1回の航海で20,000ポイント以上の合計釣果点を記録する",
+  "points": 20,
+  "order": 203
+ },
+ {
+  "id": 3264,
+  "nameJa": "ビッグオーシャンフィッシャー：ランク1",
+  "nameEn": "Near, Far, Wherever Fish Are I",
+  "descJa": "オーシャンフィッシング（遠洋）で、1回の航海で5,000ポイント以上の合計釣果点を記録する",
+  "points": 5,
+  "order": 204
+ },
+ {
+  "id": 3265,
+  "nameJa": "ビッグオーシャンフィッシャー：ランク2",
+  "nameEn": "Near, Far, Wherever Fish Are II",
+  "descJa": "オーシャンフィッシング（遠洋）で、1回の航海で10,000ポイント以上の合計釣果点を記録する",
+  "points": 10,
+  "order": 205
+ },
+ {
+  "id": 3266,
+  "nameJa": "ビッグオーシャンフィッシャー：ランク3",
+  "nameEn": "Near, Far, Wherever Fish Are III",
+  "descJa": "オーシャンフィッシング（遠洋）で、1回の航海で16,000ポイント以上の合計釣果点を記録する",
+  "points": 20,
+  "order": 206
+ },
+ {
+  "id": 3974,
+  "nameJa": "ビッグオーシャンフィッシャー：ランク4",
+  "nameEn": "Near, Far, Wherever Fish Are IV",
+  "descJa": "オーシャンフィッシング（遠洋）で、1回の航海で20,000ポイント以上の合計釣果点を記録する",
+  "points": 20,
+  "order": 207
+ },
+ {
+  "id": 2563,
+  "nameJa": "オクトパストラベラー",
+  "nameEn": "What Did Octopodes Do to You?",
+  "descJa": "オーシャンフィッシング（近海）にて、オクトパストラベラーを達成する",
+  "points": 10,
+  "order": 220
+ },
+ {
+  "id": 2564,
+  "nameJa": "シャークハンター",
+  "nameEn": "What Did Sharks Do to You?",
+  "descJa": "オーシャンフィッシング（近海）にて、シャークハンターを達成する",
+  "points": 10,
+  "order": 221
+ },
+ {
+  "id": 2565,
+  "nameJa": "クラゲマニア",
+  "nameEn": "What Did Jellyfish Do to You?",
+  "descJa": "オーシャンフィッシング（近海）にて、クラゲマニアを達成する",
+  "points": 10,
+  "order": 222
+ },
+ {
+  "id": 2566,
+  "nameJa": "シードラゴンキラー",
+  "nameEn": "What Did Seadragons Do to You?",
+  "descJa": "オーシャンフィッシング（近海）にて、シードラゴンキラーを達成する",
+  "points": 10,
+  "order": 223
+ },
+ {
+  "id": 2754,
+  "nameJa": "バルーンキャッチャー",
+  "nameEn": "What Did Balloons Do to You?",
+  "descJa": "オーシャンフィッシング（近海）にて、バルーンキャッチャーを達成する",
+  "points": 10,
+  "order": 224
+ },
+ {
+  "id": 2755,
+  "nameJa": "蟹工船",
+  "nameEn": "What Did Crabs Do to You?",
+  "descJa": "オーシャンフィッシング（近海）にて、蟹工船を達成する",
+  "points": 10,
+  "order": 225
+ },
+ {
+  "id": 2756,
+  "nameJa": "エイエイオー",
+  "nameEn": "What Did Mantas Do to You?",
+  "descJa": "オーシャンフィッシング（近海）にて、エイエイオーを達成する",
+  "points": 10,
+  "order": 250
+ },
+ {
+  "id": 3267,
+  "nameJa": "貝殻収集家",
+  "nameEn": "What Did Shellfish Do to You?",
+  "descJa": "オーシャンフィッシング（遠洋）にて、貝殻収集家を達成する",
+  "points": 10,
+  "order": 251
+ },
+ {
+  "id": 3268,
+  "nameJa": "スルメドラグーン",
+  "nameEn": "What Did Squid Do to You?",
+  "descJa": "オーシャンフィッシング（遠洋）にて、スルメドラグーンを達成する",
+  "points": 10,
+  "order": 252
+ },
+ {
+  "id": 3269,
+  "nameJa": "海老散らない",
+  "nameEn": "What Did Shrimp Do to You?",
+  "descJa": "オーシャンフィッシング（遠洋）にて、海老散らないを達成する",
+  "points": 10,
+  "order": 253
+ },
+ {
+  "id": 3975,
+  "nameJa": "古生物学者",
+  "nameEn": "What Even Is That",
+  "descJa": "オーシャンフィッシング（遠洋）にて、古生物学者を達成する",
+  "points": 10,
+  "order": 254
+ },
+ {
+  "id": 3976,
+  "nameJa": "シャコパンチャー",
+  "nameEn": "What Did Stomatopods Do to You?",
+  "descJa": "オーシャンフィッシング（遠洋）にて、シャコパンチャーを達成する",
+  "points": 10,
+  "order": 255
+ },
+ {
+  "id": 2888,
+  "nameJa": "カモメ",
+  "nameEn": "Mine, Mine, Mine",
+  "descJa": "オーシャンフィッシングにて、カモメの群れに3回遭遇する",
+  "points": 10,
+  "order": 260
+ },
+ {
+  "id": 2889,
+  "nameJa": "魚をくれてありがとう",
+  "nameEn": "Double-backwards Somersault",
+  "descJa": "オーシャンフィッシングにて、イルカの群れに3回遭遇する",
+  "points": 10,
+  "order": 261
+ },
+ {
+  "id": 3732,
+  "nameJa": "星渡る漁師：ランク1",
+  "nameEn": "Rocket Ichthyology I",
+  "descJa": "コスモエクスプローラーにおいて、漁師で技巧点を50,000点獲得する",
+  "points": 5,
+  "order": 501
+ },
+ {
+  "id": 3733,
+  "nameJa": "星渡る漁師：ランク2",
+  "nameEn": "Rocket Ichthyology II",
+  "descJa": "コスモエクスプローラーにおいて、漁師で技巧点を150,000点獲得する",
+  "points": 5,
+  "order": 502
+ },
+ {
+  "id": 3734,
+  "nameJa": "星渡る漁師マスター",
+  "nameEn": "Fishing with the Stars",
+  "descJa": "コスモエクスプローラーにおいて、漁師で技巧点を500,000点獲得する",
+  "points": 10,
+  "order": 503
+ },
+ {
+  "id": 3912,
+  "nameJa": "宙駆ける漁師マスター",
+  "nameEn": "Master of the Universe: Fisher",
+  "descJa": "コスモエクスプローラーにおいて、漁師でマスターシップポイントを500,000点獲得する",
+  "points": 10,
+  "order": 505
+ }
+]

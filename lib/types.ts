@@ -1,8 +1,27 @@
 /** ヌシ1匹分のデータ (nushi_data.json のエントリ) */
+/** 泳がせルート・直感条件で参照するアイテム名 */
+export interface ItemRef {
+  ja: string | null;
+  en: string;
+}
+
 export interface Nushi {
   id: number | null;
   name: string;
   nameJa: string | null;
+  /** ゲーム内「ヌシ」(太公望アチーブメントの対象) か */
+  bigFish: boolean;
+  /** 泳がせ釣りルート。先頭が餌、以降は泳がせる中間魚 */
+  baitPath: ItemRef[];
+  /** 漁師の直感の発動条件 (先に釣る魚と匹数) */
+  predators: (ItemRef & { count: number })[];
+  folkloreNameJa: string | null;
+  /** 直感の持続秒数 */
+  intuitionLength: number | null;
+  /** ゲーム内マップ座標 [x, y] */
+  mapCoords: [number, number] | null;
+  /** マップスケール (座標の最大値の算出に使用) */
+  mapScale: number | null;
   spotId: number | null;
   spotName: string | null;
   spotNameJa: string | null;
@@ -18,8 +37,7 @@ export interface Nushi {
   weatherSet: number[];
   /** 直前の天候窓に要求される WeatherType ID 群。空配列なら条件なし */
   previousWeatherSet: number[];
-  bestCatchPath: (string | number)[];
-  tug: "legendary" | "heavy";
+  tug: "legendary" | "heavy" | "light" | "medium";
   hookset: string | null;
   folklore: boolean;
   fishEyes: boolean;
@@ -38,6 +56,16 @@ export interface WeatherTypeInfo {
   en: string;
   ja: string;
   icon: string;
+}
+
+/** XIVAPI から取得した漁師アチーブメント */
+export interface Achievement {
+  id: number;
+  nameJa: string | null;
+  nameEn: string | null;
+  descJa: string | null;
+  points: number | null;
+  order: number | null;
 }
 
 /** 「次に釣れる時間帯」の計算結果 */
