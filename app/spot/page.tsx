@@ -4,19 +4,57 @@ import { Suspense, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import nushiData from "@/data/nushi_data.json";
+import spotFishData from "@/data/spot_fish.json";
 import weatherData from "@/data/weather_rates.json";
-import type { Nushi, Predator, WeatherTypeInfo } from "@/lib/types";
-import { iconUrl, lodestoneUrl, mapUrl, SKILL_ICONS } from "@/lib/assets";
+import type {
+  Nushi,
+  Predator,
+  SpotEntry,
+  SpotFish,
+  WeatherTypeInfo,
+} from "@/lib/types";
+import { iconUrl, lodestoneUrl, mapUrl } from "@/lib/assets";
 import { nextWindow, windowStatus } from "@/lib/windowInfo";
 import { useCaught } from "@/lib/useCaught";
 import EorzeaClock from "@/components/EorzeaClock";
 
 const allNushi = nushiData as unknown as Nushi[];
+const spots = spotFishData as unknown as Record<string, SpotEntry>;
 const weatherTypes = (weatherData as unknown as { types: Record<string, WeatherTypeInfo> })
   .types;
 
+/** アタリの強さ (tug) = 釣りやすさ / レア度の目安 */
+const TUG: Record<string, { mark: string; cls: string; label: string }> = {
+  legendary: { mark: "!!!", cls: "text-rose-400", label: "レジェンダリー級 (最も強い引き)" },
+  heavy: { mark: "!!!", cls: "text-rose-400", label: "強い引き (レア)" },
+  medium: { mark: "!!", cls: "text-hookgold-bright", label: "中くらいの引き" },
+  light: { mark: "!", cls: "text-sky-400", label: "弱い引き (釣りやすい)" },
+};
+
 function weatherNames(ids: number[]): string {
   return ids.map((id) => weatherTypes[id]?.ja ?? `#${id}`).join("/");
+}
+
+function WeatherIcons({ ids }: { ids: number[] }) {
+  return (
+    <span className="inline-flex items-center gap-0.5 align-middle">
+      {ids.map((id) => {
+        const w = weatherTypes[id];
+        return w ? (
+          <img
+            key={id}
+            src={iconUrl(w.icon)}
+            alt={w.ja}
+            title={w.ja}
+            width={18}
+            height={18}
+          />
+        ) : (
+          <span key={id}>#{id}</span>
+        );
+      })}
+    </span>
+  );
 }
 
 function etHour(hour: number): string {
@@ -24,17 +62,15 @@ function etHour(hour: number): string {
   const m = Math.round((hour % 1) * 60);
   return `${h}:${String(m).padStart(2, "0")}`;
 }
-
-function hourRange(startHour: number, endHour: number): string {
-  if (startHour === 0 && endHour === 24) return "終日";
-  return `ET ${etHour(startHour)}〜${etHour(endHour)}`;
+function hourRange(s: number, e: number): string {
+  return s === 0 && e === 24 ? "終日" : `ET ${etHour(s)}〜${etHour(e)}`;
 }
 
-/** 釣り場のゲームマップ (座標を中心にズーム) */
-function SpotMap({ nushi }: { nushi: Nushi }) {
-  if (!nushi.mapId || !nushi.mapCoords || !nushi.mapScale) return null;
-  const [x, y] = nushi.mapCoords;
-  const max = 41 / (nushi.mapScale / 100) + 1;
+/** 釣り場のゲームマップ */
+function SpotMap({ entry }: { entry: SpotEntry }) {
+  if (!entry.mapId || !entry.mapCoords || !entry.mapScale) return null;
+  const [x, y] = entry.mapCoords;
+  const max = 41 / (entry.mapScale / 100) + 1;
   const fx = Math.min(1, Math.max(0, (x - 1) / (max - 1)));
   const fy = Math.min(1, Math.max(0, (y - 1) / (max - 1)));
   const Z = 3;
@@ -47,7 +83,7 @@ function SpotMap({ nushi }: { nushi: Nushi }) {
       <div
         className="absolute inset-0"
         style={{
-          backgroundImage: `url(${mapUrl(nushi.mapId)})`,
+          backgroundImage: `url(${mapUrl(entry.mapId)})`,
           backgroundSize: `${Z * 100}%`,
           backgroundPosition: `${posX}% ${posY}%`,
         }}
@@ -64,24 +100,36 @@ function SpotMap({ nushi }: { nushi: Nushi }) {
   );
 }
 
-function UptimeBar({ uptime }: { uptime: number | null }) {
-  if (uptime === null) return <span className="text-moonlight-faint">—</span>;
-  return (
-    <div className="flex items-center gap-2">
-      <div className="h-1.5 w-16 overflow-hidden rounded-full bg-abyss-700">
-        <div
-          className="h-full rounded-full bg-hookgold"
-          style={{ width: `${Math.min(100, uptime)}%` }}
-        />
-      </div>
-      <span className="font-mono text-xs text-moonlight tabular-nums">{uptime}%</span>
-    </div>
+function FishIcon({ fish }: { fish: SpotFish }) {
+  if (!fish.icon) return null;
+  const img = (
+    <img
+      src={iconUrl(fish.icon)}
+      alt={fish.nameJa ?? ""}
+      width={32}
+      height={32}
+      className="rounded border border-abyss-600 bg-abyss-900"
+    />
+  );
+  return fish.lodestoneId ? (
+    <a
+      href={lodestoneUrl(fish.lodestoneId)}
+      target="_blank"
+      rel="noopener noreferrer"
+      title={`${fish.nameJa} をロードストーンで見る`}
+      className="shrink-0 transition-transform hover:scale-110"
+    >
+      {img}
+    </a>
+  ) : (
+    <span className="shrink-0">{img}</span>
   );
 }
 
 function SpotContent() {
   const params = useSearchParams();
-  const spotId = Number(params.get("id"));
+  const spotId = params.get("id") ?? "";
+  const entry = spots[spotId];
   const [nowMs, setNowMs] = useState<number | null>(null);
   const { caught, toggle } = useCaught();
 
@@ -91,40 +139,32 @@ function SpotContent() {
     return () => clearInterval(t);
   }, []);
 
-  const fishHere = useMemo(
-    () => allNushi.filter((n) => n.spotId === spotId),
-    [spotId]
-  );
-
-  // 30秒粒度で窓を計算し、残り時間が短い順に並べる
   const tick = nowMs === null ? 0 : Math.floor(nowMs / 30000) * 30000;
-  const rows = useMemo(() => {
-    return fishHere
-      .map((n) => ({ n, win: nextWindow(n, n.territoryId, tick) }))
-      .sort((a, b) => {
-        const key = (w: typeof a.win) =>
-          !w
-            ? Number.POSITIVE_INFINITY
-            : w.isAlways
-              ? 3e13
-              : w.isActiveNow
-                ? w.endMs - tick
-                : 2e13 + (w.startMs - tick);
-        return key(a.win) - key(b.win);
-      });
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [fishHere, tick]);
 
-  // この釣り場のオオヌシ/ヌシが必要とする予測魚 (重複排除)
+  // 餌ごとに釣れる魚をまとめる
+  const groups = useMemo(() => {
+    if (!entry) return [];
+    const m = new Map<string, { bait: SpotFish["bait"]; fish: SpotFish[] }>();
+    for (const f of entry.fish) {
+      const key = f.bait ? String(f.bait.id) : "none";
+      if (!m.has(key)) m.set(key, { bait: f.bait, fish: [] });
+      m.get(key)!.fish.push(f);
+    }
+    return Array.from(m.values());
+  }, [entry]);
+
+  // オオヌシ/ヌシが必要とする予測魚 (重複排除)
   const predators = useMemo(() => {
+    if (!entry) return [];
+    const nushiHere = allNushi.filter((n) => n.spotId === Number(spotId));
     const map = new Map<number, Predator>();
-    for (const n of fishHere) {
+    for (const n of nushiHere) {
       for (const p of n.predators) {
         if (p.id !== null && !map.has(p.id)) map.set(p.id, p);
       }
     }
     return Array.from(map.values());
-  }, [fishHere]);
+  }, [entry, spotId]);
 
   if (nowMs === null) {
     return (
@@ -134,7 +174,7 @@ function SpotContent() {
     );
   }
 
-  if (fishHere.length === 0) {
+  if (!entry) {
     return (
       <div className="py-20 text-center">
         <p className="text-moonlight-dim">この釣り場のデータが見つかりません。</p>
@@ -145,10 +185,10 @@ function SpotContent() {
     );
   }
 
-  const head = fishHere[0];
-  const caughtHere = fishHere.filter(
-    (n) => n.id !== null && caught.has(n.id)
+  const caughtBig = entry.fish.filter(
+    (f) => f.bigFish && caught.has(f.id)
   ).length;
+  const bigCount = entry.fish.filter((f) => f.bigFish).length;
 
   return (
     <>
@@ -163,196 +203,165 @@ function SpotContent() {
             </Link>
           </div>
           <h1 className="font-display text-3xl font-bold text-moonlight">
-            {head.spotNameJa ?? head.spotName}
+            {entry.spotNameJa}
           </h1>
           <p className="mt-1 text-sm text-moonlight-dim">
-            {head.zoneNameJa ?? head.zoneName}
-            {head.mapCoords && (
+            {entry.zoneNameJa}
+            {entry.mapCoords && (
               <span className="ml-2 font-mono text-hookgold-bright">
-                X:{head.mapCoords[0].toFixed(1)} Y:{head.mapCoords[1].toFixed(1)}
+                X:{entry.mapCoords[0].toFixed(1)} Y:{entry.mapCoords[1].toFixed(1)}
               </span>
             )}
           </p>
           <p className="mt-1 text-sm text-moonlight-dim">
-            ヌシ{fishHere.length}種 ・ 釣獲済み{" "}
-            <span className="text-hookgold-bright font-bold">
-              {caughtHere}/{fishHere.length}
-            </span>
+            釣れる魚{entry.fish.length}種
+            {bigCount > 0 && (
+              <>
+                {" "}・ ヌシ釣獲{" "}
+                <span className="text-hookgold-bright font-bold">
+                  {caughtBig}/{bigCount}
+                </span>
+              </>
+            )}
           </p>
         </div>
         <EorzeaClock nowMs={nowMs} />
       </header>
 
       <div className="grid gap-6 sm:grid-cols-[auto_1fr]">
-        <SpotMap nushi={head} />
+        <SpotMap entry={entry} />
 
-        <div>
-          <h2 className="mb-2 font-display text-lg text-moonlight">
-            釣れるヌシと出現率
-          </h2>
-          <div className="overflow-hidden rounded-xl border border-abyss-700 bg-abyss-900/70 shadow-deep">
-            {rows.map(({ n, win }) => {
-              const st = windowStatus(win, nowMs);
-              const isCaught = n.id !== null && caught.has(n.id);
-              return (
-                <div
-                  key={`${n.name}-${n.spotId}`}
-                  className={`flex items-center gap-3 border-b border-abyss-700/60 px-4 py-2.5 ${
-                    isCaught ? "opacity-55" : ""
-                  }`}
-                >
-                  <input
-                    type="checkbox"
-                    checked={isCaught}
-                    onChange={() => n.id !== null && toggle(n.id)}
-                    className="h-4 w-4 shrink-0 accent-hookgold"
-                    aria-label={`${n.nameJa ?? n.name} 釣獲済み`}
-                  />
-                  {n.icon &&
-                    (n.lodestoneId ? (
+        <div className="space-y-5">
+          {groups.map((g, gi) => (
+            <section
+              key={g.bait ? g.bait.id : `none-${gi}`}
+              className="overflow-hidden rounded-xl border border-abyss-700 bg-abyss-900/70 shadow-deep"
+            >
+              <div className="flex items-center gap-2 border-b border-abyss-700 bg-abyss-800 px-4 py-2">
+                <span className="text-xs text-moonlight-faint">餌</span>
+                {g.bait ? (
+                  <>
+                    {g.bait.lodestoneId ? (
                       <a
-                        href={lodestoneUrl(n.lodestoneId)}
+                        href={lodestoneUrl(g.bait.lodestoneId)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        title={`${n.nameJa ?? n.name} をロードストーンで見る`}
-                        className="shrink-0 transition-transform hover:scale-110"
+                        className="flex items-center gap-1.5 text-moonlight hover:text-hookgold-bright"
                       >
                         <img
-                          src={iconUrl(n.icon)}
-                          alt={n.nameJa ?? n.name}
-                          width={34}
-                          height={34}
-                          className="rounded border border-abyss-600 bg-abyss-900"
+                          src={iconUrl(g.bait.icon)}
+                          alt={g.bait.ja ?? ""}
+                          width={24}
+                          height={24}
+                          className="rounded border border-abyss-600"
                         />
+                        <span className="font-display">{g.bait.ja}</span>
                       </a>
                     ) : (
-                      <img
-                        src={iconUrl(n.icon)}
-                        alt={n.nameJa ?? n.name}
-                        width={34}
-                        height={34}
-                        className="shrink-0 rounded border border-abyss-600 bg-abyss-900"
-                      />
-                    ))}
-                  <div className="min-w-0 flex-1">
-                    <div
-                      className={`font-display text-sm ${
-                        isCaught ? "text-moonlight-dim line-through" : "text-moonlight"
-                      }`}
-                    >
-                      {n.nameJa ?? n.name}
-                      {n.oonushi ? (
-                        <span className="ml-1.5 rounded bg-hookgold px-1 text-[10px] font-bold text-abyss align-middle">
-                          オオヌシ
-                        </span>
-                      ) : (
-                        n.bigFish && (
-                          <span className="ml-1.5 rounded border border-hookgold-deep px-1 text-[10px] text-hookgold align-middle">
-                            ヌシ
-                          </span>
-                        )
-                      )}
-                    </div>
-                    <div className="text-[11px] text-moonlight-faint">
-                      {hourRange(n.startHour, n.endHour)}
-                      {n.weatherSet.length > 0 && ` ・ ${weatherNames(n.weatherSet)}`}
-                      {n.previousWeatherSet.length > 0 &&
-                        ` (前:${weatherNames(n.previousWeatherSet)})`}
-                    </div>
-                  </div>
-                  <div className="shrink-0 text-right">
-                    <UptimeBar uptime={n.uptime} />
-                    <div className={`mt-0.5 text-xs tabular-nums ${st.className}`}>
-                      {st.label}
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
+                      <span className="flex items-center gap-1.5 font-display text-moonlight">
+                        <img src={iconUrl(g.bait.icon)} alt="" width={24} height={24} />
+                        {g.bait.ja}
+                      </span>
+                    )}
+                  </>
+                ) : (
+                  <span className="text-moonlight-dim">不明</span>
+                )}
+                <span className="ml-auto text-xs text-moonlight-faint">
+                  {g.fish.length}種
+                </span>
+              </div>
 
-          {predators.length > 0 && (
-            <div className="mt-6">
-              <h2 className="mb-2 flex items-center gap-1.5 font-display text-lg text-moonlight">
-                <img
-                  src={iconUrl(SKILL_ICONS.intuition.code)}
-                  alt=""
-                  width={20}
-                  height={20}
-                  className="rounded-sm"
-                />
-                直感に必要な魚 — 釣れる時間
-              </h2>
-              <p className="mb-2 text-xs text-moonlight-faint">
-                オオヌシを釣るための漁師の直感に使う魚です。時間・天候条件があるものは次に釣れる時刻を表示します。
-              </p>
-              <div className="grid gap-1.5 sm:grid-cols-2">
-                {predators.map((p) => {
-                  const c = p.conditions;
-                  const restricted =
-                    c &&
-                    !(
-                      c.startHour === 0 &&
-                      c.endHour === 24 &&
-                      c.weatherSet.length === 0 &&
-                      c.previousWeatherSet.length === 0
-                    );
-                  const win = restricted ? nextWindow(c!, c!.territoryId, tick) : null;
-                  const st = win && !win.isAlways ? windowStatus(win, nowMs) : null;
-                  return (
-                    <div
-                      key={p.id}
-                      className="flex items-center gap-2 rounded-lg border border-abyss-700 bg-abyss-800/50 px-2.5 py-2"
-                    >
-                      {p.icon && (
-                        <a
-                          href={p.lodestoneId ? lodestoneUrl(p.lodestoneId) : "#"}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="shrink-0"
-                        >
-                          <img
-                            src={iconUrl(p.icon)}
-                            alt={p.ja ?? p.en}
-                            width={28}
-                            height={28}
-                            className="rounded border border-abyss-600 bg-abyss-900"
-                          />
-                        </a>
-                      )}
-                      <div className="min-w-0 flex-1">
-                        <div className="text-sm text-moonlight">
-                          {p.ja ?? p.en}
-                          <span className="ml-1 font-mono text-xs text-hookgold-bright">
-                            ×{p.count}
+              {g.fish.map((f) => {
+                const win = nextWindow(f, entry.territoryId, tick);
+                const st = windowStatus(win, nowMs);
+                const isCaught = f.bigFish && caught.has(f.id);
+                const tug = TUG[f.tug];
+                return (
+                  <div
+                    key={f.id}
+                    className={`flex items-center gap-3 border-b border-abyss-700/50 px-4 py-2 last:border-0 ${
+                      win?.isActiveNow ? "bg-tide-active/[0.06]" : ""
+                    } ${isCaught ? "opacity-55" : ""}`}
+                  >
+                    {f.bigFish ? (
+                      <input
+                        type="checkbox"
+                        checked={isCaught}
+                        onChange={() => toggle(f.id)}
+                        className="h-4 w-4 shrink-0 accent-hookgold"
+                        aria-label={`${f.nameJa} 釣獲済み`}
+                      />
+                    ) : (
+                      <span className="w-4 shrink-0" />
+                    )}
+                    <FishIcon fish={f} />
+                    <div className="min-w-0 flex-1">
+                      <div
+                        className={`text-sm ${
+                          isCaught ? "text-moonlight-dim line-through" : "text-moonlight"
+                        }`}
+                      >
+                        {f.nameJa}
+                        {f.oonushi ? (
+                          <span className="ml-1.5 rounded bg-hookgold px-1 text-[10px] font-bold text-abyss align-middle">
+                            オオヌシ
                           </span>
-                        </div>
-                        {c && (
-                          <div className="text-[11px] text-moonlight-faint">
-                            {hourRange(c.startHour, c.endHour)}
-                            {c.weatherSet.length > 0 &&
-                              ` ・ ${weatherNames(c.weatherSet)}`}
-                          </div>
+                        ) : (
+                          f.bigFish && (
+                            <span className="ml-1.5 rounded border border-hookgold-deep px-1 text-[10px] text-hookgold align-middle">
+                              ヌシ
+                            </span>
+                          )
+                        )}
+                        {f.mooch && (
+                          <span className="ml-1 text-[10px] text-moonlight-faint align-middle">
+                            (泳がせ)
+                          </span>
                         )}
                       </div>
-                      {st ? (
-                        <span className={`shrink-0 text-xs tabular-nums ${st.className}`}>
-                          {st.label}
-                        </span>
-                      ) : (
-                        <span className="shrink-0 text-xs text-tide-active">常時</span>
-                      )}
+                      <div className="flex items-center gap-1 text-[11px] text-moonlight-faint">
+                        {hourRange(f.startHour, f.endHour)}
+                        {f.previousWeatherSet.length > 0 && (
+                          <>
+                            <WeatherIcons ids={f.previousWeatherSet} />
+                            <span>→</span>
+                          </>
+                        )}
+                        {f.weatherSet.length > 0 && <WeatherIcons ids={f.weatherSet} />}
+                      </div>
                     </div>
-                  );
-                })}
-              </div>
-            </div>
+                    {tug && (
+                      <span
+                        className={`shrink-0 font-mono text-sm font-bold ${tug.cls}`}
+                        title={`アタリ: ${tug.label}`}
+                      >
+                        {tug.mark}
+                      </span>
+                    )}
+                    <span className={`w-24 shrink-0 text-right text-xs tabular-nums ${st.className}`}>
+                      {st.label}
+                    </span>
+                  </div>
+                );
+              })}
+            </section>
+          ))}
+
+          {predators.length > 0 && (
+            <p className="text-[11px] text-moonlight-faint">
+              ※ オオヌシは上記の魚で「漁師の直感」を発動させてから狙います。必要な匹数は各ヌシの詳細（トラッカー）を参照してください。
+            </p>
           )}
         </div>
       </div>
 
-      <footer className="mt-8 text-center text-xs text-moonlight-faint">
-        出現率は天候アルゴリズムからの推定値です ・ FINAL FANTASY XIV © SQUARE ENIX
+      <footer className="mt-8 space-y-1 text-center text-xs text-moonlight-faint">
+        <p>
+          「!」の数はアタリの強さ（釣りやすさ・レア度の目安）です。
+          各魚の釣り上げ確率はゲーム内で公開されておらず、正確な数値は提供できません。
+        </p>
+        <p>データ: ff14-fish-tracker-app / XIVAPI ・ FINAL FANTASY XIV © SQUARE ENIX</p>
       </footer>
     </>
   );

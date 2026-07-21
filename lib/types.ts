@@ -91,6 +91,40 @@ export interface WeatherTypeInfo {
   icon: string;
 }
 
+/** 釣り場の全魚データ (spot_fish.json) の1魚 */
+export interface SpotFish {
+  id: number;
+  nameJa: string | null;
+  icon: string | null;
+  lodestoneId: string | null;
+  bait: {
+    ja: string | null;
+    id: number;
+    icon: string;
+    lodestoneId: string | null;
+  } | null;
+  mooch: boolean;
+  startHour: number;
+  endHour: number;
+  weatherSet: number[];
+  previousWeatherSet: number[];
+  tug: string;
+  bigFish: boolean;
+  oonushi: boolean;
+}
+
+/** 釣り場1件のデータ (spot_fish.json の値) */
+export interface SpotEntry {
+  spotNameJa: string;
+  spotNameEn: string;
+  zoneNameJa: string | null;
+  territoryId: number;
+  mapId: string | null;
+  mapCoords: [number, number] | null;
+  mapScale: number | null;
+  fish: SpotFish[];
+}
+
 /** XIVAPI から取得した漁師アチーブメント */
 export interface Achievement {
   id: number;

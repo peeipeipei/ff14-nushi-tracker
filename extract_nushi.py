@@ -117,6 +117,77 @@ def add_uptime(nushi_list, weather_rates):
             f["weatherSet"], f["previousWeatherSet"], seq_cache[tid])
 
 
+def build_spot_fish(data, items, spots, weather_rates, zones, map_ids, lodestone_ids, oonushi_ids):
+    """釣り場 (location) ごとに、そこで釣れる全魚を data.js から集める。"""
+    from collections import defaultdict
+    fish_db = data["FISH"]
+
+    def item_min(iid):
+        it = items.get(str(iid))
+        if not it:
+            return None
+        return {
+            "ja": it["name_ja"],
+            "id": iid,
+            "icon": it["icon"],
+            "lodestoneId": lodestone_ids.get(iid),
+        }
+
+    by_spot = defaultdict(list)
+    for fid_s, f in fish_db.items():
+        loc = f.get("location")
+        if loc:
+            by_spot[loc].append((int(fid_s), f))
+
+    out = {}
+    for sid, fishes in by_spot.items():
+        spot = spots.get(str(sid))
+        if not spot:
+            continue
+        terr = spot["territory_id"]
+        wr = weather_rates.get(str(terr))
+        zone_id = wr.get("zone_id") if wr else None
+        zone = zones.get(str(zone_id)) if zone_id else None
+        coords = spot.get("map_coords")
+
+        fish_list = []
+        for fid, f in fishes:
+            it = items.get(str(fid))
+            if not it:
+                continue
+            path = f.get("bestCatchPath") or []
+            fish_list.append({
+                "id": fid,
+                "nameJa": it["name_ja"],
+                "icon": it["icon"],
+                "lodestoneId": lodestone_ids.get(fid),
+                "bait": item_min(path[0]) if path else None,
+                "mooch": len(path) > 1,
+                "startHour": f.get("startHour", 0),
+                "endHour": f.get("endHour", 24),
+                "weatherSet": f.get("weatherSet") or [],
+                "previousWeatherSet": f.get("previousWeatherSet") or [],
+                "tug": (f.get("tug") or "").lower(),
+                "bigFish": bool(f.get("bigFish")),
+                "oonushi": fid in oonushi_ids,
+            })
+        # 大物 → tug の強い順 → 名前で安定ソート
+        tug_rank = {"legendary": 0, "heavy": 1, "medium": 2, "light": 3, "": 4}
+        fish_list.sort(key=lambda x: (not x["bigFish"], tug_rank.get(x["tug"], 4), x["nameJa"] or ""))
+
+        out[str(sid)] = {
+            "spotNameJa": spot["name_ja"],
+            "spotNameEn": spot["name_en"].strip(),
+            "zoneNameJa": zone["name_ja"] if zone else None,
+            "territoryId": terr,
+            "mapId": map_ids.get(wr.get("map_id")) if wr else None,
+            "mapCoords": coords[:2] if coords else None,
+            "mapScale": wr.get("map_scale") if wr else None,
+            "fish": fish_list,
+        }
+    return out
+
+
 def main():
     fish_yaml = yaml.safe_load((HERE / "fishData.yaml").read_text(encoding="utf-8"))
     data = load_repo_data()
@@ -320,6 +391,14 @@ def main():
     }
     (HERE / "weather_rates.json").write_text(
         json.dumps({"rates": rates_out, "types": types_out}, ensure_ascii=False), encoding="utf-8")
+
+    # 釣り場ごとの「全魚」一覧 (ヌシ以外も含む) を出力
+    spot_fish = build_spot_fish(
+        data, items, spots, weather_rates, zones, map_ids, lodestone_ids, oonushi_ids)
+    (HERE / "spot_fish.json").write_text(
+        json.dumps(spot_fish, ensure_ascii=False), encoding="utf-8")
+    total_fish = sum(len(s["fish"]) for s in spot_fish.values())
+    print(f"spots: {len(spot_fish)}  fish entries: {total_fish}")
 
     ja_count = sum(1 for n in nushi if n["nameJa"])
     spot_count = sum(1 for n in nushi if n["territoryId"])
