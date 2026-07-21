@@ -40,10 +40,20 @@ const EXPANSIONS = [
 ] as const;
 
 type TypeFilter = "all" | "nushi" | "oonushi";
+type AvailFilter = "all" | "active" | "always";
 type SortMode = "window" | "patch" | "name";
 
 function expansionOf(patch: number | string): number {
   return Math.floor(parseFloat(String(patch)));
+}
+
+/** フィルタチップの見た目 (選択中は金地) */
+function chipClass(active: boolean): string {
+  return `rounded-full px-3 py-1 text-xs transition-colors ${
+    active
+      ? "bg-hookgold text-abyss font-bold"
+      : "border border-abyss-600 text-moonlight-dim hover:border-hookgold-deep hover:text-moonlight"
+  }`;
 }
 
 const FILTER_STORAGE_KEY = "nushi-filters-v1";
@@ -52,9 +62,9 @@ export default function Home() {
   // SSR とのハイドレーション不一致を避けるため、時刻はマウント後に初期化する
   const [nowMs, setNowMs] = useState<number | null>(null);
   const [query, setQuery] = useState("");
-  const [activeOnly, setActiveOnly] = useState(false);
+  const [availFilter, setAvailFilter] = useState<AvailFilter>("all");
   const [uncaughtOnly, setUncaughtOnly] = useState(false);
-  const [expFilter, setExpFilter] = useState<number | null>(null);
+  const [expFilters, setExpFilters] = useState<number[]>([]);
   const [typeFilter, setTypeFilter] = useState<TypeFilter>("all");
   const [sortMode, setSortMode] = useState<SortMode>("window");
   const [expandedId, setExpandedId] = useState<number | null>(null);
@@ -66,10 +76,11 @@ export default function Home() {
       const raw = localStorage.getItem(FILTER_STORAGE_KEY);
       if (raw) {
         const f = JSON.parse(raw);
-        if (typeof f.activeOnly === "boolean") setActiveOnly(f.activeOnly);
+        if (["all", "active", "always"].includes(f.availFilter))
+          setAvailFilter(f.availFilter);
         if (typeof f.uncaughtOnly === "boolean") setUncaughtOnly(f.uncaughtOnly);
-        if (f.expFilter === null || typeof f.expFilter === "number")
-          setExpFilter(f.expFilter);
+        if (Array.isArray(f.expFilters))
+          setExpFilters(f.expFilters.filter((x: unknown) => typeof x === "number"));
         if (["all", "nushi", "oonushi"].includes(f.typeFilter))
           setTypeFilter(f.typeFilter);
         if (["window", "patch", "name"].includes(f.sortMode))
@@ -89,13 +100,13 @@ export default function Home() {
     try {
       localStorage.setItem(
         FILTER_STORAGE_KEY,
-        JSON.stringify({ activeOnly, uncaughtOnly, expFilter, typeFilter, sortMode })
+        JSON.stringify({ availFilter, uncaughtOnly, expFilters, typeFilter, sortMode })
       );
     } catch {
       // ストレージ不可でも動作は継続
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [activeOnly, uncaughtOnly, expFilter, typeFilter, sortMode]);
+  }, [availFilter, uncaughtOnly, expFilters, typeFilter, sortMode]);
 
   // 窓の再計算は30秒粒度 (計算自体は数十msなので体感遅延なし)
   const computeTick = nowMs === null ? null : Math.floor(nowMs / 30000);
@@ -116,9 +127,13 @@ export default function Home() {
     const q = query.trim().toLowerCase();
     const filtered = rows.filter((r) => {
       const n = r.nushi;
-      if (activeOnly && !(r.window?.isActiveNow ?? false)) return false;
+      // 常時 = 時間・天候の制約がなく常に釣れるもの (isAlways)
+      // 開催中 = いま釣獲可能 (常時を含む)
+      if (availFilter === "active" && !(r.window?.isActiveNow ?? false)) return false;
+      if (availFilter === "always" && !(r.window?.isAlways ?? false)) return false;
       if (uncaughtOnly && n.id !== null && caught.has(n.id)) return false;
-      if (expFilter !== null && expansionOf(n.patch) !== expFilter) return false;
+      if (expFilters.length > 0 && !expFilters.includes(expansionOf(n.patch)))
+        return false;
       if (typeFilter === "nushi" && !n.bigFish) return false;
       if (typeFilter === "oonushi" && !n.oonushi) return false;
       if (!q) return true;
@@ -151,7 +166,7 @@ export default function Home() {
       return sortKey(a, t) - sortKey(b, t);
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [rows, query, activeOnly, uncaughtOnly, expFilter, typeFilter, sortMode, caught, computeTick]);
+  }, [rows, query, availFilter, uncaughtOnly, expFilters, typeFilter, sortMode, caught, computeTick]);
 
   const activeCount = rows.filter((r) => r.window?.isActiveNow).length;
   const caughtBig = allNushi.filter(
@@ -213,15 +228,6 @@ export default function Home() {
           <label className="flex cursor-pointer items-center gap-2 text-sm text-moonlight-dim">
             <input
               type="checkbox"
-              checked={activeOnly}
-              onChange={(e) => setActiveOnly(e.target.checked)}
-              className="accent-hookgold"
-            />
-            開催中のみ
-          </label>
-          <label className="flex cursor-pointer items-center gap-2 text-sm text-moonlight-dim">
-            <input
-              type="checkbox"
               checked={uncaughtOnly}
               onChange={(e) => setUncaughtOnly(e.target.checked)}
               className="accent-hookgold"
@@ -242,31 +248,51 @@ export default function Home() {
             表示中 {visible.length} 種
           </span>
         </div>
+        {/* 拡張フィルタ (複数選択可) */}
         <div className="flex flex-wrap items-center gap-1.5">
+          <span className="mr-1 text-[11px] text-moonlight-faint">拡張</span>
           <button
-            onClick={() => setExpFilter(null)}
-            className={`rounded-full px-3 py-1 text-xs transition-colors ${
-              expFilter === null
-                ? "bg-hookgold text-abyss font-bold"
-                : "border border-abyss-600 text-moonlight-dim hover:border-hookgold-deep hover:text-moonlight"
-            }`}
+            onClick={() => setExpFilters([])}
+            className={chipClass(expFilters.length === 0)}
           >
-            全拡張
+            すべて
           </button>
           {EXPANSIONS.map((e) => (
             <button
               key={e.key}
-              onClick={() => setExpFilter(expFilter === e.key ? null : e.key)}
-              className={`rounded-full px-3 py-1 text-xs transition-colors ${
-                expFilter === e.key
-                  ? "bg-hookgold text-abyss font-bold"
-                  : "border border-abyss-600 text-moonlight-dim hover:border-hookgold-deep hover:text-moonlight"
-              }`}
+              onClick={() =>
+                setExpFilters((prev) =>
+                  prev.includes(e.key)
+                    ? prev.filter((k) => k !== e.key)
+                    : [...prev, e.key]
+                )
+              }
+              className={chipClass(expFilters.includes(e.key))}
             >
               {e.label}
             </button>
           ))}
+        </div>
+        {/* 状態フィルタ (常時 / 開催中) と種別フィルタ */}
+        <div className="flex flex-wrap items-center gap-1.5">
+          <span className="mr-1 text-[11px] text-moonlight-faint">状態</span>
+          {(
+            [
+              ["all", "すべて"],
+              ["active", "開催中"],
+              ["always", "常時"],
+            ] as const
+          ).map(([key, label]) => (
+            <button
+              key={key}
+              onClick={() => setAvailFilter(key)}
+              className={chipClass(availFilter === key)}
+            >
+              {label}
+            </button>
+          ))}
           <span className="mx-1 h-4 w-px bg-abyss-600" />
+          <span className="mr-1 text-[11px] text-moonlight-faint">種別</span>
           {(
             [
               ["all", "すべて"],
@@ -277,11 +303,7 @@ export default function Home() {
             <button
               key={key}
               onClick={() => setTypeFilter(key)}
-              className={`rounded-full px-3 py-1 text-xs transition-colors ${
-                typeFilter === key
-                  ? "bg-hookgold text-abyss font-bold"
-                  : "border border-abyss-600 text-moonlight-dim hover:border-hookgold-deep hover:text-moonlight"
-              }`}
+              className={chipClass(typeFilter === key)}
             >
               {label}
             </button>
