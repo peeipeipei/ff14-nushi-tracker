@@ -6,7 +6,7 @@ import nushiData from "@/data/nushi_data.json";
 import weatherData from "@/data/weather_rates.json";
 import type { Nushi, UpcomingWindow, WeatherRate, WeatherTypeInfo } from "@/lib/types";
 import { findNextMatchingWeatherWindow } from "@/lib/weather";
-import { useCaught } from "@/lib/useCaught";
+import { useCaught, usePrep } from "@/lib/useCaught";
 import EorzeaClock from "@/components/EorzeaClock";
 import NushiRow from "@/components/NushiRow";
 
@@ -40,7 +40,7 @@ const EXPANSIONS = [
 ] as const;
 
 type TypeFilter = "all" | "nushi" | "oonushi";
-type AvailFilter = "all" | "active" | "always";
+type AvailFilter = "all" | "active" | "always" | "timed";
 type SortMode = "window" | "patch" | "name";
 
 function expansionOf(patch: number | string): number {
@@ -69,6 +69,19 @@ export default function Home() {
   const [sortMode, setSortMode] = useState<SortMode>("window");
   const [expandedId, setExpandedId] = useState<number | null>(null);
   const { caught, toggle } = useCaught();
+  const { prep, togglePrep } = usePrep();
+
+  // 直感対象のヌシへジャンプ: 絞り込みで隠れないよう検索をクリアし、展開してスクロール
+  const jumpTo = (id: number) => {
+    setQuery("");
+    setExpandedId(id);
+    // フィルタ更新後の再描画を待ってからスクロール
+    setTimeout(() => {
+      document
+        .getElementById(`nushi-${id}`)
+        ?.scrollIntoView({ behavior: "smooth", block: "center" });
+    }, 60);
+  };
 
   useEffect(() => {
     // 保存済みフィルタの復元
@@ -76,7 +89,7 @@ export default function Home() {
       const raw = localStorage.getItem(FILTER_STORAGE_KEY);
       if (raw) {
         const f = JSON.parse(raw);
-        if (["all", "active", "always"].includes(f.availFilter))
+        if (["all", "active", "always", "timed"].includes(f.availFilter))
           setAvailFilter(f.availFilter);
         if (typeof f.uncaughtOnly === "boolean") setUncaughtOnly(f.uncaughtOnly);
         if (Array.isArray(f.expFilters))
@@ -128,9 +141,10 @@ export default function Home() {
     const filtered = rows.filter((r) => {
       const n = r.nushi;
       // 常時 = 時間・天候の制約がなく常に釣れるもの (isAlways)
-      // 開催中 = いま釣獲可能 (常時を含む)
+      // 開催中 = いま釣獲可能 (常時を含む) / 時限 = 常時を除いた条件付き
       if (availFilter === "active" && !(r.window?.isActiveNow ?? false)) return false;
       if (availFilter === "always" && !(r.window?.isAlways ?? false)) return false;
+      if (availFilter === "timed" && (r.window?.isAlways ?? false)) return false;
       if (uncaughtOnly && n.id !== null && caught.has(n.id)) return false;
       if (expFilters.length > 0 && !expFilters.includes(expansionOf(n.patch)))
         return false;
@@ -280,6 +294,7 @@ export default function Home() {
             [
               ["all", "すべて"],
               ["active", "開催中"],
+              ["timed", "時限のみ"],
               ["always", "常時"],
             ] as const
           ).map(([key, label]) => (
@@ -321,19 +336,25 @@ export default function Home() {
           <div className="text-right">次の窓</div>
         </div>
         {visible.map((r) => (
-          <NushiRow
-            key={`${r.nushi.name}-${r.nushi.spotId}`}
-            nushi={r.nushi}
-            window={r.window}
-            nowMs={nowMs}
-            weatherTypes={weatherTypes}
-            isCaught={r.nushi.id !== null && caught.has(r.nushi.id)}
-            onToggleCaught={() => r.nushi.id !== null && toggle(r.nushi.id)}
-            expanded={expandedId === r.nushi.id}
-            onToggleExpand={() =>
-              setExpandedId(expandedId === r.nushi.id ? null : r.nushi.id)
-            }
-          />
+          <div key={`${r.nushi.name}-${r.nushi.spotId}`} id={`nushi-${r.nushi.id}`}>
+            <NushiRow
+              nushi={r.nushi}
+              window={r.window}
+              nowMs={nowMs}
+              weatherTypes={weatherTypes}
+              isCaught={r.nushi.id !== null && caught.has(r.nushi.id)}
+              onToggleCaught={() => r.nushi.id !== null && toggle(r.nushi.id)}
+              caught={caught}
+              prep={prep}
+              onTogglePrep={togglePrep}
+              onToggleCaughtId={toggle}
+              onJumpTo={jumpTo}
+              expanded={expandedId === r.nushi.id}
+              onToggleExpand={() =>
+                setExpandedId(expandedId === r.nushi.id ? null : r.nushi.id)
+              }
+            />
+          </div>
         ))}
         {visible.length === 0 && (
           <div className="px-4 py-10 text-center text-sm text-moonlight-faint">

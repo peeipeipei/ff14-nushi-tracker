@@ -1,8 +1,128 @@
 "use client";
 
-import type { Nushi, UpcomingWindow, WeatherTypeInfo } from "@/lib/types";
+import type {
+  ItemRef,
+  Nushi,
+  Predator,
+  UpcomingWindow,
+  WeatherTypeInfo,
+} from "@/lib/types";
 import { iconUrl, lodestoneUrl, mapUrl } from "@/lib/assets";
 import TideGauge from "./TideGauge";
+
+type WeatherMap = Record<string, WeatherTypeInfo>;
+
+function weatherNames(ids: number[], weatherTypes: WeatherMap): string {
+  return ids.map((id) => weatherTypes[id]?.ja ?? `#${id}`).join("/");
+}
+
+/** アイテム名 (餌など)。ロードストーン ID があれば新規タブでリンク */
+function ItemChip({ item, size = 24 }: { item: ItemRef; size?: number }) {
+  const label = item.ja ?? item.en;
+  const inner = (
+    <>
+      {item.icon && (
+        <img
+          src={iconUrl(item.icon)}
+          alt=""
+          width={size}
+          height={size}
+          className="rounded-sm border border-abyss-600 bg-abyss-900"
+        />
+      )}
+      <span>{label}</span>
+    </>
+  );
+  if (item.lodestoneId) {
+    return (
+      <a
+        href={lodestoneUrl(item.lodestoneId)}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={(e) => e.stopPropagation()}
+        title={`${label} をロードストーンで見る`}
+        className="inline-flex items-center gap-1 rounded bg-abyss-800 px-1.5 py-0.5 text-moonlight transition-colors hover:bg-abyss-700 hover:text-hookgold-bright"
+      >
+        {inner}
+      </a>
+    );
+  }
+  return (
+    <span className="inline-flex items-center gap-1 rounded bg-abyss-800 px-1.5 py-0.5 text-moonlight">
+      {inner}
+    </span>
+  );
+}
+
+function hourRangeText(startHour: number, endHour: number): string {
+  if (startHour === 0 && endHour === 24) return "終日";
+  return `ET ${formatEtHour(startHour)}〜${formatEtHour(endHour)}`;
+}
+
+/** 予測魚 1 種の行: チェック + アイコンリンク + 匹数 + その魚自身の条件 */
+function PredatorItem({
+  predator,
+  weatherTypes,
+  checked,
+  onToggle,
+  onJump,
+}: {
+  predator: Predator;
+  weatherTypes: WeatherMap;
+  checked: boolean;
+  onToggle: () => void;
+  onJump?: () => void;
+}) {
+  const c = predator.conditions;
+  return (
+    <div
+      className={`flex items-start gap-2 rounded-lg border border-abyss-700 bg-abyss-800/50 px-2.5 py-2 ${
+        checked ? "opacity-55" : ""
+      }`}
+    >
+      <input
+        type="checkbox"
+        checked={checked}
+        onChange={onToggle}
+        onClick={(e) => e.stopPropagation()}
+        className="mt-0.5 h-4 w-4 shrink-0 accent-hookgold"
+        aria-label={`${predator.ja ?? predator.en} を釣った`}
+      />
+      <div className="min-w-0 flex-1">
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
+          <ItemChip item={predator} />
+          <span className="font-mono text-xs text-hookgold-bright">×{predator.count}</span>
+          {c?.bigFish && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                onJump?.();
+              }}
+              className="rounded border border-hookgold-deep px-1 text-[10px] text-hookgold hover:bg-abyss-700"
+              title="このヌシへ移動"
+            >
+              ヌシ ↗
+            </button>
+          )}
+        </div>
+        {c && (
+          <div className="mt-0.5 text-[11px] text-moonlight-dim">
+            {c.bait.length > 0 && (
+              <span>餌 {c.bait.map((b) => b.ja ?? b.en).join("→")}・</span>
+            )}
+            {hourRangeText(c.startHour, c.endHour)}
+            {c.weatherSet.length > 0 && (
+              <span>・{weatherNames(c.weatherSet, weatherTypes)}</span>
+            )}
+            {c.previousWeatherSet.length > 0 && (
+              <span> (前:{weatherNames(c.previousWeatherSet, weatherTypes)})</span>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
 
 function formatCountdown(ms: number): string {
   if (ms <= 0) return "0分";
@@ -105,50 +225,86 @@ function MiniMap({ nushi }: { nushi: Nushi }) {
   );
 }
 
-function DetailPanel({ nushi }: { nushi: Nushi }) {
+function DetailPanel({
+  nushi,
+  weatherTypes,
+  caught,
+  prep,
+  onTogglePrep,
+  onToggleCaughtId,
+  onJumpTo,
+}: {
+  nushi: Nushi;
+  weatherTypes: WeatherMap;
+  caught: Set<number>;
+  prep: Set<number>;
+  onTogglePrep: (id: number) => void;
+  onToggleCaughtId: (id: number) => void;
+  onJumpTo?: (id: number) => void;
+}) {
   return (
     <div className="grid gap-4 border-b border-abyss-700/60 bg-abyss-900/80 px-5 py-4 sm:grid-cols-[auto_1fr]">
       <MiniMap nushi={nushi} />
-      <div className="space-y-2 text-sm">
+      <div className="space-y-3 text-sm">
         {nushi.baitPath.length > 0 && (
-          <div>
-            <span className="mr-2 text-xs text-moonlight-faint">釣り方</span>
-            <span className="text-moonlight">
-              {nushi.baitPath.map((b, i) => (
-                <span key={i}>
-                  {i === 0 ? (
-                    <span className="rounded bg-abyss-700 px-1.5 py-0.5 text-hookgold-bright">
-                      {b.ja ?? b.en}
-                    </span>
-                  ) : (
-                    <span className="text-moonlight">{b.ja ?? b.en}</span>
-                  )}
-                  {i < nushi.baitPath.length - 1 && (
-                    <span className="mx-1.5 text-moonlight-faint">→ 泳がせ →</span>
-                  )}
+          <div className="flex flex-wrap items-center gap-1.5">
+            <span className="mr-1 text-xs text-moonlight-faint">釣り方</span>
+            {nushi.baitPath.map((b, i) => (
+              <span key={i} className="inline-flex items-center gap-1.5">
+                <ItemChip item={b} />
+                <span className="text-moonlight-faint">
+                  {i < nushi.baitPath.length - 1 ? "→ 泳がせ →" : "→"}
                 </span>
-              ))}
-              <span className="mx-1.5 text-moonlight-faint">→</span>
-              <span className="font-display text-hookgold">{nushi.nameJa}</span>
-            </span>
+              </span>
+            ))}
+            <span className="font-display text-hookgold">{nushi.nameJa}</span>
           </div>
         )}
+
         {nushi.predators.length > 0 && (
           <div>
-            <span className="mr-2 text-xs text-moonlight-faint">漁師の直感</span>
-            <span className="text-moonlight">
-              {nushi.predators
-                .map((p) => `${p.ja ?? p.en} ×${p.count}`)
-                .join(" 、 ")}
-              を先に釣る
+            <div className="mb-1.5 text-xs text-moonlight-faint">
+              漁師の直感 — 先に以下を釣る
               {nushi.intuitionLength && (
                 <span className="ml-1 text-moonlight-dim">
-                  (持続 {nushi.intuitionLength}秒)
+                  (発動後 {nushi.intuitionLength}秒以内に本命を釣る)
                 </span>
               )}
-            </span>
+            </div>
+            <div className="grid gap-1.5 sm:grid-cols-2">
+              {nushi.predators.map((p, i) => {
+                const isNushiPred = p.conditions?.bigFish ?? false;
+                const checked =
+                  p.id !== null &&
+                  (isNushiPred ? caught.has(p.id) : prep.has(p.id));
+                return (
+                  <PredatorItem
+                    key={p.id ?? i}
+                    predator={p}
+                    weatherTypes={weatherTypes}
+                    checked={checked}
+                    onToggle={() => {
+                      if (p.id === null) return;
+                      if (isNushiPred) onToggleCaughtId(p.id);
+                      else onTogglePrep(p.id);
+                    }}
+                    onJump={
+                      isNushiPred && p.id !== null
+                        ? () => onJumpTo?.(p.id!)
+                        : undefined
+                    }
+                  />
+                );
+              })}
+            </div>
+            <div className="mt-1.5 text-[11px] text-moonlight-dim">
+              上記を釣ると直感が付き{" "}
+              <span className="font-display text-hookgold">{nushi.nameJa}</span>{" "}
+              が釣れるようになります
+            </div>
           </div>
         )}
+
         <div className="flex flex-wrap gap-x-5 gap-y-1">
           <span>
             <span className="mr-2 text-xs text-moonlight-faint">アタリ</span>
@@ -184,6 +340,11 @@ export default function NushiRow({
   weatherTypes,
   isCaught,
   onToggleCaught,
+  caught,
+  prep,
+  onTogglePrep,
+  onToggleCaughtId,
+  onJumpTo,
   expanded,
   onToggleExpand,
 }: {
@@ -193,6 +354,11 @@ export default function NushiRow({
   weatherTypes: Record<string, WeatherTypeInfo>;
   isCaught: boolean;
   onToggleCaught: () => void;
+  caught: Set<number>;
+  prep: Set<number>;
+  onTogglePrep: (id: number) => void;
+  onToggleCaughtId: (id: number) => void;
+  onJumpTo?: (id: number) => void;
   expanded: boolean;
   onToggleExpand: () => void;
 }) {
@@ -359,7 +525,17 @@ export default function NushiRow({
           </div>
         </div>
       </div>
-      {expanded && <DetailPanel nushi={nushi} />}
+      {expanded && (
+        <DetailPanel
+          nushi={nushi}
+          weatherTypes={weatherTypes}
+          caught={caught}
+          prep={prep}
+          onTogglePrep={onTogglePrep}
+          onToggleCaughtId={onToggleCaughtId}
+          onJumpTo={onJumpTo}
+        />
+      )}
     </div>
   );
 }

@@ -8,7 +8,10 @@
   "baitPath": [
    {
     "ja": "弓角",
-    "en": "Yumizuno"
+    "en": "Yumizuno",
+    "id": 2628,
+    "icon": "027068",
+    "lodestoneId": "9b0ea84cf32"
    }
   ],
   "predators": [],
@@ -48,15 +51,24 @@
   "baitPath": [
    {
     "ja": "ラグワーム",
-    "en": "Lugworm"
+    "en": "Lugworm",
+    "id": 2585,
+    "icon": "027004",
+    "lodestoneId": "12ba1196a1c"
    },
    {
     "ja": "メルトールゴビー",
-    "en": "Merlthor Goby"
+    "en": "Merlthor Goby",
+    "id": 4869,
+    "icon": "029003",
+    "lodestoneId": "9dbf2c036a4"
    },
    {
     "ja": "ワフー",
-    "en": "Wahoo"
+    "en": "Wahoo",
+    "id": 4904,
+    "icon": "029025",
+    "lodestoneId": "b552bae20d9"
    }
   ],
   "predators": [],
@@ -99,15 +111,24 @@
   "baitPath": [
    {
     "ja": "ラグワーム",
-    "en": "Lugworm"
+    "en": "Lugworm",
+    "id": 2585,
+    "icon": "027004",
+    "lodestoneId": "12ba1196a1c"
    },
    {
     "ja": "メルトールゴビー",
-    "en": "Merlthor Goby"
+    "en": "Merlthor Goby",
+    "id": 4869,
+    "icon": "029003",
+    "lodestoneId": "9dbf2c036a4"
    },
    {
     "ja": "ワフー",
-    "en": "Wahoo"
+    "en": "Wahoo",
+    "id": 4904,
+    "icon": "029025",
+    "lodestoneId": "b552bae20d9"
    }
   ],
   "predators": [],
@@ -144,7 +165,10 @@
   "baitPath": [
    {
     "ja": "ラットの尾",
-    "en": "Rat Tail"
+    "en": "Rat Tail",
+    "id": 2591,
+    "icon": "027001",
+    "lodestoneId": "72690dd403f"
    }
   ],
   "predators": [],
@@ -184,7 +208,10 @@
   "baitPath": [
    {
     "ja": "モスプパ",
-    "en": "Moth Pupa"
+    "en": "Moth Pupa",
+    "id": 2586,
+    "icon": "027003",
+    "lodestoneId": "00ed364b827"
    }
   ],
   "predators": [],
@@ -224,7 +251,10 @@
   "baitPath": [
    {
     "ja": "ゴビーボール",
-    "en": "Goby Ball"
+    "en": "Goby Ball",
+    "id": 2589,
+    "icon": "027009",
+    "lodestoneId": "8c1c8a0d370"
    }
   ],
   "predators": [],
@@ -264,7 +294,10 @@
   "baitPath": [
    {
     "ja": "モスプパ",
-    "en": "Moth Pupa"
+    "en": "Moth Pupa",
+    "id": 2586,
+    "icon": "027003",
+    "lodestoneId": "00ed364b827"
    }
   ],
   "predators": [],
@@ -304,7 +337,10 @@
   "baitPath": [
    {
     "ja": "バターワーム",
-    "en": "Butterworm"
+    "en": "Butterworm",
+    "id": 2594,
+    "icon": "027019",
+    "lodestoneId": "60f4d0c133d"
    }
   ],
   "predators": [],
@@ -348,11 +384,17 @@
   "baitPath": [
    {
     "ja": "ユスリカ",
-    "en": "Midge Basket"
+    "en": "Midge Basket",
+    "id": 2592,
+    "icon": "027002",
+    "lodestoneId": "bd257411dfc"
    },
    {
     "ja": "グラディエーターベタ",
-    "en": "Ala Mhigan Fighting Fish"
+    "en": "Ala Mhigan Fighting Fish",
+    "id": 4942,
+    "icon": "029216",
+    "lodestoneId": "31055ffad70"
    }
   ],
   "predators": [],
@@ -392,15 +434,24 @@
   "baitPath": [
    {
     "ja": "ラグワーム",
-    "en": "Lugworm"
+    "en": "Lugworm",
+    "id": 2585,
+    "icon": "027004",
+    "lodestoneId": "12ba1196a1c"
    },
    {
     "ja": "メルトールゴビー",
-    "en": "Merlthor Goby"
+    "en": "Merlthor Goby",
+    "id": 4869,
+    "icon": "029003",
+    "lodestoneId": "9dbf2c036a4"
    },
    {
     "ja": "ワフー",
-    "en": "Wahoo"
+    "en": "Wahoo",
+    "id": 4904,
+    "icon": "029025",
+    "lodestoneId": "b552bae20d9"
    }
   ],
   "predators": [],
@@ -440,7 +491,10 @@
   "baitPath": [
    {
     "ja": "ピルバグ",
-    "en": "Pill Bug"
+    "en": "Pill Bug",
+    "id": 2587,
+    "icon": "027005",
+    "lodestoneId": "2ef99ae31ce"
    }
   ],
   "predators": [],
@@ -480,11 +534,17 @@
   "baitPath": [
    {
     "ja": "フローティングミノー",
-    "en": "Floating Minnow"
+    "en": "Floating Minnow",
+    "id": 2611,
+    "icon": "027051",
+    "lodestoneId": "d03b99fd1a9"
    },
    {
     "ja": "ハーバーヘリング",
-    "en": "Harbor Herring"
+    "en": "Harbor Herring",
+    "id": 4874,
+    "icon": "029044",
+    "lodestoneId": "9f1826ea754"
    }
   ],
   "predators": [],
@@ -527,7 +587,10 @@
   "baitPath": [
    {
     "ja": "ポーラークリル",
-    "en": "Northern Krill"
+    "en": "Northern Krill",
+    "id": 2606,
+    "icon": "027023",
+    "lodestoneId": "65a3af65358"
    }
   ],
   "predators": [],
@@ -567,7 +630,10 @@
   "baitPath": [
    {
     "ja": "ザリガニボール",
-    "en": "Crayfish Ball"
+    "en": "Crayfish Ball",
+    "id": 2588,
+    "icon": "027008",
+    "lodestoneId": "316abbce58a"
    }
   ],
   "predators": [],
@@ -607,7 +673,10 @@
   "baitPath": [
    {
     "ja": "クロウフライ",
-    "en": "Crow Fly"
+    "en": "Crow Fly",
+    "id": 2614,
+    "icon": "027057",
+    "lodestoneId": "537c103525e"
    }
   ],
   "predators": [],
@@ -651,7 +720,10 @@
   "baitPath": [
    {
     "ja": "弓角",
-    "en": "Yumizuno"
+    "en": "Yumizuno",
+    "id": 2628,
+    "icon": "027068",
+    "lodestoneId": "9b0ea84cf32"
    }
   ],
   "predators": [],
@@ -691,7 +763,10 @@
   "baitPath": [
    {
     "ja": "ゴビーボール",
-    "en": "Goby Ball"
+    "en": "Goby Ball",
+    "id": 2589,
+    "icon": "027009",
+    "lodestoneId": "8c1c8a0d370"
    }
   ],
   "predators": [],
@@ -731,7 +806,10 @@
   "baitPath": [
    {
     "ja": "ザリガニボール",
-    "en": "Crayfish Ball"
+    "en": "Crayfish Ball",
+    "id": 2588,
+    "icon": "027008",
+    "lodestoneId": "316abbce58a"
    }
   ],
   "predators": [],
@@ -771,7 +849,10 @@
   "baitPath": [
    {
     "ja": "弓角",
-    "en": "Yumizuno"
+    "en": "Yumizuno",
+    "id": 2628,
+    "icon": "027068",
+    "lodestoneId": "9b0ea84cf32"
    }
   ],
   "predators": [],
@@ -814,11 +895,17 @@
   "baitPath": [
    {
     "ja": "モスプパ",
-    "en": "Moth Pupa"
+    "en": "Moth Pupa",
+    "id": 2586,
+    "icon": "027003",
+    "lodestoneId": "00ed364b827"
    },
    {
     "ja": "ゼブラゴビー",
-    "en": "Striped Goby"
+    "en": "Striped Goby",
+    "id": 4927,
+    "icon": "029230",
+    "lodestoneId": "7215fa7eded"
    }
   ],
   "predators": [],
@@ -858,7 +945,10 @@
   "baitPath": [
    {
     "ja": "フェザントフライ",
-    "en": "Wildfowl Fly"
+    "en": "Wildfowl Fly",
+    "id": 2623,
+    "icon": "027059",
+    "lodestoneId": "e19d5e28e2e"
    }
   ],
   "predators": [],
@@ -898,7 +988,10 @@
   "baitPath": [
    {
     "ja": "ザリガニボール",
-    "en": "Crayfish Ball"
+    "en": "Crayfish Ball",
+    "id": 2588,
+    "icon": "027008",
+    "lodestoneId": "316abbce58a"
    }
   ],
   "predators": [],
@@ -938,7 +1031,10 @@
   "baitPath": [
    {
     "ja": "スピナーベイト",
-    "en": "Spinnerbait"
+    "en": "Spinnerbait",
+    "id": 2626,
+    "icon": "027063",
+    "lodestoneId": "2e88d1508bc"
    }
   ],
   "predators": [],
@@ -982,7 +1078,10 @@
   "baitPath": [
    {
     "ja": "ザリガニボール",
-    "en": "Crayfish Ball"
+    "en": "Crayfish Ball",
+    "id": 2588,
+    "icon": "027008",
+    "lodestoneId": "316abbce58a"
    }
   ],
   "predators": [],
@@ -1022,7 +1121,10 @@
   "baitPath": [
    {
     "ja": "フローティングミノー",
-    "en": "Floating Minnow"
+    "en": "Floating Minnow",
+    "id": 2611,
+    "icon": "027051",
+    "lodestoneId": "d03b99fd1a9"
    }
   ],
   "predators": [],
@@ -1062,7 +1164,10 @@
   "baitPath": [
    {
     "ja": "バターワーム",
-    "en": "Butterworm"
+    "en": "Butterworm",
+    "id": 2594,
+    "icon": "027019",
+    "lodestoneId": "60f4d0c133d"
    }
   ],
   "predators": [],
@@ -1104,7 +1209,10 @@
   "baitPath": [
    {
     "ja": "クロウフライ",
-    "en": "Crow Fly"
+    "en": "Crow Fly",
+    "id": 2614,
+    "icon": "027057",
+    "lodestoneId": "537c103525e"
    }
   ],
   "predators": [],
@@ -1147,7 +1255,10 @@
   "baitPath": [
    {
     "ja": "ユスリカ",
-    "en": "Midge Basket"
+    "en": "Midge Basket",
+    "id": 2592,
+    "icon": "027002",
+    "lodestoneId": "bd257411dfc"
    }
   ],
   "predators": [],
@@ -1190,7 +1301,10 @@
   "baitPath": [
    {
     "ja": "ブラッドワーム",
-    "en": "Bloodworm"
+    "en": "Bloodworm",
+    "id": 2590,
+    "icon": "027006",
+    "lodestoneId": "8c710c92524"
    }
   ],
   "predators": [],
@@ -1230,7 +1344,10 @@
   "baitPath": [
    {
     "ja": "ハナアブ",
-    "en": "Syrphid Basket"
+    "en": "Syrphid Basket",
+    "id": 2597,
+    "icon": "027002",
+    "lodestoneId": "a049462cb08"
    }
   ],
   "predators": [],
@@ -1273,11 +1390,17 @@
   "baitPath": [
    {
     "ja": "モスプパ",
-    "en": "Moth Pupa"
+    "en": "Moth Pupa",
+    "id": 2586,
+    "icon": "027003",
+    "lodestoneId": "00ed364b827"
    },
    {
     "ja": "ゼブラゴビー",
-    "en": "Striped Goby"
+    "en": "Striped Goby",
+    "id": 4927,
+    "icon": "029230",
+    "lodestoneId": "7215fa7eded"
    }
   ],
   "predators": [],
@@ -1317,7 +1440,10 @@
   "baitPath": [
    {
     "ja": "バターワーム",
-    "en": "Butterworm"
+    "en": "Butterworm",
+    "id": 2594,
+    "icon": "027019",
+    "lodestoneId": "60f4d0c133d"
    }
   ],
   "predators": [],
@@ -1357,11 +1483,17 @@
   "baitPath": [
    {
     "ja": "ピルバグ",
-    "en": "Pill Bug"
+    "en": "Pill Bug",
+    "id": 2587,
+    "icon": "027005",
+    "lodestoneId": "2ef99ae31ce"
    },
    {
     "ja": "ハーバーヘリング",
-    "en": "Harbor Herring"
+    "en": "Harbor Herring",
+    "id": 4874,
+    "icon": "029044",
+    "lodestoneId": "9f1826ea754"
    }
   ],
   "predators": [],
@@ -1401,7 +1533,10 @@
   "baitPath": [
    {
     "ja": "ブラッドワーム",
-    "en": "Bloodworm"
+    "en": "Bloodworm",
+    "id": 2590,
+    "icon": "027006",
+    "lodestoneId": "8c710c92524"
    }
   ],
   "predators": [],
@@ -1441,7 +1576,10 @@
   "baitPath": [
    {
     "ja": "シンキングミノー",
-    "en": "Sinking Minnow"
+    "en": "Sinking Minnow",
+    "id": 2617,
+    "icon": "027055",
+    "lodestoneId": "94ccef34657"
    }
   ],
   "predators": [],
@@ -1481,7 +1619,10 @@
   "baitPath": [
    {
     "ja": "スプーンワーム",
-    "en": "Spoon Worm"
+    "en": "Spoon Worm",
+    "id": 2596,
+    "icon": "027015",
+    "lodestoneId": "48378a18867"
    }
   ],
   "predators": [],
@@ -1523,7 +1664,10 @@
   "baitPath": [
    {
     "ja": "ヘヴィメタルジグ",
-    "en": "Heavy Steel Jig"
+    "en": "Heavy Steel Jig",
+    "id": 2619,
+    "icon": "027065",
+    "lodestoneId": "687e1dc5662"
    }
   ],
   "predators": [],
@@ -1563,7 +1707,10 @@
   "baitPath": [
    {
     "ja": "ゴビーボール",
-    "en": "Goby Ball"
+    "en": "Goby Ball",
+    "id": 2589,
+    "icon": "027009",
+    "lodestoneId": "8c1c8a0d370"
    }
   ],
   "predators": [],
@@ -1603,7 +1750,10 @@
   "baitPath": [
    {
     "ja": "テッポウムシ",
-    "en": "Stem Borer"
+    "en": "Stem Borer",
+    "id": 2601,
+    "icon": "027017",
+    "lodestoneId": "bb781c0160d"
    }
   ],
   "predators": [],
@@ -1646,7 +1796,10 @@
   "baitPath": [
    {
     "ja": "バターワーム",
-    "en": "Butterworm"
+    "en": "Butterworm",
+    "id": 2594,
+    "icon": "027019",
+    "lodestoneId": "60f4d0c133d"
    }
   ],
   "predators": [],
@@ -1689,7 +1842,10 @@
   "baitPath": [
    {
     "ja": "ハナアブ",
-    "en": "Syrphid Basket"
+    "en": "Syrphid Basket",
+    "id": 2597,
+    "icon": "027002",
+    "lodestoneId": "a049462cb08"
    }
   ],
   "predators": [],
@@ -1729,7 +1885,10 @@
   "baitPath": [
    {
     "ja": "ラットの尾",
-    "en": "Rat Tail"
+    "en": "Rat Tail",
+    "id": 2591,
+    "icon": "027001",
+    "lodestoneId": "72690dd403f"
    }
   ],
   "predators": [],
@@ -1773,7 +1932,10 @@
   "baitPath": [
    {
     "ja": "クロウフライ",
-    "en": "Crow Fly"
+    "en": "Crow Fly",
+    "id": 2614,
+    "icon": "027057",
+    "lodestoneId": "537c103525e"
    }
   ],
   "predators": [],
@@ -1813,11 +1975,17 @@
   "baitPath": [
    {
     "ja": "スピナー",
-    "en": "Spinner"
+    "en": "Spinner",
+    "id": 2620,
+    "icon": "027062",
+    "lodestoneId": "532f6228183"
    },
    {
     "ja": "スカルピン",
-    "en": "Common Sculpin"
+    "en": "Common Sculpin",
+    "id": 4995,
+    "icon": "029250",
+    "lodestoneId": "abcf682cc27"
    }
   ],
   "predators": [],
@@ -1860,7 +2028,10 @@
   "baitPath": [
    {
     "ja": "ポーラークリル",
-    "en": "Northern Krill"
+    "en": "Northern Krill",
+    "id": 2606,
+    "icon": "027023",
+    "lodestoneId": "65a3af65358"
    }
   ],
   "predators": [],
@@ -1900,7 +2071,10 @@
   "baitPath": [
    {
     "ja": "バターワーム",
-    "en": "Butterworm"
+    "en": "Butterworm",
+    "id": 2594,
+    "icon": "027019",
+    "lodestoneId": "60f4d0c133d"
    }
   ],
   "predators": [],
@@ -1940,7 +2114,10 @@
   "baitPath": [
    {
     "ja": "バターワーム",
-    "en": "Butterworm"
+    "en": "Butterworm",
+    "id": 2594,
+    "icon": "027019",
+    "lodestoneId": "60f4d0c133d"
    }
   ],
   "predators": [],
@@ -1980,7 +2157,10 @@
   "baitPath": [
    {
     "ja": "シュリンプフィーダー",
-    "en": "Shrimp Cage Feeder"
+    "en": "Shrimp Cage Feeder",
+    "id": 2613,
+    "icon": "027053",
+    "lodestoneId": "2b8d118a8de"
    }
   ],
   "predators": [],
@@ -2020,7 +2200,10 @@
   "baitPath": [
    {
     "ja": "ポーラークリル",
-    "en": "Northern Krill"
+    "en": "Northern Krill",
+    "id": 2606,
+    "icon": "027023",
+    "lodestoneId": "65a3af65358"
    }
   ],
   "predators": [],
@@ -2060,11 +2243,17 @@
   "baitPath": [
    {
     "ja": "ユスリカ",
-    "en": "Midge Basket"
+    "en": "Midge Basket",
+    "id": 2592,
+    "icon": "027002",
+    "lodestoneId": "bd257411dfc"
    },
    {
     "ja": "銅魚",
-    "en": "Copperfish"
+    "en": "Copperfish",
+    "id": 4948,
+    "icon": "029314",
+    "lodestoneId": "deb8ad64910"
    }
   ],
   "predators": [],
@@ -2106,11 +2295,17 @@
   "baitPath": [
    {
     "ja": "バターワーム",
-    "en": "Butterworm"
+    "en": "Butterworm",
+    "id": 2594,
+    "icon": "027019",
+    "lodestoneId": "60f4d0c133d"
    },
    {
     "ja": "銅魚",
-    "en": "Copperfish"
+    "en": "Copperfish",
+    "id": 4948,
+    "icon": "029314",
+    "lodestoneId": "deb8ad64910"
    }
   ],
   "predators": [],
@@ -2152,7 +2347,10 @@
   "baitPath": [
    {
     "ja": "バスボール",
-    "en": "Bass Ball"
+    "en": "Bass Ball",
+    "id": 2595,
+    "icon": "027010",
+    "lodestoneId": "740b0650243"
    }
   ],
   "predators": [],
@@ -2195,7 +2393,10 @@
   "baitPath": [
    {
     "ja": "ハナアブ",
-    "en": "Syrphid Basket"
+    "en": "Syrphid Basket",
+    "id": 2597,
+    "icon": "027002",
+    "lodestoneId": "a049462cb08"
    }
   ],
   "predators": [],
@@ -2235,11 +2436,17 @@
   "baitPath": [
    {
     "ja": "スプーンワーム",
-    "en": "Spoon Worm"
+    "en": "Spoon Worm",
+    "id": 2596,
+    "icon": "027015",
+    "lodestoneId": "48378a18867"
    },
    {
     "ja": "フルムーンサーディン",
-    "en": "Fullmoon Sardine"
+    "en": "Fullmoon Sardine",
+    "id": 4898,
+    "icon": "029055",
+    "lodestoneId": "be2adeeb1a0"
    }
   ],
   "predators": [],
@@ -2282,7 +2489,10 @@
   "baitPath": [
    {
     "ja": "バターワーム",
-    "en": "Butterworm"
+    "en": "Butterworm",
+    "id": 2594,
+    "icon": "027019",
+    "lodestoneId": "60f4d0c133d"
    }
   ],
   "predators": [],
@@ -2322,11 +2532,17 @@
   "baitPath": [
    {
     "ja": "スプーンワーム",
-    "en": "Spoon Worm"
+    "en": "Spoon Worm",
+    "id": 2596,
+    "icon": "027015",
+    "lodestoneId": "48378a18867"
    },
    {
     "ja": "フルムーンサーディン",
-    "en": "Fullmoon Sardine"
+    "en": "Fullmoon Sardine",
+    "id": 4898,
+    "icon": "029055",
+    "lodestoneId": "be2adeeb1a0"
    }
   ],
   "predators": [],
@@ -2369,7 +2585,10 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    }
   ],
   "predators": [],
@@ -2411,7 +2630,10 @@
   "baitPath": [
    {
     "ja": "カディスラーヴァ",
-    "en": "Caddisfly Larva"
+    "en": "Caddisfly Larva",
+    "id": 2607,
+    "icon": "027013",
+    "lodestoneId": "7d6ba962c36"
    }
   ],
   "predators": [],
@@ -2454,7 +2676,10 @@
   "baitPath": [
    {
     "ja": "ハナアブ",
-    "en": "Syrphid Basket"
+    "en": "Syrphid Basket",
+    "id": 2597,
+    "icon": "027002",
+    "lodestoneId": "a049462cb08"
    }
   ],
   "predators": [],
@@ -2494,7 +2719,10 @@
   "baitPath": [
    {
     "ja": "シンキングミノー",
-    "en": "Sinking Minnow"
+    "en": "Sinking Minnow",
+    "id": 2617,
+    "icon": "027055",
+    "lodestoneId": "94ccef34657"
    }
   ],
   "predators": [],
@@ -2537,11 +2765,17 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    },
    {
     "ja": "銀魚",
-    "en": "Silverfish"
+    "en": "Silverfish",
+    "id": 4978,
+    "icon": "029312",
+    "lodestoneId": "b348ce2c036"
    }
   ],
   "predators": [],
@@ -2584,11 +2818,17 @@
   "baitPath": [
    {
     "ja": "ユスリカ",
-    "en": "Midge Basket"
+    "en": "Midge Basket",
+    "id": 2592,
+    "icon": "027002",
+    "lodestoneId": "bd257411dfc"
    },
    {
     "ja": "グラディエーターベタ",
-    "en": "Ala Mhigan Fighting Fish"
+    "en": "Ala Mhigan Fighting Fish",
+    "id": 4942,
+    "icon": "029216",
+    "lodestoneId": "31055ffad70"
    }
   ],
   "predators": [],
@@ -2630,7 +2870,10 @@
   "baitPath": [
    {
     "ja": "ヘリングボール",
-    "en": "Herring Ball"
+    "en": "Herring Ball",
+    "id": 2598,
+    "icon": "027007",
+    "lodestoneId": "79e41cef633"
    }
   ],
   "predators": [],
@@ -2672,7 +2915,10 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    }
   ],
   "predators": [],
@@ -2712,7 +2958,10 @@
   "baitPath": [
    {
     "ja": "ヘヴィメタルジグ",
-    "en": "Heavy Steel Jig"
+    "en": "Heavy Steel Jig",
+    "id": 2619,
+    "icon": "027065",
+    "lodestoneId": "687e1dc5662"
    }
   ],
   "predators": [],
@@ -2754,7 +3003,10 @@
   "baitPath": [
    {
     "ja": "スピナーベイト",
-    "en": "Spinnerbait"
+    "en": "Spinnerbait",
+    "id": 2626,
+    "icon": "027063",
+    "lodestoneId": "2e88d1508bc"
    }
   ],
   "predators": [],
@@ -2794,7 +3046,10 @@
   "baitPath": [
    {
     "ja": "グロウワーム",
-    "en": "Glowworm"
+    "en": "Glowworm",
+    "id": 2603,
+    "icon": "027021",
+    "lodestoneId": "7aa4de1cfb0"
    }
   ],
   "predators": [],
@@ -2836,7 +3091,10 @@
   "baitPath": [
    {
     "ja": "スピナー",
-    "en": "Spinner"
+    "en": "Spinner",
+    "id": 2620,
+    "icon": "027062",
+    "lodestoneId": "532f6228183"
    }
   ],
   "predators": [],
@@ -2878,11 +3136,17 @@
   "baitPath": [
    {
     "ja": "サンドリーチ",
-    "en": "Sand Leech"
+    "en": "Sand Leech",
+    "id": 2600,
+    "icon": "027014",
+    "lodestoneId": "64cf535cf45"
    },
    {
     "ja": "サンドストームライダー",
-    "en": "Storm Rider"
+    "en": "Storm Rider",
+    "id": 5035,
+    "icon": "029606",
+    "lodestoneId": "9c9f853302e"
    }
   ],
   "predators": [],
@@ -2924,11 +3188,17 @@
   "baitPath": [
    {
     "ja": "サンドリーチ",
-    "en": "Sand Leech"
+    "en": "Sand Leech",
+    "id": 2600,
+    "icon": "027014",
+    "lodestoneId": "64cf535cf45"
    },
    {
     "ja": "サンドストームライダー",
-    "en": "Storm Rider"
+    "en": "Storm Rider",
+    "id": 5035,
+    "icon": "029606",
+    "lodestoneId": "9c9f853302e"
    }
   ],
   "predators": [],
@@ -2970,7 +3240,10 @@
   "baitPath": [
    {
     "ja": "フェザントフライ",
-    "en": "Wildfowl Fly"
+    "en": "Wildfowl Fly",
+    "id": 2623,
+    "icon": "027059",
+    "lodestoneId": "e19d5e28e2e"
    }
   ],
   "predators": [],
@@ -3012,7 +3285,10 @@
   "baitPath": [
    {
     "ja": "グロウワーム",
-    "en": "Glowworm"
+    "en": "Glowworm",
+    "id": 2603,
+    "icon": "027021",
+    "lodestoneId": "7aa4de1cfb0"
    }
   ],
   "predators": [],
@@ -3052,7 +3328,10 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    }
   ],
   "predators": [],
@@ -3092,11 +3371,17 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    },
    {
     "ja": "銀魚",
-    "en": "Silverfish"
+    "en": "Silverfish",
+    "id": 4978,
+    "icon": "029312",
+    "lodestoneId": "b348ce2c036"
    }
   ],
   "predators": [],
@@ -3138,7 +3423,10 @@
   "baitPath": [
    {
     "ja": "カディスラーヴァ",
-    "en": "Caddisfly Larva"
+    "en": "Caddisfly Larva",
+    "id": 2607,
+    "icon": "027013",
+    "lodestoneId": "7d6ba962c36"
    }
   ],
   "predators": [],
@@ -3180,7 +3468,10 @@
   "baitPath": [
    {
     "ja": "テッポウムシ",
-    "en": "Stem Borer"
+    "en": "Stem Borer",
+    "id": 2601,
+    "icon": "027017",
+    "lodestoneId": "bb781c0160d"
    }
   ],
   "predators": [],
@@ -3222,7 +3513,10 @@
   "baitPath": [
    {
     "ja": "スナーブルフライ",
-    "en": "Snurble Fly"
+    "en": "Snurble Fly",
+    "id": 2618,
+    "icon": "027058",
+    "lodestoneId": "8f2ed8aa99c"
    }
   ],
   "predators": [],
@@ -3265,7 +3559,10 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    }
   ],
   "predators": [],
@@ -3307,11 +3604,17 @@
   "baitPath": [
    {
     "ja": "ユスリカ",
-    "en": "Midge Basket"
+    "en": "Midge Basket",
+    "id": 2592,
+    "icon": "027002",
+    "lodestoneId": "bd257411dfc"
    },
    {
     "ja": "銅魚",
-    "en": "Copperfish"
+    "en": "Copperfish",
+    "id": 4948,
+    "icon": "029314",
+    "lodestoneId": "deb8ad64910"
    }
   ],
   "predators": [],
@@ -3354,11 +3657,17 @@
   "baitPath": [
    {
     "ja": "ピルバグ",
-    "en": "Pill Bug"
+    "en": "Pill Bug",
+    "id": 2587,
+    "icon": "027005",
+    "lodestoneId": "2ef99ae31ce"
    },
    {
     "ja": "オーシャンクラウド",
-    "en": "Ocean Cloud"
+    "en": "Ocean Cloud",
+    "id": 4872,
+    "icon": "029005",
+    "lodestoneId": "b058cf4a981"
    }
   ],
   "predators": [],
@@ -3402,7 +3711,10 @@
   "baitPath": [
    {
     "ja": "テッポウムシ",
-    "en": "Stem Borer"
+    "en": "Stem Borer",
+    "id": 2601,
+    "icon": "027017",
+    "lodestoneId": "bb781c0160d"
    }
   ],
   "predators": [],
@@ -3444,11 +3756,17 @@
   "baitPath": [
    {
     "ja": "スピナーベイト",
-    "en": "Spinnerbait"
+    "en": "Spinnerbait",
+    "id": 2626,
+    "icon": "027063",
+    "lodestoneId": "2e88d1508bc"
    },
    {
     "ja": "スカルピン",
-    "en": "Common Sculpin"
+    "en": "Common Sculpin",
+    "id": 4995,
+    "icon": "029250",
+    "lodestoneId": "abcf682cc27"
    }
   ],
   "predators": [],
@@ -3490,7 +3808,10 @@
   "baitPath": [
    {
     "ja": "フェザントフライ",
-    "en": "Wildfowl Fly"
+    "en": "Wildfowl Fly",
+    "id": 2623,
+    "icon": "027059",
+    "lodestoneId": "e19d5e28e2e"
    }
   ],
   "predators": [],
@@ -3533,11 +3854,17 @@
   "baitPath": [
    {
     "ja": "ハナアブ",
-    "en": "Syrphid Basket"
+    "en": "Syrphid Basket",
+    "id": 2597,
+    "icon": "027002",
+    "lodestoneId": "a049462cb08"
    },
    {
     "ja": "アバラシアスメルト",
-    "en": "Abalathian Smelt"
+    "en": "Abalathian Smelt",
+    "id": 4937,
+    "icon": "029310",
+    "lodestoneId": "b426ee0b7c1"
    }
   ],
   "predators": [],
@@ -3580,11 +3907,17 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    },
    {
     "ja": "アバラシアスメルト",
-    "en": "Abalathian Smelt"
+    "en": "Abalathian Smelt",
+    "id": 4937,
+    "icon": "029310",
+    "lodestoneId": "b426ee0b7c1"
    }
   ],
   "predators": [],
@@ -3624,7 +3957,10 @@
   "baitPath": [
    {
     "ja": "トップウォーターフロッグ",
-    "en": "Topwater Frog"
+    "en": "Topwater Frog",
+    "id": 2624,
+    "icon": "027054",
+    "lodestoneId": "eb709402b53"
    }
   ],
   "predators": [],
@@ -3666,11 +4002,17 @@
   "baitPath": [
    {
     "ja": "メタルジグ",
-    "en": "Steel Jig"
+    "en": "Steel Jig",
+    "id": 2616,
+    "icon": "027067",
+    "lodestoneId": "ef63a5ba615"
    },
    {
     "ja": "フルムーンサーディン",
-    "en": "Fullmoon Sardine"
+    "en": "Fullmoon Sardine",
+    "id": 4898,
+    "icon": "029055",
+    "lodestoneId": "be2adeeb1a0"
    }
   ],
   "predators": [],
@@ -3710,11 +4052,17 @@
   "baitPath": [
    {
     "ja": "ホバーワーム",
-    "en": "Hoverworm"
+    "en": "Hoverworm",
+    "id": 2605,
+    "icon": "027022",
+    "lodestoneId": "858f09032eb"
    },
    {
     "ja": "スプリットクラウド",
-    "en": "Cloud Cutter"
+    "en": "Cloud Cutter",
+    "id": 5040,
+    "icon": "029655",
+    "lodestoneId": "387627c8c19"
    }
   ],
   "predators": [],
@@ -3757,19 +4105,31 @@
   "baitPath": [
    {
     "ja": "ラグワーム",
-    "en": "Lugworm"
+    "en": "Lugworm",
+    "id": 2585,
+    "icon": "027004",
+    "lodestoneId": "12ba1196a1c"
    },
    {
     "ja": "メルトールゴビー",
-    "en": "Merlthor Goby"
+    "en": "Merlthor Goby",
+    "id": 4869,
+    "icon": "029003",
+    "lodestoneId": "9dbf2c036a4"
    },
    {
     "ja": "ワフー",
-    "en": "Wahoo"
+    "en": "Wahoo",
+    "id": 4904,
+    "icon": "029025",
+    "lodestoneId": "b552bae20d9"
    },
    {
     "ja": "ジャイアントスキッド",
-    "en": "Giant Squid"
+    "en": "Giant Squid",
+    "id": 4919,
+    "icon": "029027",
+    "lodestoneId": "619f706ec11"
    }
   ],
   "predators": [],
@@ -3813,7 +4173,10 @@
   "baitPath": [
    {
     "ja": "グロウワーム",
-    "en": "Glowworm"
+    "en": "Glowworm",
+    "id": 2603,
+    "icon": "027021",
+    "lodestoneId": "7aa4de1cfb0"
    }
   ],
   "predators": [],
@@ -3855,18 +4218,58 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    },
    {
     "ja": "銀魚",
-    "en": "Silverfish"
+    "en": "Silverfish",
+    "id": 4978,
+    "icon": "029312",
+    "lodestoneId": "b348ce2c036"
    }
   ],
   "predators": [
    {
     "ja": "オオモリナマズ",
     "en": "Jungle Catfish",
-    "count": 3
+    "id": 5031,
+    "icon": "029265",
+    "lodestoneId": "1d3fa563269",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ハニーワーム",
+       "en": "Honey Worm",
+       "id": 2599,
+       "icon": "027018",
+       "lodestoneId": "e4dd97f9650"
+      },
+      {
+       "ja": "銀魚",
+       "en": "Silverfish",
+       "id": 4978,
+       "icon": "029312",
+       "lodestoneId": "b348ce2c036"
+      },
+      {
+       "ja": "金魚",
+       "en": "Goldfish",
+       "id": 5011,
+       "icon": "029311",
+       "lodestoneId": "a6c9c6aafc1"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "レッドマンティス滝",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": null,
@@ -3905,15 +4308,24 @@
   "baitPath": [
    {
     "ja": "ピルバグ",
-    "en": "Pill Bug"
+    "en": "Pill Bug",
+    "id": 2587,
+    "icon": "027005",
+    "lodestoneId": "2ef99ae31ce"
    },
    {
     "ja": "ハーバーヘリング",
-    "en": "Harbor Herring"
+    "en": "Harbor Herring",
+    "id": 4874,
+    "icon": "029044",
+    "lodestoneId": "9f1826ea754"
    },
    {
     "ja": "オーガバラクーダ",
-    "en": "Ogre Barracuda"
+    "en": "Ogre Barracuda",
+    "id": 4888,
+    "icon": "029035",
+    "lodestoneId": "748b8154a77"
    }
   ],
   "predators": [],
@@ -3958,14 +4370,40 @@
   "baitPath": [
    {
     "ja": "ポーラークリル",
-    "en": "Northern Krill"
+    "en": "Northern Krill",
+    "id": 2606,
+    "icon": "027023",
+    "lodestoneId": "65a3af65358"
    }
   ],
   "predators": [
    {
     "ja": "リトルサラオス",
     "en": "Little Thalaos",
-    "count": 3
+    "id": 4913,
+    "icon": "029054",
+    "lodestoneId": "7cef1323e71",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ポーラークリル",
+       "en": "Northern Krill",
+       "id": 2606,
+       "icon": "027023",
+       "lodestoneId": "65a3af65358"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [
+      7,
+      8
+     ],
+     "previousWeatherSet": [],
+     "spotNameJa": "ロータノ海沖合：船尾",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": null,
@@ -4007,11 +4445,17 @@
   "baitPath": [
    {
     "ja": "スプーンワーム",
-    "en": "Spoon Worm"
+    "en": "Spoon Worm",
+    "id": 2596,
+    "icon": "027015",
+    "lodestoneId": "48378a18867"
    },
    {
     "ja": "フルムーンサーディン",
-    "en": "Fullmoon Sardine"
+    "en": "Fullmoon Sardine",
+    "id": 4898,
+    "icon": "029055",
+    "lodestoneId": "be2adeeb1a0"
    }
   ],
   "predators": [],
@@ -4055,11 +4499,17 @@
   "baitPath": [
    {
     "ja": "スプーンワーム",
-    "en": "Spoon Worm"
+    "en": "Spoon Worm",
+    "id": 2596,
+    "icon": "027015",
+    "lodestoneId": "48378a18867"
    },
    {
     "ja": "フルムーンサーディン",
-    "en": "Fullmoon Sardine"
+    "en": "Fullmoon Sardine",
+    "id": 4898,
+    "icon": "029055",
+    "lodestoneId": "be2adeeb1a0"
    }
   ],
   "predators": [],
@@ -4106,15 +4556,24 @@
   "baitPath": [
    {
     "ja": "ラグワーム",
-    "en": "Lugworm"
+    "en": "Lugworm",
+    "id": 2585,
+    "icon": "027004",
+    "lodestoneId": "12ba1196a1c"
    },
    {
     "ja": "メルトールゴビー",
-    "en": "Merlthor Goby"
+    "en": "Merlthor Goby",
+    "id": 4869,
+    "icon": "029003",
+    "lodestoneId": "9dbf2c036a4"
    },
    {
     "ja": "ワフー",
-    "en": "Wahoo"
+    "en": "Wahoo",
+    "id": 4904,
+    "icon": "029025",
+    "lodestoneId": "b552bae20d9"
    }
   ],
   "predators": [],
@@ -4157,7 +4616,10 @@
   "baitPath": [
    {
     "ja": "グロウワーム",
-    "en": "Glowworm"
+    "en": "Glowworm",
+    "id": 2603,
+    "icon": "027021",
+    "lodestoneId": "7aa4de1cfb0"
    }
   ],
   "predators": [],
@@ -4202,7 +4664,10 @@
   "baitPath": [
    {
     "ja": "グロウワーム",
-    "en": "Glowworm"
+    "en": "Glowworm",
+    "id": 2603,
+    "icon": "027021",
+    "lodestoneId": "7aa4de1cfb0"
    }
   ],
   "predators": [],
@@ -4247,14 +4712,37 @@
   "baitPath": [
    {
     "ja": "レインボースプーン",
-    "en": "Rainbow Spoon Lure"
+    "en": "Rainbow Spoon Lure",
+    "id": 2625,
+    "icon": "027061",
+    "lodestoneId": "2585f3445d8"
    }
   ],
   "predators": [
    {
     "ja": "ボクシングプレコ",
     "en": "Boxing Pleco",
-    "count": 5
+    "id": 5008,
+    "icon": "029237",
+    "lodestoneId": "54324a6954e",
+    "count": 5,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "グロウワーム",
+       "en": "Glowworm",
+       "id": 2603,
+       "icon": "027021",
+       "lodestoneId": "7aa4de1cfb0"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "タホトトル湖畔",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": null,
@@ -4293,15 +4781,24 @@
   "baitPath": [
    {
     "ja": "ユスリカ",
-    "en": "Midge Basket"
+    "en": "Midge Basket",
+    "id": 2592,
+    "icon": "027002",
+    "lodestoneId": "bd257411dfc"
    },
    {
     "ja": "グラディエーターベタ",
-    "en": "Ala Mhigan Fighting Fish"
+    "en": "Ala Mhigan Fighting Fish",
+    "id": 4942,
+    "icon": "029216",
+    "lodestoneId": "31055ffad70"
    },
    {
     "ja": "アサシンベタ",
-    "en": "Assassin Betta"
+    "en": "Assassin Betta",
+    "id": 5002,
+    "icon": "029238",
+    "lodestoneId": "41c719620d1"
    }
   ],
   "predators": [],
@@ -4343,15 +4840,24 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    },
    {
     "ja": "銀魚",
-    "en": "Silverfish"
+    "en": "Silverfish",
+    "id": 4978,
+    "icon": "029312",
+    "lodestoneId": "b348ce2c036"
    },
    {
     "ja": "金魚",
-    "en": "Goldfish"
+    "en": "Goldfish",
+    "id": 5011,
+    "icon": "029311",
+    "lodestoneId": "a6c9c6aafc1"
    }
   ],
   "predators": [],
@@ -4393,22 +4899,67 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    },
    {
     "ja": "銀魚",
-    "en": "Silverfish"
+    "en": "Silverfish",
+    "id": 4978,
+    "icon": "029312",
+    "lodestoneId": "b348ce2c036"
    },
    {
     "ja": "アサシンベタ",
-    "en": "Assassin Betta"
+    "en": "Assassin Betta",
+    "id": 5002,
+    "icon": "029238",
+    "lodestoneId": "41c719620d1"
    }
   ],
   "predators": [
    {
     "ja": "ジャノ",
     "en": "Canavan",
-    "count": 1
+    "id": 8762,
+    "icon": "029386",
+    "lodestoneId": "815f316bfc3",
+    "count": 1,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ハニーワーム",
+       "en": "Honey Worm",
+       "id": 2599,
+       "icon": "027018",
+       "lodestoneId": "e4dd97f9650"
+      },
+      {
+       "ja": "銀魚",
+       "en": "Silverfish",
+       "id": 4978,
+       "icon": "029312",
+       "lodestoneId": "b348ce2c036"
+      },
+      {
+       "ja": "金魚",
+       "en": "Goldfish",
+       "id": 5011,
+       "icon": "029311",
+       "lodestoneId": "a6c9c6aafc1"
+      }
+     ],
+     "startHour": 8,
+     "endHour": 18,
+     "weatherSet": [
+      17
+     ],
+     "previousWeatherSet": [],
+     "spotNameJa": "唄う裂谷北部",
+     "bigFish": true
+    }
    }
   ],
   "folkloreNameJa": null,
@@ -4447,22 +4998,58 @@
   "baitPath": [
    {
     "ja": "ラグワーム",
-    "en": "Lugworm"
+    "en": "Lugworm",
+    "id": 2585,
+    "icon": "027004",
+    "lodestoneId": "12ba1196a1c"
    },
    {
     "ja": "メルトールゴビー",
-    "en": "Merlthor Goby"
+    "en": "Merlthor Goby",
+    "id": 4869,
+    "icon": "029003",
+    "lodestoneId": "9dbf2c036a4"
    },
    {
     "ja": "ワフー",
-    "en": "Wahoo"
+    "en": "Wahoo",
+    "id": 4904,
+    "icon": "029025",
+    "lodestoneId": "b552bae20d9"
    }
   ],
   "predators": [
    {
     "ja": "ワフー",
     "en": "Wahoo",
-    "count": 6
+    "id": 4904,
+    "icon": "029025",
+    "lodestoneId": "b552bae20d9",
+    "count": 6,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ラグワーム",
+       "en": "Lugworm",
+       "id": 2585,
+       "icon": "027004",
+       "lodestoneId": "12ba1196a1c"
+      },
+      {
+       "ja": "メルトールゴビー",
+       "en": "Merlthor Goby",
+       "id": 4869,
+       "icon": "029003",
+       "lodestoneId": "9dbf2c036a4"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "ウエストウインド岬",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": null,
@@ -4501,15 +5088,24 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    },
    {
     "ja": "銀魚",
-    "en": "Silverfish"
+    "en": "Silverfish",
+    "id": 4978,
+    "icon": "029312",
+    "lodestoneId": "b348ce2c036"
    },
    {
     "ja": "アサシンベタ",
-    "en": "Assassin Betta"
+    "en": "Assassin Betta",
+    "id": 5002,
+    "icon": "029238",
+    "lodestoneId": "41c719620d1"
    }
   ],
   "predators": [],
@@ -4551,11 +5147,17 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    },
    {
     "ja": "銀魚",
-    "en": "Silverfish"
+    "en": "Silverfish",
+    "id": 4978,
+    "icon": "029312",
+    "lodestoneId": "b348ce2c036"
    }
   ],
   "predators": [],
@@ -4602,11 +5204,17 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    },
    {
     "ja": "銀魚",
-    "en": "Silverfish"
+    "en": "Silverfish",
+    "id": 4978,
+    "icon": "029312",
+    "lodestoneId": "b348ce2c036"
    }
   ],
   "predators": [],
@@ -4651,11 +5259,17 @@
   "baitPath": [
    {
     "ja": "サンドリーチ",
-    "en": "Sand Leech"
+    "en": "Sand Leech",
+    "id": 2600,
+    "icon": "027014",
+    "lodestoneId": "64cf535cf45"
    },
    {
     "ja": "サンドストームライダー",
-    "en": "Storm Rider"
+    "en": "Storm Rider",
+    "id": 5035,
+    "icon": "029606",
+    "lodestoneId": "9c9f853302e"
    }
   ],
   "predators": [],
@@ -4700,18 +5314,44 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    },
    {
     "ja": "アバラシアスメルト",
-    "en": "Abalathian Smelt"
+    "en": "Abalathian Smelt",
+    "id": 4937,
+    "icon": "029310",
+    "lodestoneId": "b426ee0b7c1"
    }
   ],
   "predators": [
    {
     "ja": "ランプマリモ",
     "en": "Lamp Marimo",
-    "count": 5
+    "id": 5544,
+    "icon": "029316",
+    "lodestoneId": "0b6f0379c28",
+    "count": 5,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "チョコボフライ",
+       "en": "Chocobo Fly",
+       "id": 2610,
+       "icon": "027056",
+       "lodestoneId": "93c02475ad9"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "聖ダナフェンの落涙",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": null,
@@ -4753,7 +5393,10 @@
   "baitPath": [
    {
     "ja": "カディスラーヴァ",
-    "en": "Caddisfly Larva"
+    "en": "Caddisfly Larva",
+    "id": 2607,
+    "icon": "027013",
+    "lodestoneId": "7d6ba962c36"
    }
   ],
   "predators": [],
@@ -4799,11 +5442,17 @@
   "baitPath": [
    {
     "ja": "ホバーワーム",
-    "en": "Hoverworm"
+    "en": "Hoverworm",
+    "id": 2605,
+    "icon": "027022",
+    "lodestoneId": "858f09032eb"
    },
    {
     "ja": "スプリットクラウド",
-    "en": "Cloud Cutter"
+    "en": "Cloud Cutter",
+    "id": 5040,
+    "icon": "029655",
+    "lodestoneId": "387627c8c19"
    }
   ],
   "predators": [],
@@ -4848,15 +5497,24 @@
   "baitPath": [
    {
     "ja": "ホバーワーム",
-    "en": "Hoverworm"
+    "en": "Hoverworm",
+    "id": 2605,
+    "icon": "027022",
+    "lodestoneId": "858f09032eb"
    },
    {
     "ja": "スプリットクラウド",
-    "en": "Cloud Cutter"
+    "en": "Cloud Cutter",
+    "id": 5040,
+    "icon": "029655",
+    "lodestoneId": "387627c8c19"
    },
    {
     "ja": "マハール",
-    "en": "Mahar"
+    "en": "Mahar",
+    "id": 8771,
+    "icon": "029660",
+    "lodestoneId": "0ae39b292ae"
    }
   ],
   "predators": [],
@@ -4901,11 +5559,17 @@
   "baitPath": [
    {
     "ja": "スピナー",
-    "en": "Spinner"
+    "en": "Spinner",
+    "id": 2620,
+    "icon": "027062",
+    "lodestoneId": "532f6228183"
    },
    {
     "ja": "スカルピン",
-    "en": "Common Sculpin"
+    "en": "Common Sculpin",
+    "id": 4995,
+    "icon": "029250",
+    "lodestoneId": "abcf682cc27"
    }
   ],
   "predators": [],
@@ -4951,7 +5615,10 @@
   "baitPath": [
    {
     "ja": "グロウワーム",
-    "en": "Glowworm"
+    "en": "Glowworm",
+    "id": 2603,
+    "icon": "027021",
+    "lodestoneId": "7aa4de1cfb0"
    }
   ],
   "predators": [],
@@ -4994,14 +5661,40 @@
   "baitPath": [
    {
     "ja": "トップウォーターフロッグ",
-    "en": "Topwater Frog"
+    "en": "Topwater Frog",
+    "id": 2624,
+    "icon": "027054",
+    "lodestoneId": "eb709402b53"
    }
   ],
   "predators": [
    {
     "ja": "オオタキタロ",
     "en": "Giant Takitaro",
-    "count": 1
+    "id": 8774,
+    "icon": "029382",
+    "lodestoneId": "03434153dc5",
+    "count": 1,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "グロウワーム",
+       "en": "Glowworm",
+       "id": 2603,
+       "icon": "027021",
+       "lodestoneId": "7aa4de1cfb0"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [
+      9,
+      10
+     ],
+     "previousWeatherSet": [],
+     "spotNameJa": "ウルズの恵み",
+     "bigFish": true
+    }
    }
   ],
   "folkloreNameJa": null,
@@ -5040,11 +5733,17 @@
   "baitPath": [
    {
     "ja": "ハニーワーム",
-    "en": "Honey Worm"
+    "en": "Honey Worm",
+    "id": 2599,
+    "icon": "027018",
+    "lodestoneId": "e4dd97f9650"
    },
    {
     "ja": "銀魚",
-    "en": "Silverfish"
+    "en": "Silverfish",
+    "id": 4978,
+    "icon": "029312",
+    "lodestoneId": "b348ce2c036"
    }
   ],
   "predators": [],
@@ -5089,7 +5788,10 @@
   "baitPath": [
    {
     "ja": "ヘヴィメタルジグ",
-    "en": "Heavy Steel Jig"
+    "en": "Heavy Steel Jig",
+    "id": 2619,
+    "icon": "027065",
+    "lodestoneId": "687e1dc5662"
    }
   ],
   "predators": [],
@@ -5129,11 +5831,17 @@
   "baitPath": [
    {
     "ja": "ブレーデッドジグ",
-    "en": "Bladed Steel Jig"
+    "en": "Bladed Steel Jig",
+    "id": 12707,
+    "icon": "027070",
+    "lodestoneId": "cf50dbc3d8b"
    },
    {
     "ja": "ブルフロッグ",
-    "en": "Bullfrog"
+    "en": "Bullfrog",
+    "id": 12730,
+    "icon": "029233",
+    "lodestoneId": "1df2e83106c"
    }
   ],
   "predators": [],
@@ -5173,7 +5881,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -5215,7 +5926,10 @@
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
-    "en": "Giant Crane Fly"
+    "en": "Giant Crane Fly",
+    "id": 12712,
+    "icon": "027002",
+    "lodestoneId": "696b15e1382"
    }
   ],
   "predators": [],
@@ -5255,11 +5969,17 @@
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
-    "en": "Giant Crane Fly"
+    "en": "Giant Crane Fly",
+    "id": 12712,
+    "icon": "027002",
+    "lodestoneId": "696b15e1382"
    },
    {
     "ja": "スカイハイフィッシュ",
-    "en": "Rudderfish"
+    "en": "Rudderfish",
+    "id": 12805,
+    "icon": "029717",
+    "lodestoneId": "d126e68e538"
    }
   ],
   "predators": [],
@@ -5299,7 +6019,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -5342,7 +6065,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -5382,11 +6108,17 @@
   "baitPath": [
    {
     "ja": "ブレーデッドジグ",
-    "en": "Bladed Steel Jig"
+    "en": "Bladed Steel Jig",
+    "id": 12707,
+    "icon": "027070",
+    "lodestoneId": "cf50dbc3d8b"
    },
    {
     "ja": "ブルフロッグ",
-    "en": "Bullfrog"
+    "en": "Bullfrog",
+    "id": 12730,
+    "icon": "029233",
+    "lodestoneId": "1df2e83106c"
    }
   ],
   "predators": [],
@@ -5426,11 +6158,17 @@
   "baitPath": [
    {
     "ja": "メタルスピナー",
-    "en": "Metal Spinner"
+    "en": "Metal Spinner",
+    "id": 28634,
+    "icon": "027062",
+    "lodestoneId": "48ff0da7c83"
    },
    {
     "ja": "グラナイトクラブ",
-    "en": "Granite Crab"
+    "en": "Granite Crab",
+    "id": 12754,
+    "icon": "029854",
+    "lodestoneId": "f32036e0522"
    }
   ],
   "predators": [],
@@ -5473,7 +6211,10 @@
   "baitPath": [
    {
     "ja": "レッドバルーン",
-    "en": "Red Balloon"
+    "en": "Red Balloon",
+    "id": 12708,
+    "icon": "027025",
+    "lodestoneId": "413a97d81e7"
    }
   ],
   "predators": [],
@@ -5513,7 +6254,10 @@
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
-    "en": "Giant Crane Fly"
+    "en": "Giant Crane Fly",
+    "id": 12712,
+    "icon": "027002",
+    "lodestoneId": "696b15e1382"
    }
   ],
   "predators": [],
@@ -5553,7 +6297,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -5593,7 +6340,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -5633,7 +6383,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -5673,7 +6426,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -5713,7 +6469,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -5753,7 +6512,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -5793,7 +6555,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -5837,7 +6602,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -5881,11 +6649,17 @@
   "baitPath": [
    {
     "ja": "マグマワーム",
-    "en": "Magma Worm"
+    "en": "Magma Worm",
+    "id": 12709,
+    "icon": "027026",
+    "lodestoneId": "9bed983a255"
    },
    {
     "ja": "グラナイトクラブ",
-    "en": "Granite Crab"
+    "en": "Granite Crab",
+    "id": 12754,
+    "icon": "029854",
+    "lodestoneId": "f32036e0522"
    }
   ],
   "predators": [],
@@ -5925,11 +6699,17 @@
   "baitPath": [
    {
     "ja": "ブレーデッドジグ",
-    "en": "Bladed Steel Jig"
+    "en": "Bladed Steel Jig",
+    "id": 12707,
+    "icon": "027070",
+    "lodestoneId": "cf50dbc3d8b"
    },
    {
     "ja": "香魚",
-    "en": "Sweetfish"
+    "en": "Sweetfish",
+    "id": 12780,
+    "icon": "029395",
+    "lodestoneId": "4c8ca475149"
    }
   ],
   "predators": [],
@@ -5969,7 +6749,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -6009,7 +6792,10 @@
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
-    "en": "Giant Crane Fly"
+    "en": "Giant Crane Fly",
+    "id": 12712,
+    "icon": "027002",
+    "lodestoneId": "696b15e1382"
    }
   ],
   "predators": [],
@@ -6052,7 +6838,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -6092,7 +6881,10 @@
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
-    "en": "Giant Crane Fly"
+    "en": "Giant Crane Fly",
+    "id": 12712,
+    "icon": "027002",
+    "lodestoneId": "696b15e1382"
    }
   ],
   "predators": [],
@@ -6134,11 +6926,17 @@
   "baitPath": [
    {
     "ja": "バイオレットワーム",
-    "en": "Fiend Worm"
+    "en": "Fiend Worm",
+    "id": 12710,
+    "icon": "027027",
+    "lodestoneId": "e568088edad"
    },
    {
     "ja": "白金魚",
-    "en": "Platinum Fish"
+    "en": "Platinum Fish",
+    "id": 12776,
+    "icon": "029312",
+    "lodestoneId": "d4d93ca2bff"
    }
   ],
   "predators": [],
@@ -6178,11 +6976,17 @@
   "baitPath": [
    {
     "ja": "ツチグモ",
-    "en": "Purse Web Spider"
+    "en": "Purse Web Spider",
+    "id": 12705,
+    "icon": "022619",
+    "lodestoneId": "cce659c7c34"
    },
    {
     "ja": "エーテルアイ",
-    "en": "Aether Eye"
+    "en": "Aether Eye",
+    "id": 12777,
+    "icon": "029214",
+    "lodestoneId": "e31ea9eb313"
    }
   ],
   "predators": [],
@@ -6224,11 +7028,17 @@
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
-    "en": "Giant Crane Fly"
+    "en": "Giant Crane Fly",
+    "id": 12712,
+    "icon": "027002",
+    "lodestoneId": "696b15e1382"
    },
    {
     "ja": "スカイハイフィッシュ",
-    "en": "Rudderfish"
+    "en": "Rudderfish",
+    "id": 12805,
+    "icon": "029717",
+    "lodestoneId": "d126e68e538"
    }
   ],
   "predators": [],
@@ -6272,11 +7082,17 @@
   "baitPath": [
    {
     "ja": "メタルスピナー",
-    "en": "Metal Spinner"
+    "en": "Metal Spinner",
+    "id": 28634,
+    "icon": "027062",
+    "lodestoneId": "48ff0da7c83"
    },
    {
     "ja": "スカイフェアリー・セレネ",
-    "en": "Sky Faerie"
+    "en": "Sky Faerie",
+    "id": 12753,
+    "icon": "029716",
+    "lodestoneId": "b007ed490e3"
    }
   ],
   "predators": [],
@@ -6320,11 +7136,17 @@
   "baitPath": [
    {
     "ja": "スカイボール",
-    "en": "Signature Skyball"
+    "en": "Signature Skyball",
+    "id": 30136,
+    "icon": "027007",
+    "lodestoneId": "ba252ebbdd9"
    },
    {
     "ja": "白金魚",
-    "en": "Platinum Fish"
+    "en": "Platinum Fish",
+    "id": 12776,
+    "icon": "029312",
+    "lodestoneId": "d4d93ca2bff"
    }
   ],
   "predators": [],
@@ -6368,11 +7190,17 @@
   "baitPath": [
    {
     "ja": "レッドバルーン",
-    "en": "Red Balloon"
+    "en": "Red Balloon",
+    "id": 12708,
+    "icon": "027025",
+    "lodestoneId": "413a97d81e7"
    },
    {
     "ja": "グレイシャーコア",
-    "en": "Glacier Core"
+    "en": "Glacier Core",
+    "id": 12724,
+    "icon": "029706",
+    "lodestoneId": "646719e5bde"
    }
   ],
   "predators": [],
@@ -6417,11 +7245,17 @@
   "baitPath": [
    {
     "ja": "ツチグモ",
-    "en": "Purse Web Spider"
+    "en": "Purse Web Spider",
+    "id": 12705,
+    "icon": "022619",
+    "lodestoneId": "cce659c7c34"
    },
    {
     "ja": "ハルオネ",
-    "en": "Ice Faerie"
+    "en": "Ice Faerie",
+    "id": 12715,
+    "icon": "029803",
+    "lodestoneId": "07633e7c884"
    }
   ],
   "predators": [],
@@ -6463,7 +7297,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -6509,11 +7346,17 @@
   "baitPath": [
    {
     "ja": "ツチグモ",
-    "en": "Purse Web Spider"
+    "en": "Purse Web Spider",
+    "id": 12705,
+    "icon": "022619",
+    "lodestoneId": "cce659c7c34"
    },
    {
     "ja": "グリロタルパ",
-    "en": "Hedgemole Cricket"
+    "en": "Hedgemole Cricket",
+    "id": 12757,
+    "icon": "029801",
+    "lodestoneId": "9b26faf58e9"
    }
   ],
   "predators": [],
@@ -6555,7 +7398,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -6599,7 +7445,10 @@
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
-    "en": "Giant Crane Fly"
+    "en": "Giant Crane Fly",
+    "id": 12712,
+    "icon": "027002",
+    "lodestoneId": "696b15e1382"
    }
   ],
   "predators": [],
@@ -6642,7 +7491,10 @@
   "baitPath": [
    {
     "ja": "マグマワーム",
-    "en": "Magma Worm"
+    "en": "Magma Worm",
+    "id": 12709,
+    "icon": "027026",
+    "lodestoneId": "9bed983a255"
    }
   ],
   "predators": [],
@@ -6682,11 +7534,17 @@
   "baitPath": [
    {
     "ja": "バイオレットワーム",
-    "en": "Fiend Worm"
+    "en": "Fiend Worm",
+    "id": 12710,
+    "icon": "027027",
+    "lodestoneId": "e568088edad"
    },
    {
     "ja": "白金魚",
-    "en": "Platinum Fish"
+    "en": "Platinum Fish",
+    "id": 12776,
+    "icon": "029312",
+    "lodestoneId": "d4d93ca2bff"
    }
   ],
   "predators": [],
@@ -6726,11 +7584,17 @@
   "baitPath": [
    {
     "ja": "ツチグモ",
-    "en": "Purse Web Spider"
+    "en": "Purse Web Spider",
+    "id": 12705,
+    "icon": "022619",
+    "lodestoneId": "cce659c7c34"
    },
    {
     "ja": "エーテルアイ",
-    "en": "Aether Eye"
+    "en": "Aether Eye",
+    "id": 12777,
+    "icon": "029214",
+    "lodestoneId": "e31ea9eb313"
    }
   ],
   "predators": [],
@@ -6770,11 +7634,17 @@
   "baitPath": [
    {
     "ja": "ゴブリンジグ",
-    "en": "Goblin Jig"
+    "en": "Goblin Jig",
+    "id": 12706,
+    "icon": "027069",
+    "lodestoneId": "5ae73cebfd7"
    },
    {
     "ja": "香魚",
-    "en": "Sweetfish"
+    "en": "Sweetfish",
+    "id": 12780,
+    "icon": "029395",
+    "lodestoneId": "4c8ca475149"
    }
   ],
   "predators": [],
@@ -6818,11 +7688,17 @@
   "baitPath": [
    {
     "ja": "カディスラーヴァ",
-    "en": "Caddisfly Larva"
+    "en": "Caddisfly Larva",
+    "id": 2607,
+    "icon": "027013",
+    "lodestoneId": "7d6ba962c36"
    },
    {
     "ja": "ハルオネ",
-    "en": "Ice Faerie"
+    "en": "Ice Faerie",
+    "id": 12715,
+    "icon": "029803",
+    "lodestoneId": "07633e7c884"
    }
   ],
   "predators": [],
@@ -6867,7 +7743,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -6909,7 +7788,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -6953,11 +7835,17 @@
   "baitPath": [
    {
     "ja": "ブレーデッドジグ",
-    "en": "Bladed Steel Jig"
+    "en": "Bladed Steel Jig",
+    "id": 12707,
+    "icon": "027070",
+    "lodestoneId": "cf50dbc3d8b"
    },
    {
     "ja": "ブルフロッグ",
-    "en": "Bullfrog"
+    "en": "Bullfrog",
+    "id": 12730,
+    "icon": "029233",
+    "lodestoneId": "1df2e83106c"
    }
   ],
   "predators": [],
@@ -7001,7 +7889,10 @@
   "baitPath": [
    {
     "ja": "バイオレットワーム",
-    "en": "Fiend Worm"
+    "en": "Fiend Worm",
+    "id": 12710,
+    "icon": "027027",
+    "lodestoneId": "e568088edad"
    }
   ],
   "predators": [],
@@ -7045,11 +7936,17 @@
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
-    "en": "Giant Crane Fly"
+    "en": "Giant Crane Fly",
+    "id": 12712,
+    "icon": "027002",
+    "lodestoneId": "696b15e1382"
    },
    {
     "ja": "スカイハイフィッシュ",
-    "en": "Rudderfish"
+    "en": "Rudderfish",
+    "id": 12805,
+    "icon": "029717",
+    "lodestoneId": "d126e68e538"
    }
   ],
   "predators": [],
@@ -7093,11 +7990,17 @@
   "baitPath": [
    {
     "ja": "ストーンラーヴァ",
-    "en": "Stonefly Nymph"
+    "en": "Stonefly Nymph",
+    "id": 12704,
+    "icon": "027028",
+    "lodestoneId": "c6403ce3e45"
    },
    {
     "ja": "マクロブラキウム",
-    "en": "Blueclaw Shrimp"
+    "en": "Blueclaw Shrimp",
+    "id": 12722,
+    "icon": "029404",
+    "lodestoneId": "5a2136eccdd"
    }
   ],
   "predators": [],
@@ -7143,11 +8046,17 @@
   "baitPath": [
    {
     "ja": "マグマワーム",
-    "en": "Magma Worm"
+    "en": "Magma Worm",
+    "id": 12709,
+    "icon": "027026",
+    "lodestoneId": "9bed983a255"
    },
    {
     "ja": "グラナイトクラブ",
-    "en": "Granite Crab"
+    "en": "Granite Crab",
+    "id": 12754,
+    "icon": "029854",
+    "lodestoneId": "f32036e0522"
    }
   ],
   "predators": [],
@@ -7191,11 +8100,17 @@
   "baitPath": [
    {
     "ja": "メタルスピナー",
-    "en": "Metal Spinner"
+    "en": "Metal Spinner",
+    "id": 28634,
+    "icon": "027062",
+    "lodestoneId": "48ff0da7c83"
    },
    {
     "ja": "グラナイトクラブ",
-    "en": "Granite Crab"
+    "en": "Granite Crab",
+    "id": 12754,
+    "icon": "029854",
+    "lodestoneId": "f32036e0522"
    }
   ],
   "predators": [],
@@ -7242,11 +8157,17 @@
   "baitPath": [
    {
     "ja": "ストーンラーヴァ",
-    "en": "Stonefly Nymph"
+    "en": "Stonefly Nymph",
+    "id": 12704,
+    "icon": "027028",
+    "lodestoneId": "c6403ce3e45"
    },
    {
     "ja": "グリロタルパ",
-    "en": "Hedgemole Cricket"
+    "en": "Hedgemole Cricket",
+    "id": 12757,
+    "icon": "029801",
+    "lodestoneId": "9b26faf58e9"
    }
   ],
   "predators": [],
@@ -7291,7 +8212,10 @@
   "baitPath": [
    {
     "ja": "ブルートリーチ",
-    "en": "Brute Leech"
+    "en": "Brute Leech",
+    "id": 12711,
+    "icon": "022635",
+    "lodestoneId": "4a1b812df6f"
    }
   ],
   "predators": [],
@@ -7335,7 +8259,10 @@
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
-    "en": "Giant Crane Fly"
+    "en": "Giant Crane Fly",
+    "id": 12712,
+    "icon": "027002",
+    "lodestoneId": "696b15e1382"
    }
   ],
   "predators": [],
@@ -7379,23 +8306,69 @@
   "baitPath": [
    {
     "ja": "メタルスピナー",
-    "en": "Metal Spinner"
+    "en": "Metal Spinner",
+    "id": 28634,
+    "icon": "027062",
+    "lodestoneId": "48ff0da7c83"
    },
    {
     "ja": "グラナイトクラブ",
-    "en": "Granite Crab"
+    "en": "Granite Crab",
+    "id": 12754,
+    "icon": "029854",
+    "lodestoneId": "f32036e0522"
    }
   ],
   "predators": [
    {
     "ja": "フォッシルアロワナ",
     "en": "Fossiltongue",
-    "count": 3
+    "id": 12800,
+    "icon": "029853",
+    "lodestoneId": "c792c0f6951",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "マグマワーム",
+       "en": "Magma Worm",
+       "id": 12709,
+       "icon": "027026",
+       "lodestoneId": "9bed983a255"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "光輪の祭壇",
+     "bigFish": false
+    }
    },
    {
     "ja": "グラナイトクラブ",
     "en": "Granite Crab",
-    "count": 5
+    "id": 12754,
+    "icon": "029854",
+    "lodestoneId": "f32036e0522",
+    "count": 5,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "メタルスピナー",
+       "en": "Metal Spinner",
+       "id": 28634,
+       "icon": "027062",
+       "lodestoneId": "48ff0da7c83"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": null,
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:ドラヴァニア",
@@ -7437,18 +8410,46 @@
   "baitPath": [
    {
     "ja": "スカイボール",
-    "en": "Signature Skyball"
+    "en": "Signature Skyball",
+    "id": 30136,
+    "icon": "027007",
+    "lodestoneId": "ba252ebbdd9"
    },
    {
     "ja": "白金魚",
-    "en": "Platinum Fish"
+    "en": "Platinum Fish",
+    "id": 12776,
+    "icon": "029312",
+    "lodestoneId": "d4d93ca2bff"
    }
   ],
   "predators": [
    {
     "ja": "オプロプケン",
     "en": "Functional Proto-hropken",
-    "count": 3
+    "id": 13727,
+    "icon": "029758",
+    "lodestoneId": "c435c79b3fb",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "バイオレットワーム",
+       "en": "Fiend Worm",
+       "id": 12710,
+       "icon": "027027",
+       "lodestoneId": "e568088edad"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [
+      9
+     ],
+     "previousWeatherSet": [],
+     "spotNameJa": "アジス・ラー旗艦島",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:アバラシア",
@@ -7489,18 +8490,44 @@
   "baitPath": [
    {
     "ja": "ツチグモ",
-    "en": "Purse Web Spider"
+    "en": "Purse Web Spider",
+    "id": 12705,
+    "icon": "022619",
+    "lodestoneId": "cce659c7c34"
    },
    {
     "ja": "グリロタルパ",
-    "en": "Hedgemole Cricket"
+    "en": "Hedgemole Cricket",
+    "id": 12757,
+    "icon": "029801",
+    "lodestoneId": "9b26faf58e9"
    }
   ],
   "predators": [
    {
     "ja": "グリロタルパ",
     "en": "Hedgemole Cricket",
-    "count": 6
+    "id": 12757,
+    "icon": "029801",
+    "lodestoneId": "9b26faf58e9",
+    "count": 6,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ツチグモ",
+       "en": "Purse Web Spider",
+       "id": 12705,
+       "icon": "022619",
+       "lodestoneId": "cce659c7c34"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": null,
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:ドラヴァニア",
@@ -7541,19 +8568,62 @@
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
-    "en": "Giant Crane Fly"
+    "en": "Giant Crane Fly",
+    "id": 12712,
+    "icon": "027002",
+    "lodestoneId": "696b15e1382"
    }
   ],
   "predators": [
    {
     "ja": "スコーピオンフライ",
     "en": "Scorpionfly",
-    "count": 3
+    "id": 12810,
+    "icon": "029721",
+    "lodestoneId": "491b2870772",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "メタルスピナー",
+       "en": "Metal Spinner",
+       "id": 28634,
+       "icon": "027062",
+       "lodestoneId": "48ff0da7c83"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "モック・ウーグル島",
+     "bigFish": false
+    }
    },
    {
     "ja": "スカイフェアリー・セレネ",
     "en": "Sky Faerie",
-    "count": 3
+    "id": 12753,
+    "icon": "029716",
+    "lodestoneId": "b007ed490e3",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "メタルスピナー",
+       "en": "Metal Spinner",
+       "id": 28634,
+       "icon": "027062",
+       "lodestoneId": "48ff0da7c83"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": null,
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:アバラシア",
@@ -7594,18 +8664,44 @@
   "baitPath": [
    {
     "ja": "ツチグモ",
-    "en": "Purse Web Spider"
+    "en": "Purse Web Spider",
+    "id": 12705,
+    "icon": "022619",
+    "lodestoneId": "cce659c7c34"
    },
    {
     "ja": "ハルオネ",
-    "en": "Ice Faerie"
+    "en": "Ice Faerie",
+    "id": 12715,
+    "icon": "029803",
+    "lodestoneId": "07633e7c884"
    }
   ],
   "predators": [
    {
     "ja": "ハルオネ",
     "en": "Ice Faerie",
-    "count": 5
+    "id": 12715,
+    "icon": "029803",
+    "lodestoneId": "07633e7c884",
+    "count": 5,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ツチグモ",
+       "en": "Purse Web Spider",
+       "id": 12705,
+       "icon": "022619",
+       "lodestoneId": "cce659c7c34"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": null,
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:クルザス",
@@ -7646,18 +8742,44 @@
   "baitPath": [
    {
     "ja": "ジャンボガガンボ",
-    "en": "Giant Crane Fly"
+    "en": "Giant Crane Fly",
+    "id": 12712,
+    "icon": "027002",
+    "lodestoneId": "696b15e1382"
    },
    {
     "ja": "スカイハイフィッシュ",
-    "en": "Rudderfish"
+    "en": "Rudderfish",
+    "id": 12805,
+    "icon": "029717",
+    "lodestoneId": "d126e68e538"
    }
   ],
   "predators": [
    {
     "ja": "スカイハイフィッシュ",
     "en": "Rudderfish",
-    "count": 5
+    "id": 12805,
+    "icon": "029717",
+    "lodestoneId": "d126e68e538",
+    "count": 5,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ジャンボガガンボ",
+       "en": "Giant Crane Fly",
+       "id": 12712,
+       "icon": "027002",
+       "lodestoneId": "696b15e1382"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": null,
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:ドラヴァニア",
@@ -7698,11 +8820,17 @@
   "baitPath": [
    {
     "ja": "活海老",
-    "en": "Live Shrimp"
+    "en": "Live Shrimp",
+    "id": 20617,
+    "icon": "027035",
+    "lodestoneId": "dd65f923a76"
    },
    {
     "ja": "紅玉海老",
-    "en": "Ruby Shrimp"
+    "en": "Ruby Shrimp",
+    "id": 20112,
+    "icon": "029008",
+    "lodestoneId": "01c1726d2ae"
    }
   ],
   "predators": [],
@@ -7744,7 +8872,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -7784,7 +8915,10 @@
   "baitPath": [
    {
     "ja": "赤虫",
-    "en": "Midge Larva"
+    "en": "Midge Larva",
+    "id": 20615,
+    "icon": "027033",
+    "lodestoneId": "7e15b7ff99f"
    }
   ],
   "predators": [],
@@ -7824,11 +8958,17 @@
   "baitPath": [
    {
     "ja": "蚕蛹",
-    "en": "Silkworm"
+    "en": "Silkworm",
+    "id": 20616,
+    "icon": "027034",
+    "lodestoneId": "f277c2d3c2c"
    },
    {
     "ja": "ロックソルトフィッシュ",
-    "en": "Rock Saltfish"
+    "en": "Rock Saltfish",
+    "id": 20025,
+    "icon": "029901",
+    "lodestoneId": "a13438cdb44"
    }
   ],
   "predators": [],
@@ -7870,7 +9010,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -7912,7 +9055,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -7954,7 +9100,10 @@
   "baitPath": [
    {
     "ja": "アオイソメ",
-    "en": "Blue Bobbit"
+    "en": "Blue Bobbit",
+    "id": 20676,
+    "icon": "027004",
+    "lodestoneId": "a933b2f537f"
    }
   ],
   "predators": [],
@@ -7997,7 +9146,10 @@
   "baitPath": [
    {
     "ja": "タイカブラ",
-    "en": "Bream Lure"
+    "en": "Bream Lure",
+    "id": 20618,
+    "icon": "027071",
+    "lodestoneId": "2b263acfd81"
    }
   ],
   "predators": [],
@@ -8037,7 +9189,10 @@
   "baitPath": [
    {
     "ja": "タイカブラ",
-    "en": "Bream Lure"
+    "en": "Bream Lure",
+    "id": 20618,
+    "icon": "027071",
+    "lodestoneId": "2b263acfd81"
    }
   ],
   "predators": [],
@@ -8077,7 +9232,10 @@
   "baitPath": [
    {
     "ja": "サスペンドミノー",
-    "en": "Suspending Minnow"
+    "en": "Suspending Minnow",
+    "id": 20619,
+    "icon": "027072",
+    "lodestoneId": "f4195ff6727"
    }
   ],
   "predators": [],
@@ -8120,15 +9278,24 @@
   "baitPath": [
    {
     "ja": "ラグワーム",
-    "en": "Lugworm"
+    "en": "Lugworm",
+    "id": 2585,
+    "icon": "027004",
+    "lodestoneId": "12ba1196a1c"
    },
    {
     "ja": "メルトールゴビー",
-    "en": "Merlthor Goby"
+    "en": "Merlthor Goby",
+    "id": 4869,
+    "icon": "029003",
+    "lodestoneId": "9dbf2c036a4"
    },
    {
     "ja": "ワフー",
-    "en": "Wahoo"
+    "en": "Wahoo",
+    "id": 4904,
+    "icon": "029025",
+    "lodestoneId": "b552bae20d9"
    }
   ],
   "predators": [],
@@ -8171,15 +9338,24 @@
   "baitPath": [
    {
     "ja": "ラグワーム",
-    "en": "Lugworm"
+    "en": "Lugworm",
+    "id": 2585,
+    "icon": "027004",
+    "lodestoneId": "12ba1196a1c"
    },
    {
     "ja": "メルトールゴビー",
-    "en": "Merlthor Goby"
+    "en": "Merlthor Goby",
+    "id": 4869,
+    "icon": "029003",
+    "lodestoneId": "9dbf2c036a4"
    },
    {
     "ja": "ワフー",
-    "en": "Wahoo"
+    "en": "Wahoo",
+    "id": 4904,
+    "icon": "029025",
+    "lodestoneId": "b552bae20d9"
    }
   ],
   "predators": [],
@@ -8219,7 +9395,10 @@
   "baitPath": [
    {
     "ja": "アオイソメ",
-    "en": "Blue Bobbit"
+    "en": "Blue Bobbit",
+    "id": 20676,
+    "icon": "027004",
+    "lodestoneId": "a933b2f537f"
    }
   ],
   "predators": [],
@@ -8261,11 +9440,17 @@
   "baitPath": [
    {
     "ja": "蚕蛹",
-    "en": "Silkworm"
+    "en": "Silkworm",
+    "id": 20616,
+    "icon": "027034",
+    "lodestoneId": "f277c2d3c2c"
    },
    {
     "ja": "ロックソルトフィッシュ",
-    "en": "Rock Saltfish"
+    "en": "Rock Saltfish",
+    "id": 20025,
+    "icon": "029901",
+    "lodestoneId": "a13438cdb44"
    }
   ],
   "predators": [],
@@ -8308,7 +9493,10 @@
   "baitPath": [
    {
     "ja": "活海老",
-    "en": "Live Shrimp"
+    "en": "Live Shrimp",
+    "id": 20617,
+    "icon": "027035",
+    "lodestoneId": "dd65f923a76"
    }
   ],
   "predators": [],
@@ -8348,11 +9536,17 @@
   "baitPath": [
    {
     "ja": "イクラ",
-    "en": "Salmon Roe"
+    "en": "Salmon Roe",
+    "id": 20613,
+    "icon": "027031",
+    "lodestoneId": "671be727b9d"
    },
    {
     "ja": "バルーンフロッグ",
-    "en": "Balloon Frog"
+    "en": "Balloon Frog",
+    "id": 20064,
+    "icon": "029233",
+    "lodestoneId": "ee6c22a2d8a"
    }
   ],
   "predators": [],
@@ -8395,7 +9589,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -8435,11 +9632,17 @@
   "baitPath": [
    {
     "ja": "赤虫",
-    "en": "Midge Larva"
+    "en": "Midge Larva",
+    "id": 20615,
+    "icon": "027033",
+    "lodestoneId": "7e15b7ff99f"
    },
    {
     "ja": "ギラバニアントラウト",
-    "en": "Gyr Abanian Trout"
+    "en": "Gyr Abanian Trout",
+    "id": 20056,
+    "icon": "029204",
+    "lodestoneId": "e699f76e743"
    }
   ],
   "predators": [],
@@ -8479,7 +9682,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -8521,7 +9727,10 @@
   "baitPath": [
    {
     "ja": "サスペンドミノー",
-    "en": "Suspending Minnow"
+    "en": "Suspending Minnow",
+    "id": 20619,
+    "icon": "027072",
+    "lodestoneId": "f4195ff6727"
    }
   ],
   "predators": [],
@@ -8561,7 +9770,10 @@
   "baitPath": [
    {
     "ja": "サスペンドミノー",
-    "en": "Suspending Minnow"
+    "en": "Suspending Minnow",
+    "id": 20619,
+    "icon": "027072",
+    "lodestoneId": "f4195ff6727"
    }
   ],
   "predators": [],
@@ -8603,11 +9815,17 @@
   "baitPath": [
    {
     "ja": "赤虫",
-    "en": "Midge Larva"
+    "en": "Midge Larva",
+    "id": 20615,
+    "icon": "027033",
+    "lodestoneId": "7e15b7ff99f"
    },
    {
     "ja": "ギラバニアントラウト",
-    "en": "Gyr Abanian Trout"
+    "en": "Gyr Abanian Trout",
+    "id": 20056,
+    "icon": "029204",
+    "lodestoneId": "e699f76e743"
    }
   ],
   "predators": [],
@@ -8647,11 +9865,17 @@
   "baitPath": [
    {
     "ja": "蚕蛹",
-    "en": "Silkworm"
+    "en": "Silkworm",
+    "id": 20616,
+    "icon": "027034",
+    "lodestoneId": "f277c2d3c2c"
    },
    {
     "ja": "ロックソルトフィッシュ",
-    "en": "Rock Saltfish"
+    "en": "Rock Saltfish",
+    "id": 20025,
+    "icon": "029901",
+    "lodestoneId": "a13438cdb44"
    }
   ],
   "predators": [],
@@ -8693,11 +9917,17 @@
   "baitPath": [
    {
     "ja": "活海老",
-    "en": "Live Shrimp"
+    "en": "Live Shrimp",
+    "id": 20617,
+    "icon": "027035",
+    "lodestoneId": "dd65f923a76"
    },
    {
     "ja": "紅玉海老",
-    "en": "Ruby Shrimp"
+    "en": "Ruby Shrimp",
+    "id": 20112,
+    "icon": "029008",
+    "lodestoneId": "01c1726d2ae"
    }
   ],
   "predators": [],
@@ -8737,7 +9967,10 @@
   "baitPath": [
    {
     "ja": "アオイソメ",
-    "en": "Blue Bobbit"
+    "en": "Blue Bobbit",
+    "id": 20676,
+    "icon": "027004",
+    "lodestoneId": "a933b2f537f"
    }
   ],
   "predators": [],
@@ -8777,7 +10010,10 @@
   "baitPath": [
    {
     "ja": "アオイソメ",
-    "en": "Blue Bobbit"
+    "en": "Blue Bobbit",
+    "id": 20676,
+    "icon": "027004",
+    "lodestoneId": "a933b2f537f"
    }
   ],
   "predators": [],
@@ -8817,11 +10053,17 @@
   "baitPath": [
    {
     "ja": "活海老",
-    "en": "Live Shrimp"
+    "en": "Live Shrimp",
+    "id": 20617,
+    "icon": "027035",
+    "lodestoneId": "dd65f923a76"
    },
    {
     "ja": "紅玉海老",
-    "en": "Ruby Shrimp"
+    "en": "Ruby Shrimp",
+    "id": 20112,
+    "icon": "029008",
+    "lodestoneId": "01c1726d2ae"
    }
   ],
   "predators": [],
@@ -8863,7 +10105,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -8903,7 +10148,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -8945,7 +10193,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -8985,7 +10236,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -9027,11 +10281,17 @@
   "baitPath": [
    {
     "ja": "赤虫",
-    "en": "Midge Larva"
+    "en": "Midge Larva",
+    "id": 20615,
+    "icon": "027033",
+    "lodestoneId": "7e15b7ff99f"
    },
    {
     "ja": "ギラバニアントラウト",
-    "en": "Gyr Abanian Trout"
+    "en": "Gyr Abanian Trout",
+    "id": 20056,
+    "icon": "029204",
+    "lodestoneId": "e699f76e743"
    }
   ],
   "predators": [],
@@ -9073,11 +10333,17 @@
   "baitPath": [
    {
     "ja": "イクラ",
-    "en": "Salmon Roe"
+    "en": "Salmon Roe",
+    "id": 20613,
+    "icon": "027031",
+    "lodestoneId": "671be727b9d"
    },
    {
     "ja": "バルーンフロッグ",
-    "en": "Balloon Frog"
+    "en": "Balloon Frog",
+    "id": 20064,
+    "icon": "029233",
+    "lodestoneId": "ee6c22a2d8a"
    }
   ],
   "predators": [],
@@ -9120,7 +10386,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -9160,7 +10429,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -9202,7 +10474,10 @@
   "baitPath": [
    {
     "ja": "サスペンドミノー",
-    "en": "Suspending Minnow"
+    "en": "Suspending Minnow",
+    "id": 20619,
+    "icon": "027072",
+    "lodestoneId": "f4195ff6727"
    }
   ],
   "predators": [],
@@ -9244,7 +10519,10 @@
   "baitPath": [
    {
     "ja": "イクラ",
-    "en": "Salmon Roe"
+    "en": "Salmon Roe",
+    "id": 20613,
+    "icon": "027031",
+    "lodestoneId": "671be727b9d"
    }
   ],
   "predators": [],
@@ -9288,7 +10566,10 @@
   "baitPath": [
    {
     "ja": "サスペンドミノー",
-    "en": "Suspending Minnow"
+    "en": "Suspending Minnow",
+    "id": 20619,
+    "icon": "027072",
+    "lodestoneId": "f4195ff6727"
    }
   ],
   "predators": [],
@@ -9330,7 +10611,10 @@
   "baitPath": [
    {
     "ja": "サスペンドミノー",
-    "en": "Suspending Minnow"
+    "en": "Suspending Minnow",
+    "id": 20619,
+    "icon": "027072",
+    "lodestoneId": "f4195ff6727"
    }
   ],
   "predators": [],
@@ -9377,7 +10661,10 @@
   "baitPath": [
    {
     "ja": "ドバミミズ",
-    "en": "Nightcrawler"
+    "en": "Nightcrawler",
+    "id": 20614,
+    "icon": "027032",
+    "lodestoneId": "26a32b35867"
    }
   ],
   "predators": [],
@@ -9417,7 +10704,10 @@
   "baitPath": [
    {
     "ja": "アオイソメ",
-    "en": "Blue Bobbit"
+    "en": "Blue Bobbit",
+    "id": 20676,
+    "icon": "027004",
+    "lodestoneId": "a933b2f537f"
    }
   ],
   "predators": [],
@@ -9461,11 +10751,17 @@
   "baitPath": [
    {
     "ja": "活海老",
-    "en": "Live Shrimp"
+    "en": "Live Shrimp",
+    "id": 20617,
+    "icon": "027035",
+    "lodestoneId": "dd65f923a76"
    },
    {
     "ja": "紅玉海老",
-    "en": "Ruby Shrimp"
+    "en": "Ruby Shrimp",
+    "id": 20112,
+    "icon": "029008",
+    "lodestoneId": "01c1726d2ae"
    }
   ],
   "predators": [],
@@ -9510,7 +10806,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -9555,11 +10854,17 @@
   "baitPath": [
    {
     "ja": "ドバミミズ",
-    "en": "Nightcrawler"
+    "en": "Nightcrawler",
+    "id": 20614,
+    "icon": "027032",
+    "lodestoneId": "26a32b35867"
    },
    {
     "ja": "ザガス",
-    "en": "Zagas Khaal"
+    "en": "Zagas Khaal",
+    "id": 20127,
+    "icon": "029310",
+    "lodestoneId": "aa7d0703bbe"
    }
   ],
   "predators": [],
@@ -9604,7 +10909,10 @@
   "baitPath": [
    {
     "ja": "サスペンドミノー",
-    "en": "Suspending Minnow"
+    "en": "Suspending Minnow",
+    "id": 20619,
+    "icon": "027072",
+    "lodestoneId": "f4195ff6727"
    }
   ],
   "predators": [],
@@ -9646,7 +10954,10 @@
   "baitPath": [
    {
     "ja": "サスペンドミノー",
-    "en": "Suspending Minnow"
+    "en": "Suspending Minnow",
+    "id": 20619,
+    "icon": "027072",
+    "lodestoneId": "f4195ff6727"
    }
   ],
   "predators": [],
@@ -9690,11 +11001,17 @@
   "baitPath": [
    {
     "ja": "活海老",
-    "en": "Live Shrimp"
+    "en": "Live Shrimp",
+    "id": 20617,
+    "icon": "027035",
+    "lodestoneId": "dd65f923a76"
    },
    {
     "ja": "紅玉海老",
-    "en": "Ruby Shrimp"
+    "en": "Ruby Shrimp",
+    "id": 20112,
+    "icon": "029008",
+    "lodestoneId": "01c1726d2ae"
    }
   ],
   "predators": [],
@@ -9736,7 +11053,10 @@
   "baitPath": [
    {
     "ja": "アオイソメ",
-    "en": "Blue Bobbit"
+    "en": "Blue Bobbit",
+    "id": 20676,
+    "icon": "027004",
+    "lodestoneId": "a933b2f537f"
    }
   ],
   "predators": [],
@@ -9780,7 +11100,10 @@
   "baitPath": [
    {
     "ja": "活海老",
-    "en": "Live Shrimp"
+    "en": "Live Shrimp",
+    "id": 20617,
+    "icon": "027035",
+    "lodestoneId": "dd65f923a76"
    }
   ],
   "predators": [],
@@ -9825,7 +11148,10 @@
   "baitPath": [
    {
     "ja": "ドバミミズ",
-    "en": "Nightcrawler"
+    "en": "Nightcrawler",
+    "id": 20614,
+    "icon": "027032",
+    "lodestoneId": "26a32b35867"
    }
   ],
   "predators": [],
@@ -9867,7 +11193,10 @@
   "baitPath": [
    {
     "ja": "サスペンドミノー",
-    "en": "Suspending Minnow"
+    "en": "Suspending Minnow",
+    "id": 20619,
+    "icon": "027072",
+    "lodestoneId": "f4195ff6727"
    }
   ],
   "predators": [],
@@ -9911,7 +11240,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -9953,7 +11285,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -9995,7 +11330,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -10039,7 +11377,10 @@
   "baitPath": [
    {
     "ja": "サスペンドミノー",
-    "en": "Suspending Minnow"
+    "en": "Suspending Minnow",
+    "id": 20619,
+    "icon": "027072",
+    "lodestoneId": "f4195ff6727"
    }
   ],
   "predators": [],
@@ -10081,7 +11422,10 @@
   "baitPath": [
    {
     "ja": "サスペンドミノー",
-    "en": "Suspending Minnow"
+    "en": "Suspending Minnow",
+    "id": 20619,
+    "icon": "027072",
+    "lodestoneId": "f4195ff6727"
    }
   ],
   "predators": [],
@@ -10126,7 +11470,10 @@
   "baitPath": [
    {
     "ja": "赤虫",
-    "en": "Midge Larva"
+    "en": "Midge Larva",
+    "id": 20615,
+    "icon": "027033",
+    "lodestoneId": "7e15b7ff99f"
    }
   ],
   "predators": [],
@@ -10170,11 +11517,17 @@
   "baitPath": [
    {
     "ja": "ドバミミズ",
-    "en": "Nightcrawler"
+    "en": "Nightcrawler",
+    "id": 20614,
+    "icon": "027032",
+    "lodestoneId": "26a32b35867"
    },
    {
     "ja": "ザガス",
-    "en": "Zagas Khaal"
+    "en": "Zagas Khaal",
+    "id": 20127,
+    "icon": "029310",
+    "lodestoneId": "aa7d0703bbe"
    }
   ],
   "predators": [],
@@ -10220,11 +11573,17 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    },
    {
     "ja": "サーメットヘッド",
-    "en": "Hardhead Trout"
+    "en": "Hardhead Trout",
+    "id": 24207,
+    "icon": "029535",
+    "lodestoneId": "e8f9d21ddda"
    }
   ],
   "predators": [],
@@ -10264,14 +11623,39 @@
   "baitPath": [
    {
     "ja": "サスペンドミノー",
-    "en": "Suspending Minnow"
+    "en": "Suspending Minnow",
+    "id": 20619,
+    "icon": "027072",
+    "lodestoneId": "f4195ff6727"
    }
   ],
   "predators": [
    {
     "ja": "ボンドスプリッター",
     "en": "Bondsplitter",
-    "count": 2
+    "id": 23060,
+    "icon": "029526",
+    "lodestoneId": "6b7d1fb1fda",
+    "count": 2,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "サスペンドミノー",
+       "en": "Suspending Minnow",
+       "id": 20619,
+       "icon": "027072",
+       "lodestoneId": "f4195ff6727"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [
+      11
+     ],
+     "previousWeatherSet": [],
+     "spotNameJa": "夫婦池",
+     "bigFish": true
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:ギラバニア",
@@ -10312,18 +11696,53 @@
   "baitPath": [
    {
     "ja": "蚕蛹",
-    "en": "Silkworm"
+    "en": "Silkworm",
+    "id": 20616,
+    "icon": "027034",
+    "lodestoneId": "f277c2d3c2c"
    },
    {
     "ja": "ロックソルトフィッシュ",
-    "en": "Rock Saltfish"
+    "en": "Rock Saltfish",
+    "id": 20025,
+    "icon": "029901",
+    "lodestoneId": "a13438cdb44"
    }
   ],
   "predators": [
    {
     "ja": "スカルプター",
     "en": "Sculptor",
-    "count": 2
+    "id": 20040,
+    "icon": "029922",
+    "lodestoneId": "d3a89caecf6",
+    "count": 2,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "蚕蛹",
+       "en": "Silkworm",
+       "id": 20616,
+       "icon": "027034",
+       "lodestoneId": "f277c2d3c2c"
+      },
+      {
+       "ja": "ロックソルトフィッシュ",
+       "en": "Rock Saltfish",
+       "id": 20025,
+       "icon": "029901",
+       "lodestoneId": "a13438cdb44"
+      }
+     ],
+     "startHour": 12,
+     "endHour": 18,
+     "weatherSet": [
+      10
+     ],
+     "previousWeatherSet": [],
+     "spotNameJa": "ロッホ・セル湖",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:ギラバニア",
@@ -10362,11 +11781,17 @@
   "baitPath": [
    {
     "ja": "アオイソメ",
-    "en": "Blue Bobbit"
+    "en": "Blue Bobbit",
+    "id": 20676,
+    "icon": "027004",
+    "lodestoneId": "a933b2f537f"
    },
    {
     "ja": "クアル",
-    "en": "Ku'er"
+    "en": "Ku'er",
+    "id": 24214,
+    "icon": "029159",
+    "lodestoneId": "f09db09ecb2"
    }
   ],
   "predators": [],
@@ -10410,24 +11835,106 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [
    {
     "ja": "藍彩魚",
     "en": "Indigo Prismfish",
-    "count": 3
+    "id": 24203,
+    "icon": "029531",
+    "lodestoneId": "d273b624311",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ザザムシ",
+       "en": "Stonefly Larva",
+       "id": 20675,
+       "icon": "027013",
+       "lodestoneId": "90b08a4d1db"
+      },
+      {
+       "ja": "紫彩魚",
+       "en": "Violet Prismfish",
+       "id": 21177,
+       "icon": "029517",
+       "lodestoneId": "15feab733f0"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 4,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "七彩溝",
+     "bigFish": false
+    }
    },
    {
     "ja": "橙彩魚",
     "en": "Firelight Goldfish",
-    "count": 3
+    "id": 23056,
+    "icon": "029522",
+    "lodestoneId": "eedc3818fee",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ザザムシ",
+       "en": "Stonefly Larva",
+       "id": 20675,
+       "icon": "027013",
+       "lodestoneId": "90b08a4d1db"
+      },
+      {
+       "ja": "赤彩魚",
+       "en": "Red Prismfish",
+       "id": 22397,
+       "icon": "029521",
+       "lodestoneId": "d296197cca3"
+      }
+     ],
+     "startHour": 4,
+     "endHour": 8,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "七彩溝",
+     "bigFish": false
+    }
    },
    {
     "ja": "緑彩魚",
     "en": "Green Prismfish",
-    "count": 5
+    "id": 24204,
+    "icon": "029532",
+    "lodestoneId": "d5cecb3aebb",
+    "count": 5,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ザザムシ",
+       "en": "Stonefly Larva",
+       "id": 20675,
+       "icon": "027013",
+       "lodestoneId": "90b08a4d1db"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 16,
+     "weatherSet": [
+      2,
+      1
+     ],
+     "previousWeatherSet": [
+      2
+     ],
+     "spotNameJa": "七彩溝",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:オサード",
@@ -10466,7 +11973,10 @@
   "baitPath": [
    {
     "ja": "ザザムシ",
-    "en": "Stonefly Larva"
+    "en": "Stonefly Larva",
+    "id": 20675,
+    "icon": "027013",
+    "lodestoneId": "90b08a4d1db"
    }
   ],
   "predators": [],
@@ -10510,7 +12020,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -10550,11 +12063,17 @@
   "baitPath": [
    {
     "ja": "ショートビルミノー",
-    "en": "Short Bill Minnow"
+    "en": "Short Bill Minnow",
+    "id": 27588,
+    "icon": "027074",
+    "lodestoneId": "bc8c84745f7"
    },
    {
     "ja": "スピアヘッド",
-    "en": "Spearhead Squid"
+    "en": "Spearhead Squid",
+    "id": 27457,
+    "icon": "029177",
+    "lodestoneId": "2c10ea549c5"
    }
   ],
   "predators": [],
@@ -10597,11 +12116,17 @@
   "baitPath": [
    {
     "ja": "デザートフロッグ",
-    "en": "Desert Dessert Frog"
+    "en": "Desert Dessert Frog",
+    "id": 27584,
+    "icon": "027073",
+    "lodestoneId": "f761a545f51"
    },
    {
     "ja": "ミズカキスナヤモリ",
-    "en": "Web-footed Sand Gecko"
+    "en": "Web-footed Sand Gecko",
+    "id": 27461,
+    "icon": "029616",
+    "lodestoneId": "0b2042713b3"
    }
   ],
   "predators": [],
@@ -10645,7 +12170,10 @@
   "baitPath": [
    {
     "ja": "オヴィムジャーキー",
-    "en": "Jerked Ovim"
+    "en": "Jerked Ovim",
+    "id": 27586,
+    "icon": "027039",
+    "lodestoneId": "01f2d95fe75"
    }
   ],
   "predators": [],
@@ -10685,11 +12213,17 @@
   "baitPath": [
    {
     "ja": "ショートビルミノー",
-    "en": "Short Bill Minnow"
+    "en": "Short Bill Minnow",
+    "id": 27588,
+    "icon": "027074",
+    "lodestoneId": "bc8c84745f7"
    },
    {
     "ja": "エンシェントシュリンプ",
-    "en": "Ancient Shrimp"
+    "en": "Ancient Shrimp",
+    "id": 27506,
+    "icon": "029186",
+    "lodestoneId": "3b423d9fbab"
    }
   ],
   "predators": [],
@@ -10731,7 +12265,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -10771,7 +12308,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -10813,7 +12353,10 @@
   "baitPath": [
    {
     "ja": "マーブルラーヴァ",
-    "en": "Marble Nymph"
+    "en": "Marble Nymph",
+    "id": 27585,
+    "icon": "027038",
+    "lodestoneId": "9d8c9f058b0"
    }
   ],
   "predators": [],
@@ -10855,7 +12398,10 @@
   "baitPath": [
    {
     "ja": "イカの切り身",
-    "en": "Squid Strip"
+    "en": "Squid Strip",
+    "id": 27590,
+    "icon": "027041",
+    "lodestoneId": "2936da56d3b"
    }
   ],
   "predators": [],
@@ -10897,11 +12443,17 @@
   "baitPath": [
    {
     "ja": "オヴィムジャーキー",
-    "en": "Jerked Ovim"
+    "en": "Jerked Ovim",
+    "id": 27586,
+    "icon": "027039",
+    "lodestoneId": "01f2d95fe75"
    },
    {
     "ja": "ツノカブリ",
-    "en": "Hornhelm"
+    "en": "Hornhelm",
+    "id": 27460,
+    "icon": "029615",
+    "lodestoneId": "e7782e45623"
    }
   ],
   "predators": [],
@@ -10943,7 +12495,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -10986,15 +12541,24 @@
   "baitPath": [
    {
     "ja": "ロバーボール",
-    "en": "Robber Ball"
+    "en": "Robber Ball",
+    "id": 27587,
+    "icon": "027010",
+    "lodestoneId": "2eb1d1e237b"
    },
    {
     "ja": "クラウンテトラ",
-    "en": "Clown Tetra"
+    "en": "Clown Tetra",
+    "id": 27490,
+    "icon": "029592",
+    "lodestoneId": "355add8396c"
    },
    {
     "ja": "エリオプス",
-    "en": "Eryops"
+    "en": "Eryops",
+    "id": 27491,
+    "icon": "029593",
+    "lodestoneId": "cf181edd7d5"
    }
   ],
   "predators": [],
@@ -11034,7 +12598,10 @@
   "baitPath": [
    {
     "ja": "イカの切り身",
-    "en": "Squid Strip"
+    "en": "Squid Strip",
+    "id": 27590,
+    "icon": "027041",
+    "lodestoneId": "2936da56d3b"
    }
   ],
   "predators": [],
@@ -11076,7 +12643,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -11122,7 +12692,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -11162,11 +12735,17 @@
   "baitPath": [
    {
     "ja": "デザートフロッグ",
-    "en": "Desert Dessert Frog"
+    "en": "Desert Dessert Frog",
+    "id": 27584,
+    "icon": "027073",
+    "lodestoneId": "f761a545f51"
    },
    {
     "ja": "ミズカキスナヤモリ",
-    "en": "Web-footed Sand Gecko"
+    "en": "Web-footed Sand Gecko",
+    "id": 27461,
+    "icon": "029616",
+    "lodestoneId": "0b2042713b3"
    }
   ],
   "predators": [],
@@ -11208,7 +12787,10 @@
   "baitPath": [
    {
     "ja": "マーブルラーヴァ",
-    "en": "Marble Nymph"
+    "en": "Marble Nymph",
+    "id": 27585,
+    "icon": "027038",
+    "lodestoneId": "9d8c9f058b0"
    }
   ],
   "predators": [],
@@ -11253,7 +12835,10 @@
   "baitPath": [
    {
     "ja": "ロバーボール",
-    "en": "Robber Ball"
+    "en": "Robber Ball",
+    "id": 27587,
+    "icon": "027010",
+    "lodestoneId": "2eb1d1e237b"
    }
   ],
   "predators": [],
@@ -11299,7 +12884,10 @@
   "baitPath": [
    {
     "ja": "イカの切り身",
-    "en": "Squid Strip"
+    "en": "Squid Strip",
+    "id": 27590,
+    "icon": "027041",
+    "lodestoneId": "2936da56d3b"
    }
   ],
   "predators": [],
@@ -11342,7 +12930,10 @@
   "baitPath": [
    {
     "ja": "フルーツワーム",
-    "en": "Fruit Worm"
+    "en": "Fruit Worm",
+    "id": 27582,
+    "icon": "027036",
+    "lodestoneId": "3bdb03bbd7e"
    }
   ],
   "predators": [],
@@ -11385,7 +12976,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -11430,7 +13024,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -11470,7 +13067,10 @@
   "baitPath": [
    {
     "ja": "マーブルラーヴァ",
-    "en": "Marble Nymph"
+    "en": "Marble Nymph",
+    "id": 27585,
+    "icon": "027038",
+    "lodestoneId": "9d8c9f058b0"
    }
   ],
   "predators": [],
@@ -11512,7 +13112,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -11557,7 +13160,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -11602,7 +13208,10 @@
   "baitPath": [
    {
     "ja": "イカの切り身",
-    "en": "Squid Strip"
+    "en": "Squid Strip",
+    "id": 27590,
+    "icon": "027041",
+    "lodestoneId": "2936da56d3b"
    }
   ],
   "predators": [],
@@ -11646,7 +13255,10 @@
   "baitPath": [
    {
     "ja": "イカの切り身",
-    "en": "Squid Strip"
+    "en": "Squid Strip",
+    "id": 27590,
+    "icon": "027041",
+    "lodestoneId": "2936da56d3b"
    }
   ],
   "predators": [],
@@ -11688,7 +13300,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -11732,7 +13347,10 @@
   "baitPath": [
    {
     "ja": "マーブルラーヴァ",
-    "en": "Marble Nymph"
+    "en": "Marble Nymph",
+    "id": 27585,
+    "icon": "027038",
+    "lodestoneId": "9d8c9f058b0"
    }
   ],
   "predators": [],
@@ -11777,11 +13395,17 @@
   "baitPath": [
    {
     "ja": "ショートビルミノー",
-    "en": "Short Bill Minnow"
+    "en": "Short Bill Minnow",
+    "id": 27588,
+    "icon": "027074",
+    "lodestoneId": "bc8c84745f7"
    },
    {
     "ja": "スピアヘッド",
-    "en": "Spearhead Squid"
+    "en": "Spearhead Squid",
+    "id": 27457,
+    "icon": "029177",
+    "lodestoneId": "2c10ea549c5"
    }
   ],
   "predators": [],
@@ -11823,7 +13447,10 @@
   "baitPath": [
    {
     "ja": "マーブルラーヴァ",
-    "en": "Marble Nymph"
+    "en": "Marble Nymph",
+    "id": 27585,
+    "icon": "027038",
+    "lodestoneId": "9d8c9f058b0"
    }
   ],
   "predators": [],
@@ -11867,11 +13494,17 @@
   "baitPath": [
    {
     "ja": "ロバーボール",
-    "en": "Robber Ball"
+    "en": "Robber Ball",
+    "id": 27587,
+    "icon": "027010",
+    "lodestoneId": "2eb1d1e237b"
    },
    {
     "ja": "ダイヤモンドピピラ",
-    "en": "Diamond Pipira"
+    "en": "Diamond Pipira",
+    "id": 27492,
+    "icon": "029594",
+    "lodestoneId": "56b0a4de32a"
    }
   ],
   "predators": [],
@@ -11913,7 +13546,10 @@
   "baitPath": [
    {
     "ja": "イカの切り身",
-    "en": "Squid Strip"
+    "en": "Squid Strip",
+    "id": 27590,
+    "icon": "027041",
+    "lodestoneId": "2936da56d3b"
    }
   ],
   "predators": [],
@@ -11957,7 +13593,10 @@
   "baitPath": [
    {
     "ja": "マーブルラーヴァ",
-    "en": "Marble Nymph"
+    "en": "Marble Nymph",
+    "id": 27585,
+    "icon": "027038",
+    "lodestoneId": "9d8c9f058b0"
    }
   ],
   "predators": [],
@@ -12001,7 +13640,10 @@
   "baitPath": [
    {
     "ja": "フルーツワーム",
-    "en": "Fruit Worm"
+    "en": "Fruit Worm",
+    "id": 27582,
+    "icon": "027036",
+    "lodestoneId": "3bdb03bbd7e"
    }
   ],
   "predators": [],
@@ -12045,7 +13687,10 @@
   "baitPath": [
    {
     "ja": "モエビ",
-    "en": "Moyebi Shrimp"
+    "en": "Moyebi Shrimp",
+    "id": 27583,
+    "icon": "027037",
+    "lodestoneId": "e98aaaa5681"
    }
   ],
   "predators": [],
@@ -12085,7 +13730,10 @@
   "baitPath": [
    {
     "ja": "イカの切り身",
-    "en": "Squid Strip"
+    "en": "Squid Strip",
+    "id": 27590,
+    "icon": "027041",
+    "lodestoneId": "2936da56d3b"
    }
   ],
   "predators": [],
@@ -12130,11 +13778,17 @@
   "baitPath": [
    {
     "ja": "オヴィムジャーキー",
-    "en": "Jerked Ovim"
+    "en": "Jerked Ovim",
+    "id": 27586,
+    "icon": "027039",
+    "lodestoneId": "01f2d95fe75"
    },
    {
     "ja": "デザートソー",
-    "en": "Desert Saw"
+    "en": "Desert Saw",
+    "id": 27464,
+    "icon": "029618",
+    "lodestoneId": "02288be9945"
    }
   ],
   "predators": [],
@@ -12180,7 +13834,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -12224,7 +13881,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -12264,7 +13924,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -12308,7 +13971,10 @@
   "baitPath": [
    {
     "ja": "ショートビルミノー",
-    "en": "Short Bill Minnow"
+    "en": "Short Bill Minnow",
+    "id": 27588,
+    "icon": "027074",
+    "lodestoneId": "bc8c84745f7"
    }
   ],
   "predators": [],
@@ -12350,11 +14016,17 @@
   "baitPath": [
    {
     "ja": "ショートビルミノー",
-    "en": "Short Bill Minnow"
+    "en": "Short Bill Minnow",
+    "id": 27588,
+    "icon": "027074",
+    "lodestoneId": "bc8c84745f7"
    },
    {
     "ja": "エンシェントシュリンプ",
-    "en": "Ancient Shrimp"
+    "en": "Ancient Shrimp",
+    "id": 27506,
+    "icon": "029186",
+    "lodestoneId": "3b423d9fbab"
    }
   ],
   "predators": [],
@@ -12396,7 +14068,10 @@
   "baitPath": [
    {
     "ja": "ロバーボール",
-    "en": "Robber Ball"
+    "en": "Robber Ball",
+    "id": 27587,
+    "icon": "027010",
+    "lodestoneId": "2eb1d1e237b"
    }
   ],
   "predators": [],
@@ -12436,11 +14111,17 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    },
    {
     "ja": "イモータルジョー",
-    "en": "The Jaws of Undeath"
+    "en": "The Jaws of Undeath",
+    "id": 28925,
+    "icon": "028475",
+    "lodestoneId": "dc043ae37b8"
    }
   ],
   "predators": [],
@@ -12485,19 +14166,67 @@
   "baitPath": [
    {
     "ja": "ショートビルミノー",
-    "en": "Short Bill Minnow"
+    "en": "Short Bill Minnow",
+    "id": 27588,
+    "icon": "027074",
+    "lodestoneId": "bc8c84745f7"
    }
   ],
   "predators": [
    {
     "ja": "シャドウシフター",
     "en": "Shadeshifter",
-    "count": 1
+    "id": 33319,
+    "icon": "028036",
+    "lodestoneId": "5cf17ce050c",
+    "count": 1,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "イカの切り身",
+       "en": "Squid Strip",
+       "id": 27590,
+       "icon": "027041",
+       "lodestoneId": "2936da56d3b"
+      }
+     ],
+     "startHour": 10,
+     "endHour": 14,
+     "weatherSet": [
+      6
+     ],
+     "previousWeatherSet": [
+      1,
+      2
+     ],
+     "spotNameJa": "シーゲイザーの入江",
+     "bigFish": true
+    }
    },
    {
     "ja": "シェイプシフター",
     "en": "Shapeshifter",
-    "count": 5
+    "id": 27452,
+    "icon": "029172",
+    "lodestoneId": "8b7a1d0b93e",
+    "count": 5,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "モエビ",
+       "en": "Moyebi Shrimp",
+       "id": 27583,
+       "icon": "027037",
+       "lodestoneId": "e98aaaa5681"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "シーゲイザーの入江",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:ノルヴラント",
@@ -12536,14 +14265,37 @@
   "baitPath": [
    {
     "ja": "デザートフロッグ",
-    "en": "Desert Dessert Frog"
+    "en": "Desert Dessert Frog",
+    "id": 27584,
+    "icon": "027073",
+    "lodestoneId": "f761a545f51"
    }
   ],
   "predators": [
    {
     "ja": "サンドエッグ",
     "en": "Sand Egg",
-    "count": 10
+    "id": 27462,
+    "icon": "029617",
+    "lodestoneId": "a36f755a160",
+    "count": 10,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "デザートフロッグ",
+       "en": "Desert Dessert Frog",
+       "id": 27584,
+       "icon": "027073",
+       "lodestoneId": "f761a545f51"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "砂の川",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:ノルヴラント",
@@ -12586,7 +14338,10 @@
   "baitPath": [
    {
     "ja": "蟲箱",
-    "en": "Baitbugs"
+    "en": "Baitbugs",
+    "id": 27589,
+    "icon": "027040",
+    "lodestoneId": "a40f7c56b8f"
    }
   ],
   "predators": [],
@@ -12630,19 +14385,31 @@
   "baitPath": [
    {
     "ja": "ロバーボール",
-    "en": "Robber Ball"
+    "en": "Robber Ball",
+    "id": 27587,
+    "icon": "027010",
+    "lodestoneId": "2eb1d1e237b"
    },
    {
     "ja": "クラウンテトラ",
-    "en": "Clown Tetra"
+    "en": "Clown Tetra",
+    "id": 27490,
+    "icon": "029592",
+    "lodestoneId": "355add8396c"
    },
    {
     "ja": "エリオプス",
-    "en": "Eryops"
+    "en": "Eryops",
+    "id": 27491,
+    "icon": "029593",
+    "lodestoneId": "cf181edd7d5"
    },
    {
     "ja": "ロックワの衛士",
-    "en": "Priest of Yx'Lokwa"
+    "en": "Priest of Yx'Lokwa",
+    "id": 28071,
+    "icon": "028474",
+    "lodestoneId": "392f39dffa8"
    }
   ],
   "predators": [],
@@ -12682,14 +14449,39 @@
   "baitPath": [
    {
     "ja": "イカの切り身",
-    "en": "Squid Strip"
+    "en": "Squid Strip",
+    "id": 27590,
+    "icon": "027041",
+    "lodestoneId": "2936da56d3b"
    }
   ],
   "predators": [
    {
     "ja": "モラ・テクタ",
     "en": "Mora Tecta",
-    "count": 2
+    "id": 33325,
+    "icon": "028035",
+    "lodestoneId": "b7b90ccc28d",
+    "count": 2,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ショートビルミノー",
+       "en": "Short Bill Minnow",
+       "id": 27588,
+       "icon": "027074",
+       "lodestoneId": "bc8c84745f7"
+      }
+     ],
+     "startHour": 22,
+     "endHour": 24,
+     "weatherSet": [
+      2
+     ],
+     "previousWeatherSet": [],
+     "spotNameJa": "キャリバン海底谷北西",
+     "bigFish": true
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:ノルヴラント",
@@ -12732,11 +14524,17 @@
   "baitPath": [
    {
     "ja": "サバの切り身",
-    "en": "Mackerel Strip"
+    "en": "Mackerel Strip",
+    "id": 36593,
+    "icon": "027048",
+    "lodestoneId": "0ef0fee1c1e"
    },
    {
     "ja": "パパヤフィッシュ",
-    "en": "Puff-paya"
+    "en": "Puff-paya",
+    "id": 36451,
+    "icon": "029582",
+    "lodestoneId": "96f9aee9efa"
    }
   ],
   "predators": [],
@@ -12778,11 +14576,17 @@
   "baitPath": [
    {
     "ja": "グレイワーム",
-    "en": "Grey Worm"
+    "en": "Grey Worm",
+    "id": 36594,
+    "icon": "027049",
+    "lodestoneId": "6618f8a561a"
    },
    {
     "ja": "ツーユィー",
-    "en": "Calicia"
+    "en": "Calicia",
+    "id": 36470,
+    "icon": "029763",
+    "lodestoneId": "f96c24fffc3"
    }
   ],
   "predators": [],
@@ -12824,11 +14628,17 @@
   "baitPath": [
    {
     "ja": null,
-    "en": "[36597, 36596]"
+    "en": "[36597, 36596]",
+    "id": null,
+    "icon": null,
+    "lodestoneId": null
    },
    {
     "ja": "地平よりの帰還者",
-    "en": "Horizon Event"
+    "en": "Horizon Event",
+    "id": 36518,
+    "icon": "028962",
+    "lodestoneId": "5357e832eac"
    }
   ],
   "predators": [],
@@ -12868,7 +14678,10 @@
   "baitPath": [
    {
     "ja": "サバの切り身",
-    "en": "Mackerel Strip"
+    "en": "Mackerel Strip",
+    "id": 36593,
+    "icon": "027048",
+    "lodestoneId": "0ef0fee1c1e"
    }
   ],
   "predators": [],
@@ -12908,7 +14721,10 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [],
@@ -12950,7 +14766,10 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [],
@@ -12990,7 +14809,10 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [],
@@ -13032,11 +14854,17 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    },
    {
     "ja": "セルリアンコア",
-    "en": "Cerule Core"
+    "en": "Cerule Core",
+    "id": 36458,
+    "icon": "028513",
+    "lodestoneId": "6f2c2604450"
    }
   ],
   "predators": [],
@@ -13078,7 +14906,10 @@
   "baitPath": [
    {
     "ja": "キメラワーム",
-    "en": "Chimera Worm"
+    "en": "Chimera Worm",
+    "id": 36595,
+    "icon": "027100",
+    "lodestoneId": "b83b14c4779"
    }
   ],
   "predators": [],
@@ -13120,7 +14951,10 @@
   "baitPath": [
    {
     "ja": "スターダスト",
-    "en": "Stardust"
+    "en": "Stardust",
+    "id": 36597,
+    "icon": "027101",
+    "lodestoneId": "c5470744990"
    }
   ],
   "predators": [],
@@ -13162,7 +14996,10 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [],
@@ -13204,7 +15041,10 @@
   "baitPath": [
    {
     "ja": "スカイスプーン",
-    "en": "Sky Spoon Lure"
+    "en": "Sky Spoon Lure",
+    "id": 36590,
+    "icon": "027075",
+    "lodestoneId": "c1c6ce0a3ae"
    }
   ],
   "predators": [],
@@ -13249,7 +15089,10 @@
   "baitPath": [
    {
     "ja": "シュリンプボール",
-    "en": "Shrimp Ball"
+    "en": "Shrimp Ball",
+    "id": 36592,
+    "icon": "027047",
+    "lodestoneId": "4080c409fbc"
    }
   ],
   "predators": [],
@@ -13294,7 +15137,10 @@
   "baitPath": [
    {
     "ja": "スカイスプーン",
-    "en": "Sky Spoon Lure"
+    "en": "Sky Spoon Lure",
+    "id": 36590,
+    "icon": "027075",
+    "lodestoneId": "c1c6ce0a3ae"
    }
   ],
   "predators": [],
@@ -13340,7 +15186,10 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [],
@@ -13385,7 +15234,10 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [],
@@ -13425,11 +15277,17 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    },
    {
     "ja": "アルビノローチ",
-    "en": "Albino Loach"
+    "en": "Albino Loach",
+    "id": 36478,
+    "icon": "028521",
+    "lodestoneId": "816bd10b1ba"
    }
   ],
   "predators": [],
@@ -13471,7 +15329,10 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [],
@@ -13513,7 +15374,10 @@
   "baitPath": [
    {
     "ja": "スターダスト",
-    "en": "Stardust"
+    "en": "Stardust",
+    "id": 36597,
+    "icon": "027101",
+    "lodestoneId": "c5470744990"
    }
   ],
   "predators": [],
@@ -13555,7 +15419,10 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [],
@@ -13599,7 +15466,10 @@
   "baitPath": [
    {
     "ja": "スカイスプーン",
-    "en": "Sky Spoon Lure"
+    "en": "Sky Spoon Lure",
+    "id": 36590,
+    "icon": "027075",
+    "lodestoneId": "c1c6ce0a3ae"
    }
   ],
   "predators": [],
@@ -13643,7 +15513,10 @@
   "baitPath": [
    {
     "ja": "シュリンプボール",
-    "en": "Shrimp Ball"
+    "en": "Shrimp Ball",
+    "id": 36592,
+    "icon": "027047",
+    "lodestoneId": "4080c409fbc"
    }
   ],
   "predators": [],
@@ -13687,7 +15560,10 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [],
@@ -13729,7 +15605,10 @@
   "baitPath": [
    {
     "ja": "キメラワーム",
-    "en": "Chimera Worm"
+    "en": "Chimera Worm",
+    "id": 36595,
+    "icon": "027100",
+    "lodestoneId": "b83b14c4779"
    }
   ],
   "predators": [],
@@ -13771,7 +15650,10 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [],
@@ -13815,11 +15697,17 @@
   "baitPath": [
    {
     "ja": "キメラワーム",
-    "en": "Chimera Worm"
+    "en": "Chimera Worm",
+    "id": 36595,
+    "icon": "027100",
+    "lodestoneId": "b83b14c4779"
    },
    {
     "ja": "エアーシュリンプ",
-    "en": "Vacuum Shrimp"
+    "en": "Vacuum Shrimp",
+    "id": 36489,
+    "icon": "029769",
+    "lodestoneId": "c411c07400f"
    }
   ],
   "predators": [],
@@ -13861,7 +15749,10 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [],
@@ -13905,7 +15796,10 @@
   "baitPath": [
    {
     "ja": "ウマビル",
-    "en": "Leech"
+    "en": "Leech",
+    "id": 36589,
+    "icon": "027045",
+    "lodestoneId": "c611b0a00c7"
    }
   ],
   "predators": [],
@@ -13949,15 +15843,24 @@
   "baitPath": [
    {
     "ja": "サバの切り身",
-    "en": "Mackerel Strip"
+    "en": "Mackerel Strip",
+    "id": 36593,
+    "icon": "027048",
+    "lodestoneId": "0ef0fee1c1e"
    },
    {
     "ja": "パパヤフィッシュ",
-    "en": "Puff-paya"
+    "en": "Puff-paya",
+    "id": 36451,
+    "icon": "029582",
+    "lodestoneId": "96f9aee9efa"
    },
    {
     "ja": "ドルドン",
-    "en": "Basilosaurus"
+    "en": "Basilosaurus",
+    "id": 36454,
+    "icon": "028052",
+    "lodestoneId": "7a0da3e63df"
    }
   ],
   "predators": [],
@@ -13999,7 +15902,10 @@
   "baitPath": [
    {
     "ja": "スカイスプーン",
-    "en": "Sky Spoon Lure"
+    "en": "Sky Spoon Lure",
+    "id": 36590,
+    "icon": "027075",
+    "lodestoneId": "c1c6ce0a3ae"
    }
   ],
   "predators": [],
@@ -14044,7 +15950,10 @@
   "baitPath": [
    {
     "ja": "キメラワーム",
-    "en": "Chimera Worm"
+    "en": "Chimera Worm",
+    "id": 36595,
+    "icon": "027100",
+    "lodestoneId": "b83b14c4779"
    }
   ],
   "predators": [],
@@ -14088,11 +15997,17 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    },
    {
     "ja": "アスタクス・エーテリウス",
-    "en": "Astacus Aetherius"
+    "en": "Astacus Aetherius",
+    "id": 36412,
+    "icon": "028417",
+    "lodestoneId": "237ceb10dfa"
    }
   ],
   "predators": [],
@@ -14136,11 +16051,17 @@
   "baitPath": [
    {
     "ja": "シュリンプボール",
-    "en": "Shrimp Ball"
+    "en": "Shrimp Ball",
+    "id": 36592,
+    "icon": "027047",
+    "lodestoneId": "4080c409fbc"
    },
    {
     "ja": "シャドウサーディン",
-    "en": "Shadowdart Sardine"
+    "en": "Shadowdart Sardine",
+    "id": 36426,
+    "icon": "028046",
+    "lodestoneId": "4513817430c"
    }
   ],
   "predators": [],
@@ -14184,14 +16105,37 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [
    {
     "ja": "サベネアンカイマン",
     "en": "Thavnairian Caiman",
-    "count": 5
+    "id": 36449,
+    "icon": "028511",
+    "lodestoneId": "2ba983d5d5c",
+    "count": 5,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "カゲロウ",
+       "en": "Mayfly",
+       "id": 36591,
+       "icon": "027046",
+       "lodestoneId": "e2052da1632"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "マーヤーの幻泉",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:北洋地域・イルサバード",
@@ -14234,11 +16178,17 @@
   "baitPath": [
    {
     "ja": "キメラワーム",
-    "en": "Chimera Worm"
+    "en": "Chimera Worm",
+    "id": 36595,
+    "icon": "027100",
+    "lodestoneId": "b83b14c4779"
    },
    {
     "ja": "ツーユィー",
-    "en": "Calicia"
+    "en": "Calicia",
+    "id": 36470,
+    "icon": "029763",
+    "lodestoneId": "f96c24fffc3"
    }
   ],
   "predators": [],
@@ -14282,7 +16232,10 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [],
@@ -14326,7 +16279,10 @@
   "baitPath": [
    {
     "ja": "スターダスト",
-    "en": "Stardust"
+    "en": "Stardust",
+    "id": 36597,
+    "icon": "027101",
+    "lodestoneId": "c5470744990"
    }
   ],
   "predators": [],
@@ -14370,18 +16326,44 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    },
    {
     "ja": "アスタクス・エーテリウス",
-    "en": "Astacus Aetherius"
+    "en": "Astacus Aetherius",
+    "id": 36412,
+    "icon": "028417",
+    "lodestoneId": "237ceb10dfa"
    }
   ],
   "predators": [
    {
     "ja": "アスタクス・エーテリウス",
     "en": "Astacus Aetherius",
-    "count": 3
+    "id": 36412,
+    "icon": "028417",
+    "lodestoneId": "237ceb10dfa",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "カゲロウ",
+       "en": "Mayfly",
+       "id": 36591,
+       "icon": "027046",
+       "lodestoneId": "e2052da1632"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "ディープモート",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:北洋地域・イルサバード",
@@ -14424,14 +16406,46 @@
   "baitPath": [
    {
     "ja": "サバの切り身",
-    "en": "Mackerel Strip"
+    "en": "Mackerel Strip",
+    "id": 36593,
+    "icon": "027048",
+    "lodestoneId": "0ef0fee1c1e"
    }
   ],
   "predators": [
    {
     "ja": "ドルドン",
     "en": "Basilosaurus",
-    "count": 12
+    "id": 36454,
+    "icon": "028052",
+    "lodestoneId": "7a0da3e63df",
+    "count": 12,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "サバの切り身",
+       "en": "Mackerel Strip",
+       "id": 36593,
+       "icon": "027048",
+       "lodestoneId": "0ef0fee1c1e"
+      },
+      {
+       "ja": "パパヤフィッシュ",
+       "en": "Puff-paya",
+       "id": 36451,
+       "icon": "029582",
+       "lodestoneId": "96f9aee9efa"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [
+      2
+     ],
+     "previousWeatherSet": [],
+     "spotNameJa": "薫香の浜",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:北洋地域・イルサバード",
@@ -14474,14 +16488,37 @@
   "baitPath": [
    {
     "ja": "カゲロウ",
-    "en": "Mayfly"
+    "en": "Mayfly",
+    "id": 36591,
+    "icon": "027046",
+    "lodestoneId": "e2052da1632"
    }
   ],
   "predators": [
    {
     "ja": "セルリアンコア",
     "en": "Cerule Core",
-    "count": 3
+    "id": 36458,
+    "icon": "028513",
+    "lodestoneId": "6f2c2604450",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": null,
+       "en": "[36591, 36589]",
+       "id": null,
+       "icon": null,
+       "lodestoneId": null
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "エブラーナ不凍池",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:北洋地域・イルサバード",
@@ -14524,7 +16561,10 @@
   "baitPath": [
    {
     "ja": "キメラワーム",
-    "en": "Chimera Worm"
+    "en": "Chimera Worm",
+    "id": 36595,
+    "icon": "027100",
+    "lodestoneId": "b83b14c4779"
    }
   ],
   "predators": [],
@@ -14568,7 +16608,10 @@
   "baitPath": [
    {
     "ja": "スカイスプーン",
-    "en": "Sky Spoon Lure"
+    "en": "Sky Spoon Lure",
+    "id": 36590,
+    "icon": "027075",
+    "lodestoneId": "c1c6ce0a3ae"
    }
   ],
   "predators": [],
@@ -14612,28 +16655,108 @@
   "baitPath": [
    {
     "ja": null,
-    "en": "[36597, 36596]"
+    "en": "[36597, 36596]",
+    "id": null,
+    "icon": null,
+    "lodestoneId": null
    },
    {
     "ja": "地平よりの帰還者",
-    "en": "Horizon Event"
+    "en": "Horizon Event",
+    "id": 36518,
+    "icon": "028962",
+    "lodestoneId": "5357e832eac"
    }
   ],
   "predators": [
    {
     "ja": "パライナ",
     "en": "Phallaina",
-    "count": 1
+    "id": 36521,
+    "icon": "028965",
+    "lodestoneId": "1e53021222a",
+    "count": 1,
+    "conditions": {
+     "bait": [
+      {
+       "ja": null,
+       "en": "[36597, 36596]",
+       "id": null,
+       "icon": null,
+       "lodestoneId": null
+      },
+      {
+       "ja": "地平よりの帰還者",
+       "en": "Horizon Event",
+       "id": 36518,
+       "icon": "028962",
+       "lodestoneId": "5357e832eac"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 4,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "リムニ・トゥリアβ",
+     "bigFish": false
+    }
    },
    {
     "ja": "アンビゴッテン",
     "en": "Unbegotten",
-    "count": 2
+    "id": 36520,
+    "icon": "028964",
+    "lodestoneId": "169ab73b1c3",
+    "count": 2,
+    "conditions": {
+     "bait": [
+      {
+       "ja": null,
+       "en": "[36597, 36596]",
+       "id": null,
+       "icon": null,
+       "lodestoneId": null
+      },
+      {
+       "ja": "地平よりの帰還者",
+       "en": "Horizon Event",
+       "id": 36518,
+       "icon": "028962",
+       "lodestoneId": "5357e832eac"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "リムニ・トゥリアβ",
+     "bigFish": false
+    }
    },
    {
     "ja": "E.B.E-9318",
     "en": "E.B.E.-9318",
-    "count": 3
+    "id": 36519,
+    "icon": "028963",
+    "lodestoneId": "db58336ff3f",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": null,
+       "en": "[36597, 36596]",
+       "id": null,
+       "icon": null,
+       "lodestoneId": null
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "リムニ・トゥリアβ",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:星外宙域",
@@ -14676,7 +16799,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -14718,7 +16844,10 @@
   "baitPath": [
    {
     "ja": "ホワイトワーム",
-    "en": "White Worm"
+    "en": "White Worm",
+    "id": 43854,
+    "icon": "027106",
+    "lodestoneId": "a53bc35af46"
    }
   ],
   "predators": [],
@@ -14758,7 +16887,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -14801,7 +16933,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -14843,15 +16978,24 @@
   "baitPath": [
    {
     "ja": null,
-    "en": "[43850, 43859]"
+    "en": "[43850, 43859]",
+    "id": null,
+    "icon": null,
+    "lodestoneId": null
    },
    {
     "ja": "シャークノーズゴビー",
-    "en": "Sharknose Goby"
+    "en": "Sharknose Goby",
+    "id": 43746,
+    "icon": "028123",
+    "lodestoneId": "6bff00c809d"
    },
    {
     "ja": "ヤク・クラブ",
-    "en": "Yak T'el Crab"
+    "en": "Yak T'el Crab",
+    "id": 43747,
+    "icon": "028013",
+    "lodestoneId": "2f01203605a"
    }
   ],
   "predators": [],
@@ -14891,7 +17035,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -14934,7 +17081,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -14974,7 +17124,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -15014,7 +17167,10 @@
   "baitPath": [
    {
     "ja": "ゴーストニッパー",
-    "en": "Ghost Nipper"
+    "en": "Ghost Nipper",
+    "id": 43859,
+    "icon": "027110",
+    "lodestoneId": "eebbabcf16e"
    }
   ],
   "predators": [],
@@ -15054,11 +17210,17 @@
   "baitPath": [
    {
     "ja": null,
-    "en": "[43852, 43849]"
+    "en": "[43852, 43849]",
+    "id": null,
+    "icon": null,
+    "lodestoneId": null
    },
    {
     "ja": "ダイフロッグ",
-    "en": "Poison Dyefrog"
+    "en": "Poison Dyefrog",
+    "id": 43691,
+    "icon": "028571",
+    "lodestoneId": "2aaeabbeb5a"
    }
   ],
   "predators": [],
@@ -15100,7 +17262,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -15144,7 +17309,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -15184,7 +17352,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -15227,11 +17398,17 @@
   "baitPath": [
    {
     "ja": "ポッパールアー",
-    "en": "Popper Lure"
+    "en": "Popper Lure",
+    "id": 43855,
+    "icon": "027078",
+    "lodestoneId": "4b70dac3a32"
    },
    {
     "ja": "ニーケレピトラウト",
-    "en": "Niikwerepi Trout"
+    "en": "Niikwerepi Trout",
+    "id": 43751,
+    "icon": "028611",
+    "lodestoneId": "935048fdce0"
    }
   ],
   "predators": [],
@@ -15275,7 +17452,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -15317,7 +17497,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -15359,7 +17542,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -15403,7 +17589,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -15445,7 +17634,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -15487,11 +17679,17 @@
   "baitPath": [
    {
     "ja": null,
-    "en": "[43849, 43852]"
+    "en": "[43849, 43852]",
+    "id": null,
+    "icon": null,
+    "lodestoneId": null
    },
    {
     "ja": "雲空魚",
-    "en": "Cloud-eye Carp"
+    "en": "Cloud-eye Carp",
+    "id": 43728,
+    "icon": "029596",
+    "lodestoneId": "faca4f03381"
    }
   ],
   "predators": [],
@@ -15535,7 +17733,10 @@
   "baitPath": [
    {
     "ja": "トンボ",
-    "en": "Dragonfly"
+    "en": "Dragonfly",
+    "id": 43857,
+    "icon": "027108",
+    "lodestoneId": "12ee7a940ea"
    }
   ],
   "predators": [],
@@ -15575,7 +17776,10 @@
   "baitPath": [
    {
     "ja": "トンボ",
-    "en": "Dragonfly"
+    "en": "Dragonfly",
+    "id": 43857,
+    "icon": "027108",
+    "lodestoneId": "12ee7a940ea"
    }
   ],
   "predators": [],
@@ -15620,7 +17824,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -15662,14 +17869,37 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [
    {
     "ja": "ナイトゴビー",
     "en": "Knight Goby",
-    "count": 3
+    "id": 43781,
+    "icon": "028625",
+    "lodestoneId": "91e82b5ae0d",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ポッパールアー",
+       "en": "Popper Lure",
+       "id": 43855,
+       "icon": "027078",
+       "lodestoneId": "4b70dac3a32"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "ザ・ノーアブル",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:アレクサンドリア",
@@ -15710,7 +17940,10 @@
   "baitPath": [
    {
     "ja": "ゴーストニッパー",
-    "en": "Ghost Nipper"
+    "en": "Ghost Nipper",
+    "id": 43859,
+    "icon": "027110",
+    "lodestoneId": "eebbabcf16e"
    }
   ],
   "predators": [],
@@ -15754,7 +17987,10 @@
   "baitPath": [
    {
     "ja": "ゴーストニッパー",
-    "en": "Ghost Nipper"
+    "en": "Ghost Nipper",
+    "id": 43859,
+    "icon": "027110",
+    "lodestoneId": "eebbabcf16e"
    }
   ],
   "predators": [],
@@ -15798,11 +18034,17 @@
   "baitPath": [
    {
     "ja": null,
-    "en": "[43849, 43852]"
+    "en": "[43849, 43852]",
+    "id": null,
+    "icon": null,
+    "lodestoneId": null
    },
    {
     "ja": "ツクナレ・フォーゴ",
-    "en": "Hunu Peacock Bass"
+    "en": "Hunu Peacock Bass",
+    "id": 43701,
+    "icon": "028580",
+    "lodestoneId": "82b40a09038"
    }
   ],
   "predators": [],
@@ -15846,7 +18088,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -15888,14 +18133,37 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [
    {
     "ja": "アシクビナマズ",
     "en": "Ankledeep Catfish",
-    "count": 3
+    "id": 43735,
+    "icon": "028602",
+    "lodestoneId": "0127e28352b",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": null,
+       "en": "[43852, 43855]",
+       "id": null,
+       "icon": null,
+       "lodestoneId": null
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "足首の小セノーテ",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:ヨカ・トラル",
@@ -15936,11 +18204,17 @@
   "baitPath": [
    {
     "ja": "ポッパールアー",
-    "en": "Popper Lure"
+    "en": "Popper Lure",
+    "id": 43855,
+    "icon": "027078",
+    "lodestoneId": "4b70dac3a32"
    },
    {
     "ja": "チェッカードシクリッド",
-    "en": "Checkered Cichlid"
+    "en": "Checkered Cichlid",
+    "id": 43736,
+    "icon": "028603",
+    "lodestoneId": "2ba624ece0c"
    }
   ],
   "predators": [],
@@ -15982,7 +18256,10 @@
   "baitPath": [
    {
     "ja": "ポッパールアー",
-    "en": "Popper Lure"
+    "en": "Popper Lure",
+    "id": 43855,
+    "icon": "027078",
+    "lodestoneId": "4b70dac3a32"
    }
   ],
   "predators": [],
@@ -16026,7 +18303,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -16070,19 +18350,62 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [
    {
     "ja": "イェスタゴールド",
     "en": "Golden Day",
-    "count": 3
+    "id": 43796,
+    "icon": "029509",
+    "lodestoneId": "d06fd2f7e7a",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ポッパールアー",
+       "en": "Popper Lure",
+       "id": 43855,
+       "icon": "027078",
+       "lodestoneId": "4b70dac3a32"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "プロト・アレクサンドリア",
+     "bigFish": false
+    }
    },
    {
     "ja": "スカーレット・クイーン",
     "en": "Scarlet Queen",
-    "count": 3
+    "id": 43798,
+    "icon": "028632",
+    "lodestoneId": "daa80bac1b0",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ポッパールアー",
+       "en": "Popper Lure",
+       "id": 43855,
+       "icon": "027078",
+       "lodestoneId": "4b70dac3a32"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "プロト・アレクサンドリア",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:アレクサンドリア",
@@ -16125,7 +18448,10 @@
   "baitPath": [
    {
     "ja": "ホワイトワーム",
-    "en": "White Worm"
+    "en": "White Worm",
+    "id": 43854,
+    "icon": "027106",
+    "lodestoneId": "a53bc35af46"
    }
   ],
   "predators": [],
@@ -16169,11 +18495,17 @@
   "baitPath": [
    {
     "ja": "ゴールデンラーヴァ",
-    "en": "Golden Stonefly Nymph"
+    "en": "Golden Stonefly Nymph",
+    "id": 43849,
+    "icon": "027102",
+    "lodestoneId": "accb8e61412"
    },
    {
     "ja": "団子魚",
-    "en": "Dumplingfish"
+    "en": "Dumplingfish",
+    "id": 43709,
+    "icon": "028403",
+    "lodestoneId": "4f1fbdf7405"
    }
   ],
   "predators": [],
@@ -16217,7 +18549,10 @@
   "baitPath": [
    {
     "ja": "ポッパールアー",
-    "en": "Popper Lure"
+    "en": "Popper Lure",
+    "id": 43855,
+    "icon": "027078",
+    "lodestoneId": "4b70dac3a32"
    }
   ],
   "predators": [],
@@ -16261,11 +18596,17 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    },
    {
     "ja": "トゥルーソーサー",
-    "en": "Flawless Saucer"
+    "en": "Flawless Saucer",
+    "id": 43740,
+    "icon": "028607",
+    "lodestoneId": "044cb14f1d3"
    }
   ],
   "predators": [],
@@ -16309,7 +18650,10 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    }
   ],
   "predators": [],
@@ -16353,11 +18697,17 @@
   "baitPath": [
    {
     "ja": "紅サシ",
-    "en": "Red Maggots"
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864"
    },
    {
     "ja": "ブラインドブロトゥラ",
-    "en": "Blind Brotula"
+    "en": "Blind Brotula",
+    "id": 43743,
+    "icon": "028610",
+    "lodestoneId": "0fabcb6cf0b"
    }
   ],
   "predators": [],
@@ -16401,14 +18751,37 @@
   "baitPath": [
    {
     "ja": "トンボ",
-    "en": "Dragonfly"
+    "en": "Dragonfly",
+    "id": 43857,
+    "icon": "027108",
+    "lodestoneId": "12ee7a940ea"
    }
   ],
   "predators": [
    {
     "ja": "瀑布の徨霊",
     "en": "Vagrant Cascade",
-    "count": 3
+    "id": 43760,
+    "icon": "029953",
+    "lodestoneId": "a029b987a95",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "サボテンダージグ",
+       "en": "Cactuar Jig",
+       "id": 43853,
+       "icon": "027077",
+       "lodestoneId": "40fd86e15e1"
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "ゾーゴー海峡西",
+     "bigFish": false
+    }
    }
   ],
   "folkloreNameJa": "魚類伝承録:サカ・トラル",
@@ -16451,7 +18824,10 @@
   "baitPath": [
    {
     "ja": "ゴーストニッパー",
-    "en": "Ghost Nipper"
+    "en": "Ghost Nipper",
+    "id": 43859,
+    "icon": "027110",
+    "lodestoneId": "eebbabcf16e"
    }
   ],
   "predators": [],

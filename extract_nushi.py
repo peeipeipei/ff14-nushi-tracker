@@ -136,27 +136,57 @@ def main():
                 return v / 60
             return v
 
-        # 泳がせ釣りルート: repo の item id 列を優先し、日本語名に解決
-        def item_name(ref):
+        def to_item_id(ref):
             if isinstance(ref, int):
-                it = items.get(str(ref))
-                return {"ja": it["name_ja"], "en": it["name_en"].strip()} if it else {"ja": None, "en": str(ref)}
-            it = items.get(str(name_to_id.get(str(ref).lower())))
-            return {"ja": it["name_ja"], "en": it["name_en"].strip()} if it else {"ja": None, "en": str(ref)}
+                return ref
+            return name_to_id.get(str(ref).lower())
+
+        # アイテム参照 -> {ja,en,id,icon,lodestoneId} (餌・予測魚のリンク表示用)
+        def item_ref(ref):
+            iid = to_item_id(ref)
+            it = items.get(str(iid)) if iid else None
+            if not it:
+                return {"ja": None, "en": str(ref), "id": None, "icon": None, "lodestoneId": None}
+            return {
+                "ja": it["name_ja"],
+                "en": it["name_en"].strip(),
+                "id": iid,
+                "icon": it["icon"],
+                "lodestoneId": lodestone_ids.get(iid),
+            }
+
+        # 予測魚など任意の魚の釣獲条件 (餌・時間帯・天候) を解決
+        def fish_conditions(iid):
+            pf = fish_db.get(str(iid))
+            if not pf:
+                return None
+            pspot = spots.get(str(pf.get("location"))) if pf.get("location") else None
+            return {
+                "bait": [item_ref(b) for b in (pf.get("bestCatchPath") or [])],
+                "startHour": pf.get("startHour", 0),
+                "endHour": pf.get("endHour", 24),
+                "weatherSet": pf.get("weatherSet") or [],
+                "previousWeatherSet": pf.get("previousWeatherSet") or [],
+                "spotNameJa": pspot["name_ja"] if pspot else None,
+                "bigFish": bool(pf.get("bigFish")),
+            }
 
         if repo_fish and repo_fish.get("bestCatchPath"):
-            bait_path = [item_name(i) for i in repo_fish["bestCatchPath"]]
+            bait_path = [item_ref(i) for i in repo_fish["bestCatchPath"]]
         else:
-            bait_path = [item_name(n) for n in (entry.get("bestCatchPath") or [])]
+            bait_path = [item_ref(n) for n in (entry.get("bestCatchPath") or [])]
 
-        # 漁師の直感対象 (先に釣る必要のある魚と匹数)
+        # 漁師の直感対象 (先に釣る必要のある魚と匹数)。予測魚自身の条件も同梱する
         predators = []
         if repo_fish and repo_fish.get("predators"):
             for pid, count in repo_fish["predators"]:
-                predators.append({**item_name(pid), "count": count})
+                predators.append({**item_ref(pid), "count": count,
+                                  "conditions": fish_conditions(pid)})
         elif entry.get("predators"):
             for pname, count in entry["predators"].items():
-                predators.append({**item_name(pname), "count": count})
+                pid = to_item_id(pname)
+                predators.append({**item_ref(pname), "count": count,
+                                  "conditions": fish_conditions(pid) if pid else None})
 
         folklore_id = repo_fish.get("folklore") if repo_fish else None
         folklore_info = data["FOLKLORE"].get(str(folklore_id)) if folklore_id else None

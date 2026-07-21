@@ -1,8 +1,29 @@
 /** ヌシ1匹分のデータ (nushi_data.json のエントリ) */
-/** 泳がせルート・直感条件で参照するアイテム名 */
+/** 泳がせルート・直感条件で参照するアイテム */
 export interface ItemRef {
   ja: string | null;
   en: string;
+  id: number | null;
+  icon: string | null;
+  lodestoneId: string | null;
+}
+
+/** 予測魚 (漁師の直感で先に釣る魚) の釣獲条件 */
+export interface PredatorConditions {
+  bait: ItemRef[];
+  startHour: number;
+  endHour: number;
+  weatherSet: number[];
+  previousWeatherSet: number[];
+  spotNameJa: string | null;
+  /** この予測魚自体がヌシ (トラッカー掲載) か */
+  bigFish: boolean;
+}
+
+/** 漁師の直感の対象魚 (先に釣る魚と匹数、その魚自身の条件) */
+export interface Predator extends ItemRef {
+  count: number;
+  conditions: PredatorConditions | null;
 }
 
 export interface Nushi {
@@ -15,8 +36,8 @@ export interface Nushi {
   oonushi: boolean;
   /** 泳がせ釣りルート。先頭が餌、以降は泳がせる中間魚 */
   baitPath: ItemRef[];
-  /** 漁師の直感の発動条件 (先に釣る魚と匹数) */
-  predators: (ItemRef & { count: number })[];
+  /** 漁師の直感の発動条件 (先に釣る魚と匹数、その魚の条件) */
+  predators: Predator[];
   folkloreNameJa: string | null;
   /** 直感の持続秒数 */
   intuitionLength: number | null;
