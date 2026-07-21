@@ -23,11 +23,20 @@ interface Row {
   window: UpcomingWindow | null;
 }
 
-/** ソートキー: 開催中(常時含む)は0、待機中は開始までのms、窓なしは無限大 */
+/**
+ * ソートキー (小さいほど上)。ティアで大分類し、開催中は残り時間が短い順に並べる:
+ * 1. 開催中(時限) … 残り時間 (endMs-nowMs) 昇順 = もうすぐ閉じるものが上
+ * 2. 待機中 … 開始までの時間 (startMs-nowMs) 昇順
+ * 3. 常時 … 残り時間の概念がないので下部
+ * 4. 窓なし … 最下部
+ */
 function sortKey(row: Row, nowMs: number): number {
-  if (!row.window) return Number.POSITIVE_INFINITY;
-  if (row.window.isActiveNow) return 0;
-  return row.window.startMs - nowMs;
+  const w = row.window;
+  if (!w) return Number.POSITIVE_INFINITY;
+  const TIER = 1e13;
+  if (w.isAlways) return 3 * TIER;
+  if (w.isActiveNow) return w.endMs - nowMs;
+  return 2 * TIER + (w.startMs - nowMs);
 }
 
 const EXPANSIONS = [

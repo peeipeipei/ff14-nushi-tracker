@@ -7,10 +7,29 @@ import type {
   UpcomingWindow,
   WeatherTypeInfo,
 } from "@/lib/types";
-import { iconUrl, lodestoneUrl, mapUrl } from "@/lib/assets";
+import { iconUrl, lodestoneUrl, mapUrl, SKILL_ICONS } from "@/lib/assets";
 import TideGauge from "./TideGauge";
 
 type WeatherMap = Record<string, WeatherTypeInfo>;
+
+/** フィッシングスキル/アクションのゲームアイコン */
+function SkillIcon({ code, label }: { code: string; label: string }) {
+  return (
+    <img
+      src={iconUrl(code)}
+      alt={label}
+      title={label}
+      width={20}
+      height={20}
+      className="inline-block rounded-sm align-middle"
+    />
+  );
+}
+
+const HOOKSET_SKILL: Record<string, { code: string; label: string }> = {
+  Powerful: SKILL_ICONS.powerfulHookset,
+  Precision: SKILL_ICONS.precisionHookset,
+};
 
 function weatherNames(ids: number[], weatherTypes: WeatherMap): string {
   return ids.map((id) => weatherTypes[id]?.ja ?? `#${id}`).join("/");
@@ -252,9 +271,15 @@ function DetailPanel({
             {nushi.baitPath.map((b, i) => (
               <span key={i} className="inline-flex items-center gap-1.5">
                 <ItemChip item={b} />
-                <span className="text-moonlight-faint">
-                  {i < nushi.baitPath.length - 1 ? "→ 泳がせ →" : "→"}
-                </span>
+                {i < nushi.baitPath.length - 1 ? (
+                  <span className="inline-flex items-center gap-0.5 text-moonlight-faint">
+                    →
+                    <SkillIcon {...SKILL_ICONS.mooch} />
+                    泳がせ →
+                  </span>
+                ) : (
+                  <span className="text-moonlight-faint">→</span>
+                )}
               </span>
             ))}
             <span className="font-display text-hookgold">{nushi.nameJa}</span>
@@ -264,6 +289,7 @@ function DetailPanel({
         {nushi.predators.length > 0 && (
           <div>
             <div className="mb-1.5 text-xs text-moonlight-faint">
+              <SkillIcon {...SKILL_ICONS.intuition} />{" "}
               漁師の直感 — 先に以下を釣る
               {nushi.intuitionLength && (
                 <span className="ml-1 text-moonlight-dim">
@@ -311,15 +337,20 @@ function DetailPanel({
             <span className="font-mono text-moonlight">{TUG_LABEL[nushi.tug] ?? nushi.tug}</span>
           </span>
           {nushi.hookset && (
-            <span>
-              <span className="mr-2 text-xs text-moonlight-faint">フッキング</span>
+            <span className="inline-flex items-center gap-1.5">
+              <span className="text-xs text-moonlight-faint">フッキング</span>
+              {HOOKSET_SKILL[nushi.hookset] && (
+                <SkillIcon {...HOOKSET_SKILL[nushi.hookset]} />
+              )}
               <span className="text-moonlight">
                 {HOOKSET_LABEL[nushi.hookset] ?? nushi.hookset}
               </span>
             </span>
           )}
           {nushi.fishEyes && (
-            <span className="text-moonlight-dim">要フィッシュアイ</span>
+            <span className="inline-flex items-center gap-1 text-moonlight-dim">
+              <SkillIcon {...SKILL_ICONS.fishEyes} />要フィッシュアイ
+            </span>
           )}
         </div>
         {nushi.folkloreNameJa && (
