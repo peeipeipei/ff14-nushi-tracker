@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import nushiData from "@/data/nushi_data.json";
 import type { Nushi } from "@/lib/types";
-import { iconUrl, lodestoneUrl } from "@/lib/assets";
+import { iconUrl, lodestoneUrl, spotUrl } from "@/lib/assets";
 import { useCaught } from "@/lib/useCaught";
 
 const allNushi = nushiData as unknown as Nushi[];
@@ -206,7 +206,17 @@ export default function ListPage() {
                           )}
                         </div>
                         <div className="truncate text-xs text-moonlight-faint">
-                          {n.spotNameJa ?? n.spotName ?? "—"} ・ {n.patch}
+                          {n.spotId !== null ? (
+                            <Link
+                              href={spotUrl(n.spotId)}
+                              className="underline decoration-dotted underline-offset-2 hover:text-hookgold-bright"
+                            >
+                              {n.spotNameJa ?? n.spotName ?? "—"}
+                            </Link>
+                          ) : (
+                            (n.spotNameJa ?? n.spotName ?? "—")
+                          )}{" "}
+                          ・ {n.patch}
                         </div>
                       </div>
                     </li>

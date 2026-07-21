@@ -16,6 +16,11 @@ export function lodestoneUrl(lodestoneId: string): string {
   return `https://jp.finalfantasyxiv.com/lodestone/playguide/db/item/${lodestoneId}/`;
 }
 
+/** 釣り場ページ */
+export function spotUrl(spotId: number): string {
+  return `/spot?id=${spotId}`;
+}
+
 /** フィッシング関連スキル/アクションのゲームアイコン (icon コードと名称) */
 export const SKILL_ICONS = {
   powerfulHookset: { code: "001115", label: "ストロングフッキング" },

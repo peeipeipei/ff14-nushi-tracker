@@ -60,12 +60,18 @@ function activeHourSegments(
 
 const MAX_WINDOWS = 3000; // 約48日ぶん先まで探索
 
+/** 窓計算に必要な条件だけを抜き出した型 (Nushi も予測魚も渡せる) */
+export type WindowSpec = Pick<
+  Nushi,
+  "startHour" | "endHour" | "weatherSet" | "previousWeatherSet"
+>;
+
 /**
  * fromMs 以降で最初に釣獲条件 (時間帯 + 天候 + 直前天候) を満たす窓を返す。
  * 見つからなければ null。
  */
 export function findNextMatchingWeatherWindow(
-  fish: Nushi,
+  fish: WindowSpec,
   rate: WeatherRate | null,
   fromMs: number
 ): UpcomingWindow | null {

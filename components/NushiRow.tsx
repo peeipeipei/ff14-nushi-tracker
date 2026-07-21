@@ -7,8 +7,27 @@ import type {
   UpcomingWindow,
   WeatherTypeInfo,
 } from "@/lib/types";
-import { iconUrl, lodestoneUrl, mapUrl, SKILL_ICONS } from "@/lib/assets";
+import Link from "next/link";
+import { iconUrl, lodestoneUrl, mapUrl, SKILL_ICONS, spotUrl } from "@/lib/assets";
+import { nextWindow, windowStatus } from "@/lib/windowInfo";
 import TideGauge from "./TideGauge";
+
+/** 釣り場名。クリックで釣り場ページへ (行の展開はしない) */
+function SpotLink({ nushi, className }: { nushi: Nushi; className?: string }) {
+  const name = nushi.spotNameJa ?? nushi.spotName ?? "—";
+  if (nushi.spotId === null) {
+    return <span className={className}>{name}</span>;
+  }
+  return (
+    <Link
+      href={spotUrl(nushi.spotId)}
+      onClick={(e) => e.stopPropagation()}
+      className={`${className ?? ""} underline decoration-dotted underline-offset-2 hover:text-hookgold-bright`}
+    >
+      {name}
+    </Link>
+  );
+}
 
 type WeatherMap = Record<string, WeatherTypeInfo>;
 
@@ -83,16 +102,24 @@ function PredatorItem({
   predator,
   weatherTypes,
   checked,
+  nowMs,
   onToggle,
   onJump,
 }: {
   predator: Predator;
   weatherTypes: WeatherMap;
   checked: boolean;
+  nowMs: number;
   onToggle: () => void;
   onJump?: () => void;
 }) {
   const c = predator.conditions;
+  // 時間帯/天候の制約がある予測魚は「いつ釣れるか」を計算して表示
+  const restricted =
+    c && !(c.startHour === 0 && c.endHour === 24 && c.weatherSet.length === 0 &&
+      c.previousWeatherSet.length === 0);
+  const win = restricted ? nextWindow(c!, c!.territoryId, nowMs) : null;
+  const status = win && !win.isAlways ? windowStatus(win, nowMs) : null;
   return (
     <div
       className={`flex items-start gap-2 rounded-lg border border-abyss-700 bg-abyss-800/50 px-2.5 py-2 ${
@@ -111,6 +138,11 @@ function PredatorItem({
         <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
           <ItemChip item={predator} />
           <span className="font-mono text-xs text-hookgold-bright">×{predator.count}</span>
+          {status && (
+            <span className={`text-[11px] tabular-nums ${status.className}`}>
+              {status.label}
+            </span>
+          )}
           {c?.bigFish && (
             <button
               onClick={(e) => {
@@ -235,10 +267,19 @@ function MiniMap({ nushi }: { nushi: Nushi }) {
         <div className="text-moonlight">
           {nushi.zoneNameJa ?? nushi.zoneName}
         </div>
-        <div className="text-moonlight-dim">{nushi.spotNameJa ?? nushi.spotName}</div>
+        <SpotLink nushi={nushi} className="text-moonlight-dim" />
         <div className="mt-1 font-mono text-hookgold-bright">
           X: {x.toFixed(1)} , Y: {y.toFixed(1)}
         </div>
+        {nushi.spotId !== null && (
+          <Link
+            href={spotUrl(nushi.spotId)}
+            onClick={(e) => e.stopPropagation()}
+            className="mt-1 inline-block rounded border border-hookgold-deep px-1.5 py-0.5 text-[11px] text-hookgold hover:bg-abyss-700"
+          >
+            この釣り場のヌシ →
+          </Link>
+        )}
       </div>
     </div>
   );
@@ -247,6 +288,7 @@ function MiniMap({ nushi }: { nushi: Nushi }) {
 function DetailPanel({
   nushi,
   weatherTypes,
+  nowMs,
   caught,
   prep,
   onTogglePrep,
@@ -255,6 +297,7 @@ function DetailPanel({
 }: {
   nushi: Nushi;
   weatherTypes: WeatherMap;
+  nowMs: number;
   caught: Set<number>;
   prep: Set<number>;
   onTogglePrep: (id: number) => void;
@@ -314,6 +357,7 @@ function DetailPanel({
                     predator={p}
                     weatherTypes={weatherTypes}
                     checked={checked}
+                    nowMs={nowMs}
                     onToggle={() => {
                       if (p.id === null) return;
                       if (isNushiPred) onToggleCaughtId(p.id);
@@ -518,7 +562,7 @@ export default function NushiRow({
           </div>
           {/* モバイルでは場所列が消えるため名前の下に出す */}
           <div className="text-xs text-moonlight-dim sm:hidden">
-            {nushi.spotNameJa ?? nushi.spotName ?? "—"}
+            <SpotLink nushi={nushi} />
             {nushi.zoneNameJa && (
               <span className="text-moonlight-faint"> ・ {nushi.zoneNameJa}</span>
             )}
@@ -527,7 +571,7 @@ export default function NushiRow({
 
         {/* 場所 */}
         <div className="hidden text-sm sm:block">
-          <div className="text-moonlight">{nushi.spotNameJa ?? nushi.spotName ?? "—"}</div>
+          <SpotLink nushi={nushi} className="text-moonlight" />
           <div className="text-xs text-moonlight-faint">
             {nushi.zoneNameJa ?? nushi.zoneName ?? ""}
           </div>
@@ -565,6 +609,7 @@ export default function NushiRow({
         <DetailPanel
           nushi={nushi}
           weatherTypes={weatherTypes}
+          nowMs={nowMs}
           caught={caught}
           prep={prep}
           onTogglePrep={onTogglePrep}

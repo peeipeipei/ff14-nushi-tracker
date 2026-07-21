@@ -48,6 +48,75 @@ def load_repo_data():
     text = re.sub(r"^(\s+)([A-Z_]+):", r'\1"\2":', text, flags=re.M)
     return json.loads(text)
 
+# --- 出現率 (uptime%) の計算: FF14 の天候アルゴリズムを移植してサンプリング ---
+FORECAST_WINDOWS = 12960  # 天候窓 (ET8時間) を約300実日ぶんサンプリング
+
+def forecast_target(unix_seconds):
+    """FF14 の天候抽選値 (0-99)。lib/weather.ts と同一計算"""
+    bell = unix_seconds / 175
+    inc = int((bell + 8 - (bell % 8)) % 24)
+    total_days = unix_seconds // 4200
+    calc_base = (total_days * 100 + inc) & 0xFFFFFFFF
+    step1 = ((calc_base << 11) ^ calc_base) & 0xFFFFFFFF
+    step2 = ((step1 >> 8) ^ step1) & 0xFFFFFFFF
+    return step2 % 100
+
+def weather_at(rate_rows, target):
+    for wid, cum in rate_rows:
+        if target < cum:
+            return wid
+    return rate_rows[-1][0]
+
+def build_weather_seq(rate_rows, n):
+    return [weather_at(rate_rows, forecast_target(i * 1400)) for i in range(n)]
+
+def _overlap_hours(start, end, h0):
+    ranges = [(start, end)] if start < end else [(start, 24), (0, end)]
+    total = 0.0
+    for a, b in ranges:
+        lo, hi = max(a, h0), min(b, h0 + 8)
+        if lo < hi:
+            total += hi - lo
+    return total
+
+def compute_uptime(start, end, wset, pwset, seq):
+    """時間帯 + 天候 + 直前天候の条件を満たす実時間の割合 (%)"""
+    ws, pws = set(wset), set(pwset)
+    n = len(seq)
+    avail = 0.0
+    for i in range(n):
+        if ws and seq[i] not in ws:
+            continue
+        if pws and (i == 0 or seq[i - 1] not in pws):
+            continue
+        avail += _overlap_hours(start, end, (i * 8) % 24)
+    return round(avail / (n * 8) * 100, 1)
+
+def add_uptime(nushi_list, weather_rates):
+    # 天候シーケンスは territory 単位で 1 度だけ構築してキャッシュ
+    seq_cache = {}
+    for f in nushi_list:
+        tid = f["territoryId"]
+        no_time = f["startHour"] == 0 and f["endHour"] == 24
+        no_weather = not f["weatherSet"] and not f["previousWeatherSet"]
+        if no_time and no_weather:
+            f["uptime"] = 100.0
+            continue
+        if no_weather:  # 時間帯のみ: 天候計算不要
+            f["uptime"] = compute_uptime(
+                f["startHour"], f["endHour"], [], [], [0] * FORECAST_WINDOWS)
+            continue
+        wr = weather_rates.get(str(tid)) if tid else None
+        if not wr:
+            f["uptime"] = None
+            continue
+        if tid not in seq_cache:
+            seq_cache[tid] = build_weather_seq(wr["weather_rates"], FORECAST_WINDOWS)
+        f["uptime"] = compute_uptime(
+            f["startHour"], f["endHour"],
+            f["weatherSet"], f["previousWeatherSet"], seq_cache[tid])
+
+
 def main():
     fish_yaml = yaml.safe_load((HERE / "fishData.yaml").read_text(encoding="utf-8"))
     data = load_repo_data()
@@ -161,6 +230,7 @@ def main():
             if not pf:
                 return None
             pspot = spots.get(str(pf.get("location"))) if pf.get("location") else None
+            pterr = pspot["territory_id"] if pspot else None
             return {
                 "bait": [item_ref(b) for b in (pf.get("bestCatchPath") or [])],
                 "startHour": pf.get("startHour", 0),
@@ -168,6 +238,7 @@ def main():
                 "weatherSet": pf.get("weatherSet") or [],
                 "previousWeatherSet": pf.get("previousWeatherSet") or [],
                 "spotNameJa": pspot["name_ja"] if pspot else None,
+                "territoryId": pterr,
                 "bigFish": bool(pf.get("bigFish")),
             }
 
@@ -232,6 +303,8 @@ def main():
             "intuition": bool(entry.get("predators")),
             "patch": entry.get("patch"),
         })
+
+    add_uptime(nushi, weather_rates)
 
     (HERE / "nushi_data.json").write_text(
         json.dumps(nushi, ensure_ascii=False, indent=1), encoding="utf-8")

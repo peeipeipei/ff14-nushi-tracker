@@ -16,6 +16,8 @@ export interface PredatorConditions {
   weatherSet: number[];
   previousWeatherSet: number[];
   spotNameJa: string | null;
+  /** 天候計算に使う TerritoryType ID */
+  territoryId: number | null;
   /** この予測魚自体がヌシ (トラッカー掲載) か */
   bigFish: boolean;
 }
@@ -72,6 +74,8 @@ export interface Nushi {
   fishEyes: boolean;
   intuition: boolean;
   patch: number | string;
+  /** 出現率 (%): 時間帯・天候条件を満たす実時間の割合。天候計算不可なら null */
+  uptime: number | null;
 }
 
 /** ゾーン(TerritoryType)ごとの天候抽選テーブル。[weatherTypeId, 累積確率(〜100)] の列 */
