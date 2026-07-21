@@ -266,20 +266,25 @@ function DetailPanel({
       <MiniMap nushi={nushi} />
       <div className="space-y-3 text-sm">
         {nushi.baitPath.length > 0 && (
-          <div className="flex flex-wrap items-center gap-1.5">
+          <div className="flex flex-wrap items-center gap-x-1.5 gap-y-1">
             <span className="mr-1 text-xs text-moonlight-faint">釣り方</span>
             {nushi.baitPath.map((b, i) => (
-              <span key={i} className="inline-flex items-center gap-1.5">
-                <ItemChip item={b} />
-                {i < nushi.baitPath.length - 1 ? (
-                  <span className="inline-flex items-center gap-0.5 text-moonlight-faint">
-                    →
-                    <SkillIcon {...SKILL_ICONS.mooch} />
-                    泳がせ →
-                  </span>
-                ) : (
-                  <span className="text-moonlight-faint">→</span>
-                )}
+              <span key={i} className="inline-flex items-center gap-1">
+                <span className="inline-flex items-center gap-1">
+                  {i === 0 && (
+                    <span className="rounded bg-abyss-700 px-1 text-[10px] text-moonlight-dim">
+                      餌
+                    </span>
+                  )}
+                  <ItemChip item={b} />
+                  {/* 先頭は餌、2番目以降は「泳がせ」で使う魚 */}
+                  {i >= 1 && (
+                    <span className="inline-flex items-center gap-0.5 text-[11px] text-moonlight-dim">
+                      （<SkillIcon {...SKILL_ICONS.mooch} />泳がせ）
+                    </span>
+                  )}
+                </span>
+                <span className="text-moonlight-faint">→</span>
               </span>
             ))}
             <span className="font-display text-hookgold">{nushi.nameJa}</span>
