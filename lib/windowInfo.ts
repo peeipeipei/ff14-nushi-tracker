@@ -19,10 +19,12 @@ export function nextWindow(
   return findNextMatchingWeatherWindow(spec, rateFor(territoryId), fromMs);
 }
 
-/** 残り/待機時間を「1日2時間」「3時間5分」「12分」形式に */
+/** 残り/待機時間を「1日2時間」「3時間5分」「12分」、1分未満は「45秒」形式に */
 export function formatCountdown(ms: number): string {
-  if (ms <= 0) return "0分";
-  const totalMin = Math.floor(ms / 60000);
+  if (ms <= 0) return "0秒";
+  const totalSec = Math.floor(ms / 1000);
+  if (totalSec < 60) return `${totalSec}秒`;
+  const totalMin = Math.floor(totalSec / 60);
   const d = Math.floor(totalMin / 1440);
   const h = Math.floor((totalMin % 1440) / 60);
   const m = totalMin % 60;
@@ -40,7 +42,7 @@ export function windowStatus(
   if (win.isAlways) return { label: "常時", className: "text-tide-active" };
   if (win.isActiveNow) {
     return {
-      label: `開催中 残り${formatCountdown(win.endMs - nowMs)}`,
+      label: `出現中 残り${formatCountdown(win.endMs - nowMs)}`,
       className: "text-tide-active font-bold",
     };
   }

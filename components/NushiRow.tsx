@@ -7,10 +7,40 @@ import type {
   UpcomingWindow,
   WeatherTypeInfo,
 } from "@/lib/types";
+import { useMemo } from "react";
 import Link from "next/link";
 import { iconUrl, lodestoneUrl, mapUrl, SKILL_ICONS, spotUrl } from "@/lib/assets";
-import { nextWindow, windowStatus } from "@/lib/windowInfo";
+import { formatCountdown, nextWindow, windowStatus } from "@/lib/windowInfo";
 import TideGauge from "./TideGauge";
+
+/** 天候をゲーム内アイコンで表示 */
+function WeatherIcons({
+  ids,
+  weatherTypes,
+}: {
+  ids: number[];
+  weatherTypes: Record<string, WeatherTypeInfo>;
+}) {
+  return (
+    <span className="inline-flex items-center gap-0.5 align-middle">
+      {ids.map((id) => {
+        const w = weatherTypes[id];
+        if (!w) return <span key={id}>#{id}</span>;
+        return (
+          <img
+            key={id}
+            src={iconUrl(w.icon)}
+            alt={w.ja}
+            title={w.ja}
+            width={20}
+            height={20}
+            className="inline-block"
+          />
+        );
+      })}
+    </span>
+  );
+}
 
 /** 釣り場名。クリックで釣り場ページへ (行の展開はしない) */
 function SpotLink({ nushi, className }: { nushi: Nushi; className?: string }) {
@@ -173,17 +203,6 @@ function PredatorItem({
       </div>
     </div>
   );
-}
-
-function formatCountdown(ms: number): string {
-  if (ms <= 0) return "0分";
-  const totalMin = Math.floor(ms / 60000);
-  const d = Math.floor(totalMin / 1440);
-  const h = Math.floor((totalMin % 1440) / 60);
-  const m = totalMin % 60;
-  if (d > 0) return `${d}日${h}時間`;
-  if (h > 0) return `${h}時間${m}分`;
-  return `${m}分`;
 }
 
 function formatEtHour(hour: number): string {
@@ -442,36 +461,17 @@ export default function NushiRow({
   expanded: boolean;
   onToggleExpand: () => void;
 }) {
-  const weatherLabel =
-    nushi.weatherSet.length > 0
-      ? nushi.weatherSet.map((id) => weatherTypes[id]?.ja ?? `#${id}`).join("/")
-      : null;
-  const prevWeatherLabel =
-    nushi.previousWeatherSet.length > 0
-      ? nushi.previousWeatherSet
-          .map((id) => weatherTypes[id]?.ja ?? `#${id}`)
-          .join("/")
-      : null;
+  const hasWeather =
+    nushi.weatherSet.length > 0 || nushi.previousWeatherSet.length > 0;
 
-  let status: { label: string; className: string };
-  if (!win) {
-    status = { label: "窓なし(48日以内)", className: "text-moonlight-faint" };
-  } else if (win.isAlways) {
-    status = { label: "常時", className: "text-tide-active" };
-  } else if (win.isActiveNow) {
-    status = {
-      label: `開催中 残り${formatCountdown(win.endMs - nowMs)}`,
-      className: "text-tide-active font-bold",
-    };
-  } else {
-    status = {
-      label: `あと${formatCountdown(win.startMs - nowMs)}`,
-      className:
-        win.startMs - nowMs < 3600 * 1000
-          ? "text-hookgold-bright font-bold"
-          : "text-moonlight",
-    };
-  }
+  const status = windowStatus(win, nowMs);
+
+  // 出現中の魚は「この窓が閉じた後、次にいつ出るか」を計算 (30秒粒度でメモ化)
+  const activeNext = useMemo(() => {
+    if (!win?.isActiveNow || win.isAlways) return null;
+    return nextWindow(nushi, nushi.territoryId, win.endMs + 1000);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [win?.endMs, win?.isActiveNow, win?.isAlways, nushi.id]);
 
   const startDate = win && !win.isAlways ? new Date(win.startMs) : null;
 
@@ -479,9 +479,11 @@ export default function NushiRow({
     <div>
       <div
         onClick={onToggleExpand}
-        className={`grid cursor-pointer grid-cols-[auto_auto_1fr_auto] items-center gap-x-3 border-b border-abyss-700/60 px-4 py-3 transition-colors hover:bg-abyss-800/60 sm:grid-cols-[auto_auto_minmax(150px,1.2fr)_minmax(140px,1fr)_minmax(150px,1fr)_minmax(120px,0.9fr)] ${
-          expanded ? "bg-abyss-800/50" : ""
-        } ${isCaught ? "opacity-60" : ""}`}
+        className={`grid cursor-pointer grid-cols-[auto_auto_1fr_auto] items-center gap-x-3 border-b border-abyss-700/60 px-4 py-3 transition-colors sm:grid-cols-[auto_auto_minmax(150px,1.2fr)_minmax(140px,1fr)_minmax(150px,1fr)_minmax(120px,0.9fr)] ${
+          win?.isActiveNow
+            ? "bg-tide-active/[0.08] hover:bg-tide-active/[0.14]"
+            : "hover:bg-abyss-800/60"
+        } ${expanded ? "bg-abyss-800/50" : ""} ${isCaught ? "opacity-60" : ""}`}
       >
         {/* 釣獲チェック */}
         <label
@@ -572,29 +574,50 @@ export default function NushiRow({
           </div>
         </div>
 
-        {/* 条件 */}
+        {/* 条件 (時間帯 + 天候アイコン) */}
         <div className="hidden text-xs sm:block">
           <div className="text-moonlight-dim">
             {formatHourRange(nushi.startHour, nushi.endHour)}
           </div>
-          <div className="text-moonlight-dim">
-            {prevWeatherLabel && (
-              <span className="text-moonlight-faint">{prevWeatherLabel} → </span>
+          <div className="mt-0.5 flex items-center gap-1 text-moonlight-dim">
+            {nushi.previousWeatherSet.length > 0 && (
+              <>
+                <WeatherIcons
+                  ids={nushi.previousWeatherSet}
+                  weatherTypes={weatherTypes}
+                />
+                <span className="text-moonlight-faint">→</span>
+              </>
             )}
-            {weatherLabel ?? (prevWeatherLabel ? "" : "天候不問")}
+            {nushi.weatherSet.length > 0 ? (
+              <WeatherIcons ids={nushi.weatherSet} weatherTypes={weatherTypes} />
+            ) : (
+              !hasWeather && <span className="text-moonlight-faint">天候不問</span>
+            )}
           </div>
         </div>
 
         {/* 次の窓 */}
         <div className="text-right">
           <div className={`text-sm tabular-nums ${status.className}`}>{status.label}</div>
-          {startDate && !win?.isActiveNow && (
-            <div className="text-[11px] text-moonlight-faint tabular-nums">
-              {startDate.getMonth() + 1}/{startDate.getDate()}{" "}
-              {String(startDate.getHours()).padStart(2, "0")}:
-              {String(startDate.getMinutes()).padStart(2, "0")}〜
-            </div>
-          )}
+          <div className="text-[11px] text-moonlight-faint tabular-nums">
+            {nushi.uptime !== null && <span>出現率 {nushi.uptime}%</span>}
+            {/* 出現中: 次に出る時刻。待機中: 出現日時 */}
+            {activeNext && !activeNext.isAlways && (
+              <span>
+                {nushi.uptime !== null && " ・ "}
+                次 {formatCountdown(activeNext.startMs - nowMs)}後
+              </span>
+            )}
+            {startDate && !win?.isActiveNow && (
+              <span>
+                {nushi.uptime !== null && " ・ "}
+                {startDate.getMonth() + 1}/{startDate.getDate()}{" "}
+                {String(startDate.getHours()).padStart(2, "0")}:
+                {String(startDate.getMinutes()).padStart(2, "0")}〜
+              </span>
+            )}
+          </div>
           <div className="mt-1.5">
             <TideGauge window={win} nowMs={nowMs} />
           </div>

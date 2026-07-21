@@ -71,7 +71,7 @@ function formatCountdown(ms: number): string {
 function windowStatus(win: UpcomingWindow | null, nowMs: number): string {
   if (!win) return "窓なし(48日以内)";
   if (win.isAlways) return "常時釣獲可";
-  if (win.isActiveNow) return `開催中 残り${formatCountdown(win.endMs - nowMs)}`;
+  if (win.isActiveNow) return `出現中 残り${formatCountdown(win.endMs - nowMs)}`;
   return `あと${formatCountdown(win.startMs - nowMs)}`;
 }
 

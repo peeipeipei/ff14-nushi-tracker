@@ -302,7 +302,7 @@ export default function Home() {
           {(
             [
               ["all", "すべて"],
-              ["active", "開催中"],
+              ["active", "出現中"],
               ["timed", "時限のみ"],
               ["always", "常時"],
             ] as const
