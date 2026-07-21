@@ -546,11 +546,6 @@ export default function NushiRow({
                 </span>
               )
             )}
-            {nushi.folkloreNameJa && (
-              <span className="ml-1 rounded border border-moonlight-faint px-1 text-[10px] text-moonlight-dim align-middle">
-                伝承
-              </span>
-            )}
             {nushi.predators.length > 0 && (
               <span className="ml-1 rounded border border-moonlight-faint px-1 text-[10px] text-moonlight-dim align-middle">
                 直感
