@@ -348,7 +348,7 @@ function SpotContent() {
                         {tug.mark}
                       </span>
                     )}
-                    <span className={`w-24 shrink-0 text-right text-xs tabular-nums ${st.className}`}>
+                    <span className={`w-28 shrink-0 text-right text-xs tabular-nums ${st.className}`}>
                       {st.label}
                     </span>
                   </div>

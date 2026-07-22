@@ -33,6 +33,29 @@ export function formatCountdown(ms: number): string {
   return `${m}分`;
 }
 
+/** 同じ暦日か */
+function isSameDate(a: number, b: number): boolean {
+  const da = new Date(a);
+  const db = new Date(b);
+  return (
+    da.getFullYear() === db.getFullYear() &&
+    da.getMonth() === db.getMonth() &&
+    da.getDate() === db.getDate()
+  );
+}
+
+/** 「M月D日 HH:MM」形式 (ローカル時刻) */
+export function formatDateTime(ms: number): string {
+  const d = new Date(ms);
+  return `${d.getMonth() + 1}月${d.getDate()}日 ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+}
+
+/** 「HH:MM」形式 (ローカル時刻) */
+export function formatClock(ms: number): string {
+  const d = new Date(ms);
+  return `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
+}
+
 /** 窓の状態ラベルと色クラス */
 export function windowStatus(
   win: UpcomingWindow | null,
@@ -46,11 +69,12 @@ export function windowStatus(
       className: "text-tide-active font-bold",
     };
   }
-  return {
-    label: `あと${formatCountdown(win.startMs - nowMs)}`,
-    className:
-      win.startMs - nowMs < 3600 * 1000
-        ? "text-hookgold-bright font-bold"
-        : "text-moonlight",
-  };
+  const until = win.startMs - nowMs;
+  const className =
+    until < 3600 * 1000 ? "text-hookgold-bright font-bold" : "text-moonlight";
+  // 出現が日付をまたぐ場合は相対時間でなく絶対日時を表示
+  if (!isSameDate(win.startMs, nowMs)) {
+    return { label: formatDateTime(win.startMs), className };
+  }
+  return { label: `あと${formatCountdown(until)}`, className };
 }

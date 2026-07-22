@@ -7,6 +7,7 @@ import weatherData from "@/data/weather_rates.json";
 import achievementsData from "@/data/achievements_data.json";
 import type { Achievement, Nushi, UpcomingWindow, WeatherRate } from "@/lib/types";
 import { findNextMatchingWeatherWindow } from "@/lib/weather";
+import { formatCountdown, formatDateTime } from "@/lib/windowInfo";
 import { useCaught } from "@/lib/useCaught";
 import EorzeaClock from "@/components/EorzeaClock";
 
@@ -57,21 +58,16 @@ function requiredCount(a: Achievement): number {
   return m ? parseInt(m[1], 10) : 1;
 }
 
-function formatCountdown(ms: number): string {
-  if (ms <= 0) return "0分";
-  const totalMin = Math.floor(ms / 60000);
-  const d = Math.floor(totalMin / 1440);
-  const h = Math.floor((totalMin % 1440) / 60);
-  const m = totalMin % 60;
-  if (d > 0) return `${d}日${h}時間`;
-  if (h > 0) return `${h}時間${m}分`;
-  return `${m}分`;
+function sameDate(a: number, b: number): boolean {
+  return new Date(a).toDateString() === new Date(b).toDateString();
 }
 
 function windowStatus(win: UpcomingWindow | null, nowMs: number): string {
   if (!win) return "窓なし(48日以内)";
   if (win.isAlways) return "常時釣獲可";
   if (win.isActiveNow) return `出現中 残り${formatCountdown(win.endMs - nowMs)}`;
+  // 出現が日付をまたぐ場合は絶対日時
+  if (!sameDate(win.startMs, nowMs)) return formatDateTime(win.startMs);
   return `あと${formatCountdown(win.startMs - nowMs)}`;
 }
 

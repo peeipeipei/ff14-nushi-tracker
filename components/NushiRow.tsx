@@ -601,17 +601,19 @@ export default function NushiRow({
         <div className="text-right">
           <div className={`text-sm tabular-nums ${status.className}`}>{status.label}</div>
           <div className="text-[11px] text-moonlight-faint tabular-nums">
-            {/* 出現中: 次に出る時刻。待機中: 出現日時 */}
+            {/* 出現中は次に出る時刻。待機中で同日なら時刻のみ補足
+                (日付をまたぐ場合はメインラベルが絶対日時なので補足なし) */}
             {activeNext && !activeNext.isAlways && (
               <span>次 {formatCountdown(activeNext.startMs - nowMs)}後</span>
             )}
-            {startDate && !win?.isActiveNow && (
-              <span>
-                {startDate.getMonth() + 1}/{startDate.getDate()}{" "}
-                {String(startDate.getHours()).padStart(2, "0")}:
-                {String(startDate.getMinutes()).padStart(2, "0")}〜
-              </span>
-            )}
+            {startDate &&
+              !win?.isActiveNow &&
+              startDate.toDateString() === new Date(nowMs).toDateString() && (
+                <span>
+                  {String(startDate.getHours()).padStart(2, "0")}:
+                  {String(startDate.getMinutes()).padStart(2, "0")}〜
+                </span>
+              )}
           </div>
           <div className="mt-1.5">
             <TideGauge window={win} nowMs={nowMs} />
