@@ -444,6 +444,8 @@ export default function NushiRow({
   onTogglePrep,
   onToggleCaughtId,
   onJumpTo,
+  isPinned,
+  onTogglePin,
   expanded,
   onToggleExpand,
 }: {
@@ -458,6 +460,8 @@ export default function NushiRow({
   onTogglePrep: (id: number) => void;
   onToggleCaughtId: (id: number) => void;
   onJumpTo?: (id: number) => void;
+  isPinned: boolean;
+  onTogglePin: () => void;
   expanded: boolean;
   onToggleExpand: () => void;
 }) {
@@ -475,16 +479,43 @@ export default function NushiRow({
 
   const startDate = win && !win.isAlways ? new Date(win.startMs) : null;
 
+  // 状態で背景を明確に分ける (出現中=緑+左バー / 待機=中間 / 常時=薄緑)
+  const active = win?.isActiveNow && !win.isAlways;
+  let rowBg: string;
+  if (active) {
+    rowBg =
+      "bg-tide-active/[0.16] hover:bg-tide-active/[0.24] shadow-[inset_3px_0_0_#3FBF8F]";
+  } else if (win?.isAlways) {
+    rowBg = "bg-tide-active/[0.05] hover:bg-abyss-800/70";
+  } else {
+    rowBg = "bg-abyss-800/40 hover:bg-abyss-700/50";
+  }
+
   return (
     <div>
       <div
         onClick={onToggleExpand}
-        className={`grid cursor-pointer grid-cols-[auto_auto_1fr_auto] items-center gap-x-3 border-b border-abyss-700/60 px-4 py-3 transition-colors sm:grid-cols-[auto_auto_minmax(150px,1.2fr)_minmax(140px,1fr)_minmax(150px,1fr)_minmax(120px,0.9fr)] ${
-          win?.isActiveNow
-            ? "bg-tide-active/[0.08] hover:bg-tide-active/[0.14]"
-            : "hover:bg-abyss-800/60"
-        } ${expanded ? "bg-abyss-800/50" : ""} ${isCaught ? "opacity-60" : ""}`}
+        className={`grid cursor-pointer grid-cols-[auto_auto_auto_1fr_auto] items-center gap-x-2.5 border-b border-abyss-700/60 px-3 py-3 transition-colors sm:grid-cols-[auto_auto_auto_minmax(140px,1.2fr)_minmax(140px,1fr)_minmax(150px,1fr)_minmax(120px,0.9fr)] sm:px-4 sm:gap-x-3 ${rowBg} ${
+          expanded ? "ring-1 ring-inset ring-hookgold-deep/50" : ""
+        } ${isCaught ? "opacity-60" : ""}`}
       >
+        {/* ピン留め */}
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            onTogglePin();
+          }}
+          title={isPinned ? "ピン留めを外す" : "ピン留めして上部に固定"}
+          aria-label={isPinned ? "ピン留めを外す" : "ピン留め"}
+          className={`shrink-0 text-base leading-none transition-colors ${
+            isPinned
+              ? "text-hookgold-bright"
+              : "text-moonlight-faint hover:text-hookgold"
+          }`}
+        >
+          {isPinned ? "📌" : "📍"}
+        </button>
+
         {/* 釣獲チェック */}
         <label
           onClick={(e) => e.stopPropagation()}
@@ -552,6 +583,16 @@ export default function NushiRow({
               <span className="ml-1 rounded border border-moonlight-faint px-1 text-[10px] text-moonlight-dim align-middle">
                 直感
               </span>
+            )}
+            {nushi.fishEyes && (
+              <img
+                src={iconUrl(SKILL_ICONS.fishEyes.code)}
+                alt="要フィッシュアイ"
+                title="フィッシュアイ必須"
+                width={16}
+                height={16}
+                className="ml-1 inline-block align-middle"
+              />
             )}
           </div>
           <div className="text-xs text-moonlight-faint">

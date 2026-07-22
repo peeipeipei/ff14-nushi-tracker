@@ -51,3 +51,9 @@ export function usePrep() {
   const { set, toggle, loaded } = useCheckedSet("nushi-prep-v1");
   return { prep: set, togglePrep: toggle, prepLoaded: loaded };
 }
+
+/** ピン留め (常に一覧の最上部に固定表示したい魚) */
+export function usePinned() {
+  const { set, toggle, loaded } = useCheckedSet("nushi-pinned-v1");
+  return { pinned: set, togglePin: toggle, pinnedLoaded: loaded };
+}

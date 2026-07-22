@@ -6,7 +6,8 @@ import nushiData from "@/data/nushi_data.json";
 import weatherData from "@/data/weather_rates.json";
 import type { Nushi, UpcomingWindow, WeatherRate, WeatherTypeInfo } from "@/lib/types";
 import { findNextMatchingWeatherWindow } from "@/lib/weather";
-import { useCaught, usePrep } from "@/lib/useCaught";
+import { iconUrl, SKILL_ICONS } from "@/lib/assets";
+import { useCaught, usePrep, usePinned } from "@/lib/useCaught";
 import EorzeaClock from "@/components/EorzeaClock";
 import NushiRow from "@/components/NushiRow";
 
@@ -75,11 +76,13 @@ export default function Home() {
   const [uncaughtOnly, setUncaughtOnly] = useState(false);
   const [expFilters, setExpFilters] = useState<number[]>([]);
   const [typeFilter, setTypeFilter] = useState<TypeFilter>("all");
+  const [fishEyesOnly, setFishEyesOnly] = useState(false);
   const [sortMode, setSortMode] = useState<SortMode>("window");
   const [expandedId, setExpandedId] = useState<number | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false); // モバイルでのフィルタ開閉
   const { caught, toggle } = useCaught();
   const { prep, togglePrep } = usePrep();
+  const { pinned, togglePin } = usePinned();
 
   // 直感対象のヌシへジャンプ: 絞り込みで隠れないよう検索をクリアし、展開してスクロール
   const jumpTo = (id: number) => {
@@ -106,6 +109,7 @@ export default function Home() {
           setExpFilters(f.expFilters.filter((x: unknown) => typeof x === "number"));
         if (["all", "nushi", "oonushi"].includes(f.typeFilter))
           setTypeFilter(f.typeFilter);
+        if (typeof f.fishEyesOnly === "boolean") setFishEyesOnly(f.fishEyesOnly);
         if (["window", "patch", "name"].includes(f.sortMode))
           setSortMode(f.sortMode);
       }
@@ -123,13 +127,20 @@ export default function Home() {
     try {
       localStorage.setItem(
         FILTER_STORAGE_KEY,
-        JSON.stringify({ availFilter, uncaughtOnly, expFilters, typeFilter, sortMode })
+        JSON.stringify({
+          availFilter,
+          uncaughtOnly,
+          expFilters,
+          typeFilter,
+          fishEyesOnly,
+          sortMode,
+        })
       );
     } catch {
       // ストレージ不可でも動作は継続
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [availFilter, uncaughtOnly, expFilters, typeFilter, sortMode]);
+  }, [availFilter, uncaughtOnly, expFilters, typeFilter, fishEyesOnly, sortMode]);
 
   // 窓の再計算は30秒粒度 (計算自体は数十msなので体感遅延なし)
   const computeTick = nowMs === null ? null : Math.floor(nowMs / 30000);
@@ -148,8 +159,20 @@ export default function Home() {
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
+    const matchesQuery = (n: (typeof rows)[number]["nushi"]) =>
+      !q ||
+      n.name.toLowerCase().includes(q) ||
+      (n.nameJa ?? "").toLowerCase().includes(q) ||
+      (n.spotNameJa ?? "").toLowerCase().includes(q) ||
+      (n.zoneNameJa ?? "").toLowerCase().includes(q);
+
+    const isPinned = (n: (typeof rows)[number]["nushi"]) =>
+      n.id !== null && pinned.has(n.id);
+
     const filtered = rows.filter((r) => {
       const n = r.nushi;
+      // ピン留めした魚は絞り込みを無視して常に表示 (検索語だけは尊重)
+      if (isPinned(n)) return matchesQuery(n);
       // 常時 = 時間・天候の制約がなく常に釣れるもの (isAlways)
       // 開催中 = いま釣獲可能 (常時を含む) / 時限 = 常時を除いた条件付き
       if (availFilter === "active" && !(r.window?.isActiveNow ?? false)) return false;
@@ -160,37 +183,48 @@ export default function Home() {
         return false;
       if (typeFilter === "nushi" && !n.bigFish) return false;
       if (typeFilter === "oonushi" && !n.oonushi) return false;
-      if (!q) return true;
-      return (
-        n.name.toLowerCase().includes(q) ||
-        (n.nameJa ?? "").toLowerCase().includes(q) ||
-        (n.spotNameJa ?? "").toLowerCase().includes(q) ||
-        (n.zoneNameJa ?? "").toLowerCase().includes(q)
-      );
+      if (fishEyesOnly && !n.fishEyes) return false;
+      return matchesQuery(n);
     });
-    if (sortMode === "patch") {
-      return filtered.sort(
-        (a, b) =>
+
+    const t = (computeTick ?? 0) * 30000;
+    const bySort = (a: Row, b: Row): number => {
+      if (sortMode === "patch") {
+        return (
           parseFloat(String(a.nushi.patch)) - parseFloat(String(b.nushi.patch)) ||
           (a.nushi.nameJa ?? "").localeCompare(b.nushi.nameJa ?? "", "ja")
-      );
-    }
-    if (sortMode === "name") {
-      return filtered.sort((a, b) =>
-        (a.nushi.nameJa ?? a.nushi.name).localeCompare(
+        );
+      }
+      if (sortMode === "name") {
+        return (a.nushi.nameJa ?? a.nushi.name).localeCompare(
           b.nushi.nameJa ?? b.nushi.name,
           "ja"
-        )
-      );
-    }
-    return filtered.sort((a, b) => {
-      // 順序は30秒毎の窓再計算時のみ変わる。毎秒ソートすると DOM 移動が
-      // 画像のロードを中断し続けるため、tick 時刻で安定ソートする
-      const t = (computeTick ?? 0) * 30000;
+        );
+      }
+      // 窓が近い順 (安定化のため tick 時刻で計算)
       return sortKey(a, t) - sortKey(b, t);
+    };
+
+    // ピン留めを最優先で先頭に、その中と外はそれぞれ選択ソートで並べる
+    return filtered.sort((a, b) => {
+      const pa = isPinned(a.nushi) ? 0 : 1;
+      const pb = isPinned(b.nushi) ? 0 : 1;
+      return pa - pb || bySort(a, b);
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [rows, query, availFilter, uncaughtOnly, expFilters, typeFilter, sortMode, caught, computeTick]);
+  }, [
+    rows,
+    query,
+    availFilter,
+    uncaughtOnly,
+    expFilters,
+    typeFilter,
+    fishEyesOnly,
+    sortMode,
+    caught,
+    pinned,
+    computeTick,
+  ]);
 
   const activeCount = rows.filter((r) => r.window?.isActiveNow).length;
   const caughtBig = allNushi.filter(
@@ -274,6 +308,21 @@ export default function Home() {
               />
               未釣獲のみ
             </label>
+            <label className="flex cursor-pointer items-center gap-1.5 text-sm text-moonlight-dim">
+              <input
+                type="checkbox"
+                checked={fishEyesOnly}
+                onChange={(e) => setFishEyesOnly(e.target.checked)}
+                className="accent-hookgold"
+              />
+              <img
+                src={iconUrl(SKILL_ICONS.fishEyes.code)}
+                alt=""
+                width={18}
+                height={18}
+              />
+              フィッシュアイ
+            </label>
             <select
               value={sortMode}
               onChange={(e) => setSortMode(e.target.value as SortMode)}
@@ -354,7 +403,8 @@ export default function Home() {
       </div>
 
       <div className="overflow-hidden rounded-xl border border-abyss-700 bg-abyss-900/70 shadow-deep">
-        <div className="hidden grid-cols-[auto_auto_minmax(150px,1.2fr)_minmax(140px,1fr)_minmax(150px,1fr)_minmax(120px,0.9fr)] gap-x-3 border-b border-abyss-700 bg-abyss-800 px-4 py-2 text-[11px] uppercase tracking-wider text-moonlight-dim sm:grid">
+        <div className="hidden grid-cols-[auto_auto_auto_minmax(140px,1.2fr)_minmax(140px,1fr)_minmax(150px,1fr)_minmax(120px,0.9fr)] gap-x-3 border-b border-abyss-700 bg-abyss-800 px-4 py-2 text-[11px] uppercase tracking-wider text-moonlight-dim sm:grid">
+          <div className="w-5"></div>
           <div className="w-4">済</div>
           <div className="w-9"></div>
           <div>ヌシ</div>
@@ -376,6 +426,8 @@ export default function Home() {
               onTogglePrep={togglePrep}
               onToggleCaughtId={toggle}
               onJumpTo={jumpTo}
+              isPinned={r.nushi.id !== null && pinned.has(r.nushi.id)}
+              onTogglePin={() => r.nushi.id !== null && togglePin(r.nushi.id)}
               expanded={expandedId === r.nushi.id}
               onToggleExpand={() =>
                 setExpandedId(expandedId === r.nushi.id ? null : r.nushi.id)
