@@ -77,6 +77,7 @@ export default function Home() {
   const [typeFilter, setTypeFilter] = useState<TypeFilter>("all");
   const [sortMode, setSortMode] = useState<SortMode>("window");
   const [expandedId, setExpandedId] = useState<number | null>(null);
+  const [filtersOpen, setFiltersOpen] = useState(false); // モバイルでのフィルタ開閉
   const { caught, toggle } = useCaught();
   const { prep, togglePrep } = usePrep();
 
@@ -207,70 +208,86 @@ export default function Home() {
   }
 
   return (
-    <main className="mx-auto max-w-5xl px-4 py-8">
-      <header className="mb-6 flex flex-wrap items-end justify-between gap-4">
-        <div>
-          <h1 className="font-display text-3xl font-bold text-moonlight">
-FFXIV <span className="text-hookgold">太公望への道</span>
+    <main className="mx-auto max-w-5xl px-3 py-5 sm:px-4 sm:py-8">
+      <header className="mb-4 flex flex-wrap items-end justify-between gap-x-4 gap-y-3 sm:mb-6">
+        <div className="min-w-0">
+          <h1 className="font-display text-2xl font-bold text-moonlight sm:text-3xl">
+            FFXIV <span className="text-hookgold">太公望への道</span>
           </h1>
-          <p className="mt-1 text-sm text-moonlight-dim">
+          <p className="mt-1 text-xs text-moonlight-dim sm:text-sm">
             全{allNushi.length}種 ・ いま釣れる{" "}
             <span className="text-tide-active font-bold">{activeCount}</span> 種 ・
-            釣獲済みヌシ{" "}
+            釣獲済み{" "}
             <span className="text-hookgold-bright font-bold">
               {caughtBig}/{BIG_FISH_TOTAL}
             </span>
           </p>
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           <Link
             href="/list"
-            className="rounded-lg border border-hookgold-deep bg-abyss-800 px-4 py-2 text-sm text-hookgold transition-colors hover:bg-abyss-700 hover:text-hookgold-bright"
+            className="rounded-lg border border-hookgold-deep bg-abyss-800 px-2.5 py-2 text-sm text-hookgold transition-colors hover:bg-abyss-700 hover:text-hookgold-bright"
           >
-            📖 図鑑
+            📖<span className="hidden sm:inline"> 図鑑</span>
           </Link>
           <Link
             href="/achievements"
-            className="rounded-lg border border-hookgold-deep bg-abyss-800 px-4 py-2 text-sm text-hookgold transition-colors hover:bg-abyss-700 hover:text-hookgold-bright"
+            className="rounded-lg border border-hookgold-deep bg-abyss-800 px-2.5 py-2 text-sm text-hookgold transition-colors hover:bg-abyss-700 hover:text-hookgold-bright"
           >
-            🏆 アチーブメント
+            🏆<span className="hidden sm:inline"> アチーブメント</span>
           </Link>
           <EorzeaClock nowMs={nowMs} />
         </div>
       </header>
 
-      <div className="sticky top-0 z-10 -mx-4 mb-4 space-y-2.5 border-b border-abyss-700/60 bg-abyss/90 px-4 py-3 backdrop-blur">
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+      <div className="sticky top-0 z-10 -mx-3 mb-4 space-y-2.5 border-b border-abyss-700/60 bg-abyss/90 px-3 py-3 backdrop-blur sm:-mx-4 sm:px-4">
+        {/* 常時表示: 検索 + 件数 + (モバイル)絞り込みトグル */}
+        <div className="flex items-center gap-2">
           <input
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="魚名・釣り場・エリアで検索…"
-            className="w-64 rounded-md border border-abyss-700 bg-abyss-800 px-3 py-2 text-sm text-moonlight placeholder:text-moonlight-faint focus:border-hookgold focus:outline-none"
+            placeholder="魚名・釣り場で検索…"
+            className="w-full rounded-md border border-abyss-700 bg-abyss-800 px-3 py-2 text-sm text-moonlight placeholder:text-moonlight-faint focus:border-hookgold focus:outline-none sm:w-64"
           />
-          <label className="flex cursor-pointer items-center gap-2 text-sm text-moonlight-dim">
-            <input
-              type="checkbox"
-              checked={uncaughtOnly}
-              onChange={(e) => setUncaughtOnly(e.target.checked)}
-              className="accent-hookgold"
-            />
-            未釣獲のみ
-          </label>
-          <select
-            value={sortMode}
-            onChange={(e) => setSortMode(e.target.value as SortMode)}
-            className="rounded-md border border-abyss-700 bg-abyss-800 px-2 py-2 text-sm text-moonlight focus:border-hookgold focus:outline-none"
-            aria-label="並び順"
-          >
-            <option value="window">窓が近い順</option>
-            <option value="patch">パッチ順</option>
-            <option value="name">名前順</option>
-          </select>
-          <span className="ml-auto text-xs text-moonlight-faint tabular-nums">
+          <span className="hidden shrink-0 text-xs text-moonlight-faint tabular-nums sm:inline">
             表示中 {visible.length} 種
           </span>
+          <button
+            onClick={() => setFiltersOpen((v) => !v)}
+            className="flex shrink-0 items-center gap-1 rounded-md border border-abyss-700 bg-abyss-800 px-3 py-2 text-sm text-moonlight-dim sm:hidden"
+            aria-expanded={filtersOpen}
+          >
+            絞り込み{filtersOpen ? " ▲" : " ▼"}
+          </button>
         </div>
+
+        {/* フィルタ群: モバイルは折りたたみ、sm以上は常時表示 */}
+        <div className={`${filtersOpen ? "block" : "hidden"} space-y-2.5 sm:block`}>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+            <label className="flex cursor-pointer items-center gap-2 text-sm text-moonlight-dim">
+              <input
+                type="checkbox"
+                checked={uncaughtOnly}
+                onChange={(e) => setUncaughtOnly(e.target.checked)}
+                className="accent-hookgold"
+              />
+              未釣獲のみ
+            </label>
+            <select
+              value={sortMode}
+              onChange={(e) => setSortMode(e.target.value as SortMode)}
+              className="rounded-md border border-abyss-700 bg-abyss-800 px-2 py-2 text-sm text-moonlight focus:border-hookgold focus:outline-none"
+              aria-label="並び順"
+            >
+              <option value="window">窓が近い順</option>
+              <option value="patch">パッチ順</option>
+              <option value="name">名前順</option>
+            </select>
+            <span className="ml-auto text-xs text-moonlight-faint tabular-nums sm:hidden">
+              表示中 {visible.length} 種
+            </span>
+          </div>
         {/* 拡張フィルタ (複数選択可) */}
         <div className="flex flex-wrap items-center gap-1.5">
           <span className="mr-1 text-[11px] text-moonlight-faint">拡張</span>
@@ -332,6 +349,7 @@ FFXIV <span className="text-hookgold">太公望への道</span>
               {label}
             </button>
           ))}
+        </div>
         </div>
       </div>
 

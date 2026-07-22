@@ -282,9 +282,9 @@ export default function AchievementsPage() {
                           return (
                             <li
                               key={n.id}
-                              className="flex items-baseline justify-between gap-2 text-sm"
+                              className="flex min-w-0 items-baseline justify-between gap-2 text-sm"
                             >
-                              <span className="truncate text-moonlight">
+                              <span className="min-w-0 truncate text-moonlight">
                                 {n.nameJa}
                                 <span className="ml-1.5 text-xs text-moonlight-faint">
                                   {n.zoneNameJa}

@@ -289,7 +289,7 @@ function SpotContent() {
                 return (
                   <div
                     key={f.id}
-                    className={`flex items-center gap-3 border-b border-abyss-700/50 px-4 py-2 last:border-0 ${
+                    className={`flex items-start gap-2.5 border-b border-abyss-700/50 px-3 py-2 last:border-0 sm:px-4 ${
                       win?.isActiveNow ? "bg-tide-active/[0.06]" : ""
                     } ${isCaught ? "opacity-55" : ""}`}
                   >
@@ -298,59 +298,71 @@ function SpotContent() {
                         type="checkbox"
                         checked={isCaught}
                         onChange={() => toggle(f.id)}
-                        className="h-4 w-4 shrink-0 accent-hookgold"
+                        className="mt-1 h-4 w-4 shrink-0 accent-hookgold"
                         aria-label={`${f.nameJa} 釣獲済み`}
                       />
                     ) : (
-                      <span className="w-4 shrink-0" />
+                      <span className="mt-1 w-4 shrink-0" />
                     )}
-                    <FishIcon fish={f} />
+                    <div className="mt-0.5">
+                      <FishIcon fish={f} />
+                    </div>
                     <div className="min-w-0 flex-1">
-                      <div
-                        className={`text-sm ${
-                          isCaught ? "text-moonlight-dim line-through" : "text-moonlight"
-                        }`}
-                      >
-                        {f.nameJa}
+                      {/* 1行目: 魚名 + バッジ + アタリ */}
+                      <div className="flex items-center gap-1.5">
+                        <span
+                          className={`min-w-0 truncate text-sm ${
+                            isCaught
+                              ? "text-moonlight-dim line-through"
+                              : "text-moonlight"
+                          }`}
+                        >
+                          {f.nameJa}
+                        </span>
                         {f.oonushi ? (
-                          <span className="ml-1.5 rounded bg-hookgold px-1 text-[10px] font-bold text-abyss align-middle">
+                          <span className="shrink-0 rounded bg-hookgold px-1 text-[10px] font-bold text-abyss">
                             オオヌシ
                           </span>
                         ) : (
                           f.bigFish && (
-                            <span className="ml-1.5 rounded border border-hookgold-deep px-1 text-[10px] text-hookgold align-middle">
+                            <span className="shrink-0 rounded border border-hookgold-deep px-1 text-[10px] text-hookgold">
                               ヌシ
                             </span>
                           )
                         )}
+                        {tug && (
+                          <span
+                            className={`shrink-0 font-mono text-sm font-bold ${tug.cls}`}
+                            title={`アタリ: ${tug.label}`}
+                          >
+                            {tug.mark}
+                          </span>
+                        )}
                         {f.mooch && (
-                          <span className="ml-1 text-[10px] text-moonlight-faint align-middle">
-                            (泳がせ)
+                          <span className="shrink-0 text-[10px] text-moonlight-faint">
+                            泳がせ
                           </span>
                         )}
                       </div>
-                      <div className="flex items-center gap-1 text-[11px] text-moonlight-faint">
-                        {hourRange(f.startHour, f.endHour)}
-                        {f.previousWeatherSet.length > 0 && (
-                          <>
-                            <WeatherIcons ids={f.previousWeatherSet} />
-                            <span>→</span>
-                          </>
-                        )}
-                        {f.weatherSet.length > 0 && <WeatherIcons ids={f.weatherSet} />}
+                      {/* 2行目: 条件 + 次の出現 */}
+                      <div className="mt-0.5 flex flex-wrap items-center gap-x-2 gap-y-0.5 text-[11px]">
+                        <span className="flex items-center gap-1 text-moonlight-faint">
+                          {hourRange(f.startHour, f.endHour)}
+                          {f.previousWeatherSet.length > 0 && (
+                            <>
+                              <WeatherIcons ids={f.previousWeatherSet} />
+                              <span>→</span>
+                            </>
+                          )}
+                          {f.weatherSet.length > 0 && (
+                            <WeatherIcons ids={f.weatherSet} />
+                          )}
+                        </span>
+                        <span className={`tabular-nums ${st.className}`}>
+                          {st.label}
+                        </span>
                       </div>
                     </div>
-                    {tug && (
-                      <span
-                        className={`shrink-0 font-mono text-sm font-bold ${tug.cls}`}
-                        title={`アタリ: ${tug.label}`}
-                      >
-                        {tug.mark}
-                      </span>
-                    )}
-                    <span className={`w-28 shrink-0 text-right text-xs tabular-nums ${st.className}`}>
-                      {st.label}
-                    </span>
                   </div>
                 );
               })}
