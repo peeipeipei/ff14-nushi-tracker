@@ -273,7 +273,7 @@ export default function AchievementsPage() {
                   {s.uncaught.length > 0 && (
                     <>
                       <div className="mt-3 text-xs text-moonlight-faint">
-                        いま狙いやすい未釣獲ヌシ (窓が近い順):
+                        いま狙いやすい未釣獲ヌシ (出現が近い順):
                       </div>
                       <ul className="mt-1.5 grid gap-1 sm:grid-cols-2">
                         {s.uncaught.slice(0, 6).map((n) => {

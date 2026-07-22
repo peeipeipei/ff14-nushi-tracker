@@ -499,7 +499,7 @@ export default function NushiRow({
           expanded ? "ring-1 ring-inset ring-hookgold-deep/50" : ""
         } ${isCaught ? "opacity-60" : ""}`}
       >
-        {/* ピン留め */}
+        {/* ピン留め: 未ピンは白黒、ピンすると赤(通常の絵文字色)に */}
         <button
           onClick={(e) => {
             e.stopPropagation();
@@ -507,13 +507,14 @@ export default function NushiRow({
           }}
           title={isPinned ? "ピン留めを外す" : "ピン留めして上部に固定"}
           aria-label={isPinned ? "ピン留めを外す" : "ピン留め"}
-          className={`shrink-0 text-base leading-none transition-colors ${
+          className="shrink-0 text-base leading-none"
+          style={
             isPinned
-              ? "text-hookgold-bright"
-              : "text-moonlight-faint hover:text-hookgold"
-          }`}
+              ? { filter: "none", opacity: 1 }
+              : { filter: "grayscale(1)", opacity: 0.55 }
+          }
         >
-          {isPinned ? "📌" : "📍"}
+          📌
         </button>
 
         {/* 釣獲チェック */}

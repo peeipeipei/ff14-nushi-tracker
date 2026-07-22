@@ -329,7 +329,7 @@ export default function Home() {
               className="rounded-md border border-abyss-700 bg-abyss-800 px-2 py-2 text-sm text-moonlight focus:border-hookgold focus:outline-none"
               aria-label="並び順"
             >
-              <option value="window">窓が近い順</option>
+              <option value="window">出現が近い順</option>
               <option value="patch">パッチ順</option>
               <option value="name">名前順</option>
             </select>
