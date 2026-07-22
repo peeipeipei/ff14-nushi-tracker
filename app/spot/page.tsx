@@ -213,6 +213,15 @@ function SpotContent() {
               </span>
             )}
           </p>
+          {entry.aetheryte && (
+            <p className="mt-1 text-sm text-moonlight-dim">
+              <span className="mr-1 text-hookgold">✧</span>
+              オススメ転移先{" "}
+              <span className="font-display text-moonlight">
+                {entry.aetheryte.nameJa}
+              </span>
+            </p>
+          )}
           <p className="mt-1 text-sm text-moonlight-dim">
             釣れる魚{entry.fish.length}種
             {bigCount > 0 && (

@@ -117,10 +117,34 @@ def add_uptime(nushi_list, weather_rates):
             f["weatherSet"], f["previousWeatherSet"], seq_cache[tid])
 
 
+def load_aetherytes():
+    """aetheryte_data.json (Teamcraft由来 + XIVAPI名) を territory 別に。"""
+    from collections import defaultdict
+    path = HERE / "aetheryte_data.json"
+    if not path.exists():
+        return {}
+    by_terr = defaultdict(list)
+    for a in json.loads(path.read_text(encoding="utf-8")):
+        by_terr[a["territory"]].append(a)
+    return by_terr
+
+def nearest_aetheryte(by_terr, territory, coords):
+    """釣り場座標に最も近いエーテライト。主要(type0)を優先、無ければ全種から。"""
+    cands = by_terr.get(territory, [])
+    if not cands or not coords:
+        return None
+    main = [a for a in cands if a["type"] == 0]
+    pool = main or cands
+    cx, cy = coords[0], coords[1]
+    best = min(pool, key=lambda a: (a["x"] - cx) ** 2 + (a["y"] - cy) ** 2)
+    return {"nameJa": best["nameJa"], "x": best["x"], "y": best["y"]}
+
+
 def build_spot_fish(data, items, spots, weather_rates, zones, map_ids, lodestone_ids, oonushi_ids):
     """釣り場 (location) ごとに、そこで釣れる全魚を data.js から集める。"""
     from collections import defaultdict
     fish_db = data["FISH"]
+    aeth_by_terr = load_aetherytes()
 
     def item_min(iid):
         it = items.get(str(iid))
@@ -183,6 +207,7 @@ def build_spot_fish(data, items, spots, weather_rates, zones, map_ids, lodestone
             "mapId": map_ids.get(wr.get("map_id")) if wr else None,
             "mapCoords": coords[:2] if coords else None,
             "mapScale": wr.get("map_scale") if wr else None,
+            "aetheryte": nearest_aetheryte(aeth_by_terr, terr, coords),
             "fish": fish_list,
         }
     return out

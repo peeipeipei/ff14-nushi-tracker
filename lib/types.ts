@@ -122,6 +122,8 @@ export interface SpotEntry {
   mapId: string | null;
   mapCoords: [number, number] | null;
   mapScale: number | null;
+  /** オススメ転移先 (最寄りエーテライト) */
+  aetheryte: { nameJa: string; x: number; y: number } | null;
   fish: SpotFish[];
 }
 
