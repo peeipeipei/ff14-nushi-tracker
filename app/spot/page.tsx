@@ -17,6 +17,7 @@ import { iconUrl, lodestoneUrl, mapUrl } from "@/lib/assets";
 import { nextWindow, windowStatus } from "@/lib/windowInfo";
 import { useCaught } from "@/lib/useCaught";
 import EorzeaClock from "@/components/EorzeaClock";
+import SiteFooter from "@/components/SiteFooter";
 
 const allNushi = nushiData as unknown as Nushi[];
 const spots = spotFishData as unknown as Record<string, SpotEntry>;
@@ -377,13 +378,11 @@ function SpotContent() {
         </div>
       </div>
 
-      <footer className="mt-8 space-y-1 text-center text-xs text-moonlight-faint">
-        <p>
-          「!」の数はアタリの強さ（釣りやすさ・レア度の目安）です。
-          各魚の釣り上げ確率はゲーム内で公開されておらず、正確な数値は提供できません。
-        </p>
-        <p>データ: ff14-fish-tracker-app / XIVAPI ・ FINAL FANTASY XIV © SQUARE ENIX</p>
-      </footer>
+      <p className="mt-8 text-center text-xs text-moonlight-faint">
+        「!」の数はアタリの強さ（釣りやすさ・レア度の目安）です。
+        各魚の釣り上げ確率はゲーム内で公開されておらず、正確な数値は提供できません。
+      </p>
+      <SiteFooter />
     </>
   );
 }

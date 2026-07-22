@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#050B18"/>
+  <!-- 月 -->
+  <circle cx="44" cy="20" r="9" fill="#C9D6EA" opacity="0.85"/>
+  <circle cx="48" cy="18" r="8" fill="#050B18"/>
+  <!-- 釣り針 (金) -->
+  <path d="M26 12 L26 34 Q26 46 36 46 Q44 46 44 38"
+        fill="none" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="26" cy="11" r="3" fill="#F0C46B"/>
+  <path d="M44 38 l-4 -3 M44 38 l4 -3" stroke="#D9A441" stroke-width="4" stroke-linecap="round" fill="none"/>
+</svg>

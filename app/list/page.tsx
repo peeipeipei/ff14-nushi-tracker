@@ -6,6 +6,7 @@ import nushiData from "@/data/nushi_data.json";
 import type { Nushi } from "@/lib/types";
 import { iconUrl, lodestoneUrl, spotUrl } from "@/lib/assets";
 import { useCaught } from "@/lib/useCaught";
+import SiteFooter from "@/components/SiteFooter";
 
 const allNushi = nushiData as unknown as Nushi[];
 
@@ -228,9 +229,7 @@ export default function ListPage() {
         ))}
       </div>
 
-      <footer className="mt-8 text-center text-xs text-moonlight-faint">
-        アイコン画像: XIVAPI ・ FINAL FANTASY XIV © SQUARE ENIX CO., LTD.
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

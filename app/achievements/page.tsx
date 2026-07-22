@@ -10,6 +10,7 @@ import { findNextMatchingWeatherWindow } from "@/lib/weather";
 import { formatCountdown, formatDateTime } from "@/lib/windowInfo";
 import { useCaught } from "@/lib/useCaught";
 import EorzeaClock from "@/components/EorzeaClock";
+import SiteFooter from "@/components/SiteFooter";
 
 const allNushi = nushiData as unknown as Nushi[];
 const weatherRates = (weatherData as unknown as { rates: Record<string, WeatherRate> })
@@ -360,9 +361,7 @@ export default function AchievementsPage() {
         </section>
       </div>
 
-      <footer className="mt-6 text-center text-xs text-moonlight-faint">
-        アチーブメントデータ: XIVAPI ・ FINAL FANTASY XIV © SQUARE ENIX CO., LTD.
-      </footer>
+      <SiteFooter />
     </main>
   );
 }

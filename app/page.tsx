@@ -10,6 +10,7 @@ import { iconUrl, SKILL_ICONS } from "@/lib/assets";
 import { useCaught, usePrep, usePinned } from "@/lib/useCaught";
 import EorzeaClock from "@/components/EorzeaClock";
 import NushiRow from "@/components/NushiRow";
+import SiteFooter from "@/components/SiteFooter";
 
 const allNushi = nushiData as unknown as Nushi[];
 const weatherRates = (weatherData as unknown as { rates: Record<string, WeatherRate> })
@@ -442,16 +443,10 @@ export default function Home() {
         )}
       </div>
 
-      <footer className="mt-6 text-center text-xs text-moonlight-faint">
-        名前をクリックすると釣り方・釣り場の詳細を表示 ・ データ出典:{" "}
-        <a
-          href="https://github.com/icykoneko/ff14-fish-tracker-app"
-          className="underline hover:text-moonlight-dim"
-        >
-          ff14-fish-tracker-app
-        </a>{" "}
-        ・ FINAL FANTASY XIV © SQUARE ENIX CO., LTD.
-      </footer>
+      <p className="mt-6 text-center text-xs text-moonlight-faint">
+        魚名をタップで釣り方・釣り場の詳細を表示 ・ 📌で上部に固定
+      </p>
+      <SiteFooter />
     </main>
   );
 }
