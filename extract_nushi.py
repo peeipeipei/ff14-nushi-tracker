@@ -306,18 +306,22 @@ def main():
                 return ref
             return name_to_id.get(str(ref).lower())
 
-        # アイテム参照 -> {ja,en,id,icon,lodestoneId} (餌・予測魚のリンク表示用)
+        # アイテム参照 -> {ja,en,id,icon,lodestoneId,tug} (餌・予測魚のリンク表示用)
+        # tug は魚の場合のみ (泳がせ用の中間魚のアタリ強さ表示に使う)
         def item_ref(ref):
             iid = to_item_id(ref)
             it = items.get(str(iid)) if iid else None
             if not it:
-                return {"ja": None, "en": str(ref), "id": None, "icon": None, "lodestoneId": None}
+                return {"ja": None, "en": str(ref), "id": None, "icon": None,
+                        "lodestoneId": None, "tug": None}
+            pf = fish_db.get(str(iid))
             return {
                 "ja": it["name_ja"],
                 "en": it["name_en"].strip(),
                 "id": iid,
                 "icon": it["icon"],
                 "lodestoneId": lodestone_ids.get(iid),
+                "tug": (pf.get("tug") or "").lower() or None if pf else None,
             }
 
         # 予測魚など任意の魚の釣獲条件 (餌・時間帯・天候) を解決

@@ -223,6 +223,25 @@ const TUG_LABEL: Record<string, string> = {
   light: "!",
 };
 
+/** アタリ強さ(tug)の色分けマーク */
+const TUG_MARK: Record<string, { mark: string; cls: string }> = {
+  legendary: { mark: "!!!", cls: "text-rose-400" },
+  heavy: { mark: "!!!", cls: "text-rose-400" },
+  medium: { mark: "!!", cls: "text-hookgold-bright" },
+  light: { mark: "!", cls: "text-sky-400" },
+};
+
+/** 魚のアタリ強さを色付きの「!」で表示 (泳がせ魚など) */
+function TugMark({ tug }: { tug?: string | null }) {
+  const t = tug ? TUG_MARK[tug] : null;
+  if (!t) return null;
+  return (
+    <span className={`font-mono font-bold ${t.cls}`} title={`アタリ: ${TUG_LABEL[tug!] ?? tug}`}>
+      {t.mark}
+    </span>
+  );
+}
+
 const HOOKSET_LABEL: Record<string, string> = {
   Powerful: "ストロングフッキング",
   Precision: "プレシジョンフッキング",
@@ -339,10 +358,17 @@ function DetailPanel({
                     </span>
                   )}
                   <ItemChip item={b} />
-                  {/* 先頭は餌、2番目以降は「泳がせ」で使う魚 */}
+                  {/* 先頭は餌、2番目以降は「泳がせ」で使う魚。中間魚のアタリも表示 */}
                   {i >= 1 && (
                     <span className="inline-flex items-center gap-0.5 text-[11px] text-moonlight-dim">
-                      （<SkillIcon {...SKILL_ICONS.mooch} />泳がせ）
+                      （<SkillIcon {...SKILL_ICONS.mooch} />泳がせ
+                      {b.tug && (
+                        <>
+                          {" "}
+                          <TugMark tug={b.tug} />
+                        </>
+                      )}
+                      ）
                     </span>
                   )}
                 </span>

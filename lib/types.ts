@@ -6,6 +6,8 @@ export interface ItemRef {
   id: number | null;
   icon: string | null;
   lodestoneId: string | null;
+  /** 魚の場合のアタリ強さ (legendary/heavy/medium/light)。餌など魚でなければ null */
+  tug?: string | null;
 }
 
 /** 予測魚 (漁師の直感で先に釣る魚) の釣獲条件 */
