@@ -67,36 +67,84 @@ function hourRange(s: number, e: number): string {
   return s === 0 && e === 24 ? "終日" : `ET ${etHour(s)}〜${etHour(e)}`;
 }
 
-/** 釣り場のゲームマップ */
+/** マップ座標が妥当な範囲 (FF14 は概ね 1〜42) か。壊れたデータを除外 */
+function validCoords(c: [number, number] | null): c is [number, number] {
+  return !!c && c.every((v) => v >= 0 && v <= 60);
+}
+
+/** 釣り場のゲームマップ (釣り場 + 最寄りエーテライトを表示) */
 function SpotMap({ entry }: { entry: SpotEntry }) {
-  if (!entry.mapId || !entry.mapCoords || !entry.mapScale) return null;
-  const [x, y] = entry.mapCoords;
+  if (!entry.mapId || !entry.mapScale || !validCoords(entry.mapCoords)) return null;
   const max = 41 / (entry.mapScale / 100) + 1;
-  const fx = Math.min(1, Math.max(0, (x - 1) / (max - 1)));
-  const fy = Math.min(1, Math.max(0, (y - 1) / (max - 1)));
-  const Z = 3;
-  const posX = Math.min(100, Math.max(0, (100 * (fx * Z - 0.5)) / (Z - 1)));
-  const posY = Math.min(100, Math.max(0, (100 * (fy * Z - 0.5)) / (Z - 1)));
-  const dotX = ((1 - Z) * posX) / 100 + fx * Z;
-  const dotY = ((1 - Z) * posY) / 100 + fy * Z;
+  const frac = (v: number) => Math.min(1, Math.max(0, (v - 1) / (max - 1)));
+  const sx = frac(entry.mapCoords[0]);
+  const sy = frac(entry.mapCoords[1]);
+  const aeth = entry.aetheryte;
+  const ax = aeth ? frac(aeth.x) : null;
+  const ay = aeth ? frac(aeth.y) : null;
+
+  // 中心とズーム: エーテライトがあれば両方が収まるように調整
+  let cx = sx;
+  let cy = sy;
+  let Z = 3;
+  if (ax !== null && ay !== null) {
+    cx = (sx + ax) / 2;
+    cy = (sy + ay) / 2;
+    const span = Math.max(Math.abs(sx - ax), Math.abs(sy - ay)) / 2;
+    Z = Math.min(3, Math.max(1.4, 0.5 / (span + 0.09)));
+  }
+  const posX = Math.min(100, Math.max(0, (100 * (cx * Z - 0.5)) / (Z - 1)));
+  const posY = Math.min(100, Math.max(0, (100 * (cy * Z - 0.5)) / (Z - 1)));
+  const mapX = (f: number) => ((1 - Z) * posX) / 100 + f * Z;
+  const mapY = (f: number) => ((1 - Z) * posY) / 100 + f * Z;
+  const clamp = (v: number) => Math.min(0.97, Math.max(0.03, v));
+
+  const spotL = mapX(sx) * 100;
+  const spotT = mapY(sy) * 100;
+
   return (
-    <div className="relative h-56 w-56 shrink-0 overflow-hidden rounded-xl border border-abyss-600 bg-abyss-900 shadow-deep">
-      <div
-        className="absolute inset-0"
-        style={{
-          backgroundImage: `url(${mapUrl(entry.mapId)})`,
-          backgroundSize: `${Z * 100}%`,
-          backgroundPosition: `${posX}% ${posY}%`,
-        }}
-      />
-      <span
-        className="absolute h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-abyss bg-hookgold shadow-lantern"
-        style={{ left: `${dotX * 100}%`, top: `${dotY * 100}%` }}
-      />
-      <span
-        className="absolute h-6 w-6 -translate-x-1/2 -translate-y-1/2 animate-ping rounded-full bg-hookgold/30"
-        style={{ left: `${dotX * 100}%`, top: `${dotY * 100}%` }}
-      />
+    <div className="shrink-0">
+      <div className="relative h-56 w-56 overflow-hidden rounded-xl border border-abyss-600 bg-abyss-900 shadow-deep">
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `url(${mapUrl(entry.mapId)})`,
+            backgroundSize: `${Z * 100}%`,
+            backgroundPosition: `${posX}% ${posY}%`,
+          }}
+        />
+        {/* 最寄りエーテライト (水晶マーカー) */}
+        {ax !== null && ay !== null && (
+          <span
+            title={`エーテライト: ${aeth!.nameJa}`}
+            className="absolute h-3 w-3 -translate-x-1/2 -translate-y-1/2 rotate-45 border border-abyss bg-sky-400 shadow-[0_0_8px_rgba(56,189,248,0.8)]"
+            style={{ left: `${clamp(mapX(ax)) * 100}%`, top: `${clamp(mapY(ay)) * 100}%` }}
+          />
+        )}
+        {/* 釣り場 (金の丸) */}
+        <span
+          className="absolute h-6 w-6 -translate-x-1/2 -translate-y-1/2 animate-ping rounded-full bg-hookgold/30"
+          style={{ left: `${spotL}%`, top: `${spotT}%` }}
+        />
+        <span
+          title={entry.spotNameJa}
+          className="absolute h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-abyss bg-hookgold shadow-lantern"
+          style={{ left: `${spotL}%`, top: `${spotT}%` }}
+        />
+      </div>
+      {/* 凡例 */}
+      <div className="mt-1.5 flex items-center justify-center gap-3 text-[11px] text-moonlight-faint">
+        <span className="flex items-center gap-1">
+          <span className="inline-block h-2.5 w-2.5 rounded-full bg-hookgold" />
+          釣り場
+        </span>
+        {aeth && (
+          <span className="flex items-center gap-1">
+            <span className="inline-block h-2.5 w-2.5 rotate-45 bg-sky-400" />
+            {aeth.nameJa}
+          </span>
+        )}
+      </div>
     </div>
   );
 }
@@ -208,7 +256,7 @@ function SpotContent() {
           </h1>
           <p className="mt-1 text-sm text-moonlight-dim">
             {entry.zoneNameJa}
-            {entry.mapCoords && (
+            {validCoords(entry.mapCoords) && (
               <span className="ml-2 font-mono text-hookgold-bright">
                 X:{entry.mapCoords[0].toFixed(1)} Y:{entry.mapCoords[1].toFixed(1)}
               </span>
