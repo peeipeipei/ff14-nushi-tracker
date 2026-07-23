@@ -10,7 +10,7 @@ import type {
 import { useMemo } from "react";
 import Link from "next/link";
 import { iconUrl, lodestoneUrl, mapUrl, SKILL_ICONS, spotUrl } from "@/lib/assets";
-import { formatDateTime, nextWindow, windowStatus } from "@/lib/windowInfo";
+import { formatWhen, nextWindow, windowStatus } from "@/lib/windowInfo";
 import TideGauge from "./TideGauge";
 
 /** 天候をゲーム内アイコンで表示 */
@@ -646,7 +646,7 @@ export default function NushiRow({
             {/* 出現中は次に出る時刻。待機中で同日なら時刻のみ補足
                 (日付をまたぐ場合はメインラベルが絶対日時なので補足なし) */}
             {activeNext && !activeNext.isAlways && (
-              <span>次 {formatDateTime(activeNext.startMs)}</span>
+              <span>次 {formatWhen(activeNext.startMs, nowMs)}</span>
             )}
             {startDate &&
               !win?.isActiveNow &&

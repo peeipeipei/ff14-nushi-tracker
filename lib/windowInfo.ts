@@ -62,6 +62,13 @@ export function formatClock(ms: number): string {
   return `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
 }
 
+/** 本日中なら「HH:MM」、日をまたぐなら「M月D日 HH:MM」 */
+export function formatWhen(targetMs: number, nowMs: number): string {
+  return isSameDate(targetMs, nowMs)
+    ? formatClock(targetMs)
+    : formatDateTime(targetMs);
+}
+
 /** 窓の状態ラベルと色クラス */
 export function windowStatus(
   win: UpcomingWindow | null,
