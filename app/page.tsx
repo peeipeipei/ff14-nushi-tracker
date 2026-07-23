@@ -1,11 +1,12 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import nushiData from "@/data/nushi_data.json";
 import weatherData from "@/data/weather_rates.json";
 import type { Nushi, UpcomingWindow, WeatherRate, WeatherTypeInfo } from "@/lib/types";
 import { findNextMatchingWeatherWindow } from "@/lib/weather";
+import { formatWhen } from "@/lib/windowInfo";
 import { iconUrl, SKILL_ICONS } from "@/lib/assets";
 import { useCaught, usePrep, usePinned } from "@/lib/useCaught";
 import EorzeaClock from "@/components/EorzeaClock";
@@ -68,6 +69,8 @@ function chipClass(active: boolean): string {
 }
 
 const FILTER_STORAGE_KEY = "nushi-filters-v1";
+const NOTIFY_STORAGE_KEY = "nushi-notify-v1";
+const NOTIFY_LEAD_MS = 10 * 60 * 1000; // 出現の約10分前に通知
 
 export default function Home() {
   // SSR とのハイドレーション不一致を避けるため、時刻はマウント後に初期化する
@@ -81,6 +84,10 @@ export default function Home() {
   const [sortMode, setSortMode] = useState<SortMode>("window");
   const [expandedId, setExpandedId] = useState<number | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false); // モバイルでのフィルタ開閉
+  // ピンした魚の出現通知
+  const [notifyOn, setNotifyOn] = useState(false);
+  const [notifySupported, setNotifySupported] = useState(true);
+  const notifiedRef = useRef<Set<string>>(new Set());
   const { caught, toggle } = useCaught();
   const { prep, togglePrep } = usePrep();
   const { pinned, togglePin } = usePinned();
@@ -117,10 +124,48 @@ export default function Home() {
     } catch {
       // 壊れた保存値は無視
     }
+    // 通知: 対応状況と前回の有効状態を復元
+    if (typeof window === "undefined" || !("Notification" in window)) {
+      setNotifySupported(false);
+    } else if (
+      localStorage.getItem(NOTIFY_STORAGE_KEY) === "1" &&
+      Notification.permission === "granted"
+    ) {
+      setNotifyOn(true);
+    }
     setNowMs(Date.now());
     const t = setInterval(() => setNowMs(Date.now()), 1000);
     return () => clearInterval(t);
   }, []);
+
+  // 通知トグル: 有効化時に許可を要求
+  const toggleNotify = async () => {
+    if (!("Notification" in window)) return;
+    if (notifyOn) {
+      setNotifyOn(false);
+      try {
+        localStorage.setItem(NOTIFY_STORAGE_KEY, "0");
+      } catch {
+        /* noop */
+      }
+      return;
+    }
+    let perm = Notification.permission;
+    if (perm === "default") perm = await Notification.requestPermission();
+    if (perm === "granted") {
+      setNotifyOn(true);
+      notifiedRef.current.clear();
+      try {
+        localStorage.setItem(NOTIFY_STORAGE_KEY, "1");
+        new Notification("通知をオンにしました", {
+          body: "ピン留めした魚の約10分前にお知らせします（このページを開いている間）",
+          icon: "/icon.svg",
+        });
+      } catch {
+        /* noop */
+      }
+    }
+  };
 
   // フィルタ状態の保存 (初期化前は保存しない)
   useEffect(() => {
@@ -157,6 +202,36 @@ export default function Home() {
       ),
     }));
   }, [computeTick]);
+
+  // ピンした魚が約10分以内に出現するなら通知 (30秒粒度でチェック)
+  useEffect(() => {
+    if (!notifyOn || computeTick === null) return;
+    if (!("Notification" in window) || Notification.permission !== "granted") return;
+    const t = computeTick * 30000;
+    for (const r of rows) {
+      const n = r.nushi;
+      if (n.id === null || !pinned.has(n.id)) continue;
+      const w = r.window;
+      if (!w || w.isAlways || w.isActiveNow) continue;
+      const until = w.startMs - t;
+      if (until <= 0 || until > NOTIFY_LEAD_MS) continue;
+      const key = `${n.id}:${w.startMs}`;
+      if (notifiedRef.current.has(key)) continue;
+      notifiedRef.current.add(key);
+      const mins = Math.max(1, Math.round(until / 60000));
+      try {
+        new Notification(`まもなく出現: ${n.nameJa ?? n.name}`, {
+          body: `${formatWhen(w.startMs, t)}頃 (あと約${mins}分)${
+            n.spotNameJa ? ` ・ ${n.spotNameJa}` : ""
+          }`,
+          tag: key,
+          icon: "/icon.svg",
+        });
+      } catch {
+        /* noop */
+      }
+    }
+  }, [computeTick, notifyOn, pinned, rows]);
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -259,6 +334,25 @@ export default function Home() {
           </p>
         </div>
         <div className="flex items-center gap-2 sm:gap-3">
+          {notifySupported && (
+            <button
+              onClick={toggleNotify}
+              title={
+                notifyOn
+                  ? "ピン留めした魚の出現通知: オン (クリックでオフ)"
+                  : "ピン留めした魚を約10分前に通知 (クリックでオン)"
+              }
+              aria-pressed={notifyOn}
+              className={`rounded-lg border px-2.5 py-2 text-sm transition-colors ${
+                notifyOn
+                  ? "border-hookgold bg-hookgold/15 text-hookgold-bright"
+                  : "border-abyss-600 bg-abyss-800 text-moonlight-dim hover:text-moonlight"
+              }`}
+            >
+              {notifyOn ? "🔔" : "🔕"}
+              <span className="hidden sm:inline"> 通知</span>
+            </button>
+          )}
           <Link
             href="/list"
             className="rounded-lg border border-hookgold-deep bg-abyss-800 px-2.5 py-2 text-sm text-hookgold transition-colors hover:bg-abyss-700 hover:text-hookgold-bright"
@@ -444,7 +538,8 @@ export default function Home() {
       </div>
 
       <p className="mt-6 text-center text-xs text-moonlight-faint">
-        魚名をタップで釣り方・釣り場の詳細を表示 ・ 📌で上部に固定
+        魚名をタップで釣り方・釣り場の詳細を表示 ・ 📌で上部に固定 ・ 🔔で
+        ピン留めした魚を約10分前に通知(このページを開いている間)
       </p>
       <SiteFooter />
     </main>
