@@ -147,6 +147,17 @@ def build_spot_fish(data, items, spots, weather_rates, zones, map_ids, lodestone
     aeth_by_terr = load_aetherytes()
 
     def item_min(iid):
+        # bestCatchPath[0] が [id, id] = どちらの餌でも可
+        if isinstance(iid, list):
+            parts = [p for p in (item_min(i) for i in iid) if p]
+            if not parts:
+                return None
+            return {
+                "ja": " / ".join(p["ja"] for p in parts),
+                "id": parts[0]["id"],
+                "icon": parts[0]["icon"],
+                "lodestoneId": parts[0]["lodestoneId"],
+            }
         it = items.get(str(iid))
         if not it:
             return None
@@ -309,6 +320,22 @@ def main():
         # アイテム参照 -> {ja,en,id,icon,lodestoneId,tug} (餌・予測魚のリンク表示用)
         # tug は魚の場合のみ (泳がせ用の中間魚のアタリ強さ表示に使う)
         def item_ref(ref):
+            # bestCatchPath[0] が [id, id] の場合 = どちらの餌でも可
+            if isinstance(ref, list):
+                parts = [item_ref(r) for r in ref]
+                parts = [p for p in parts if p["ja"] or p["id"]]
+                if not parts:
+                    return {"ja": None, "en": str(ref), "id": None, "icon": None,
+                            "lodestoneId": None, "tug": None}
+                first = parts[0]
+                return {
+                    "ja": " / ".join(p["ja"] or p["en"] for p in parts),
+                    "en": " / ".join(p["en"] for p in parts),
+                    "id": first["id"],
+                    "icon": first["icon"],
+                    "lodestoneId": first["lodestoneId"],
+                    "tug": None,
+                }
             iid = to_item_id(ref)
             it = items.get(str(iid)) if iid else None
             if not it:

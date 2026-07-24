@@ -15410,11 +15410,11 @@
   "oonushi": false,
   "baitPath": [
    {
-    "ja": null,
-    "en": "[36597, 36596]",
-    "id": null,
-    "icon": null,
-    "lodestoneId": null,
+    "ja": "スターダスト / パニックジグ",
+    "en": "Stardust / Panic Jig",
+    "id": 36597,
+    "icon": "027101",
+    "lodestoneId": "c5470744990",
     "tug": null
    },
    {
@@ -17384,11 +17384,11 @@
     "conditions": {
      "bait": [
       {
-       "ja": null,
-       "en": "[36591, 36589]",
-       "id": null,
-       "icon": null,
-       "lodestoneId": null,
+       "ja": "カゲロウ / ウマビル",
+       "en": "Mayfly / Leech",
+       "id": 36591,
+       "icon": "027046",
+       "lodestoneId": "e2052da1632",
        "tug": null
       }
      ],
@@ -17540,11 +17540,11 @@
   "oonushi": true,
   "baitPath": [
    {
-    "ja": null,
-    "en": "[36597, 36596]",
-    "id": null,
-    "icon": null,
-    "lodestoneId": null,
+    "ja": "スターダスト / パニックジグ",
+    "en": "Stardust / Panic Jig",
+    "id": 36597,
+    "icon": "027101",
+    "lodestoneId": "c5470744990",
     "tug": null
    },
    {
@@ -17568,11 +17568,11 @@
     "conditions": {
      "bait": [
       {
-       "ja": null,
-       "en": "[36597, 36596]",
-       "id": null,
-       "icon": null,
-       "lodestoneId": null,
+       "ja": "スターダスト / パニックジグ",
+       "en": "Stardust / Panic Jig",
+       "id": 36597,
+       "icon": "027101",
+       "lodestoneId": "c5470744990",
        "tug": null
       },
       {
@@ -17604,11 +17604,11 @@
     "conditions": {
      "bait": [
       {
-       "ja": null,
-       "en": "[36597, 36596]",
-       "id": null,
-       "icon": null,
-       "lodestoneId": null,
+       "ja": "スターダスト / パニックジグ",
+       "en": "Stardust / Panic Jig",
+       "id": 36597,
+       "icon": "027101",
+       "lodestoneId": "c5470744990",
        "tug": null
       },
       {
@@ -17640,11 +17640,11 @@
     "conditions": {
      "bait": [
       {
-       "ja": null,
-       "en": "[36597, 36596]",
-       "id": null,
-       "icon": null,
-       "lodestoneId": null,
+       "ja": "スターダスト / パニックジグ",
+       "en": "Stardust / Panic Jig",
+       "id": 36597,
+       "icon": "027101",
+       "lodestoneId": "c5470744990",
        "tug": null
       }
      ],
@@ -17885,11 +17885,11 @@
   "oonushi": false,
   "baitPath": [
    {
-    "ja": null,
-    "en": "[43850, 43859]",
-    "id": null,
-    "icon": null,
-    "lodestoneId": null,
+    "ja": "クリムゾンラグワーム / ゴーストニッパー",
+    "en": "Crimson Lugworm / Ghost Nipper",
+    "id": 43850,
+    "icon": "027103",
+    "lodestoneId": "fc8c48e782c",
     "tug": null
    },
    {
@@ -18129,11 +18129,11 @@
   "oonushi": false,
   "baitPath": [
    {
-    "ja": null,
-    "en": "[43852, 43849]",
-    "id": null,
-    "icon": null,
-    "lodestoneId": null,
+    "ja": "ミツバチ / ゴールデンラーヴァ",
+    "en": "Honeybee / Golden Stonefly Nymph",
+    "id": 43852,
+    "icon": "027105",
+    "lodestoneId": "5a1e82bf780",
     "tug": null
    },
    {
@@ -18620,11 +18620,11 @@
   "oonushi": false,
   "baitPath": [
    {
-    "ja": null,
-    "en": "[43849, 43852]",
-    "id": null,
-    "icon": null,
-    "lodestoneId": null,
+    "ja": "ゴールデンラーヴァ / ミツバチ",
+    "en": "Golden Stonefly Nymph / Honeybee",
+    "id": 43849,
+    "icon": "027102",
+    "lodestoneId": "accb8e61412",
     "tug": null
    },
    {
@@ -18993,11 +18993,11 @@
   "oonushi": false,
   "baitPath": [
    {
-    "ja": null,
-    "en": "[43849, 43852]",
-    "id": null,
-    "icon": null,
-    "lodestoneId": null,
+    "ja": "ゴールデンラーヴァ / ミツバチ",
+    "en": "Golden Stonefly Nymph / Honeybee",
+    "id": 43849,
+    "icon": "027102",
+    "lodestoneId": "accb8e61412",
     "tug": null
    },
    {
@@ -19117,11 +19117,11 @@
     "conditions": {
      "bait": [
       {
-       "ja": null,
-       "en": "[43852, 43855]",
-       "id": null,
-       "icon": null,
-       "lodestoneId": null,
+       "ja": "ミツバチ / ポッパールアー",
+       "en": "Honeybee / Popper Lure",
+       "id": 43852,
+       "icon": "027105",
+       "lodestoneId": "5a1e82bf780",
        "tug": null
       }
      ],
