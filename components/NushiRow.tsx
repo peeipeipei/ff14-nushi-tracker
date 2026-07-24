@@ -631,6 +631,13 @@ export default function NushiRow({
             {nushi.zoneNameJa && (
               <span className="text-moonlight-faint"> ・ {nushi.zoneNameJa}</span>
             )}
+            {nushi.aetheryte && (
+              <span className="text-moonlight-faint">
+                {" "}
+                ・ <span className="text-hookgold">✧</span>
+                {nushi.aetheryte.nameJa}
+              </span>
+            )}
           </div>
         </div>
 
@@ -640,6 +647,11 @@ export default function NushiRow({
           <div className="text-xs text-moonlight-faint">
             {nushi.zoneNameJa ?? nushi.zoneName ?? ""}
           </div>
+          {nushi.aetheryte && (
+            <div className="text-xs text-moonlight-faint">
+              <span className="text-hookgold">✧</span> {nushi.aetheryte.nameJa}
+            </div>
+          )}
         </div>
 
         {/* 条件 (時間帯 + 天候アイコン) */}
