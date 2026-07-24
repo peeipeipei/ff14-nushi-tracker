@@ -27,17 +27,17 @@ interface Row {
 }
 
 /**
- * ソートキー (小さいほど上)。ティアで大分類し、開催中は残り時間が短い順に並べる:
- * 1. 開催中(時限) … 残り時間 (endMs-nowMs) 昇順 = もうすぐ閉じるものが上
- * 2. 待機中 … 開始までの時間 (startMs-nowMs) 昇順
- * 3. 常時 … 残り時間の概念がないので下部
+ * ソートキー (小さいほど上)。いま釣れる魚を上に、その中で緊急度順に:
+ * 1. 出現中(時限) … 残り時間 (endMs-nowMs) 昇順 = もうすぐ閉じるものが上
+ * 2. 常時 … いつでも釣れるので出現中の直後 (待機より上)
+ * 3. 待機中 … 開始までの時間 (startMs-nowMs) 昇順
  * 4. 窓なし … 最下部
  */
 function sortKey(row: Row, nowMs: number): number {
   const w = row.window;
   if (!w) return Number.POSITIVE_INFINITY;
   const TIER = 1e13;
-  if (w.isAlways) return 3 * TIER;
+  if (w.isAlways) return TIER; // 常時: 出現中(<1e8)の後、待機(>=2e13)の前
   if (w.isActiveNow) return w.endMs - nowMs;
   return 2 * TIER + (w.startMs - nowMs);
 }
