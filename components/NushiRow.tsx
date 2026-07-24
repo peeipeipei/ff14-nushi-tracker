@@ -357,18 +357,12 @@ function DetailPanel({
                       餌
                     </span>
                   )}
+                  {/* 2番目以降は泳がせで使う中間魚。アタリを魚の左に表示 */}
+                  {i >= 1 && b.tug && <TugMark tug={b.tug} />}
                   <ItemChip item={b} />
-                  {/* 先頭は餌、2番目以降は「泳がせ」で使う魚。中間魚のアタリも表示 */}
                   {i >= 1 && (
                     <span className="inline-flex items-center gap-0.5 text-[11px] text-moonlight-dim">
-                      （<SkillIcon {...SKILL_ICONS.mooch} />泳がせ
-                      {b.tug && (
-                        <>
-                          {" "}
-                          <TugMark tug={b.tug} />
-                        </>
-                      )}
-                      ）
+                      （<SkillIcon {...SKILL_ICONS.mooch} />泳がせ）
                     </span>
                   )}
                 </span>
