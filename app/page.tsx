@@ -92,14 +92,14 @@ export default function Home() {
   const { prep, togglePrep } = usePrep();
   const { pinned, togglePin } = usePinned();
 
-  // 釣獲チェック: 誤操作防止のため「済を解除する」ときだけ確認する
-  // (チェックを付ける側は手間なく即時)
+  // 釣獲チェック: 誤操作防止のため、付ける/外すどちらも確認する
   const toggleCaughtSafe = (id: number) => {
-    if (caught.has(id)) {
-      const n = allNushi.find((x) => x.id === id);
-      const name = n?.nameJa ?? n?.name ?? "この魚";
-      if (!window.confirm(`「${name}」の釣獲済みを解除しますか？`)) return;
-    }
+    const n = allNushi.find((x) => x.id === id);
+    const name = n?.nameJa ?? n?.name ?? "この魚";
+    const msg = caught.has(id)
+      ? `「${name}」の釣獲済みを解除しますか？`
+      : `「${name}」を釣獲済みにしますか？`;
+    if (!window.confirm(msg)) return;
     toggle(id);
   };
 
