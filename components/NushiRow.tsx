@@ -309,6 +309,12 @@ function MiniMap({ nushi }: { nushi: Nushi }) {
         <div className="mt-1 font-mono text-hookgold-bright">
           X: {x.toFixed(1)} , Y: {y.toFixed(1)}
         </div>
+        {nushi.aetheryte && (
+          <div className="mt-1 text-moonlight-dim">
+            <span className="text-hookgold">✧</span> 最寄り{" "}
+            <span className="text-moonlight">{nushi.aetheryte.nameJa}</span>
+          </div>
+        )}
         {nushi.spotId !== null && (
           <Link
             href={spotUrl(nushi.spotId)}

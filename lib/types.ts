@@ -51,6 +51,8 @@ export interface Nushi {
   mapScale: number | null;
   /** ゲーム内マップ画像の ID ("s1f3/01" 形式、XIVAPI アセット用) */
   mapId: string | null;
+  /** オススメ転移先 (最寄りエーテライト) */
+  aetheryte: { nameJa: string; x: number; y: number } | null;
   /** アイテムアイコン ID ("029094" 形式) */
   icon: string | null;
   /** ロードストーン エオルゼアデータベースのアイテム ID */

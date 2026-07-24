@@ -24,6 +24,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f2/00",
+  "aetheryte": {
+   "nameJa": "モラビー造船廠",
+   "x": 24.64,
+   "y": 35.13
+  },
   "icon": "029050",
   "lodestoneId": "2feb0b8badb",
   "spotId": 47,
@@ -85,6 +90,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f1/00",
+  "aetheryte": {
+   "nameJa": "ホライズン",
+   "x": 22.96,
+   "y": 16.85
+  },
   "icon": "029020",
   "lodestoneId": "8ab1b192a64",
   "spotId": 74,
@@ -146,6 +156,7 @@
   "mapCoords": null,
   "mapScale": null,
   "mapId": null,
+  "aetheryte": null,
   "icon": "029027",
   "lodestoneId": "619f706ec11",
   "spotId": null,
@@ -191,6 +202,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f1/00",
+  "aetheryte": {
+   "nameJa": "サマーフォード庄",
+   "x": 25.98,
+   "y": 16.27
+  },
   "icon": "029069",
   "lodestoneId": "fadd71dfdd6",
   "spotId": 37,
@@ -236,6 +252,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f1/00",
+  "aetheryte": {
+   "nameJa": "サマーフォード庄",
+   "x": 25.98,
+   "y": 16.27
+  },
   "icon": "029324",
   "lodestoneId": "e2b921d71a9",
   "spotId": 39,
@@ -281,6 +302,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f2/00",
+  "aetheryte": {
+   "nameJa": "モラビー造船廠",
+   "x": 24.64,
+   "y": 35.13
+  },
   "icon": "029073",
   "lodestoneId": "0698cd3dacd",
   "spotId": 44,
@@ -326,6 +352,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f2/00",
+  "aetheryte": {
+   "nameJa": "モラビー造船廠",
+   "x": 24.64,
+   "y": 35.13
+  },
   "icon": "029326",
   "lodestoneId": "e54ce57390c",
   "spotId": 43,
@@ -371,6 +402,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f1/00",
+  "aetheryte": {
+   "nameJa": "サマーフォード庄",
+   "x": 25.98,
+   "y": 16.27
+  },
   "icon": "029327",
   "lodestoneId": "6c6804e1543",
   "spotId": 42,
@@ -428,6 +464,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f2/00",
+  "aetheryte": {
+   "nameJa": "ホウソーン家の山塞",
+   "x": 17.57,
+   "y": 27.34
+  },
   "icon": "029323",
   "lodestoneId": "1798da33339",
   "spotId": 8,
@@ -489,6 +530,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f4/00",
+  "aetheryte": {
+   "nameJa": "エールポート",
+   "x": 26.85,
+   "y": 25.87
+  },
   "icon": "029070",
   "lodestoneId": "27a3e715b0f",
   "spotId": 60,
@@ -534,6 +580,11 @@
   ],
   "mapScale": 200,
   "mapId": "s1t1/01",
+  "aetheryte": {
+   "nameJa": "リムサ・ロミンサ・ランディング",
+   "x": 10.86,
+   "y": 11.05
+  },
   "icon": "029068",
   "lodestoneId": "50fb1847e4f",
   "spotId": 36,
@@ -587,6 +638,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f1/00",
+  "aetheryte": {
+   "nameJa": "サマーフォード庄",
+   "x": 25.98,
+   "y": 16.27
+  },
   "icon": "029065",
   "lodestoneId": "35b3b8d16ec",
   "spotId": 38,
@@ -635,6 +691,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f4/00",
+  "aetheryte": {
+   "nameJa": "スウィフトパーチ入植地",
+   "x": 34.54,
+   "y": 31.65
+  },
   "icon": "029077",
   "lodestoneId": "2a50e4baf91",
   "spotId": 59,
@@ -680,6 +741,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f1/00",
+  "aetheryte": {
+   "nameJa": "サマーフォード庄",
+   "x": 25.98,
+   "y": 16.27
+  },
   "icon": "029325",
   "lodestoneId": "94577b3ab0f",
   "spotId": 40,
@@ -725,6 +791,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f2/00",
+  "aetheryte": {
+   "nameJa": "ブラックブラッシュ停留所",
+   "x": 21.17,
+   "y": 18.23
+  },
   "icon": "029318",
   "lodestoneId": "ac9a44578d6",
   "spotId": 77,
@@ -774,6 +845,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f2/00",
+  "aetheryte": {
+   "nameJa": "モラビー造船廠",
+   "x": 24.64,
+   "y": 35.13
+  },
   "icon": "029078",
   "lodestoneId": "1ac03db6d34",
   "spotId": 47,
@@ -819,6 +895,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f2/00",
+  "aetheryte": {
+   "nameJa": "モラビー造船廠",
+   "x": 24.64,
+   "y": 35.13
+  },
   "icon": "029066",
   "lodestoneId": "89a26088f56",
   "spotId": 49,
@@ -864,6 +945,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f2/00",
+  "aetheryte": {
+   "nameJa": "ブラックブラッシュ停留所",
+   "x": 21.17,
+   "y": 18.23
+  },
   "icon": "029328",
   "lodestoneId": "9bec3ae9304",
   "spotId": 75,
@@ -909,6 +995,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f4/00",
+  "aetheryte": {
+   "nameJa": "スウィフトパーチ入植地",
+   "x": 34.54,
+   "y": 31.65
+  },
   "icon": "029071",
   "lodestoneId": "d3f3cbc3afb",
   "spotId": 64,
@@ -965,6 +1056,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f2/00",
+  "aetheryte": {
+   "nameJa": "ホウソーン家の山塞",
+   "x": 17.57,
+   "y": 27.34
+  },
   "icon": "029329",
   "lodestoneId": "7e5ea53d22e",
   "spotId": 6,
@@ -1010,6 +1106,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f4/00",
+  "aetheryte": {
+   "nameJa": "フォールゴウド",
+   "x": 20.86,
+   "y": 26.27
+  },
   "icon": "029340",
   "lodestoneId": "81373933f48",
   "spotId": 19,
@@ -1055,6 +1156,11 @@
   ],
   "mapScale": 200,
   "mapId": "f1t1/00",
+  "aetheryte": {
+   "nameJa": "グリダニア：新市街",
+   "x": 12.05,
+   "y": 11.92
+  },
   "icon": "029321",
   "lodestoneId": "8977c8ced57",
   "spotId": 91,
@@ -1100,6 +1206,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f2/00",
+  "aetheryte": {
+   "nameJa": "モラビー造船廠",
+   "x": 24.64,
+   "y": 35.13
+  },
   "icon": "029330",
   "lodestoneId": "105f0e3ff59",
   "spotId": 50,
@@ -1149,6 +1260,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f2/00",
+  "aetheryte": {
+   "nameJa": "ブラックブラッシュ停留所",
+   "x": 21.17,
+   "y": 18.23
+  },
   "icon": "029322",
   "lodestoneId": "fa48d7bc63c",
   "spotId": 76,
@@ -1194,6 +1310,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f4/00",
+  "aetheryte": {
+   "nameJa": "フォールゴウド",
+   "x": 20.86,
+   "y": 26.27
+  },
   "icon": "029331",
   "lodestoneId": "ed8d77592dd",
   "spotId": 18,
@@ -1239,6 +1360,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f1/00",
+  "aetheryte": {
+   "nameJa": "ベントブランチ牧場",
+   "x": 21.89,
+   "y": 22.32
+  },
   "icon": "029332",
   "lodestoneId": "65e7773f41f",
   "spotId": 3,
@@ -1286,6 +1412,11 @@
   ],
   "mapScale": 200,
   "mapId": "f1t2/00",
+  "aetheryte": {
+   "nameJa": "ミィ・ケット野外音楽堂",
+   "x": 9.77,
+   "y": 8.51
+  },
   "icon": "029333",
   "lodestoneId": "c7fefa94226",
   "spotId": 100,
@@ -1334,6 +1465,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f3/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドライボーン",
+   "x": 13.89,
+   "y": 24.35
+  },
   "icon": "029335",
   "lodestoneId": "44ddf057ca8",
   "spotId": 79,
@@ -1382,6 +1518,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f2/00",
+  "aetheryte": {
+   "nameJa": "ブラックブラッシュ停留所",
+   "x": 21.17,
+   "y": 18.23
+  },
   "icon": "029319",
   "lodestoneId": "9c602526aa7",
   "spotId": 96,
@@ -1427,6 +1568,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f3/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドライボーン",
+   "x": 13.89,
+   "y": 24.35
+  },
   "icon": "029334",
   "lodestoneId": "30e78485c70",
   "spotId": 78,
@@ -1483,6 +1629,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f1/00",
+  "aetheryte": {
+   "nameJa": "ベントブランチ牧場",
+   "x": 21.89,
+   "y": 22.32
+  },
   "icon": "029336",
   "lodestoneId": "d735882a249",
   "spotId": 2,
@@ -1528,6 +1679,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f1/00",
+  "aetheryte": {
+   "nameJa": "ホライズン",
+   "x": 22.96,
+   "y": 16.85
+  },
   "icon": "029337",
   "lodestoneId": "0c1d981eb9f",
   "spotId": 73,
@@ -1581,6 +1737,11 @@
   ],
   "mapScale": 200,
   "mapId": "s1t2/01",
+  "aetheryte": {
+   "nameJa": "リムサ・ロミンサ：下甲板層",
+   "x": 9.31,
+   "y": 11.25
+  },
   "icon": "029072",
   "lodestoneId": "6b6b092ac36",
   "spotId": 35,
@@ -1626,6 +1787,11 @@
   ],
   "mapScale": 200,
   "mapId": "f1t2/00",
+  "aetheryte": {
+   "nameJa": "槍術士ギルド前",
+   "x": 13.59,
+   "y": 6.61
+  },
   "icon": "029320",
   "lodestoneId": "be3647b8aa7",
   "spotId": 81,
@@ -1671,6 +1837,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f1/00",
+  "aetheryte": {
+   "nameJa": "サマーフォード庄",
+   "x": 25.98,
+   "y": 16.27
+  },
   "icon": "029338",
   "lodestoneId": "043add21ab9",
   "spotId": 41,
@@ -1716,6 +1887,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f2/00",
+  "aetheryte": {
+   "nameJa": "モラビー造船廠",
+   "x": 24.64,
+   "y": 35.13
+  },
   "icon": "029074",
   "lodestoneId": "231a8246f71",
   "spotId": 45,
@@ -1763,6 +1939,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f1/00",
+  "aetheryte": {
+   "nameJa": "ホライズン",
+   "x": 22.96,
+   "y": 16.85
+  },
   "icon": "029067",
   "lodestoneId": "bbb79a26410",
   "spotId": 70,
@@ -1808,6 +1989,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f2/00",
+  "aetheryte": {
+   "nameJa": "モラビー造船廠",
+   "x": 24.64,
+   "y": 35.13
+  },
   "icon": "029075",
   "lodestoneId": "71e8e454911",
   "spotId": 46,
@@ -1853,6 +2039,11 @@
   ],
   "mapScale": 200,
   "mapId": "f1t1/00",
+  "aetheryte": {
+   "nameJa": "グリダニア：新市街",
+   "x": 12.05,
+   "y": 11.92
+  },
   "icon": "029076",
   "lodestoneId": "183dab03813",
   "spotId": 90,
@@ -1901,6 +2092,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f1/00",
+  "aetheryte": {
+   "nameJa": "ホライズン",
+   "x": 22.96,
+   "y": 16.85
+  },
   "icon": "029339",
   "lodestoneId": "b402ad8f18c",
   "spotId": 72,
@@ -1949,6 +2145,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f2/00",
+  "aetheryte": {
+   "nameJa": "モラビー造船廠",
+   "x": 24.64,
+   "y": 35.13
+  },
   "icon": "029373",
   "lodestoneId": "17f1b0a9edc",
   "spotId": 97,
@@ -1994,6 +2195,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f2/00",
+  "aetheryte": {
+   "nameJa": "モラビー造船廠",
+   "x": 24.64,
+   "y": 35.13
+  },
   "icon": "029086",
   "lodestoneId": "2ca11916025",
   "spotId": 48,
@@ -2043,6 +2249,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f5/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ブロンズレイク",
+   "x": 30.25,
+   "y": 23.18
+  },
   "icon": "029351",
   "lodestoneId": "e4c20102ac5",
   "spotId": 67,
@@ -2096,6 +2307,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f5/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ブロンズレイク",
+   "x": 30.25,
+   "y": 23.18
+  },
   "icon": "029358",
   "lodestoneId": "9fa575e3195",
   "spotId": 66,
@@ -2144,6 +2360,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f1/00",
+  "aetheryte": {
+   "nameJa": "ホライズン",
+   "x": 22.96,
+   "y": 16.85
+  },
   "icon": "029082",
   "lodestoneId": "c6fcea8796c",
   "spotId": 71,
@@ -2189,6 +2410,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f2/00",
+  "aetheryte": {
+   "nameJa": "ホウソーン家の山塞",
+   "x": 17.57,
+   "y": 27.34
+  },
   "icon": "029347",
   "lodestoneId": "61e31cad05f",
   "spotId": 10,
@@ -2234,6 +2460,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f3/00",
+  "aetheryte": {
+   "nameJa": "クォーリーミル",
+   "x": 25.22,
+   "y": 20.03
+  },
   "icon": "029342",
   "lodestoneId": "2157d6bbfb2",
   "spotId": 11,
@@ -2279,6 +2510,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "コスタ・デル・ソル",
+   "x": 31.34,
+   "y": 31
+  },
   "icon": "029080",
   "lodestoneId": "4b0e104376d",
   "spotId": 51,
@@ -2324,6 +2560,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f1/00",
+  "aetheryte": {
+   "nameJa": "ホライズン",
+   "x": 22.96,
+   "y": 16.85
+  },
   "icon": "029081",
   "lodestoneId": "147ca6685df",
   "spotId": 69,
@@ -2377,6 +2618,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f4/01",
+  "aetheryte": {
+   "nameJa": "リトルアラミゴ",
+   "x": 18.43,
+   "y": 13.11
+  },
   "icon": "029363",
   "lodestoneId": "8461ee67b63",
   "spotId": 83,
@@ -2432,6 +2678,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f2/00",
+  "aetheryte": {
+   "nameJa": "ホウソーン家の山塞",
+   "x": 17.57,
+   "y": 27.34
+  },
   "icon": "029360",
   "lodestoneId": "92e4d8b0a6b",
   "spotId": 7,
@@ -2479,6 +2730,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f3/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・トランキル",
+   "x": 16.94,
+   "y": 28.49
+  },
   "icon": "029352",
   "lodestoneId": "e0b911d463e",
   "spotId": 13,
@@ -2527,6 +2783,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f3/00",
+  "aetheryte": {
+   "nameJa": "クォーリーミル",
+   "x": 25.22,
+   "y": 20.03
+  },
   "icon": "029343",
   "lodestoneId": "f8f52bdf87c",
   "spotId": 14,
@@ -2580,6 +2841,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "コスタ・デル・ソル",
+   "x": 31.34,
+   "y": 31
+  },
   "icon": "029083",
   "lodestoneId": "4759ce61d7c",
   "spotId": 52,
@@ -2628,6 +2894,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f5/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ブロンズレイク",
+   "x": 30.25,
+   "y": 23.18
+  },
   "icon": "029355",
   "lodestoneId": "9acb3e808e5",
   "spotId": 98,
@@ -2681,6 +2952,7 @@
   ],
   "mapScale": 200,
   "mapId": "s1h1/01",
+  "aetheryte": null,
   "icon": "029374",
   "lodestoneId": "2f7616662d9",
   "spotId": 104,
@@ -2729,6 +3001,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f3/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドライボーン",
+   "x": 13.89,
+   "y": 24.35
+  },
   "icon": "029356",
   "lodestoneId": "e4bbeda0a77",
   "spotId": 80,
@@ -2776,6 +3053,7 @@
   ],
   "mapScale": 200,
   "mapId": "w1h1/01",
+  "aetheryte": null,
   "icon": "029611",
   "lodestoneId": "28fb4418511",
   "spotId": 106,
@@ -2824,6 +3102,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f1/00",
+  "aetheryte": {
+   "nameJa": "ベントブランチ牧場",
+   "x": 21.89,
+   "y": 22.32
+  },
   "icon": "029353",
   "lodestoneId": "51351c0d0c0",
   "spotId": 4,
@@ -2869,6 +3152,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f3/00",
+  "aetheryte": {
+   "nameJa": "クォーリーミル",
+   "x": 25.22,
+   "y": 20.03
+  },
   "icon": "029341",
   "lodestoneId": "9b03a640202",
   "spotId": 12,
@@ -2925,6 +3213,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f3/00",
+  "aetheryte": {
+   "nameJa": "クォーリーミル",
+   "x": 25.22,
+   "y": 20.03
+  },
   "icon": "029357",
   "lodestoneId": "e098bb17304",
   "spotId": 15,
@@ -2981,6 +3274,7 @@
   ],
   "mapScale": 200,
   "mapId": "f1h1/01",
+  "aetheryte": null,
   "icon": "029375",
   "lodestoneId": "b906292aab7",
   "spotId": 105,
@@ -3028,6 +3322,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "コスタ・デル・ソル",
+   "x": 31.34,
+   "y": 31
+  },
   "icon": "029087",
   "lodestoneId": "4c7383894b9",
   "spotId": 53,
@@ -3075,6 +3374,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "コスタ・デル・ソル",
+   "x": 31.34,
+   "y": 31
+  },
   "icon": "029365",
   "lodestoneId": "39ced4895df",
   "spotId": 54,
@@ -3120,6 +3424,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f4/00",
+  "aetheryte": {
+   "nameJa": "エールポート",
+   "x": 26.85,
+   "y": 25.87
+  },
   "icon": "029085",
   "lodestoneId": "7c8778173ff",
   "spotId": 61,
@@ -3167,6 +3476,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f6/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・オーバールック",
+   "x": 19.14,
+   "y": 17.1
+  },
   "icon": "029362",
   "lodestoneId": "4fcfac46ca1",
   "spotId": 155,
@@ -3212,6 +3526,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f4/01",
+  "aetheryte": {
+   "nameJa": "リトルアラミゴ",
+   "x": 18.43,
+   "y": 13.11
+  },
   "icon": "029349",
   "lodestoneId": "b6e547f1a71",
   "spotId": 84,
@@ -3259,6 +3578,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f4/01",
+  "aetheryte": {
+   "nameJa": "忘れられたオアシス",
+   "x": 15.08,
+   "y": 29.64
+  },
   "icon": "029350",
   "lodestoneId": "1b43244354f",
   "spotId": 85,
@@ -3314,6 +3638,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f4/01",
+  "aetheryte": {
+   "nameJa": "忘れられたオアシス",
+   "x": 15.08,
+   "y": 29.64
+  },
   "icon": "029376",
   "lodestoneId": "b85f9f96b2b",
   "spotId": 87,
@@ -3369,6 +3698,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f4/01",
+  "aetheryte": {
+   "nameJa": "忘れられたオアシス",
+   "x": 15.08,
+   "y": 29.64
+  },
   "icon": "029610",
   "lodestoneId": "ae822a2e3b3",
   "spotId": 86,
@@ -3416,6 +3750,11 @@
   ],
   "mapScale": 100,
   "mapId": "r1f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドラゴンヘッド",
+   "x": 26.07,
+   "y": 16.72
+  },
   "icon": "029366",
   "lodestoneId": "15ca06b887a",
   "spotId": 26,
@@ -3463,6 +3802,11 @@
   ],
   "mapScale": 100,
   "mapId": "r1f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドラゴンヘッド",
+   "x": 26.07,
+   "y": 16.72
+  },
   "icon": "029372",
   "lodestoneId": "ff62a12a179",
   "spotId": 31,
@@ -3508,6 +3852,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f1/00",
+  "aetheryte": {
+   "nameJa": "ベントブランチ牧場",
+   "x": 21.89,
+   "y": 22.32
+  },
   "icon": "029354",
   "lodestoneId": "9a6a1aad5ea",
   "spotId": 5,
@@ -3561,6 +3910,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f1/00",
+  "aetheryte": {
+   "nameJa": "ベントブランチ牧場",
+   "x": 21.89,
+   "y": 22.32
+  },
   "icon": "029344",
   "lodestoneId": "0952c539956",
   "spotId": 92,
@@ -3608,6 +3962,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f3/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・トランキル",
+   "x": 16.94,
+   "y": 28.49
+  },
   "icon": "029367",
   "lodestoneId": "a37cc760583",
   "spotId": 16,
@@ -3655,6 +4014,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f6/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・オーバールック",
+   "x": 19.14,
+   "y": 17.1
+  },
   "icon": "029368",
   "lodestoneId": "ded86ddda97",
   "spotId": 99,
@@ -3702,6 +4066,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "ワインポート",
+   "x": 21.01,
+   "y": 21.57
+  },
   "icon": "029361",
   "lodestoneId": "9e4b13d3969",
   "spotId": 55,
@@ -3750,6 +4119,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "ワインポート",
+   "x": 21.01,
+   "y": 21.57
+  },
   "icon": "029364",
   "lodestoneId": "faa341011b8",
   "spotId": 56,
@@ -3805,6 +4179,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "ワインポート",
+   "x": 21.01,
+   "y": 21.57
+  },
   "icon": "029371",
   "lodestoneId": "c30767cea80",
   "spotId": 57,
@@ -3861,6 +4240,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f4/00",
+  "aetheryte": {
+   "nameJa": "エールポート",
+   "x": 26.85,
+   "y": 25.87
+  },
   "icon": "029084",
   "lodestoneId": "e8796b5b491",
   "spotId": 62,
@@ -3910,6 +4294,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f3/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドライボーン",
+   "x": 13.89,
+   "y": 24.35
+  },
   "icon": "029369",
   "lodestoneId": "20f8f49e689",
   "spotId": 82,
@@ -3965,6 +4354,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f5/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ブルーフォグ",
+   "x": 22.07,
+   "y": 30.59
+  },
   "icon": "029345",
   "lodestoneId": "4a551907bee",
   "spotId": 89,
@@ -4012,6 +4406,11 @@
   ],
   "mapScale": 100,
   "mapId": "r1f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドラゴンヘッド",
+   "x": 26.07,
+   "y": 16.72
+  },
   "icon": "029348",
   "lodestoneId": "b9c6f45a5e9",
   "spotId": 30,
@@ -4068,6 +4467,11 @@
   ],
   "mapScale": 100,
   "mapId": "r1f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドラゴンヘッド",
+   "x": 26.07,
+   "y": 16.72
+  },
   "icon": "029359",
   "lodestoneId": "0a38cf90483",
   "spotId": 28,
@@ -4124,6 +4528,11 @@
   ],
   "mapScale": 100,
   "mapId": "r1f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドラゴンヘッド",
+   "x": 26.07,
+   "y": 16.72
+  },
   "icon": "029370",
   "lodestoneId": "78dd696331f",
   "spotId": 32,
@@ -4169,6 +4578,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f4/00",
+  "aetheryte": {
+   "nameJa": "フォールゴウド",
+   "x": 20.86,
+   "y": 26.27
+  },
   "icon": "029346",
   "lodestoneId": "c176a7f0575",
   "spotId": 20,
@@ -4224,6 +4638,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f4/00",
+  "aetheryte": {
+   "nameJa": "エールポート",
+   "x": 26.85,
+   "y": 25.87
+  },
   "icon": "029079",
   "lodestoneId": "624784090b0",
   "spotId": 101,
@@ -4277,6 +4696,11 @@
   ],
   "mapScale": 100,
   "mapId": "r1f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドラゴンヘッド",
+   "x": 26.07,
+   "y": 16.72
+  },
   "icon": "029658",
   "lodestoneId": "d757d447108",
   "spotId": 34,
@@ -4349,6 +4773,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f4/00",
+  "aetheryte": {
+   "nameJa": "エールポート",
+   "x": 26.85,
+   "y": 25.87
+  },
   "icon": "029088",
   "lodestoneId": "0c83bbe6506",
   "spotId": 65,
@@ -4398,6 +4827,11 @@
   ],
   "mapScale": 100,
   "mapId": "l1f1/01",
+  "aetheryte": {
+   "nameJa": "レヴナンツトール",
+   "x": 22.45,
+   "y": 8.12
+  },
   "icon": "029089",
   "lodestoneId": "1c6863dd0d1",
   "spotId": 22,
@@ -4498,6 +4932,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "ワインポート",
+   "x": 21.01,
+   "y": 21.57
+  },
   "icon": "029392",
   "lodestoneId": "f9a65cf1b52",
   "spotId": 58,
@@ -4559,6 +4998,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "コスタ・デル・ソル",
+   "x": 31.34,
+   "y": 31
+  },
   "icon": "029095",
   "lodestoneId": "c7f07e0113d",
   "spotId": 107,
@@ -4641,6 +5085,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "コスタ・デル・ソル",
+   "x": 31.34,
+   "y": 31
+  },
   "icon": "029094",
   "lodestoneId": "41fa80b50d4",
   "spotId": 108,
@@ -4697,6 +5146,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f4/00",
+  "aetheryte": {
+   "nameJa": "エールポート",
+   "x": 26.85,
+   "y": 25.87
+  },
   "icon": "029091",
   "lodestoneId": "b18d2e41822",
   "spotId": 63,
@@ -4754,6 +5208,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f4/00",
+  "aetheryte": {
+   "nameJa": "エールポート",
+   "x": 26.85,
+   "y": 25.87
+  },
   "icon": "029090",
   "lodestoneId": "a8d0b7234d6",
   "spotId": 63,
@@ -4822,6 +5281,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f4/00",
+  "aetheryte": {
+   "nameJa": "エールポート",
+   "x": 26.85,
+   "y": 25.87
+  },
   "icon": "029093",
   "lodestoneId": "f74f809f8ab",
   "spotId": 102,
@@ -4870,6 +5334,11 @@
   ],
   "mapScale": 100,
   "mapId": "l1f1/01",
+  "aetheryte": {
+   "nameJa": "レヴナンツトール",
+   "x": 22.45,
+   "y": 8.12
+  },
   "icon": "029390",
   "lodestoneId": "1f7847f2143",
   "spotId": 25,
@@ -4920,6 +5389,11 @@
   ],
   "mapScale": 100,
   "mapId": "l1f1/01",
+  "aetheryte": {
+   "nameJa": "レヴナンツトール",
+   "x": 22.45,
+   "y": 8.12
+  },
   "icon": "029389",
   "lodestoneId": "9d65a5a0052",
   "spotId": 23,
@@ -4999,6 +5473,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f4/00",
+  "aetheryte": {
+   "nameJa": "フォールゴウド",
+   "x": 20.86,
+   "y": 26.27
+  },
   "icon": "029377",
   "lodestoneId": "9c98bd8b11f",
   "spotId": 21,
@@ -5060,6 +5539,11 @@
   ],
   "mapScale": 100,
   "mapId": "l1f1/01",
+  "aetheryte": {
+   "nameJa": "レヴナンツトール",
+   "x": 22.45,
+   "y": 8.12
+  },
   "icon": "029378",
   "lodestoneId": "a576f88bc91",
   "spotId": 24,
@@ -5123,6 +5607,11 @@
   ],
   "mapScale": 100,
   "mapId": "l1f1/01",
+  "aetheryte": {
+   "nameJa": "レヴナンツトール",
+   "x": 22.45,
+   "y": 8.12
+  },
   "icon": "029386",
   "lodestoneId": "815f316bfc3",
   "spotId": 94,
@@ -5233,6 +5722,11 @@
   ],
   "mapScale": 100,
   "mapId": "l1f1/01",
+  "aetheryte": {
+   "nameJa": "レヴナンツトール",
+   "x": 22.45,
+   "y": 8.12
+  },
   "icon": "029381",
   "lodestoneId": "c9352e3363a",
   "spotId": 94,
@@ -5331,6 +5825,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f1/00",
+  "aetheryte": {
+   "nameJa": "ホライズン",
+   "x": 22.96,
+   "y": 16.85
+  },
   "icon": "029092",
   "lodestoneId": "bc2bf02807e",
   "spotId": 74,
@@ -5392,6 +5891,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f1/00",
+  "aetheryte": {
+   "nameJa": "ホライズン",
+   "x": 22.96,
+   "y": 16.85
+  },
   "icon": "029391",
   "lodestoneId": "f6df4ef38c9",
   "spotId": 103,
@@ -5447,6 +5951,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f1/00",
+  "aetheryte": {
+   "nameJa": "ホライズン",
+   "x": 22.96,
+   "y": 16.85
+  },
   "icon": "029380",
   "lodestoneId": "013642ae466",
   "spotId": 95,
@@ -5507,6 +6016,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f5/00",
+  "aetheryte": {
+   "nameJa": "青燐精製所",
+   "x": 21.08,
+   "y": 20.88
+  },
   "icon": "029383",
   "lodestoneId": "51c4878c7e2",
   "spotId": 88,
@@ -5565,6 +6079,11 @@
   ],
   "mapScale": 100,
   "mapId": "w1f4/01",
+  "aetheryte": {
+   "nameJa": "忘れられたオアシス",
+   "x": 15.08,
+   "y": 29.64
+  },
   "icon": "029612",
   "lodestoneId": "de34cc68255",
   "spotId": 86,
@@ -5652,6 +6171,11 @@
   ],
   "mapScale": 100,
   "mapId": "r1f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドラゴンヘッド",
+   "x": 26.07,
+   "y": 16.72
+  },
   "icon": "029385",
   "lodestoneId": "07c1b520e11",
   "spotId": 29,
@@ -5700,6 +6224,11 @@
   ],
   "mapScale": 100,
   "mapId": "r1f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドラゴンヘッド",
+   "x": 26.07,
+   "y": 16.72
+  },
   "icon": "029388",
   "lodestoneId": "459fd0efae8",
   "spotId": 33,
@@ -5759,6 +6288,11 @@
   ],
   "mapScale": 100,
   "mapId": "r1f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドラゴンヘッド",
+   "x": 26.07,
+   "y": 16.72
+  },
   "icon": "029660",
   "lodestoneId": "0ae39b292ae",
   "spotId": 27,
@@ -5825,6 +6359,11 @@
   ],
   "mapScale": 100,
   "mapId": "r1f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ドラゴンヘッド",
+   "x": 26.07,
+   "y": 16.72
+  },
   "icon": "029659",
   "lodestoneId": "6c27a0657c7",
   "spotId": 27,
@@ -5883,6 +6422,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f2/00",
+  "aetheryte": {
+   "nameJa": "ホウソーン家の山塞",
+   "x": 17.57,
+   "y": 27.34
+  },
   "icon": "029387",
   "lodestoneId": "6d620307e09",
   "spotId": 9,
@@ -5934,6 +6478,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f3/00",
+  "aetheryte": {
+   "nameJa": "クォーリーミル",
+   "x": 25.22,
+   "y": 20.03
+  },
   "icon": "029382",
   "lodestoneId": "03434153dc5",
   "spotId": 17,
@@ -6014,6 +6563,11 @@
   ],
   "mapScale": 100,
   "mapId": "f1f3/00",
+  "aetheryte": {
+   "nameJa": "クォーリーミル",
+   "x": 25.22,
+   "y": 20.03
+  },
   "icon": "029384",
   "lodestoneId": "2aa49a1b063",
   "spotId": 17,
@@ -6067,6 +6621,11 @@
   ],
   "mapScale": 100,
   "mapId": "l1f1/01",
+  "aetheryte": {
+   "nameJa": "レヴナンツトール",
+   "x": 22.45,
+   "y": 8.12
+  },
   "icon": "029379",
   "lodestoneId": "0cd01baf428",
   "spotId": 93,
@@ -6117,6 +6676,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "コスタ・デル・ソル",
+   "x": 31.34,
+   "y": 31
+  },
   "icon": "029047",
   "lodestoneId": "ab9ef1049b4",
   "spotId": 51,
@@ -6170,6 +6734,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・クラウドトップ",
+   "x": 10.41,
+   "y": 33.4
+  },
   "icon": "029393",
   "lodestoneId": "42c50a9cd0f",
   "spotId": 135,
@@ -6215,6 +6784,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f2/00",
+  "aetheryte": {
+   "nameJa": "ポート・ヘリックス",
+   "x": 8.34,
+   "y": 10.71
+  },
   "icon": "029224",
   "lodestoneId": "620321e7c02",
   "spotId": 143,
@@ -6262,6 +6836,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f3/00",
+  "aetheryte": {
+   "nameJa": "モグモグホーム",
+   "x": 27.63,
+   "y": 34.4
+  },
   "icon": "029707",
   "lodestoneId": "50c81332813",
   "spotId": 133,
@@ -6315,6 +6894,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f2/00",
+  "aetheryte": {
+   "nameJa": "ポート・ヘリックス",
+   "x": 8.34,
+   "y": 10.71
+  },
   "icon": "029703",
   "lodestoneId": "7e2bc4af75e",
   "spotId": 145,
@@ -6360,6 +6944,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・クラウドトップ",
+   "x": 10.41,
+   "y": 33.4
+  },
   "icon": "029414",
   "lodestoneId": "deea91ce489",
   "spotId": 136,
@@ -6408,6 +6997,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f2/00",
+  "aetheryte": {
+   "nameJa": "表紙門（低地ドラヴァニア西方面）",
+   "x": 11.94,
+   "y": 12.83
+  },
   "icon": "029243",
   "lodestoneId": "c50b60be3bc",
   "spotId": 127,
@@ -6461,6 +7055,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f2/00",
+  "aetheryte": {
+   "nameJa": "裏表紙門（低地ドラヴァニア東方面）",
+   "x": 18.16,
+   "y": 10.56
+  },
   "icon": "029415",
   "lodestoneId": "778f68801fb",
   "spotId": 128,
@@ -6514,6 +7113,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f1/00",
+  "aetheryte": {
+   "nameJa": "不浄の三塔",
+   "x": 16.63,
+   "y": 23.24
+  },
   "icon": "029859",
   "lodestoneId": "062c8bf3f05",
   "spotId": 124,
@@ -6562,6 +7166,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f2/00",
+  "aetheryte": {
+   "nameJa": "ポート・ヘリックス",
+   "x": 8.34,
+   "y": 10.71
+  },
   "icon": "029709",
   "lodestoneId": "023b43f89b6",
   "spotId": 145,
@@ -6607,6 +7216,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f3/00",
+  "aetheryte": {
+   "nameJa": "白亜の宮殿",
+   "x": 11.02,
+   "y": 28.81
+  },
   "icon": "029712",
   "lodestoneId": "c617882ec23",
   "spotId": 134,
@@ -6652,6 +7266,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f1/00",
+  "aetheryte": {
+   "nameJa": "テイルフェザー",
+   "x": 33.47,
+   "y": 23.19
+  },
   "icon": "029424",
   "lodestoneId": "4bf4533b149",
   "spotId": 120,
@@ -6697,6 +7316,11 @@
   ],
   "mapScale": 95,
   "mapId": "r2f1/00",
+  "aetheryte": {
+   "nameJa": "ファルコンネスト",
+   "x": 31.9,
+   "y": 36.54
+  },
   "icon": "029027",
   "lodestoneId": "ed6b491a38c",
   "spotId": 114,
@@ -6742,6 +7366,11 @@
   ],
   "mapScale": 95,
   "mapId": "r2f1/00",
+  "aetheryte": {
+   "nameJa": "ファルコンネスト",
+   "x": 31.9,
+   "y": 36.54
+  },
   "icon": "029431",
   "lodestoneId": "bd5543b9ec7",
   "spotId": 114,
@@ -6787,6 +7416,11 @@
   ],
   "mapScale": 95,
   "mapId": "r2f1/00",
+  "aetheryte": {
+   "nameJa": "ファルコンネスト",
+   "x": 31.9,
+   "y": 36.54
+  },
   "icon": "029425",
   "lodestoneId": "d45d6e53eda",
   "spotId": 109,
@@ -6832,6 +7466,11 @@
   ],
   "mapScale": 95,
   "mapId": "r2f1/00",
+  "aetheryte": {
+   "nameJa": "ファルコンネスト",
+   "x": 31.9,
+   "y": 36.54
+  },
   "icon": "029813",
   "lodestoneId": "5bb3a93c99c",
   "spotId": 113,
@@ -6877,6 +7516,11 @@
   ],
   "mapScale": 95,
   "mapId": "r2f1/00",
+  "aetheryte": {
+   "nameJa": "ファルコンネスト",
+   "x": 31.9,
+   "y": 36.54
+  },
   "icon": "029814",
   "lodestoneId": "ac4a542cf07",
   "spotId": 115,
@@ -6922,6 +7566,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f1/00",
+  "aetheryte": {
+   "nameJa": "テイルフェザー",
+   "x": 33.47,
+   "y": 23.19
+  },
   "icon": "029426",
   "lodestoneId": "cd9a2a9dd12",
   "spotId": 117,
@@ -6971,6 +7620,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f1/00",
+  "aetheryte": {
+   "nameJa": "テイルフェザー",
+   "x": 33.47,
+   "y": 23.19
+  },
   "icon": "029427",
   "lodestoneId": "b4733f10237",
   "spotId": 119,
@@ -7028,6 +7682,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f1/00",
+  "aetheryte": {
+   "nameJa": "不浄の三塔",
+   "x": 16.63,
+   "y": 23.24
+  },
   "icon": "029861",
   "lodestoneId": "3c8a405849d",
   "spotId": 121,
@@ -7081,6 +7740,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f2/00",
+  "aetheryte": {
+   "nameJa": "裏表紙門（低地ドラヴァニア東方面）",
+   "x": 18.16,
+   "y": 10.56
+  },
   "icon": "029338",
   "lodestoneId": "e87d01f56c9",
   "spotId": 125,
@@ -7126,6 +7790,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f3/00",
+  "aetheryte": {
+   "nameJa": "モグモグホーム",
+   "x": 27.63,
+   "y": 34.4
+  },
   "icon": "029428",
   "lodestoneId": "9dff74b8d4a",
   "spotId": 129,
@@ -7171,6 +7840,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f3/00",
+  "aetheryte": {
+   "nameJa": "モグモグホーム",
+   "x": 27.63,
+   "y": 34.4
+  },
   "icon": "029074",
   "lodestoneId": "ae5a29e51e5",
   "spotId": 132,
@@ -7219,6 +7893,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・クラウドトップ",
+   "x": 10.41,
+   "y": 33.4
+  },
   "icon": "029429",
   "lodestoneId": "a7f20c7b068",
   "spotId": 135,
@@ -7264,6 +7943,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f1/00",
+  "aetheryte": {
+   "nameJa": "オク・ズンド",
+   "x": 10.52,
+   "y": 14.43
+  },
   "icon": "029065",
   "lodestoneId": "af1a64591f8",
   "spotId": 138,
@@ -7319,6 +8003,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f2/00",
+  "aetheryte": {
+   "nameJa": "ポート・ヘリックス",
+   "x": 8.34,
+   "y": 10.71
+  },
   "icon": "029086",
   "lodestoneId": "c3365617ec7",
   "spotId": 140,
@@ -7372,6 +8061,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f2/00",
+  "aetheryte": {
+   "nameJa": "ポート・ヘリックス",
+   "x": 8.34,
+   "y": 10.71
+  },
   "icon": "029430",
   "lodestoneId": "20c949b5fd4",
   "spotId": 143,
@@ -7427,6 +8121,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f3/00",
+  "aetheryte": {
+   "nameJa": "モグモグホーム",
+   "x": 27.63,
+   "y": 34.4
+  },
   "icon": "029730",
   "lodestoneId": "2bc6c6aa50f",
   "spotId": 133,
@@ -7484,6 +8183,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f1/00",
+  "aetheryte": {
+   "nameJa": "オク・ズンド",
+   "x": 10.52,
+   "y": 14.43
+  },
   "icon": "029731",
   "lodestoneId": "92805e0096e",
   "spotId": 139,
@@ -7541,6 +8245,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f2/00",
+  "aetheryte": {
+   "nameJa": "ポート・ヘリックス",
+   "x": 8.34,
+   "y": 10.71
+  },
   "icon": "029759",
   "lodestoneId": "5216ef54744",
   "spotId": 146,
@@ -7598,6 +8307,11 @@
   ],
   "mapScale": 95,
   "mapId": "r2f1/00",
+  "aetheryte": {
+   "nameJa": "ファルコンネスト",
+   "x": 31.9,
+   "y": 36.54
+  },
   "icon": "029661",
   "lodestoneId": "8400e141591",
   "spotId": 110,
@@ -7656,6 +8370,11 @@
   ],
   "mapScale": 95,
   "mapId": "r2f1/00",
+  "aetheryte": {
+   "nameJa": "ファルコンネスト",
+   "x": 31.9,
+   "y": 36.54
+  },
   "icon": "029815",
   "lodestoneId": "7bec55c4785",
   "spotId": 111,
@@ -7703,6 +8422,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f1/00",
+  "aetheryte": {
+   "nameJa": "テイルフェザー",
+   "x": 33.47,
+   "y": 23.19
+  },
   "icon": "029432",
   "lodestoneId": "1552648552b",
   "spotId": 118,
@@ -7762,6 +8486,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f2/00",
+  "aetheryte": {
+   "nameJa": "表紙門（低地ドラヴァニア西方面）",
+   "x": 11.94,
+   "y": 12.83
+  },
   "icon": "029433",
   "lodestoneId": "a1d1094cbe5",
   "spotId": 126,
@@ -7809,6 +8538,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f3/00",
+  "aetheryte": {
+   "nameJa": "白亜の宮殿",
+   "x": 11.02,
+   "y": 28.81
+  },
   "icon": "029434",
   "lodestoneId": "9498bb43a7e",
   "spotId": 130,
@@ -7858,6 +8592,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・クラウドトップ",
+   "x": 10.41,
+   "y": 33.4
+  },
   "icon": "029732",
   "lodestoneId": "8f1bef70125",
   "spotId": 137,
@@ -7906,6 +8645,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f1/00",
+  "aetheryte": {
+   "nameJa": "不浄の三塔",
+   "x": 16.63,
+   "y": 23.24
+  },
   "icon": "029862",
   "lodestoneId": "daf5ba166bf",
   "spotId": 122,
@@ -7959,6 +8703,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f2/00",
+  "aetheryte": {
+   "nameJa": "ポート・ヘリックス",
+   "x": 8.34,
+   "y": 10.71
+  },
   "icon": "029760",
   "lodestoneId": "2cb8b8f554c",
   "spotId": 141,
@@ -8012,6 +8761,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f2/00",
+  "aetheryte": {
+   "nameJa": "ポート・ヘリックス",
+   "x": 8.34,
+   "y": 10.71
+  },
   "icon": "029761",
   "lodestoneId": "f78038c7aab",
   "spotId": 144,
@@ -8065,6 +8819,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f2/00",
+  "aetheryte": {
+   "nameJa": "裏表紙門（低地ドラヴァニア東方面）",
+   "x": 18.16,
+   "y": 10.56
+  },
   "icon": "029330",
   "lodestoneId": "50ff7b6b19d",
   "spotId": 128,
@@ -8122,6 +8881,11 @@
   ],
   "mapScale": 95,
   "mapId": "r2f1/00",
+  "aetheryte": {
+   "nameJa": "ファルコンネスト",
+   "x": 31.9,
+   "y": 36.54
+  },
   "icon": "029367",
   "lodestoneId": "8296d8d269c",
   "spotId": 116,
@@ -8172,6 +8936,11 @@
   ],
   "mapScale": 95,
   "mapId": "r2f1/00",
+  "aetheryte": {
+   "nameJa": "ファルコンネスト",
+   "x": 31.9,
+   "y": 36.54
+  },
   "icon": "029098",
   "lodestoneId": "f4dcc44bf75",
   "spotId": 112,
@@ -8219,6 +8988,11 @@
   ],
   "mapScale": 95,
   "mapId": "r2f1/00",
+  "aetheryte": {
+   "nameJa": "ファルコンネスト",
+   "x": 31.9,
+   "y": 36.54
+  },
   "icon": "029816",
   "lodestoneId": "9a2312c41b8",
   "spotId": 114,
@@ -8276,6 +9050,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f1/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・クラウドトップ",
+   "x": 10.41,
+   "y": 33.4
+  },
   "icon": "029436",
   "lodestoneId": "b164a0d88b2",
   "spotId": 136,
@@ -8325,6 +9104,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f2/00",
+  "aetheryte": {
+   "nameJa": "ポート・ヘリックス",
+   "x": 8.34,
+   "y": 10.71
+  },
   "icon": "029611",
   "lodestoneId": "53e21d46c71",
   "spotId": 142,
@@ -8382,6 +9166,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f2/00",
+  "aetheryte": {
+   "nameJa": "ポート・ヘリックス",
+   "x": 8.34,
+   "y": 10.71
+  },
   "icon": "029735",
   "lodestoneId": "587e8b00d12",
   "spotId": 145,
@@ -8439,6 +9228,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f1/00",
+  "aetheryte": {
+   "nameJa": "テイルフェザー",
+   "x": 33.47,
+   "y": 23.19
+  },
   "icon": "029437",
   "lodestoneId": "d3db4e02de7",
   "spotId": 120,
@@ -8498,6 +9292,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f1/00",
+  "aetheryte": {
+   "nameJa": "不浄の三塔",
+   "x": 16.63,
+   "y": 23.24
+  },
   "icon": "029864",
   "lodestoneId": "02e6482c658",
   "spotId": 123,
@@ -8555,6 +9354,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f1/00",
+  "aetheryte": {
+   "nameJa": "不浄の三塔",
+   "x": 16.63,
+   "y": 23.24
+  },
   "icon": "029865",
   "lodestoneId": "f7ada1d8e45",
   "spotId": 124,
@@ -8615,6 +9419,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f2/00",
+  "aetheryte": {
+   "nameJa": "表紙門（低地ドラヴァニア西方面）",
+   "x": 11.94,
+   "y": 12.83
+  },
   "icon": "029438",
   "lodestoneId": "1ef2f69b374",
   "spotId": 127,
@@ -8665,6 +9474,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f3/00",
+  "aetheryte": {
+   "nameJa": "白亜の宮殿",
+   "x": 11.02,
+   "y": 28.81
+  },
   "icon": "029439",
   "lodestoneId": "0f73d8e9c33",
   "spotId": 131,
@@ -8714,6 +9528,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f3/00",
+  "aetheryte": {
+   "nameJa": "白亜の宮殿",
+   "x": 11.02,
+   "y": 28.81
+  },
   "icon": "029736",
   "lodestoneId": "bd1de641540",
   "spotId": 134,
@@ -8828,6 +9647,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f1/00",
+  "aetheryte": {
+   "nameJa": "不浄の三塔",
+   "x": 16.63,
+   "y": 23.24
+  },
   "icon": "029863",
   "lodestoneId": "fda2e048033",
   "spotId": 124,
@@ -8915,6 +9739,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f2/00",
+  "aetheryte": {
+   "nameJa": "ポート・ヘリックス",
+   "x": 8.34,
+   "y": 10.71
+  },
   "icon": "029762",
   "lodestoneId": "4b6194b31f1",
   "spotId": 146,
@@ -8999,6 +9828,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f2/00",
+  "aetheryte": {
+   "nameJa": "表紙門（低地ドラヴァニア西方面）",
+   "x": 11.94,
+   "y": 12.83
+  },
   "icon": "029435",
   "lodestoneId": "163947084c9",
   "spotId": 127,
@@ -9103,6 +9937,11 @@
   ],
   "mapScale": 95,
   "mapId": "a2f1/00",
+  "aetheryte": {
+   "nameJa": "オク・ズンド",
+   "x": 10.52,
+   "y": 14.43
+  },
   "icon": "029662",
   "lodestoneId": "2ceb7fe09f2",
   "spotId": 139,
@@ -9187,6 +10026,11 @@
   ],
   "mapScale": 95,
   "mapId": "r2f1/00",
+  "aetheryte": {
+   "nameJa": "ファルコンネスト",
+   "x": 31.9,
+   "y": 36.54
+  },
   "icon": "029734",
   "lodestoneId": "0b21a3937b2",
   "spotId": 112,
@@ -9271,6 +10115,11 @@
   ],
   "mapScale": 95,
   "mapId": "d2f3/00",
+  "aetheryte": {
+   "nameJa": "白亜の宮殿",
+   "x": 11.02,
+   "y": 28.81
+  },
   "icon": "029733",
   "lodestoneId": "fe8edf01039",
   "spotId": 134,
@@ -9326,6 +10175,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "碧のタマミズ",
+   "x": 28.69,
+   "y": 16.04
+  },
   "icon": "029115",
   "lodestoneId": "5970c533354",
   "spotId": 159,
@@ -9373,6 +10227,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "ナマイ村",
+   "x": 30.16,
+   "y": 19.49
+  },
   "icon": "029445",
   "lodestoneId": "8ddee7c2511",
   "spotId": 172,
@@ -9418,6 +10277,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "烈士庵",
+   "x": 26.42,
+   "y": 13.27
+  },
   "icon": "029454",
   "lodestoneId": "0a1d0025a2e",
   "spotId": 171,
@@ -9471,6 +10335,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f3/00",
+  "aetheryte": {
+   "nameJa": "ポルタ・プレトリア",
+   "x": 8.44,
+   "y": 20.97
+  },
   "icon": "029922",
   "lodestoneId": "d3a89caecf6",
   "spotId": 196,
@@ -9518,6 +10387,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "ナマイ村",
+   "x": 30.16,
+   "y": 19.49
+  },
   "icon": "029455",
   "lodestoneId": "e60aa331ef9",
   "spotId": 174,
@@ -9565,6 +10439,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f2/00",
+  "aetheryte": {
+   "nameJa": "アラガーナ",
+   "x": 23.68,
+   "y": 6.42
+  },
   "icon": "029287",
   "lodestoneId": "72b3a733751",
   "spotId": 193,
@@ -9612,6 +10491,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "オノコロ島",
+   "x": 23.34,
+   "y": 9.7
+  },
   "icon": "029022",
   "lodestoneId": "f8c64301c72",
   "spotId": 162,
@@ -9660,6 +10544,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "オノコロ島",
+   "x": 23.34,
+   "y": 9.7
+  },
   "icon": "029027",
   "lodestoneId": "7ab454e3a51",
   "spotId": 164,
@@ -9705,6 +10594,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "オノコロ島",
+   "x": 23.34,
+   "y": 9.7
+  },
   "icon": "029023",
   "lodestoneId": "635f9d9eab7",
   "spotId": 164,
@@ -9750,6 +10644,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f2/00",
+  "aetheryte": {
+   "nameJa": "アラギリ",
+   "x": 15.96,
+   "y": 36.39
+  },
   "icon": "029414",
   "lodestoneId": "489fc0cb7be",
   "spotId": 195,
@@ -9814,6 +10713,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "コスタ・デル・ソル",
+   "x": 31.34,
+   "y": 31
+  },
   "icon": "029147",
   "lodestoneId": "7e475c8b677",
   "spotId": 156,
@@ -9878,6 +10782,11 @@
   ],
   "mapScale": 100,
   "mapId": "s1f3/01",
+  "aetheryte": {
+   "nameJa": "コスタ・デル・ソル",
+   "x": 31.34,
+   "y": 31
+  },
   "icon": "029148",
   "lodestoneId": "c5fedf199eb",
   "spotId": 156,
@@ -9923,6 +10832,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "碧のタマミズ",
+   "x": 28.69,
+   "y": 16.04
+  },
   "icon": "029150",
   "lodestoneId": "e909be2f0b2",
   "spotId": 159,
@@ -9978,6 +10892,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f3/00",
+  "aetheryte": {
+   "nameJa": "ポルタ・プレトリア",
+   "x": 8.44,
+   "y": 20.97
+  },
   "icon": "029917",
   "lodestoneId": "f31d826ccda",
   "spotId": 196,
@@ -10026,6 +10945,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "碧のタマミズ",
+   "x": 28.69,
+   "y": 16.04
+  },
   "icon": "029153",
   "lodestoneId": "abbbd6b9593",
   "spotId": 160,
@@ -10079,6 +11003,11 @@
   ],
   "mapScale": 200,
   "mapId": "g3t1/00",
+  "aetheryte": {
+   "nameJa": "ラールガーズリーチ",
+   "x": 12.92,
+   "y": 13.13
+  },
   "icon": "029520",
   "lodestoneId": "6ecfd5b1de4",
   "spotId": 184,
@@ -10127,6 +11056,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f1/00",
+  "aetheryte": {
+   "nameJa": "ピーリングストーンズ",
+   "x": 29.99,
+   "y": 26.35
+  },
   "icon": "029518",
   "lodestoneId": "f9919aea5c7",
   "spotId": 189,
@@ -10180,6 +11114,11 @@
   ],
   "mapScale": 200,
   "mapId": "g3t1/00",
+  "aetheryte": {
+   "nameJa": "ラールガーズリーチ",
+   "x": 12.92,
+   "y": 13.13
+  },
   "icon": "029523",
   "lodestoneId": "fafd0897087",
   "spotId": 182,
@@ -10225,6 +11164,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f1/00",
+  "aetheryte": {
+   "nameJa": "カストルム・オリエンス",
+   "x": 8.74,
+   "y": 11.26
+  },
   "icon": "029524",
   "lodestoneId": "718b7d71e97",
   "spotId": 186,
@@ -10272,6 +11216,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f1/00",
+  "aetheryte": {
+   "nameJa": "ピーリングストーンズ",
+   "x": 29.99,
+   "y": 26.35
+  },
   "icon": "029525",
   "lodestoneId": "67bd55ec86d",
   "spotId": 187,
@@ -10317,6 +11266,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f2/00",
+  "aetheryte": {
+   "nameJa": "アラガーナ",
+   "x": 23.68,
+   "y": 6.42
+  },
   "icon": "029526",
   "lodestoneId": "6b7d1fb1fda",
   "spotId": 190,
@@ -10372,6 +11326,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f2/00",
+  "aetheryte": {
+   "nameJa": "アラガーナ",
+   "x": 23.68,
+   "y": 6.42
+  },
   "icon": "029360",
   "lodestoneId": "cc3e0d687e6",
   "spotId": 191,
@@ -10425,6 +11384,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f3/00",
+  "aetheryte": {
+   "nameJa": "ポルタ・プレトリア",
+   "x": 8.44,
+   "y": 20.97
+  },
   "icon": "029926",
   "lodestoneId": "5c9a8f4417d",
   "spotId": 196,
@@ -10480,6 +11444,11 @@
   ],
   "mapScale": 200,
   "mapId": "e3t1/00",
+  "aetheryte": {
+   "nameJa": "クガネ",
+   "x": 12.26,
+   "y": 10.32
+  },
   "icon": "029155",
   "lodestoneId": "a2f7ab84b73",
   "spotId": 157,
@@ -10525,6 +11494,7 @@
   ],
   "mapScale": 200,
   "mapId": "e1h1/01",
+  "aetheryte": null,
   "icon": "029156",
   "lodestoneId": "4965c912dab",
   "spotId": 197,
@@ -10570,6 +11540,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "碧のタマミズ",
+   "x": 28.69,
+   "y": 16.04
+  },
   "icon": "029157",
   "lodestoneId": "405873c8b27",
   "spotId": 161,
@@ -10623,6 +11598,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "オノコロ島",
+   "x": 23.34,
+   "y": 9.7
+  },
   "icon": "029158",
   "lodestoneId": "fcf424e3b3f",
   "spotId": 164,
@@ -10670,6 +11650,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "烈士庵",
+   "x": 26.42,
+   "y": 13.27
+  },
   "icon": "029527",
   "lodestoneId": "a43fec6efcc",
   "spotId": 170,
@@ -10715,6 +11700,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "ナマイ村",
+   "x": 30.16,
+   "y": 19.49
+  },
   "icon": "029528",
   "lodestoneId": "159bd0b2c79",
   "spotId": 174,
@@ -10762,6 +11752,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f3/00",
+  "aetheryte": {
+   "nameJa": "明けの玉座",
+   "x": 23.26,
+   "y": 22.17
+  },
   "icon": "029529",
   "lodestoneId": "332719b9d6a",
   "spotId": 179,
@@ -10807,6 +11802,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f3/00",
+  "aetheryte": {
+   "nameJa": "明けの玉座",
+   "x": 23.26,
+   "y": 22.17
+  },
   "icon": "029530",
   "lodestoneId": "28d3e055588",
   "spotId": 180,
@@ -10862,6 +11862,11 @@
   ],
   "mapScale": 200,
   "mapId": "g3t1/00",
+  "aetheryte": {
+   "nameJa": "ラールガーズリーチ",
+   "x": 12.92,
+   "y": 13.13
+  },
   "icon": "029533",
   "lodestoneId": "d63e184d0d4",
   "spotId": 183,
@@ -10917,6 +11922,11 @@
   ],
   "mapScale": 200,
   "mapId": "g3t1/00",
+  "aetheryte": {
+   "nameJa": "ラールガーズリーチ",
+   "x": 12.92,
+   "y": 13.13
+  },
   "icon": "029534",
   "lodestoneId": "73b54144e9e",
   "spotId": 184,
@@ -10965,6 +11975,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f1/00",
+  "aetheryte": {
+   "nameJa": "カストルム・オリエンス",
+   "x": 8.74,
+   "y": 11.26
+  },
   "icon": "029535",
   "lodestoneId": "e8f9d21ddda",
   "spotId": 185,
@@ -11010,6 +12025,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f1/00",
+  "aetheryte": {
+   "nameJa": "カストルム・オリエンス",
+   "x": 8.74,
+   "y": 11.26
+  },
   "icon": "029536",
   "lodestoneId": "d5707afecf8",
   "spotId": 188,
@@ -11057,6 +12077,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f1/00",
+  "aetheryte": {
+   "nameJa": "ピーリングストーンズ",
+   "x": 29.99,
+   "y": 26.35
+  },
   "icon": "029537",
   "lodestoneId": "13601f9c21b",
   "spotId": 189,
@@ -11104,6 +12129,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f2/00",
+  "aetheryte": {
+   "nameJa": "アラガーナ",
+   "x": 23.68,
+   "y": 6.42
+  },
   "icon": "029437",
   "lodestoneId": "6176616fcea",
   "spotId": 192,
@@ -11153,6 +12183,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f2/00",
+  "aetheryte": {
+   "nameJa": "アラギリ",
+   "x": 15.96,
+   "y": 36.39
+  },
   "icon": "029538",
   "lodestoneId": "efc98310d71",
   "spotId": 194,
@@ -11200,6 +12235,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f2/00",
+  "aetheryte": {
+   "nameJa": "アラガーナ",
+   "x": 23.68,
+   "y": 6.42
+  },
   "icon": "029539",
   "lodestoneId": "9d25fd22326",
   "spotId": 193,
@@ -11252,6 +12292,7 @@
   ],
   "mapScale": 200,
   "mapId": "e1h1/01",
+  "aetheryte": null,
   "icon": "029540",
   "lodestoneId": "1bf4a4ca0dc",
   "spotId": 198,
@@ -11297,6 +12338,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "碧のタマミズ",
+   "x": 28.69,
+   "y": 16.04
+  },
   "icon": "029159",
   "lodestoneId": "f09db09ecb2",
   "spotId": 158,
@@ -11354,6 +12400,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "オノコロ島",
+   "x": 23.34,
+   "y": 9.7
+  },
   "icon": "029160",
   "lodestoneId": "1e47aca4250",
   "spotId": 162,
@@ -11404,6 +12455,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "ナマイ村",
+   "x": 30.16,
+   "y": 19.49
+  },
   "icon": "029541",
   "lodestoneId": "a44a30bb61e",
   "spotId": 173,
@@ -11462,6 +12518,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f3/00",
+  "aetheryte": {
+   "nameJa": "明けの玉座",
+   "x": 23.26,
+   "y": 22.17
+  },
   "icon": "029542",
   "lodestoneId": "86994fb6e2b",
   "spotId": 178,
@@ -11512,6 +12573,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f3/00",
+  "aetheryte": {
+   "nameJa": "明けの玉座",
+   "x": 23.26,
+   "y": 22.17
+  },
   "icon": "029543",
   "lodestoneId": "84d3da9a734",
   "spotId": 177,
@@ -11559,6 +12625,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f2/00",
+  "aetheryte": {
+   "nameJa": "アラギリ",
+   "x": 15.96,
+   "y": 36.39
+  },
   "icon": "029161",
   "lodestoneId": "0487563e166",
   "spotId": 195,
@@ -11616,6 +12687,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "碧のタマミズ",
+   "x": 28.69,
+   "y": 16.04
+  },
   "icon": "029162",
   "lodestoneId": "a3ce2de2edd",
   "spotId": 159,
@@ -11663,6 +12739,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "碧のタマミズ",
+   "x": 28.69,
+   "y": 16.04
+  },
   "icon": "029163",
   "lodestoneId": "7406d2d4102",
   "spotId": 160,
@@ -11712,6 +12793,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "オノコロ島",
+   "x": 23.34,
+   "y": 9.7
+  },
   "icon": "029087",
   "lodestoneId": "7d196251b6a",
   "spotId": 163,
@@ -11762,6 +12848,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "ナマイ村",
+   "x": 30.16,
+   "y": 19.49
+  },
   "icon": "029348",
   "lodestoneId": "c3d2823657a",
   "spotId": 165,
@@ -11809,6 +12900,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "ナマイ村",
+   "x": 30.16,
+   "y": 19.49
+  },
   "icon": "029544",
   "lodestoneId": "99a14736ff9",
   "spotId": 166,
@@ -11858,6 +12954,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "烈士庵",
+   "x": 26.42,
+   "y": 13.27
+  },
   "icon": "029545",
   "lodestoneId": "5b2dc2bba73",
   "spotId": 167,
@@ -11905,6 +13006,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "烈士庵",
+   "x": 26.42,
+   "y": 13.27
+  },
   "icon": "029331",
   "lodestoneId": "8d746e8e0a6",
   "spotId": 171,
@@ -11952,6 +13058,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "ナマイ村",
+   "x": 30.16,
+   "y": 19.49
+  },
   "icon": "029546",
   "lodestoneId": "6b43066b27e",
   "spotId": 172,
@@ -12001,6 +13112,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "烈士庵",
+   "x": 26.42,
+   "y": 13.27
+  },
   "icon": "029355",
   "lodestoneId": "62019d4e9f2",
   "spotId": 169,
@@ -12048,6 +13164,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f3/00",
+  "aetheryte": {
+   "nameJa": "ドーロ・イロー",
+   "x": 6.54,
+   "y": 23.98
+  },
   "icon": "029318",
   "lodestoneId": "658f6632c81",
   "spotId": 181,
@@ -12098,6 +13219,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f3/00",
+  "aetheryte": {
+   "nameJa": "再会の市",
+   "x": 32.78,
+   "y": 28.13
+  },
   "icon": "029547",
   "lodestoneId": "ff85334859a",
   "spotId": 175,
@@ -12155,6 +13281,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f3/00",
+  "aetheryte": {
+   "nameJa": "明けの玉座",
+   "x": 23.26,
+   "y": 22.17
+  },
   "icon": "029377",
   "lodestoneId": "36b1ec21edc",
   "spotId": 176,
@@ -12214,6 +13345,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f1/00",
+  "aetheryte": {
+   "nameJa": "カストルム・オリエンス",
+   "x": 8.74,
+   "y": 11.26
+  },
   "icon": "029548",
   "lodestoneId": "60b55b3ced7",
   "spotId": 185,
@@ -12290,6 +13426,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f2/00",
+  "aetheryte": {
+   "nameJa": "アラガーナ",
+   "x": 23.68,
+   "y": 6.42
+  },
   "icon": "029549",
   "lodestoneId": "ce697f227c1",
   "spotId": 190,
@@ -12384,6 +13525,11 @@
   ],
   "mapScale": 100,
   "mapId": "g3f3/00",
+  "aetheryte": {
+   "nameJa": "ポルタ・プレトリア",
+   "x": 8.44,
+   "y": 20.97
+  },
   "icon": "029927",
   "lodestoneId": "8c18a4d56fb",
   "spotId": 196,
@@ -12437,6 +13583,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f1/00",
+  "aetheryte": {
+   "nameJa": "碧のタマミズ",
+   "x": 28.69,
+   "y": 16.04
+  },
   "icon": "029164",
   "lodestoneId": "81e24f8701d",
   "spotId": 158,
@@ -12592,6 +13743,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f2/00",
+  "aetheryte": {
+   "nameJa": "烈士庵",
+   "x": 26.42,
+   "y": 13.27
+  },
   "icon": "029550",
   "lodestoneId": "663a9218fd6",
   "spotId": 168,
@@ -12637,6 +13793,11 @@
   ],
   "mapScale": 100,
   "mapId": "e3f3/00",
+  "aetheryte": {
+   "nameJa": "ドーロ・イロー",
+   "x": 6.54,
+   "y": 23.98
+  },
   "icon": "029551",
   "lodestoneId": "9ca5d5e1921",
   "spotId": 181,
@@ -12686,6 +13847,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f1/00",
+  "aetheryte": {
+   "nameJa": "オスタル厳命城",
+   "x": 6.78,
+   "y": 16.76
+  },
   "icon": "029569",
   "lodestoneId": "30f4a123c61",
   "spotId": 206,
@@ -12739,6 +13905,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f2/00",
+  "aetheryte": {
+   "nameJa": "スティルタイド",
+   "x": 34.87,
+   "y": 27.42
+  },
   "icon": "029176",
   "lodestoneId": "cdf2ea080ff",
   "spotId": 213,
@@ -12795,6 +13966,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f3/00",
+  "aetheryte": {
+   "nameJa": "トゥワイン",
+   "x": 11.26,
+   "y": 16.98
+  },
   "icon": "029619",
   "lodestoneId": "43773aba52d",
   "spotId": 216,
@@ -12844,6 +14020,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f3/00",
+  "aetheryte": {
+   "nameJa": "旅立ちの宿",
+   "x": 29.48,
+   "y": 27.43
+  },
   "icon": "029618",
   "lodestoneId": "02288be9945",
   "spotId": 217,
@@ -12897,6 +14078,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f6/00",
+  "aetheryte": {
+   "nameJa": "マカレンサス広場",
+   "x": 18.55,
+   "y": 25.56
+  },
   "icon": "029188",
   "lodestoneId": "8770c884b92",
   "spotId": 233,
@@ -12944,6 +14130,11 @@
   ],
   "mapScale": 200,
   "mapId": "n4t1/00",
+  "aetheryte": {
+   "nameJa": "クリスタリウム",
+   "x": 9.83,
+   "y": 11.37
+  },
   "icon": "028470",
   "lodestoneId": "bcadd39dad2",
   "spotId": 201,
@@ -12989,6 +14180,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f1/00",
+  "aetheryte": {
+   "nameJa": "オスタル厳命城",
+   "x": 6.78,
+   "y": 16.76
+  },
   "icon": "028471",
   "lodestoneId": "70cf6937048",
   "spotId": 204,
@@ -13036,6 +14232,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f2/00",
+  "aetheryte": {
+   "nameJa": "ライト村",
+   "x": 16.61,
+   "y": 29.04
+  },
   "icon": "028472",
   "lodestoneId": "dec5f18f734",
   "spotId": 210,
@@ -13083,6 +14284,11 @@
   ],
   "mapScale": 200,
   "mapId": "n4t2/01",
+  "aetheryte": {
+   "nameJa": "ユールモア",
+   "x": 11.24,
+   "y": 11.48
+  },
   "icon": "029194",
   "lodestoneId": "1123791189a",
   "spotId": 214,
@@ -13138,6 +14344,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f3/00",
+  "aetheryte": {
+   "nameJa": "モルド・スーク",
+   "x": 26.43,
+   "y": 16.86
+  },
   "icon": "029620",
   "lodestoneId": "41fe407d41b",
   "spotId": 215,
@@ -13185,6 +14396,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f4/00",
+  "aetheryte": {
+   "nameJa": "リダ・ラーン",
+   "x": 14.43,
+   "y": 31.56
+  },
   "icon": "028473",
   "lodestoneId": "d7a710f7638",
   "spotId": 219,
@@ -13249,6 +14465,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f5/00",
+  "aetheryte": {
+   "nameJa": "スリザーバウ",
+   "x": 19.3,
+   "y": 27.27
+  },
   "icon": "028474",
   "lodestoneId": "392f39dffa8",
   "spotId": 225,
@@ -13294,6 +14515,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f6/00",
+  "aetheryte": {
+   "nameJa": "オンドの潮溜まり",
+   "x": 32.74,
+   "y": 17.27
+  },
   "icon": "029195",
   "lodestoneId": "fc73e93dda6",
   "spotId": 235,
@@ -13341,6 +14567,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f1/00",
+  "aetheryte": {
+   "nameJa": "オスタル厳命城",
+   "x": 6.78,
+   "y": 16.76
+  },
   "icon": "028475",
   "lodestoneId": "dc043ae37b8",
   "spotId": 206,
@@ -13392,6 +14623,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f2/00",
+  "aetheryte": {
+   "nameJa": "スティルタイド",
+   "x": 34.87,
+   "y": 27.42
+  },
   "icon": "028476",
   "lodestoneId": "2e36aba8a98",
   "spotId": 209,
@@ -13445,6 +14681,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f3/00",
+  "aetheryte": {
+   "nameJa": "トゥワイン",
+   "x": 11.26,
+   "y": 16.98
+  },
   "icon": "029621",
   "lodestoneId": "c5634845250",
   "spotId": 216,
@@ -13492,6 +14733,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f4/00",
+  "aetheryte": {
+   "nameJa": "ヴォレクドルフ",
+   "x": 29.11,
+   "y": 7.48
+  },
   "icon": "028477",
   "lodestoneId": "aef9783d82e",
   "spotId": 221,
@@ -13542,6 +14788,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f5/00",
+  "aetheryte": {
+   "nameJa": "スリザーバウ",
+   "x": 19.3,
+   "y": 27.27
+  },
   "icon": "028478",
   "lodestoneId": "c8305293fc2",
   "spotId": 227,
@@ -13593,6 +14844,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f6/00",
+  "aetheryte": {
+   "nameJa": "マカレンサス広場",
+   "x": 18.55,
+   "y": 25.56
+  },
   "icon": "029197",
   "lodestoneId": "f16f423dd7a",
   "spotId": 230,
@@ -13641,6 +14897,11 @@
   ],
   "mapScale": 200,
   "mapId": "n4t1/00",
+  "aetheryte": {
+   "nameJa": "クリスタリウム",
+   "x": 9.83,
+   "y": 11.37
+  },
   "icon": "028480",
   "lodestoneId": "144d76e8afb",
   "spotId": 200,
@@ -13689,6 +14950,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f1/00",
+  "aetheryte": {
+   "nameJa": "ジョッブ砦",
+   "x": 36.59,
+   "y": 21.18
+  },
   "icon": "028481",
   "lodestoneId": "81908331ff0",
   "spotId": 202,
@@ -13739,6 +15005,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f2/00",
+  "aetheryte": {
+   "nameJa": "トメラの村",
+   "x": 12.89,
+   "y": 8.89
+  },
   "icon": "028482",
   "lodestoneId": "8b554c373f4",
   "spotId": 207,
@@ -13784,6 +15055,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f4/00",
+  "aetheryte": {
+   "nameJa": "リダ・ラーン",
+   "x": 14.43,
+   "y": 31.56
+  },
   "icon": "028483",
   "lodestoneId": "b8a5c3c44a4",
   "spotId": 218,
@@ -13831,6 +15107,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f4/00",
+  "aetheryte": {
+   "nameJa": "ヴォレクドルフ",
+   "x": 29.11,
+   "y": 7.48
+  },
   "icon": "028484",
   "lodestoneId": "1e9b2a46492",
   "spotId": 224,
@@ -13881,6 +15162,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f5/00",
+  "aetheryte": {
+   "nameJa": "スリザーバウ",
+   "x": 19.3,
+   "y": 27.27
+  },
   "icon": "028485",
   "lodestoneId": "42c8a62bad5",
   "spotId": 228,
@@ -13931,6 +15217,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f6/00",
+  "aetheryte": {
+   "nameJa": "マカレンサス広場",
+   "x": 18.55,
+   "y": 25.56
+  },
   "icon": "028014",
   "lodestoneId": "aa2f6b48b1f",
   "spotId": 234,
@@ -13980,6 +15271,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f6/00",
+  "aetheryte": {
+   "nameJa": "オンドの潮溜まり",
+   "x": 32.74,
+   "y": 17.27
+  },
   "icon": "028015",
   "lodestoneId": "c9eddc90cf7",
   "spotId": 236,
@@ -14027,6 +15323,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f1/00",
+  "aetheryte": {
+   "nameJa": "オスタル厳命城",
+   "x": 6.78,
+   "y": 16.76
+  },
   "icon": "028486",
   "lodestoneId": "71462535eed",
   "spotId": 203,
@@ -14076,6 +15377,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f2/00",
+  "aetheryte": {
+   "nameJa": "スティルタイド",
+   "x": 34.87,
+   "y": 27.42
+  },
   "icon": "028487",
   "lodestoneId": "c8dea43dad3",
   "spotId": 208,
@@ -14134,6 +15440,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f2/00",
+  "aetheryte": {
+   "nameJa": "スティルタイド",
+   "x": 34.87,
+   "y": 27.42
+  },
   "icon": "029198",
   "lodestoneId": "bb46d2e4f75",
   "spotId": 213,
@@ -14181,6 +15492,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f4/00",
+  "aetheryte": {
+   "nameJa": "プラ・エンニ茸窟",
+   "x": 20.04,
+   "y": 4.19
+  },
   "icon": "028488",
   "lodestoneId": "78826b6128d",
   "spotId": 220,
@@ -14238,6 +15554,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f5/00",
+  "aetheryte": {
+   "nameJa": "スリザーバウ",
+   "x": 19.3,
+   "y": 27.27
+  },
   "icon": "028489",
   "lodestoneId": "f35096d6cf1",
   "spotId": 226,
@@ -14285,6 +15606,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f6/00",
+  "aetheryte": {
+   "nameJa": "オンドの潮溜まり",
+   "x": 32.74,
+   "y": 17.27
+  },
   "icon": "029199",
   "lodestoneId": "a14ddbca33b",
   "spotId": 231,
@@ -14334,6 +15660,11 @@
   ],
   "mapScale": 200,
   "mapId": "n4t1/00",
+  "aetheryte": {
+   "nameJa": "クリスタリウム",
+   "x": 9.83,
+   "y": 11.37
+  },
   "icon": "028491",
   "lodestoneId": "4f1aec236e0",
   "spotId": 199,
@@ -14383,6 +15714,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f1/00",
+  "aetheryte": {
+   "nameJa": "ジョッブ砦",
+   "x": 36.59,
+   "y": 21.18
+  },
   "icon": "028494",
   "lodestoneId": "a2bc94466ec",
   "spotId": 205,
@@ -14432,6 +15768,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f2/00",
+  "aetheryte": {
+   "nameJa": "ライト村",
+   "x": 16.61,
+   "y": 29.04
+  },
   "icon": "028037",
   "lodestoneId": "8ef40e92749",
   "spotId": 211,
@@ -14477,6 +15818,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f2/00",
+  "aetheryte": {
+   "nameJa": "ライト村",
+   "x": 16.61,
+   "y": 29.04
+  },
   "icon": "028036",
   "lodestoneId": "5cf17ce050c",
   "spotId": 212,
@@ -14535,6 +15881,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f3/00",
+  "aetheryte": {
+   "nameJa": "旅立ちの宿",
+   "x": 29.48,
+   "y": 27.43
+  },
   "icon": "029623",
   "lodestoneId": "7e8fea658a8",
   "spotId": 217,
@@ -14586,6 +15937,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f4/00",
+  "aetheryte": {
+   "nameJa": "ヴォレクドルフ",
+   "x": 29.11,
+   "y": 7.48
+  },
   "icon": "028498",
   "lodestoneId": "b55b16c1b41",
   "spotId": 222,
@@ -14635,6 +15991,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f4/00",
+  "aetheryte": {
+   "nameJa": "ヴォレクドルフ",
+   "x": 29.11,
+   "y": 7.48
+  },
   "icon": "028493",
   "lodestoneId": "cbf347d347e",
   "spotId": 223,
@@ -14680,6 +16041,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f5/00",
+  "aetheryte": {
+   "nameJa": "スリザーバウ",
+   "x": 19.3,
+   "y": 27.27
+  },
   "icon": "028496",
   "lodestoneId": "16ce36f1a77",
   "spotId": 229,
@@ -14729,6 +16095,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f6/00",
+  "aetheryte": {
+   "nameJa": "マカレンサス広場",
+   "x": 18.55,
+   "y": 25.56
+  },
   "icon": "028035",
   "lodestoneId": "b7b90ccc28d",
   "spotId": 232,
@@ -14784,6 +16155,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f6/00",
+  "aetheryte": {
+   "nameJa": "マカレンサス広場",
+   "x": 18.55,
+   "y": 25.56
+  },
   "icon": "028034",
   "lodestoneId": "64a4f9a4317",
   "spotId": 233,
@@ -14831,6 +16207,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f5/00",
+  "aetheryte": {
+   "nameJa": "スリザーバウ",
+   "x": 19.3,
+   "y": 27.27
+  },
   "icon": "028492",
   "lodestoneId": "32bb97c3892",
   "spotId": 245,
@@ -14884,6 +16265,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f1/00",
+  "aetheryte": {
+   "nameJa": "オスタル厳命城",
+   "x": 6.78,
+   "y": 16.76
+  },
   "icon": "028497",
   "lodestoneId": "128e70bbcb8",
   "spotId": 206,
@@ -14996,6 +16382,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f2/00",
+  "aetheryte": {
+   "nameJa": "ライト村",
+   "x": 16.61,
+   "y": 29.04
+  },
   "icon": "028038",
   "lodestoneId": "3e3f84226c1",
   "spotId": 212,
@@ -15070,6 +16461,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f3/00",
+  "aetheryte": {
+   "nameJa": "モルド・スーク",
+   "x": 26.43,
+   "y": 16.86
+  },
   "icon": "029622",
   "lodestoneId": "4a0be61cb71",
   "spotId": 215,
@@ -15119,6 +16515,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f4/00",
+  "aetheryte": {
+   "nameJa": "リダ・ラーン",
+   "x": 14.43,
+   "y": 31.56
+  },
   "icon": "028495",
   "lodestoneId": "e737580eb41",
   "spotId": 219,
@@ -15192,6 +16593,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f5/00",
+  "aetheryte": {
+   "nameJa": "スリザーバウ",
+   "x": 19.3,
+   "y": 27.27
+  },
   "icon": "028499",
   "lodestoneId": "bdc571123ee",
   "spotId": 225,
@@ -15268,6 +16674,11 @@
   ],
   "mapScale": 100,
   "mapId": "n4f6/00",
+  "aetheryte": {
+   "nameJa": "マカレンサス広場",
+   "x": 18.55,
+   "y": 25.56
+  },
   "icon": "028033",
   "lodestoneId": "5253f1c589e",
   "spotId": 232,
@@ -15325,6 +16736,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f1/00",
+  "aetheryte": {
+   "nameJa": "デミールの遺烈郷",
+   "x": 10.94,
+   "y": 22.35
+  },
   "icon": "028052",
   "lodestoneId": "7a0da3e63df",
   "spotId": 269,
@@ -15380,6 +16796,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f1/00",
+  "aetheryte": {
+   "nameJa": "涙の入江",
+   "x": 9.8,
+   "y": 34.74
+  },
   "icon": "029765",
   "lodestoneId": "02a0a30d04d",
   "spotId": 273,
@@ -15435,6 +16856,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f2/00",
+  "aetheryte": {
+   "nameJa": "イーアの里",
+   "x": 22.8,
+   "y": 8.59
+  },
   "icon": "028965",
   "lodestoneId": "1e53021222a",
   "spotId": 285,
@@ -15480,6 +16906,11 @@
   ],
   "mapScale": 200,
   "mapId": "k5t1/00",
+  "aetheryte": {
+   "nameJa": "オールド・シャーレアン",
+   "x": 11.25,
+   "y": 11.37
+  },
   "icon": "028087",
   "lodestoneId": "3a109daea16",
   "spotId": 252,
@@ -15525,6 +16956,11 @@
   ],
   "mapScale": 100,
   "mapId": "k5f1/00",
+  "aetheryte": {
+   "nameJa": "アルケイオン保管院",
+   "x": 30.29,
+   "y": 11.89
+  },
   "icon": "028532",
   "lodestoneId": "330c271daea",
   "spotId": 255,
@@ -15572,6 +17008,11 @@
   ],
   "mapScale": 200,
   "mapId": "m5t1/00",
+  "aetheryte": {
+   "nameJa": "ラザハン",
+   "x": 11.76,
+   "y": 10.91
+  },
   "icon": "028533",
   "lodestoneId": "b06b8f9605d",
   "spotId": 260,
@@ -15617,6 +17058,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f1/00",
+  "aetheryte": {
+   "nameJa": "パーラカの里",
+   "x": 29.47,
+   "y": 16.6
+  },
   "icon": "028534",
   "lodestoneId": "b527af40b02",
   "spotId": 264,
@@ -15672,6 +17118,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f2/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ブロークングラス",
+   "x": 13.33,
+   "y": 31.27
+  },
   "icon": "028535",
   "lodestoneId": "3b37d407591",
   "spotId": 270,
@@ -15719,6 +17170,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f2/00",
+  "aetheryte": {
+   "nameJa": "リア・ターラ",
+   "x": 10.61,
+   "y": 27.11
+  },
   "icon": "029776",
   "lodestoneId": "1d80430bd4a",
   "spotId": 279,
@@ -15766,6 +17222,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f2/00",
+  "aetheryte": {
+   "nameJa": "リア・ターラ",
+   "x": 10.61,
+   "y": 27.11
+  },
   "icon": "028966",
   "lodestoneId": "8e4b10c5f4e",
   "spotId": 283,
@@ -15813,6 +17274,11 @@
   ],
   "mapScale": 200,
   "mapId": "k5t1/00",
+  "aetheryte": {
+   "nameJa": "オールド・シャーレアン",
+   "x": 11.25,
+   "y": 11.37
+  },
   "icon": "028538",
   "lodestoneId": "df752c62cb6",
   "spotId": 253,
@@ -15860,6 +17326,11 @@
   ],
   "mapScale": 100,
   "mapId": "k5f1/00",
+  "aetheryte": {
+   "nameJa": "アルケイオン保管院",
+   "x": 30.29,
+   "y": 11.89
+  },
   "icon": "028543",
   "lodestoneId": "9ad6fedc2b1",
   "spotId": 257,
@@ -15910,6 +17381,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f1/00",
+  "aetheryte": {
+   "nameJa": "イェドリマン",
+   "x": 25.37,
+   "y": 34.23
+  },
   "icon": "028088",
   "lodestoneId": "1026fe8b4d6",
   "spotId": 261,
@@ -15960,6 +17436,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f1/00",
+  "aetheryte": {
+   "nameJa": "パーラカの里",
+   "x": 29.47,
+   "y": 16.6
+  },
   "icon": "028537",
   "lodestoneId": "ba275a146bc",
   "spotId": 266,
@@ -16011,6 +17492,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f2/00",
+  "aetheryte": {
+   "nameJa": "テルティウム駅",
+   "x": 31.97,
+   "y": 18.01
+  },
   "icon": "028539",
   "lodestoneId": "244ab7d99f3",
   "spotId": 271,
@@ -16061,6 +17547,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f1/00",
+  "aetheryte": {
+   "nameJa": "ベストウェイ・バロー",
+   "x": 21.5,
+   "y": 11.54
+  },
   "icon": "028542",
   "lodestoneId": "ef47ffb0504",
   "spotId": 272,
@@ -16114,6 +17605,11 @@
   ],
   "mapScale": 100,
   "mapId": "n5f1/00",
+  "aetheryte": {
+   "nameJa": "ポイエテーン・オイコス",
+   "x": 10.68,
+   "y": 17.17
+  },
   "icon": "028541",
   "lodestoneId": "93d72285505",
   "spotId": 275,
@@ -16161,6 +17657,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f2/00",
+  "aetheryte": {
+   "nameJa": "イーアの里",
+   "x": 22.8,
+   "y": 8.59
+  },
   "icon": "028540",
   "lodestoneId": "a3bfe29366e",
   "spotId": 281,
@@ -16208,6 +17709,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f2/00",
+  "aetheryte": {
+   "nameJa": "イーアの里",
+   "x": 22.8,
+   "y": 8.59
+  },
   "icon": "028967",
   "lodestoneId": "2ec339e1005",
   "spotId": 284,
@@ -16255,6 +17761,11 @@
   ],
   "mapScale": 200,
   "mapId": "k5t1/00",
+  "aetheryte": {
+   "nameJa": "オールド・シャーレアン",
+   "x": 11.25,
+   "y": 11.37
+  },
   "icon": "028549",
   "lodestoneId": "ce7c3b927b5",
   "spotId": 254,
@@ -16304,6 +17815,11 @@
   ],
   "mapScale": 100,
   "mapId": "k5f1/00",
+  "aetheryte": {
+   "nameJa": "リトルシャーレアン",
+   "x": 21.58,
+   "y": 20.49
+  },
   "icon": "028546",
   "lodestoneId": "680dade3b11",
   "spotId": 256,
@@ -16353,6 +17869,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f1/00",
+  "aetheryte": {
+   "nameJa": "デミールの遺烈郷",
+   "x": 10.94,
+   "y": 22.35
+  },
   "icon": "028089",
   "lodestoneId": "7b541f0a9f2",
   "spotId": 263,
@@ -16402,6 +17923,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f1/00",
+  "aetheryte": {
+   "nameJa": "パーラカの里",
+   "x": 29.47,
+   "y": 16.6
+  },
   "icon": "028547",
   "lodestoneId": "2925f06bfbe",
   "spotId": 267,
@@ -16449,6 +17975,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f1/00",
+  "aetheryte": {
+   "nameJa": "涙の入江",
+   "x": 9.8,
+   "y": 34.74
+  },
   "icon": "029777",
   "lodestoneId": "e837e004a6e",
   "spotId": 274,
@@ -16496,6 +18027,11 @@
   ],
   "mapScale": 100,
   "mapId": "n5f1/00",
+  "aetheryte": {
+   "nameJa": "アナグノリシス天測園",
+   "x": 24.51,
+   "y": 24.19
+  },
   "icon": "028545",
   "lodestoneId": "fbfa6922aa7",
   "spotId": 277,
@@ -16553,6 +18089,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f2/00",
+  "aetheryte": {
+   "nameJa": "オミクロンベース",
+   "x": 31.29,
+   "y": 28.29
+  },
   "icon": "029778",
   "lodestoneId": "3856c6452ab",
   "spotId": 278,
@@ -16600,6 +18141,11 @@
   ],
   "mapScale": 100,
   "mapId": "k5f1/00",
+  "aetheryte": {
+   "nameJa": "アルケイオン保管院",
+   "x": 30.29,
+   "y": 11.89
+  },
   "icon": "028551",
   "lodestoneId": "893ae399ea7",
   "spotId": 258,
@@ -16649,6 +18195,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f1/00",
+  "aetheryte": {
+   "nameJa": "パーラカの里",
+   "x": 29.47,
+   "y": 16.6
+  },
   "icon": "028552",
   "lodestoneId": "794667e52f1",
   "spotId": 265,
@@ -16714,6 +18265,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f1/00",
+  "aetheryte": {
+   "nameJa": "デミールの遺烈郷",
+   "x": 10.94,
+   "y": 22.35
+  },
   "icon": "028103",
   "lodestoneId": "c60f439c8e4",
   "spotId": 269,
@@ -16761,6 +18317,11 @@
   ],
   "mapScale": 100,
   "mapId": "n5f1/00",
+  "aetheryte": {
+   "nameJa": "アナグノリシス天測園",
+   "x": 24.51,
+   "y": 24.19
+  },
   "icon": "028554",
   "lodestoneId": "278aa97878f",
   "spotId": 276,
@@ -16811,6 +18372,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f2/00",
+  "aetheryte": {
+   "nameJa": "リア・ターラ",
+   "x": 10.61,
+   "y": 27.11
+  },
   "icon": "029779",
   "lodestoneId": "1526d531208",
   "spotId": 280,
@@ -16868,6 +18434,11 @@
   ],
   "mapScale": 100,
   "mapId": "k5f1/00",
+  "aetheryte": {
+   "nameJa": "リトルシャーレアン",
+   "x": 21.58,
+   "y": 20.49
+  },
   "icon": "028560",
   "lodestoneId": "ac848b267ed",
   "spotId": 259,
@@ -16925,6 +18496,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f1/00",
+  "aetheryte": {
+   "nameJa": "デミールの遺烈郷",
+   "x": 10.94,
+   "y": 22.35
+  },
   "icon": "028106",
   "lodestoneId": "9eefffa961d",
   "spotId": 262,
@@ -17003,6 +18579,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f1/00",
+  "aetheryte": {
+   "nameJa": "イェドリマン",
+   "x": 25.37,
+   "y": 34.23
+  },
   "icon": "028561",
   "lodestoneId": "24596b12571",
   "spotId": 268,
@@ -17060,6 +18641,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f1/00",
+  "aetheryte": {
+   "nameJa": "涙の入江",
+   "x": 9.8,
+   "y": 34.74
+  },
   "icon": "029781",
   "lodestoneId": "68134dbc288",
   "spotId": 273,
@@ -17109,6 +18695,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f2/00",
+  "aetheryte": {
+   "nameJa": "イーアの里",
+   "x": 22.8,
+   "y": 8.59
+  },
   "icon": "028565",
   "lodestoneId": "1aaa7287519",
   "spotId": 282,
@@ -17158,6 +18749,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f2/00",
+  "aetheryte": {
+   "nameJa": "イーアの里",
+   "x": 22.8,
+   "y": 8.59
+  },
   "icon": "028968",
   "lodestoneId": "521189ac5ff",
   "spotId": 285,
@@ -17244,6 +18840,11 @@
   ],
   "mapScale": 100,
   "mapId": "k5f1/00",
+  "aetheryte": {
+   "nameJa": "リトルシャーレアン",
+   "x": 21.58,
+   "y": 20.49
+  },
   "icon": "028563",
   "lodestoneId": "b88f05befae",
   "spotId": 259,
@@ -17332,6 +18933,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f1/00",
+  "aetheryte": {
+   "nameJa": "デミールの遺烈郷",
+   "x": 10.94,
+   "y": 22.35
+  },
   "icon": "028116",
   "lodestoneId": "acda0f80dce",
   "spotId": 269,
@@ -17410,6 +19016,11 @@
   ],
   "mapScale": 100,
   "mapId": "m5f2/00",
+  "aetheryte": {
+   "nameJa": "キャンプ・ブロークングラス",
+   "x": 13.33,
+   "y": 31.27
+  },
   "icon": "028562",
   "lodestoneId": "671201af6b2",
   "spotId": 270,
@@ -17459,6 +19070,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f1/00",
+  "aetheryte": {
+   "nameJa": "涙の入江",
+   "x": 9.8,
+   "y": 34.74
+  },
   "icon": "029780",
   "lodestoneId": "e5a4129c511",
   "spotId": 273,
@@ -17508,6 +19124,11 @@
   ],
   "mapScale": 100,
   "mapId": "n5f1/00",
+  "aetheryte": {
+   "nameJa": "アナグノリシス天測園",
+   "x": 24.51,
+   "y": 24.19
+  },
   "icon": "028564",
   "lodestoneId": "29272b0d980",
   "spotId": 277,
@@ -17666,6 +19287,11 @@
   ],
   "mapScale": 100,
   "mapId": "u5f2/00",
+  "aetheryte": {
+   "nameJa": "イーアの里",
+   "x": 22.8,
+   "y": 8.59
+  },
   "icon": "028969",
   "lodestoneId": "efb42d888b5",
   "spotId": 285,
@@ -17715,6 +19341,11 @@
   ],
   "mapScale": 180,
   "mapId": "y6t1/00",
+  "aetheryte": {
+   "nameJa": "トライヨラ",
+   "x": 12.72,
+   "y": 11.2
+  },
   "icon": "028661",
   "lodestoneId": "615ba911b78",
   "spotId": 294,
@@ -17762,6 +19393,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f1/00",
+  "aetheryte": {
+   "nameJa": "ウォーラーの残響",
+   "x": 30.9,
+   "y": 34.39
+  },
   "icon": "029940",
   "lodestoneId": "4b1b0ff4a73",
   "spotId": 297,
@@ -17807,6 +19443,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f2/00",
+  "aetheryte": {
+   "nameJa": "オック・ハヌ",
+   "x": 18.1,
+   "y": 11.64
+  },
   "icon": "028662",
   "lodestoneId": "9923aabc166",
   "spotId": 301,
@@ -17855,6 +19496,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f3/00",
+  "aetheryte": {
+   "nameJa": "イクブラーシャ",
+   "x": 13.74,
+   "y": 12.89
+  },
   "icon": "028663",
   "lodestoneId": "7e7d80641f1",
   "spotId": 308,
@@ -17918,6 +19564,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f3/00",
+  "aetheryte": {
+   "nameJa": "マムーク",
+   "x": 36.11,
+   "y": 32.07
+  },
   "icon": "028132",
   "lodestoneId": "9097b6a5a5e",
   "spotId": 318,
@@ -17963,6 +19614,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f1/00",
+  "aetheryte": {
+   "nameJa": "メワヘイゾーン",
+   "x": 27.55,
+   "y": 10.18
+  },
   "icon": "028665",
   "lodestoneId": "145c94809fa",
   "spotId": 319,
@@ -18011,6 +19667,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f2/00",
+  "aetheryte": {
+   "nameJa": "エレクトロープ採石場",
+   "x": 16.9,
+   "y": 24.06
+  },
   "icon": "028666",
   "lodestoneId": "bb98cd62e2d",
   "spotId": 324,
@@ -18056,6 +19717,11 @@
   ],
   "mapScale": 180,
   "mapId": "x6t1/00",
+  "aetheryte": {
+   "nameJa": "ソリューション・ナイン",
+   "x": 12.38,
+   "y": 14.37
+  },
   "icon": "028664",
   "lodestoneId": "5df1f69facb",
   "spotId": 327,
@@ -18101,6 +19767,11 @@
   ],
   "mapScale": 180,
   "mapId": "y6t1/00",
+  "aetheryte": {
+   "nameJa": "トライヨラ",
+   "x": 12.72,
+   "y": 11.2
+  },
   "icon": "028133",
   "lodestoneId": "d3ed1e06d5c",
   "spotId": 295,
@@ -18154,6 +19825,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f2/00",
+  "aetheryte": {
+   "nameJa": "オック・ハヌ",
+   "x": 18.1,
+   "y": 11.64
+  },
   "icon": "028668",
   "lodestoneId": "440f1d7d3d9",
   "spotId": 300,
@@ -18201,6 +19877,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f2/00",
+  "aetheryte": {
+   "nameJa": "ポガ停船所",
+   "x": 37.26,
+   "y": 16.51
+  },
   "icon": "028669",
   "lodestoneId": "a0792321e9e",
   "spotId": 302,
@@ -18250,6 +19931,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f3/00",
+  "aetheryte": {
+   "nameJa": "イクブラーシャ",
+   "x": 13.74,
+   "y": 12.89
+  },
   "icon": "028670",
   "lodestoneId": "2c7e9ac186a",
   "spotId": 309,
@@ -18295,6 +19981,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f3/00",
+  "aetheryte": {
+   "nameJa": "イクブラーシャ",
+   "x": 13.74,
+   "y": 12.89
+  },
   "icon": "028671",
   "lodestoneId": "36db99ffc82",
   "spotId": 310,
@@ -18351,6 +20042,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f1/00",
+  "aetheryte": {
+   "nameJa": "メワヘイゾーン",
+   "x": 27.55,
+   "y": 10.18
+  },
   "icon": "028672",
   "lodestoneId": "73054dca5f2",
   "spotId": 320,
@@ -18400,6 +20096,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f2/00",
+  "aetheryte": {
+   "nameJa": "エレクトロープ採石場",
+   "x": 16.9,
+   "y": 24.06
+  },
   "icon": "028673",
   "lodestoneId": "82cc23781b7",
   "spotId": 325,
@@ -18447,6 +20148,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f3/00",
+  "aetheryte": {
+   "nameJa": "レイノード・ウィンド",
+   "x": 16.23,
+   "y": 13.76
+  },
   "icon": "028674",
   "lodestoneId": "979e328cc35",
   "spotId": 328,
@@ -18494,6 +20200,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f1/00",
+  "aetheryte": {
+   "nameJa": "ワチュン・ペロ",
+   "x": 28.26,
+   "y": 13.35
+  },
   "icon": "028737",
   "lodestoneId": "87112cce2f5",
   "spotId": 299,
@@ -18543,6 +20254,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f2/00",
+  "aetheryte": {
+   "nameJa": "朋友の灯火",
+   "x": 32.36,
+   "y": 25.75
+  },
   "icon": "028719",
   "lodestoneId": "912bc9a9369",
   "spotId": 303,
@@ -18590,6 +20306,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f3/00",
+  "aetheryte": {
+   "nameJa": "イクブラーシャ",
+   "x": 13.74,
+   "y": 12.89
+  },
   "icon": "028734",
   "lodestoneId": "7d290ccf4d4",
   "spotId": 311,
@@ -18645,6 +20366,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f3/00",
+  "aetheryte": {
+   "nameJa": "マムーク",
+   "x": 36.11,
+   "y": 32.07
+  },
   "icon": "028722",
   "lodestoneId": "0d18982d9fc",
   "spotId": 312,
@@ -18694,6 +20420,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f1/00",
+  "aetheryte": {
+   "nameJa": "フーサタイ宿場町",
+   "x": 29.04,
+   "y": 30.89
+  },
   "icon": "029958",
   "lodestoneId": "7e26495c130",
   "spotId": 321,
@@ -18739,6 +20470,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f1/00",
+  "aetheryte": {
+   "nameJa": "フーサタイ宿場町",
+   "x": 29.04,
+   "y": 30.89
+  },
   "icon": "029957",
   "lodestoneId": "9fba1915308",
   "spotId": 322,
@@ -18789,6 +20525,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f2/00",
+  "aetheryte": {
+   "nameJa": "アウトスカーツ",
+   "x": 16.76,
+   "y": 10.04
+  },
   "icon": "028732",
   "lodestoneId": "383b274a705",
   "spotId": 323,
@@ -18865,6 +20606,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f3/00",
+  "aetheryte": {
+   "nameJa": "レイノード・ウィンド",
+   "x": 16.23,
+   "y": 13.76
+  },
   "icon": "028725",
   "lodestoneId": "703d2fd7b36",
   "spotId": 329,
@@ -18912,6 +20658,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f3/00",
+  "aetheryte": {
+   "nameJa": "レイノード・メモリス",
+   "x": 21.28,
+   "y": 37.67
+  },
   "icon": "028134",
   "lodestoneId": "87b461aa96b",
   "spotId": 331,
@@ -18961,6 +20712,11 @@
   ],
   "mapScale": 180,
   "mapId": "y6t1/00",
+  "aetheryte": {
+   "nameJa": "トライヨラ",
+   "x": 12.72,
+   "y": 11.2
+  },
   "icon": "028135",
   "lodestoneId": "54c38350b5e",
   "spotId": 296,
@@ -19018,6 +20774,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f2/00",
+  "aetheryte": {
+   "nameJa": "ポガ停船所",
+   "x": 37.26,
+   "y": 16.51
+  },
   "icon": "028749",
   "lodestoneId": "7d39f51ad65",
   "spotId": 304,
@@ -19067,6 +20828,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f2/00",
+  "aetheryte": {
+   "nameJa": "オック・ハヌ",
+   "x": 18.1,
+   "y": 11.64
+  },
   "icon": "028750",
   "lodestoneId": "7bf199bd2ff",
   "spotId": 305,
@@ -19143,6 +20909,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f3/00",
+  "aetheryte": {
+   "nameJa": "イクブラーシャ",
+   "x": 13.74,
+   "y": 12.89
+  },
   "icon": "028751",
   "lodestoneId": "414a988ce93",
   "spotId": 313,
@@ -19198,6 +20969,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f3/00",
+  "aetheryte": {
+   "nameJa": "イクブラーシャ",
+   "x": 13.74,
+   "y": 12.89
+  },
   "icon": "028752",
   "lodestoneId": "0ec1325f33d",
   "spotId": 314,
@@ -19245,6 +21021,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f2/00",
+  "aetheryte": {
+   "nameJa": "エレクトロープ採石場",
+   "x": 16.9,
+   "y": 24.06
+  },
   "icon": "028753",
   "lodestoneId": "454b758b4eb",
   "spotId": 326,
@@ -19294,6 +21075,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f3/00",
+  "aetheryte": {
+   "nameJa": "レイノード・ウィンド",
+   "x": 16.23,
+   "y": 13.76
+  },
   "icon": "028754",
   "lodestoneId": "f828713c498",
   "spotId": 330,
@@ -19400,6 +21186,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f3/00",
+  "aetheryte": {
+   "nameJa": "レイノード・ファイア",
+   "x": 34.49,
+   "y": 16.09
+  },
   "icon": "028755",
   "lodestoneId": "6d6122d7d1d",
   "spotId": 333,
@@ -19449,6 +21240,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f1/00",
+  "aetheryte": {
+   "nameJa": "ウォーラーの残響",
+   "x": 30.9,
+   "y": 34.39
+  },
   "icon": "029941",
   "lodestoneId": "529ba398bed",
   "spotId": 298,
@@ -19506,6 +21302,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f2/00",
+  "aetheryte": {
+   "nameJa": "アースンシャイア",
+   "x": 11.72,
+   "y": 27.93
+  },
   "icon": "028762",
   "lodestoneId": "a2a1a241142",
   "spotId": 306,
@@ -19555,6 +21356,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f2/00",
+  "aetheryte": {
+   "nameJa": "朋友の灯火",
+   "x": 32.36,
+   "y": 25.75
+  },
   "icon": "028763",
   "lodestoneId": "680a95cd643",
   "spotId": 307,
@@ -19612,6 +21418,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f3/00",
+  "aetheryte": {
+   "nameJa": "マムーク",
+   "x": 36.11,
+   "y": 32.07
+  },
   "icon": "028764",
   "lodestoneId": "80047efd616",
   "spotId": 315,
@@ -19661,6 +21472,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f3/00",
+  "aetheryte": {
+   "nameJa": "マムーク",
+   "x": 36.11,
+   "y": 32.07
+  },
   "icon": "028765",
   "lodestoneId": "ef579f5d161",
   "spotId": 316,
@@ -19718,6 +21534,11 @@
   ],
   "mapScale": 100,
   "mapId": "y6f3/00",
+  "aetheryte": {
+   "nameJa": "マムーク",
+   "x": 36.11,
+   "y": 32.07
+  },
   "icon": "028766",
   "lodestoneId": "e816e3d3f5c",
   "spotId": 317,
@@ -19796,6 +21617,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f1/00",
+  "aetheryte": {
+   "nameJa": "フーサタイ宿場町",
+   "x": 29.04,
+   "y": 30.89
+  },
   "icon": "029959",
   "lodestoneId": "7a9b2f5f5a6",
   "spotId": 321,
@@ -19845,6 +21671,11 @@
   ],
   "mapScale": 100,
   "mapId": "x6f3/00",
+  "aetheryte": {
+   "nameJa": "レイノード・メモリス",
+   "x": 21.28,
+   "y": 37.67
+  },
   "icon": "028167",
   "lodestoneId": "1c3b22ccf40",
   "spotId": 332,

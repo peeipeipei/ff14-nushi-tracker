@@ -247,6 +247,7 @@ def main():
     lodestone_ids = load_lodestone_ids()
     used_map_ids = {v["map_id"] for v in weather_rates.values() if v.get("map_id")}
     map_ids = load_map_ids(used_map_ids)
+    aeth_by_terr = load_aetherytes()
 
     # ゲーム内「ヌシ」(太公望アチーブ対象) の集合。tug が light/medium の例外個体
     # (ソルター、リトルペリュコス) も拾うため、tug 条件と OR で判定する
@@ -411,6 +412,8 @@ def main():
             "mapCoords": map_coords[:2] if map_coords else None,
             "mapScale": map_scale,
             "mapId": map_asset_id,
+            "aetheryte": nearest_aetheryte(
+                aeth_by_terr, territory_id, map_coords[:2] if map_coords else None),
             "icon": item["icon"] if item else None,
             "lodestoneId": lodestone_ids.get(item_id) if item_id else None,
             "spotId": spot_id,

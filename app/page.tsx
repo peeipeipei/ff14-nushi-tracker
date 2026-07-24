@@ -92,6 +92,17 @@ export default function Home() {
   const { prep, togglePrep } = usePrep();
   const { pinned, togglePin } = usePinned();
 
+  // 釣獲チェック: 誤操作防止のため「済を解除する」ときだけ確認する
+  // (チェックを付ける側は手間なく即時)
+  const toggleCaughtSafe = (id: number) => {
+    if (caught.has(id)) {
+      const n = allNushi.find((x) => x.id === id);
+      const name = n?.nameJa ?? n?.name ?? "この魚";
+      if (!window.confirm(`「${name}」の釣獲済みを解除しますか？`)) return;
+    }
+    toggle(id);
+  };
+
   // 直感対象のヌシへジャンプ: 絞り込みで隠れないよう検索をクリアし、展開してスクロール
   const jumpTo = (id: number) => {
     setQuery("");
@@ -515,11 +526,13 @@ export default function Home() {
               nowMs={nowMs}
               weatherTypes={weatherTypes}
               isCaught={r.nushi.id !== null && caught.has(r.nushi.id)}
-              onToggleCaught={() => r.nushi.id !== null && toggle(r.nushi.id)}
+              onToggleCaught={() =>
+                r.nushi.id !== null && toggleCaughtSafe(r.nushi.id)
+              }
               caught={caught}
               prep={prep}
               onTogglePrep={togglePrep}
-              onToggleCaughtId={toggle}
+              onToggleCaughtId={toggleCaughtSafe}
               onJumpTo={jumpTo}
               isPinned={r.nushi.id !== null && pinned.has(r.nushi.id)}
               onTogglePin={() => r.nushi.id !== null && togglePin(r.nushi.id)}
