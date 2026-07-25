@@ -447,8 +447,10 @@ export default function Home() {
         <div className="flex flex-wrap items-center gap-1.5">
           <span className="mr-1 text-[11px] text-moonlight-faint">拡張</span>
           <button
-            onClick={() => setExpFilters([])}
-            className={chipClass(expFilters.length === 0)}
+            onClick={() => setExpFilters(EXPANSIONS.map((e) => e.key))}
+            className={chipClass(
+              expFilters.length === 0 || expFilters.length === EXPANSIONS.length
+            )}
           >
             すべて
           </button>
