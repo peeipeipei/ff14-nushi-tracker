@@ -354,7 +354,7 @@ function DetailPanel({
   onJumpTo?: (id: number) => void;
 }) {
   return (
-    <div className="grid gap-4 border-b border-abyss-700/60 bg-abyss-900/80 px-5 py-4 sm:grid-cols-[auto_1fr]">
+    <div className="grid gap-4 border-b border-abyss-700/60 bg-abyss-900/80 px-5 py-4 shadow-[inset_4px_0_0_#D9A441] sm:grid-cols-[auto_1fr]">
       <MiniMap nushi={nushi} />
       <div className="space-y-3 text-sm">
         {nushi.baitPath.length > 0 && (
@@ -513,10 +513,14 @@ export default function NushiRow({
 
   const startDate = win && !win.isAlways ? new Date(win.startMs) : null;
 
-  // 状態で背景を明確に分ける (出現中=緑+左バー / 待機=中間 / 常時=薄緑)
+  // 選択(展開)中は金色ハイライトで最優先。それ以外は状態別
+  // (出現中=緑+左バー / 待機=中間 / 常時=薄緑)
   const active = win?.isActiveNow && !win.isAlways;
   let rowBg: string;
-  if (active) {
+  if (expanded) {
+    rowBg =
+      "bg-hookgold/[0.14] hover:bg-hookgold/[0.18] shadow-[inset_4px_0_0_#D9A441]";
+  } else if (active) {
     rowBg =
       "bg-tide-active/[0.16] hover:bg-tide-active/[0.24] shadow-[inset_3px_0_0_#3FBF8F]";
   } else if (win?.isAlways) {
@@ -530,7 +534,7 @@ export default function NushiRow({
       <div
         onClick={onToggleExpand}
         className={`grid cursor-pointer grid-cols-[auto_auto_auto_1fr_auto] items-center gap-x-2.5 border-b border-abyss-700/60 px-3 py-3 transition-colors sm:grid-cols-[auto_auto_auto_minmax(140px,1.2fr)_minmax(140px,1fr)_minmax(150px,1fr)_minmax(120px,0.9fr)] sm:px-4 sm:gap-x-3 ${rowBg} ${
-          expanded ? "ring-1 ring-inset ring-hookgold-deep/50" : ""
+          expanded ? "ring-1 ring-inset ring-hookgold/60" : ""
         } ${isCaught ? "opacity-60" : ""}`}
       >
         {/* ピン留め: 未ピンは白黒、ピンすると赤(通常の絵文字色)に */}
