@@ -6,7 +6,7 @@ import nushiData from "@/data/nushi_data.json";
 import weatherData from "@/data/weather_rates.json";
 import type { Nushi, UpcomingWindow, WeatherRate, WeatherTypeInfo } from "@/lib/types";
 import { findNextMatchingWeatherWindow } from "@/lib/weather";
-import { formatWhen } from "@/lib/windowInfo";
+import { fishEyesEffective, formatWhen } from "@/lib/windowInfo";
 import { iconUrl, SKILL_ICONS } from "@/lib/assets";
 import { useCaught, usePrep, usePinned } from "@/lib/useCaught";
 import EorzeaClock from "@/components/EorzeaClock";
@@ -270,7 +270,7 @@ export default function Home() {
         return false;
       if (typeFilter === "nushi" && !n.bigFish) return false;
       if (typeFilter === "oonushi" && !n.oonushi) return false;
-      if (fishEyesOnly && !n.fishEyes) return false;
+      if (fishEyesOnly && !fishEyesEffective(n)) return false;
       return matchesQuery(n);
     });
 

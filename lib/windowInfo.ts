@@ -62,6 +62,17 @@ export function formatClock(ms: number): string {
   return `${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")}`;
 }
 
+/**
+ * フィッシュアイが有効か = 時間帯の制約がある魚。
+ * フィッシュアイは時間帯制限のみ解除するので、終日(0-24)の魚には効果がない。
+ */
+export function fishEyesEffective(f: {
+  startHour: number;
+  endHour: number;
+}): boolean {
+  return !(f.startHour === 0 && f.endHour === 24);
+}
+
 /** 本日中なら「HH:MM」、日をまたぐなら「M月D日 HH:MM」 */
 export function formatWhen(targetMs: number, nowMs: number): string {
   return isSameDate(targetMs, nowMs)

@@ -10,7 +10,12 @@ import type {
 import { useMemo } from "react";
 import Link from "next/link";
 import { iconUrl, lodestoneUrl, mapUrl, SKILL_ICONS, spotUrl } from "@/lib/assets";
-import { formatWhen, nextWindow, windowStatus } from "@/lib/windowInfo";
+import {
+  fishEyesEffective,
+  formatWhen,
+  nextWindow,
+  windowStatus,
+} from "@/lib/windowInfo";
 import TideGauge from "./TideGauge";
 
 /** 天候をゲーム内アイコンで表示 */
@@ -441,9 +446,12 @@ function DetailPanel({
               </span>
             </span>
           )}
-          {nushi.fishEyes && (
-            <span className="inline-flex items-center gap-1 text-moonlight-dim">
-              <SkillIcon {...SKILL_ICONS.fishEyes} />要フィッシュアイ
+          {fishEyesEffective(nushi) && (
+            <span
+              className="inline-flex items-center gap-1 text-moonlight-dim"
+              title="時間制限があり、フィッシュアイで待ち時間を省けます"
+            >
+              <SkillIcon {...SKILL_ICONS.fishEyes} />フィッシュアイ有効
             </span>
           )}
         </div>
@@ -611,11 +619,11 @@ export default function NushiRow({
                 直感
               </span>
             )}
-            {nushi.fishEyes && (
+            {fishEyesEffective(nushi) && (
               <img
                 src={iconUrl(SKILL_ICONS.fishEyes.code)}
-                alt="要フィッシュアイ"
-                title="フィッシュアイ必須"
+                alt="フィッシュアイ有効"
+                title="フィッシュアイ有効 (時間制限あり・待ち時間を省ける)"
                 width={16}
                 height={16}
                 className="ml-1 inline-block align-middle"
