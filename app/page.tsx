@@ -371,6 +371,12 @@ export default function Home() {
             📖<span className="hidden sm:inline"> 図鑑</span>
           </Link>
           <Link
+            href="/bait"
+            className="rounded-lg border border-hookgold-deep bg-abyss-800 px-2.5 py-2 text-sm text-hookgold transition-colors hover:bg-abyss-700 hover:text-hookgold-bright"
+          >
+            🎣<span className="hidden sm:inline"> 餌別</span>
+          </Link>
+          <Link
             href="/achievements"
             className="rounded-lg border border-hookgold-deep bg-abyss-800 px-2.5 py-2 text-sm text-hookgold transition-colors hover:bg-abyss-700 hover:text-hookgold-bright"
           >

@@ -9,65 +9,70 @@ import { useCaught } from "@/lib/useCaught";
 import SiteFooter from "@/components/SiteFooter";
 
 const allNushi = nushiData as unknown as Nushi[];
+type Bait = Nushi["baitPath"][number];
 
-const EXPANSIONS = [
-  { key: 2, title: "新生エオルゼア", range: "Patch 2.x" },
-  { key: 3, title: "蒼天のイシュガルド", range: "Patch 3.x" },
-  { key: 4, title: "紅蓮のリベレーター", range: "Patch 4.x" },
-  { key: 5, title: "漆黒のヴィランズ", range: "Patch 5.x" },
-  { key: 6, title: "暁月のフィナーレ", range: "Patch 6.x" },
-  { key: 7, title: "黄金のレガシー", range: "Patch 7.x" },
-] as const;
-
-function expansionOf(patch: number | string): number {
-  return Math.floor(parseFloat(String(patch)));
-}
-
-type TypeFilter = "all" | "nushi" | "oonushi";
-
-export default function ListPage() {
+export default function BaitPage() {
   const [query, setQuery] = useState("");
   const [uncaughtOnly, setUncaughtOnly] = useState(false);
-  const [typeFilter, setTypeFilter] = useState<TypeFilter>("all");
   const { caught, toggle, loaded } = useCaught();
 
-  const sections = useMemo(() => {
+  const groups = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return EXPANSIONS.map((exp) => {
-      const fish = allNushi.filter((n) => expansionOf(n.patch) === exp.key);
-      const caughtCount = fish.filter(
-        (n) => n.id !== null && caught.has(n.id)
-      ).length;
-      const visible = fish.filter((n) => {
-        if (uncaughtOnly && n.id !== null && caught.has(n.id)) return false;
-        if (typeFilter === "nushi" && !n.bigFish) return false;
-        if (typeFilter === "oonushi" && !n.oonushi) return false;
-        if (!q) return true;
-        return (
-          n.name.toLowerCase().includes(q) ||
-          (n.nameJa ?? "").toLowerCase().includes(q) ||
-          (n.spotNameJa ?? "").toLowerCase().includes(q) ||
-          (n.zoneNameJa ?? "").toLowerCase().includes(q)
+    // 餌 (baitPath 先頭 = 投げる餌) ごとにヌシをまとめる
+    const m = new Map<string, { bait: Bait; fish: Nushi[] }>();
+    for (const n of allNushi) {
+      const b = n.baitPath[0];
+      if (!b) continue;
+      const key = b.id != null ? `id${b.id}` : (b.ja ?? b.en);
+      if (!m.has(key)) m.set(key, { bait: b, fish: [] });
+      m.get(key)!.fish.push(n);
+    }
+    const arr = Array.from(m.values())
+      .map((g) => {
+        const baitName = (g.bait.ja ?? g.bait.en ?? "").toLowerCase();
+        const baitMatch = !q || baitName.includes(q);
+        const fish = g.fish.filter((n) => {
+          if (uncaughtOnly && n.id !== null && caught.has(n.id)) return false;
+          if (baitMatch) return true;
+          return (
+            (n.nameJa ?? "").toLowerCase().includes(q) ||
+            n.name.toLowerCase().includes(q) ||
+            (n.spotNameJa ?? "").toLowerCase().includes(q)
+          );
+        });
+        // ヌシ→大物優先→パッチ→名前
+        fish.sort(
+          (a, b) =>
+            Number(b.bigFish) - Number(a.bigFish) ||
+            parseFloat(String(a.patch)) - parseFloat(String(b.patch)) ||
+            (a.nameJa ?? "").localeCompare(b.nameJa ?? "", "ja")
         );
-      });
-      return { ...exp, fish, caughtCount, visible };
-    });
-  }, [query, uncaughtOnly, typeFilter, caught]);
+        return { ...g, fish };
+      })
+      .filter((g) => g.fish.length > 0);
+    // 匹数の多い餌を上に、次に餌名
+    arr.sort(
+      (a, b) =>
+        b.fish.length - a.fish.length ||
+        (a.bait.ja ?? "").localeCompare(b.bait.ja ?? "", "ja")
+    );
+    return arr;
+  }, [query, uncaughtOnly, caught]);
 
   const totalCaught = allNushi.filter(
     (n) => n.id !== null && caught.has(n.id)
   ).length;
 
   return (
-    <main className="mx-auto max-w-6xl px-4 py-8">
-      <header className="mb-6 flex flex-wrap items-end justify-between gap-4">
+    <main className="mx-auto max-w-5xl px-4 py-8">
+      <header className="mb-5 flex flex-wrap items-end justify-between gap-4">
         <div>
-          <div className="mb-1 flex gap-4 text-sm">
+          <div className="mb-1 flex flex-wrap gap-x-4 gap-y-1 text-sm">
             <Link href="/" className="text-moonlight-dim underline hover:text-moonlight">
-              ← トラッカーに戻る
+              ← トラッカー
             </Link>
-            <Link href="/bait" className="text-moonlight-dim underline hover:text-moonlight">
-              🎣 餌別
+            <Link href="/list" className="text-moonlight-dim underline hover:text-moonlight">
+              📖 図鑑
             </Link>
             <Link
               href="/achievements"
@@ -77,14 +82,14 @@ export default function ListPage() {
             </Link>
           </div>
           <h1 className="font-display text-3xl font-bold text-moonlight">
-            ヌシ<span className="text-hookgold">図鑑</span>
+            <span className="text-hookgold">餌</span>別ヌシ一覧
           </h1>
           <p className="mt-1 text-sm text-moonlight-dim">
-            全{allNushi.length}種 ・ 釣獲済み{" "}
+            その釣り餌で釣れるヌシをまとめて表示 ・ 全{allNushi.length}種 ・ 釣獲済み{" "}
             <span className="text-hookgold-bright font-bold">
               {loaded ? totalCaught : "…"}
             </span>{" "}
-            種 ・ 画像クリックでロードストーンのアイテムページを開きます
+            種
           </p>
         </div>
         <div className="flex flex-wrap items-center gap-4">
@@ -92,7 +97,7 @@ export default function ListPage() {
             type="search"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="魚名・釣り場で検索…"
+            placeholder="餌名・魚名で検索…"
             className="w-56 rounded-md border border-abyss-700 bg-abyss-800 px-3 py-2 text-sm text-moonlight placeholder:text-moonlight-faint focus:border-hookgold focus:outline-none"
           />
           <label className="flex cursor-pointer items-center gap-2 text-sm text-moonlight-dim">
@@ -104,54 +109,61 @@ export default function ListPage() {
             />
             未釣獲のみ
           </label>
-          <div className="flex items-center gap-1.5">
-            {(
-              [
-                ["all", "すべて"],
-                ["nushi", "ヌシのみ"],
-                ["oonushi", "オオヌシ"],
-              ] as const
-            ).map(([key, label]) => (
-              <button
-                key={key}
-                onClick={() => setTypeFilter(key)}
-                className={`rounded-full px-3 py-1 text-xs transition-colors ${
-                  typeFilter === key
-                    ? "bg-hookgold text-abyss font-bold"
-                    : "border border-abyss-600 text-moonlight-dim hover:border-hookgold-deep hover:text-moonlight"
-                }`}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
         </div>
       </header>
 
-      <div className="space-y-8">
-        {sections.map((s) => (
-          <section key={s.key}>
-            <div className="mb-3 flex items-baseline justify-between border-b border-abyss-700 pb-2">
-              <h2 className="font-display text-xl text-moonlight">
-                {s.title}
-                <span className="ml-2 text-sm text-moonlight-dim">{s.range}</span>
-              </h2>
-              <span className="font-mono text-sm text-hookgold-bright tabular-nums">
-                {s.caughtCount}/{s.fish.length}
-              </span>
-            </div>
-            {s.visible.length === 0 ? (
-              <div className="py-4 text-sm text-moonlight-faint">
-                表示できるヌシがありません
+      <p className="mb-4 text-xs text-moonlight-faint">
+        泳がせを使うヌシは「泳がせ」と表示（先頭の投げ餌でグループ化しています）。餌のアイコン・魚のアイコンからロードストーンを開けます。
+      </p>
+
+      {groups.length === 0 ? (
+        <div className="py-16 text-center text-sm text-moonlight-faint">
+          該当する餌・ヌシがありません
+        </div>
+      ) : (
+        <div className="space-y-5">
+          {groups.map((g) => (
+            <section
+              key={g.bait.id ?? g.bait.ja ?? g.bait.en}
+              className="overflow-hidden rounded-xl border border-abyss-700 bg-abyss-900/70 shadow-deep"
+            >
+              <div className="flex items-center gap-2 border-b border-abyss-700 bg-abyss-800 px-4 py-2">
+                <span className="text-xs text-moonlight-faint">餌</span>
+                {g.bait.icon &&
+                  (g.bait.lodestoneId ? (
+                    <a
+                      href={lodestoneUrl(g.bait.lodestoneId)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1.5 text-moonlight hover:text-hookgold-bright"
+                    >
+                      <img
+                        src={iconUrl(g.bait.icon)}
+                        alt=""
+                        width={24}
+                        height={24}
+                        className="rounded border border-abyss-600"
+                      />
+                      <span className="font-display">{g.bait.ja ?? g.bait.en}</span>
+                    </a>
+                  ) : (
+                    <span className="flex items-center gap-1.5 font-display text-moonlight">
+                      <img src={iconUrl(g.bait.icon)} alt="" width={24} height={24} />
+                      {g.bait.ja ?? g.bait.en}
+                    </span>
+                  ))}
+                <span className="ml-auto text-xs text-moonlight-faint">
+                  {g.fish.length}種
+                </span>
               </div>
-            ) : (
-              <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
-                {s.visible.map((n) => {
+
+              <ul className="grid grid-cols-1 gap-x-4 sm:grid-cols-2">
+                {g.fish.map((n) => {
                   const isCaught = n.id !== null && caught.has(n.id);
                   return (
                     <li
                       key={`${n.name}-${n.spotId}`}
-                      className={`flex items-center gap-3 rounded-lg border border-abyss-700 bg-abyss-900/70 px-3 py-2 transition-colors hover:border-abyss-600 ${
+                      className={`flex items-center gap-3 border-b border-abyss-700/40 px-4 py-2 ${
                         isCaught ? "opacity-55" : ""
                       }`}
                     >
@@ -174,8 +186,8 @@ export default function ListPage() {
                             <img
                               src={iconUrl(n.icon)}
                               alt={n.nameJa ?? n.name}
-                              width={40}
-                              height={40}
+                              width={32}
+                              height={32}
                               className="rounded border border-abyss-600 bg-abyss-900"
                             />
                           </a>
@@ -183,17 +195,15 @@ export default function ListPage() {
                           <img
                             src={iconUrl(n.icon)}
                             alt={n.nameJa ?? n.name}
-                            width={40}
-                            height={40}
+                            width={32}
+                            height={32}
                             className="shrink-0 rounded border border-abyss-600 bg-abyss-900"
                           />
                         ))}
                       <div className="min-w-0 flex-1">
                         <div
-                          className={`truncate font-display text-sm ${
-                            isCaught
-                              ? "text-moonlight-dim line-through"
-                              : "text-moonlight"
+                          className={`text-sm ${
+                            isCaught ? "text-moonlight-dim line-through" : "text-moonlight"
                           }`}
                         >
                           {n.nameJa ?? n.name}
@@ -207,6 +217,16 @@ export default function ListPage() {
                                 ヌシ
                               </span>
                             )
+                          )}
+                          {n.baitPath.length > 1 && (
+                            <span className="ml-1 text-[10px] text-moonlight-faint align-middle">
+                              泳がせ
+                            </span>
+                          )}
+                          {n.lure && (
+                            <span className="ml-1 text-[10px] text-hookgold-bright align-middle">
+                              {n.lure === "Ambitious" ? "アンビシャス" : "モデスト"}
+                            </span>
                           )}
                         </div>
                         <div className="truncate text-xs text-moonlight-faint">
@@ -227,10 +247,10 @@ export default function ListPage() {
                   );
                 })}
               </ul>
-            )}
-          </section>
-        ))}
-      </div>
+            </section>
+          ))}
+        </div>
+      )}
 
       <SiteFooter />
     </main>
