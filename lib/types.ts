@@ -74,6 +74,8 @@ export interface Nushi {
   previousWeatherSet: number[];
   tug: "legendary" | "heavy" | "light" | "medium";
   hookset: string | null;
+  /** ルアーリング (黄金): "Ambitious"=アンビシャス / "Modest"=モデスト / null */
+  lure: string | null;
   folklore: boolean;
   fishEyes: boolean;
   intuition: boolean;

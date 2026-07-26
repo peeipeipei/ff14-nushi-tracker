@@ -454,6 +454,17 @@ function DetailPanel({
               <SkillIcon {...SKILL_ICONS.fishEyes} />フィッシュアイ有効
             </span>
           )}
+          {nushi.lure && (
+            <span
+              className="inline-flex items-center gap-1"
+              title="ルアーリングで狙います (黄金)"
+            >
+              <span className="text-xs text-moonlight-faint">ルアー</span>
+              <span className="rounded bg-abyss-700 px-1.5 py-0.5 text-hookgold-bright">
+                {nushi.lure === "Ambitious" ? "アンビシャス" : "モデスト"}
+              </span>
+            </span>
+          )}
         </div>
         {nushi.folkloreNameJa && (
           <div>

@@ -428,6 +428,8 @@ def main():
             "previousWeatherSet": resolve_weather("previousWeatherSet"),
             "tug": tug,
             "hookset": entry.get("hookset"),
+            # ルアーリング (黄金): Ambitious=アンビシャス / Modest=モデスト
+            "lure": repo_fish.get("lure") if repo_fish else None,
             "folklore": bool(entry.get("folklore")),
             "fishEyes": bool(entry.get("fishEyes")),
             "intuition": bool(entry.get("predators")),
