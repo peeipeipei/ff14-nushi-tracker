@@ -3,9 +3,10 @@ import type { Metadata } from "next";
 import SiteFooter from "@/components/SiteFooter";
 
 export const metadata: Metadata = {
-  title: "このサイトについて | FFXIV 太公望への道",
+  title: "このサイトについて",
   description:
     "FFXIV 太公望への道の使い方・データ出典・免責事項。ヌシ釣りアチーブメント「太公望」達成を支援する非公式ファンツールです。",
+  alternates: { canonical: "/about" },
 };
 
 function Section({
