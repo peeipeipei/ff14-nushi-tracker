@@ -15,6 +15,10 @@ export default function SiteFooter() {
           このサイトについて
         </Link>
         <span className="text-abyss-600">|</span>
+        <Link href="/backup" className="underline hover:text-moonlight">
+          データのバックアップ
+        </Link>
+        <span className="text-abyss-600">|</span>
         <a
           href="https://github.com/peeipeipei/ff14-nushi-tracker"
           target="_blank"

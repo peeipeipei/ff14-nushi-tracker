@@ -2,6 +2,13 @@
 
 import { useCallback, useEffect, useState } from "react";
 
+/** localStorage キー一覧 (バックアップ機能と共有) */
+export const STORAGE_KEYS = {
+  caught: "nushi-caught-v1",
+  prep: "nushi-prep-v1",
+  pinned: "nushi-pinned-v1",
+} as const;
+
 /** ID 集合を localStorage に永続化する汎用フック */
 function useCheckedSet(storageKey: string) {
   const [set, setSet] = useState<Set<number>>(() => new Set());
@@ -39,7 +46,7 @@ function useCheckedSet(storageKey: string) {
 
 /** 釣獲済みヌシの ID 集合 */
 export function useCaught() {
-  const { set, toggle, loaded } = useCheckedSet("nushi-caught-v1");
+  const { set, toggle, loaded } = useCheckedSet(STORAGE_KEYS.caught);
   return { caught: set, toggle, loaded };
 }
 
@@ -48,12 +55,12 @@ export function useCaught() {
  * ヌシ本体の釣獲とは別管理で、セッションごとの下ごしらえチェックに使う。
  */
 export function usePrep() {
-  const { set, toggle, loaded } = useCheckedSet("nushi-prep-v1");
+  const { set, toggle, loaded } = useCheckedSet(STORAGE_KEYS.prep);
   return { prep: set, togglePrep: toggle, prepLoaded: loaded };
 }
 
 /** ピン留め (常に一覧の最上部に固定表示したい魚) */
 export function usePinned() {
-  const { set, toggle, loaded } = useCheckedSet("nushi-pinned-v1");
+  const { set, toggle, loaded } = useCheckedSet(STORAGE_KEYS.pinned);
   return { pinned: set, togglePin: toggle, pinnedLoaded: loaded };
 }
