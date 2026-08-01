@@ -15,6 +15,10 @@ export default function SiteFooter() {
           このサイトについて
         </Link>
         <span className="text-abyss-600">|</span>
+        <Link href="/tech" className="underline hover:text-moonlight">
+          技術解説
+        </Link>
+        <span className="text-abyss-600">|</span>
         <Link href="/backup" className="underline hover:text-moonlight">
           データのバックアップ
         </Link>
