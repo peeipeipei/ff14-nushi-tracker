@@ -73,9 +73,20 @@ export type WindowSpec = Pick<
 export function findNextMatchingWeatherWindow(
   fish: WindowSpec,
   rate: WeatherRate | null,
-  fromMs: number
+  fromMs: number,
+  options?: {
+    /**
+     * 時間帯条件を無視して天候条件だけで窓を求める。
+     * フィッシュアイ使用時の判定に使う (フィッシュアイは時間条件のみ解除する)。
+     */
+    ignoreTime?: boolean;
+  }
 ): UpcomingWindow | null {
-  const noTime = fish.startHour === 0 && fish.endHour === 24;
+  // フィッシュアイ想定では時間帯を終日として扱う
+  const startHour = options?.ignoreTime ? 0 : fish.startHour;
+  const endHour = options?.ignoreTime ? 24 : fish.endHour;
+
+  const noTime = startHour === 0 && endHour === 24;
   const noWeather = fish.weatherSet.length === 0 && fish.previousWeatherSet.length === 0;
 
   if (noTime && noWeather) {
@@ -117,11 +128,7 @@ export function findNextMatchingWeatherWindow(
     const w = firstWindow + i * WEATHER_WINDOW_REAL_MS;
     if (!weatherOk(w)) continue;
 
-    const segments = activeHourSegments(
-      fish.startHour,
-      fish.endHour,
-      getWindowStartHour(w)
-    );
+    const segments = activeHourSegments(startHour, endHour, getWindowStartHour(w));
     for (const [lo, hi] of segments) {
       const segStart = w + lo * REAL_MS_PER_EORZEA_HOUR;
       let segEnd = w + hi * REAL_MS_PER_EORZEA_HOUR;
@@ -133,8 +140,8 @@ export function findNextMatchingWeatherWindow(
         const next = cursor + WEATHER_WINDOW_REAL_MS;
         if (!weatherOk(next)) break;
         const nextSegs = activeHourSegments(
-          fish.startHour,
-          fish.endHour,
+          startHour,
+          endHour,
           getWindowStartHour(next)
         );
         if (nextSegs.length === 0 || nextSegs[0][0] !== 0) break;

@@ -480,6 +480,7 @@ function DetailPanel({
 export default function NushiRow({
   nushi,
   window: win,
+  fishEyesAssisted = false,
   nowMs,
   weatherTypes,
   isCaught,
@@ -496,6 +497,8 @@ export default function NushiRow({
 }: {
   nushi: Nushi;
   window: UpcomingWindow | null;
+  /** 窓がフィッシュアイ前提 (時間条件を無視) で計算されているか */
+  fishEyesAssisted?: boolean;
   nowMs: number;
   weatherTypes: Record<string, WeatherTypeInfo>;
   isCaught: boolean;
@@ -518,9 +521,14 @@ export default function NushiRow({
   // 出現中の魚は「この窓が閉じた後、次にいつ出るか」を計算 (30秒粒度でメモ化)
   const activeNext = useMemo(() => {
     if (!win?.isActiveNow || win.isAlways) return null;
-    return nextWindow(nushi, nushi.territoryId, win.endMs + 1000);
+    return nextWindow(
+      nushi,
+      nushi.territoryId,
+      win.endMs + 1000,
+      fishEyesAssisted ? { ignoreTime: true } : undefined
+    );
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [win?.endMs, win?.isActiveNow, win?.isAlways, nushi.id]);
+  }, [win?.endMs, win?.isActiveNow, win?.isAlways, nushi.id, fishEyesAssisted]);
 
   const startDate = win && !win.isAlways ? new Date(win.startMs) : null;
 
@@ -702,7 +710,22 @@ export default function NushiRow({
 
         {/* 次の窓 */}
         <div className="text-right">
-          <div className={`text-sm tabular-nums ${status.className}`}>{status.label}</div>
+          <div
+            className={`flex items-center justify-end gap-1 text-sm tabular-nums ${status.className}`}
+          >
+            {/* フィッシュアイ前提の窓であることを明示 */}
+            {fishEyesAssisted && (
+              <img
+                src={iconUrl(SKILL_ICONS.fishEyes.code)}
+                alt=""
+                width={14}
+                height={14}
+                title="フィッシュアイ使用前提 (時間条件を無視した判定)"
+                className="shrink-0"
+              />
+            )}
+            {status.label}
+          </div>
           <div className="text-[11px] text-moonlight-faint tabular-nums">
             {/* 出現中は次に出る時刻。待機中で同日なら時刻のみ補足
                 (日付をまたぐ場合はメインラベルが絶対日時なので補足なし) */}

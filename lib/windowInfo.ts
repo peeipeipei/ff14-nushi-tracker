@@ -14,9 +14,15 @@ export function rateFor(territoryId: number | null): WeatherRate | null {
 export function nextWindow(
   spec: WindowSpec,
   territoryId: number | null,
-  fromMs: number
+  fromMs: number,
+  options?: { ignoreTime?: boolean }
 ): UpcomingWindow | null {
-  return findNextMatchingWeatherWindow(spec, rateFor(territoryId), fromMs);
+  return findNextMatchingWeatherWindow(
+    spec,
+    rateFor(territoryId),
+    fromMs,
+    options
+  );
 }
 
 /**

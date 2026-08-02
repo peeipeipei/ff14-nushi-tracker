@@ -24,6 +24,8 @@ const BIG_FISH_TOTAL = allNushi.filter((n) => n.bigFish).length;
 interface Row {
   nushi: Nushi;
   window: UpcomingWindow | null;
+  /** この窓がフィッシュアイ前提 (時間条件を無視) で計算されたものか */
+  fishEyesAssisted: boolean;
 }
 
 /**
@@ -204,15 +206,22 @@ export default function Home() {
   const rows = useMemo<Row[]>(() => {
     if (computeTick === null) return [];
     const t = computeTick * 30000;
-    return allNushi.map((nushi) => ({
-      nushi,
-      window: findNextMatchingWeatherWindow(
+    return allNushi.map((nushi) => {
+      // フィッシュアイ ON のときは、適用対象の魚に限り時間条件を無視して
+      // 天候条件だけで窓を求める (= フィッシュアイを使えば今釣れる判定)
+      const assisted = fishEyesOnly && fishEyesEffective(nushi);
+      return {
         nushi,
-        nushi.territoryId ? weatherRates[String(nushi.territoryId)] ?? null : null,
-        t
-      ),
-    }));
-  }, [computeTick]);
+        fishEyesAssisted: assisted,
+        window: findNextMatchingWeatherWindow(
+          nushi,
+          nushi.territoryId ? weatherRates[String(nushi.territoryId)] ?? null : null,
+          t,
+          assisted ? { ignoreTime: true } : undefined
+        ),
+      };
+    });
+  }, [computeTick, fishEyesOnly]);
 
   // ピンした魚が約10分以内に出現するなら通知 (30秒粒度でチェック)
   useEffect(() => {
@@ -420,7 +429,10 @@ export default function Home() {
               />
               未釣獲のみ
             </label>
-            <label className="flex cursor-pointer items-center gap-1.5 text-sm text-moonlight-dim">
+            <label
+              className="flex cursor-pointer items-center gap-1.5 text-sm text-moonlight-dim"
+              title="フィッシュアイが有効な魚だけを表示し、時間条件を無視して天候が合えば「出現中」と判定します"
+            >
               <input
                 type="checkbox"
                 checked={fishEyesOnly}
@@ -531,6 +543,7 @@ export default function Home() {
             <NushiRow
               nushi={r.nushi}
               window={r.window}
+              fishEyesAssisted={r.fishEyesAssisted}
               nowMs={nowMs}
               weatherTypes={weatherTypes}
               isCaught={r.nushi.id !== null && caught.has(r.nushi.id)}
