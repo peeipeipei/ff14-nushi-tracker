@@ -432,6 +432,10 @@ def main():
             "lure": repo_fish.get("lure") if repo_fish else None,
             "folklore": bool(entry.get("folklore")),
             "fishEyes": bool(entry.get("fishEyes")),
+            # フィッシュアイの適用対象か (魚ごとのゲーム側データ)。
+            # オオヌシは全拡張で対象外、6.0(暁月)以降に追加された魚も対象外。
+            # 時間条件を持つ魚にこれが立っていて初めて実際に有効になる。
+            "fishEyesApplicable": bool(repo_fish.get("fishEyes")) if repo_fish else False,
             "intuition": bool(entry.get("predators")),
             "patch": entry.get("patch"),
         })

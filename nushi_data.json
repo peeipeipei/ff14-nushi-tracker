@@ -46,6 +46,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2,
   "uptime": 33.3
@@ -116,6 +117,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2,
   "uptime": 14.8
@@ -176,6 +178,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2,
   "uptime": 100.0
@@ -227,6 +230,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 20.8
@@ -278,6 +282,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 20.8
@@ -329,6 +334,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 100.0
@@ -380,6 +386,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 100.0
@@ -435,6 +442,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 40.7
@@ -494,6 +502,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 33.3
@@ -561,6 +570,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 41.7
@@ -612,6 +622,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 20.8
@@ -674,6 +685,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 49.3
@@ -725,6 +737,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 33.3
@@ -776,6 +789,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 100.0
@@ -831,6 +845,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 35.1
@@ -882,6 +897,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 100.0
@@ -933,6 +949,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 25.0
@@ -984,6 +1001,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 41.7
@@ -1038,6 +1056,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 10.4
@@ -1097,6 +1116,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 25.0
@@ -1148,6 +1168,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 16.7
@@ -1199,6 +1220,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 100.0
@@ -1254,6 +1276,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 40.7
@@ -1305,6 +1328,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 20.8
@@ -1356,6 +1380,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 20.8
@@ -1409,6 +1434,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 3.7
@@ -1463,6 +1489,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 4.1
@@ -1517,6 +1544,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 12.2
@@ -1568,6 +1596,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 16.7
@@ -1622,6 +1651,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 6.1
@@ -1681,6 +1711,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 100.0
@@ -1732,6 +1763,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 25.0
@@ -1791,6 +1823,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 33.3
@@ -1842,6 +1875,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 25.0
@@ -1893,6 +1927,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 12.5
@@ -1946,6 +1981,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 10.1
@@ -1997,6 +2033,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 100.0
@@ -2048,6 +2085,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 25.0
@@ -2102,6 +2140,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 7.5
@@ -2156,6 +2195,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
   "uptime": 59.3
@@ -2207,6 +2247,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 6.2
@@ -2262,6 +2303,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 3.4
@@ -2313,6 +2355,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 8.3
@@ -2375,6 +2418,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 3.1
@@ -2426,6 +2470,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 2.1
@@ -2477,6 +2522,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 8.3
@@ -2528,6 +2574,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 4.2
@@ -2579,6 +2626,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 12.5
@@ -2630,6 +2678,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 8.3
@@ -2691,6 +2740,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 10.1
@@ -2752,6 +2802,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 15.0
@@ -2806,6 +2857,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 6.3
@@ -2857,6 +2909,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 100.0
@@ -2919,6 +2972,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 6.1
@@ -2970,6 +3024,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 12.5
@@ -3028,6 +3083,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 5.0
@@ -3081,6 +3137,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 4.1
@@ -3131,6 +3188,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 4.3
@@ -3182,6 +3240,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 20.8
@@ -3236,6 +3295,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 13.9
@@ -3298,6 +3358,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 19.8
@@ -3355,6 +3416,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 2.0
@@ -3408,6 +3470,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 11.2
@@ -3459,6 +3522,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 12.5
@@ -3512,6 +3576,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 10.1
@@ -3563,6 +3628,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 11.5
@@ -3616,6 +3682,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 4.9
@@ -3669,6 +3736,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 10.1
@@ -3730,6 +3798,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 19.8
@@ -3791,6 +3860,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 5.8
@@ -3844,6 +3914,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 19.8
@@ -3895,6 +3966,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 25.0
@@ -3946,6 +4018,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 12.5
@@ -4007,6 +4080,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 4.8
@@ -4060,6 +4134,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 4.9
@@ -4113,6 +4188,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 4.8
@@ -4167,6 +4243,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 74.6
@@ -4220,6 +4297,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 4.8
@@ -4282,6 +4360,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 22.1
@@ -4345,6 +4424,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 10.1
@@ -4398,6 +4478,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 10.4
@@ -4459,6 +4540,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 12.6
@@ -4513,6 +4595,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 1.3
@@ -4575,6 +4658,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 5.0
@@ -4634,6 +4718,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 100.0
@@ -4687,6 +4772,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 2.1
@@ -4746,6 +4832,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 6.6
@@ -4808,6 +4895,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 3.0
@@ -4887,6 +4975,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 16.8
@@ -4940,6 +5029,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
   "uptime": 12.6
@@ -5044,6 +5134,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": true,
   "patch": 2.4,
   "uptime": 100.0
@@ -5116,6 +5207,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 4.6
@@ -5202,6 +5294,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 2.4,
   "uptime": 10.1
@@ -5265,6 +5358,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 8.4
@@ -5331,6 +5425,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 2.4,
   "uptime": 6.7
@@ -5401,6 +5496,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 14.3
@@ -5457,6 +5553,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 12.4
@@ -5513,6 +5610,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 12.8
@@ -5593,6 +5691,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": true,
   "patch": 2.4,
   "uptime": 100.0
@@ -5662,6 +5761,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 18.7
@@ -5731,6 +5831,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 12.6
@@ -5845,6 +5946,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 2.4,
   "uptime": 100.0
@@ -5949,6 +6051,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": true,
   "patch": 2.4,
   "uptime": 100.0
@@ -6018,6 +6121,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 4.7
@@ -6084,6 +6188,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 5.2
@@ -6148,6 +6253,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 1.0
@@ -6212,6 +6318,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 2.4,
   "uptime": 2.0
@@ -6303,6 +6410,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": true,
   "patch": 2.4,
   "uptime": 22.2
@@ -6360,6 +6468,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 9.1
@@ -6424,6 +6533,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 3.0
@@ -6496,6 +6606,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 2.4,
   "uptime": 3.0
@@ -6561,6 +6672,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 3.9
@@ -6615,6 +6727,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 19.8
@@ -6698,6 +6811,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 2.4,
   "uptime": 100.0
@@ -6762,6 +6876,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
   "uptime": 2.0
@@ -6813,6 +6928,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.5,
   "uptime": 12.5
@@ -6872,6 +6988,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
   "uptime": 10.4
@@ -6925,6 +7042,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
   "uptime": 13.0
@@ -6976,6 +7094,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
   "uptime": 31.2
@@ -7035,6 +7154,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
   "uptime": 100.0
@@ -7089,6 +7209,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
   "uptime": 59.3
@@ -7140,6 +7261,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
   "uptime": 29.2
@@ -7199,6 +7321,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
   "uptime": 12.5
@@ -7261,6 +7384,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
   "uptime": 20.2
@@ -7312,6 +7436,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
   "uptime": 12.5
@@ -7363,6 +7488,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
   "uptime": 100.0
@@ -7414,6 +7540,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.2,
   "uptime": 25.0
@@ -7465,6 +7592,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.2,
   "uptime": 100.0
@@ -7516,6 +7644,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 100.0
@@ -7567,6 +7696,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 100.0
@@ -7618,6 +7748,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 100.0
@@ -7669,6 +7800,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 100.0
@@ -7724,6 +7856,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 29.8
@@ -7779,6 +7912,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 4.9
@@ -7838,6 +7972,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 100.0
@@ -7897,6 +8032,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 100.0
@@ -7948,6 +8084,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 8.3
@@ -8002,6 +8139,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 5.1
@@ -8053,6 +8191,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 8.3
@@ -8106,6 +8245,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 10.5
@@ -8165,6 +8305,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 100.0
@@ -8226,6 +8367,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
   "uptime": 7.3
@@ -8289,6 +8431,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 3.0
@@ -8352,6 +8495,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 3.2
@@ -8415,6 +8559,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 11.0
@@ -8479,6 +8624,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 11.7
@@ -8540,6 +8686,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 6.6
@@ -8597,6 +8744,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 1.6
@@ -8658,6 +8806,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 6.2
@@ -8713,6 +8862,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 0.4
@@ -8767,6 +8917,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 7.4
@@ -8818,6 +8969,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 16.7
@@ -8877,6 +9029,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 100.0
@@ -8936,6 +9089,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 16.7
@@ -8999,6 +9153,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 0.2
@@ -9063,6 +9218,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
   "uptime": 11.7
@@ -9116,6 +9272,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
   "uptime": 0.8
@@ -9171,6 +9328,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
   "uptime": 8.4
@@ -9234,6 +9392,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
   "uptime": 0.6
@@ -9289,6 +9448,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
   "uptime": 1.9
@@ -9352,6 +9512,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
   "uptime": 11.2
@@ -9417,6 +9578,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
   "uptime": 0.2
@@ -9480,6 +9642,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
   "uptime": 2.4
@@ -9546,6 +9709,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
   "uptime": 6.6
@@ -9610,6 +9774,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
   "uptime": 2.0
@@ -9665,6 +9830,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
   "uptime": 0.9
@@ -9720,6 +9886,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
   "uptime": 3.0
@@ -9839,6 +10006,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 3.5,
   "uptime": 12.6
@@ -9931,6 +10099,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 3.5,
   "uptime": 31.0
@@ -10021,6 +10190,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 3.5,
   "uptime": 3.8
@@ -10131,6 +10301,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 3.5,
   "uptime": 2.5
@@ -10221,6 +10392,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 3.5,
   "uptime": 2.5
@@ -10311,6 +10483,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 3.5,
   "uptime": 1.3
@@ -10372,6 +10545,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
   "uptime": 9.7
@@ -10423,6 +10597,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
   "uptime": 100.0
@@ -10474,6 +10649,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
   "uptime": 33.3
@@ -10535,6 +10711,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
   "uptime": 2.5
@@ -10588,6 +10765,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
   "uptime": 9.9
@@ -10641,6 +10819,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
   "uptime": 10.0
@@ -10695,6 +10874,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
   "uptime": 8.2
@@ -10746,6 +10926,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
   "uptime": 100.0
@@ -10797,6 +10978,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
   "uptime": 100.0
@@ -10851,6 +11033,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
   "uptime": 59.3
@@ -10921,6 +11104,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
   "uptime": 10.1
@@ -10988,6 +11172,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
   "uptime": 33.3
@@ -11041,6 +11226,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.1,
   "uptime": 1.7
@@ -11103,6 +11289,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.2,
   "uptime": 30.7
@@ -11154,6 +11341,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.2,
   "uptime": 100.0
@@ -11216,6 +11404,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.2,
   "uptime": 30.7
@@ -11267,6 +11456,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.2,
   "uptime": 16.7
@@ -11326,6 +11516,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 100.0
@@ -11379,6 +11570,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 10.1
@@ -11430,6 +11622,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 16.7
@@ -11483,6 +11676,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 5.5
@@ -11542,6 +11736,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 16.7
@@ -11603,6 +11798,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 19.8
@@ -11662,6 +11858,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 100.0
@@ -11709,6 +11906,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 100.0
@@ -11760,6 +11958,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 16.7
@@ -11821,6 +12020,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 9.7
@@ -11872,6 +12072,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 8.3
@@ -11925,6 +12126,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 9.9
@@ -11976,6 +12178,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 16.7
@@ -12029,6 +12232,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
   "uptime": 4.9
@@ -12090,6 +12294,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 10.1
@@ -12152,6 +12357,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 5.2
@@ -12203,6 +12409,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 16.7
@@ -12256,6 +12463,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 10.5
@@ -12309,6 +12517,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 2.6
@@ -12364,6 +12573,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 5.5
@@ -12417,6 +12627,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 2.4
@@ -12475,6 +12686,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 3.8
@@ -12522,6 +12734,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 8.3
@@ -12577,6 +12790,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 0.5
@@ -12641,6 +12855,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 7.0
@@ -12697,6 +12912,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 9.1
@@ -12761,6 +12977,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 0.4
@@ -12814,6 +13031,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
   "uptime": 1.3
@@ -12869,6 +13087,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 5.0
@@ -12930,6 +13149,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 1.8
@@ -12985,6 +13205,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 1.5
@@ -13041,6 +13262,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 2.3
@@ -13094,6 +13316,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 9.9
@@ -13149,6 +13372,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 8.2
@@ -13202,6 +13426,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 3.6
@@ -13255,6 +13480,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 1.9
@@ -13310,6 +13536,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 1.8
@@ -13363,6 +13590,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 1.8
@@ -13419,6 +13647,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 0.8
@@ -13474,6 +13703,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 1.9
@@ -13539,6 +13769,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
   "uptime": 2.9
@@ -13598,6 +13829,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 4.5,
   "uptime": 16.7
@@ -13682,6 +13914,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 4.5,
   "uptime": 5.5
@@ -13780,6 +14013,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 4.5,
   "uptime": 8.3
@@ -13843,6 +14077,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 4.5,
   "uptime": 0.2
@@ -14000,6 +14235,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 4.5,
   "uptime": 100.0
@@ -14055,6 +14291,7 @@
   "lure": null,
   "folklore": true,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 4.5,
   "uptime": 0.1
@@ -14106,6 +14343,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.0,
   "uptime": 100.0
@@ -14168,6 +14406,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.0,
   "uptime": 8.1
@@ -14231,6 +14470,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.0,
   "uptime": 25.2
@@ -14282,6 +14522,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.0,
   "uptime": 100.0
@@ -14343,6 +14584,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.0,
   "uptime": 3.3
@@ -14394,6 +14636,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
   "uptime": 16.7
@@ -14447,6 +14690,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
   "uptime": 10.4
@@ -14500,6 +14744,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
   "uptime": 10.1
@@ -14553,6 +14798,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
   "uptime": 5.2
@@ -14614,6 +14860,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
   "uptime": 2.5
@@ -14668,6 +14915,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
   "uptime": 9.3
@@ -14735,6 +14983,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
   "uptime": 8.3
@@ -14788,6 +15037,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": true,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
   "uptime": 3.3
@@ -14845,6 +15095,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.2,
   "uptime": 4.9
@@ -14896,6 +15147,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.2,
   "uptime": 8.3
@@ -14957,6 +15209,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.2,
   "uptime": 3.3
@@ -15013,6 +15266,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.2,
   "uptime": 5.9
@@ -15070,6 +15324,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.2,
   "uptime": 6.3
@@ -15124,6 +15379,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.2,
   "uptime": 6.7
@@ -15178,6 +15434,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
   "uptime": 2.5
@@ -15234,6 +15491,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
   "uptime": 6.6
@@ -15285,6 +15543,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
   "uptime": 100.0
@@ -15338,6 +15597,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
   "uptime": 0.8
@@ -15394,6 +15654,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
   "uptime": 8.1
@@ -15450,6 +15711,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
   "uptime": 1.4
@@ -15505,6 +15767,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
   "uptime": 0.5
@@ -15558,6 +15821,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
   "uptime": 1.8
@@ -15613,6 +15877,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.4,
   "uptime": 0.6
@@ -15669,6 +15934,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.4,
   "uptime": 2.1
@@ -15730,6 +15996,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.4,
   "uptime": 1.2
@@ -15785,6 +16052,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.4,
   "uptime": 0.8
@@ -15846,6 +16114,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.4,
   "uptime": 1.3
@@ -15901,6 +16170,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.4,
   "uptime": 0.3
@@ -15956,6 +16226,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
   "uptime": 0.2
@@ -16011,6 +16282,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
   "uptime": 0.6
@@ -16062,6 +16334,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
   "uptime": 8.3
@@ -16118,6 +16391,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
   "uptime": 0.9
@@ -16183,6 +16457,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
   "uptime": 1.3
@@ -16238,6 +16513,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
   "uptime": 0.7
@@ -16289,6 +16565,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
   "uptime": 100.0
@@ -16344,6 +16621,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
   "uptime": 0.2
@@ -16397,6 +16675,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
   "uptime": 4.9
@@ -16458,6 +16737,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
   "uptime": 3.3
@@ -16509,6 +16789,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
   "uptime": 4.2
@@ -16573,6 +16854,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 5.55,
   "uptime": 2.0
@@ -16686,6 +16968,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 5.55,
   "uptime": 25.0
@@ -16770,6 +17053,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 5.55,
   "uptime": 0.1
@@ -16825,6 +17109,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 5.55,
   "uptime": 0.0
@@ -16900,6 +17185,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 5.55,
   "uptime": 8.3
@@ -16986,6 +17272,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 5.55,
   "uptime": 1.0
@@ -17047,6 +17334,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.0,
   "uptime": 40.2
@@ -17108,6 +17396,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.0,
   "uptime": 70.7
@@ -17167,6 +17456,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.0,
   "uptime": 16.7
@@ -17218,6 +17508,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
   "uptime": 16.7
@@ -17271,6 +17562,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
   "uptime": 4.1
@@ -17322,6 +17614,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
   "uptime": 16.7
@@ -17375,6 +17668,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
   "uptime": 4.8
@@ -17436,6 +17730,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
   "uptime": 44.5
@@ -17489,6 +17784,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
   "uptime": 2.5
@@ -17542,6 +17838,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
   "uptime": 2.3
@@ -17595,6 +17892,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
   "uptime": 2.7
@@ -17651,6 +17949,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
   "uptime": 5.7
@@ -17707,6 +18006,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
   "uptime": 5.5
@@ -17764,6 +18064,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
   "uptime": 3.0
@@ -17820,6 +18121,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
   "uptime": 3.3
@@ -17871,6 +18173,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
   "uptime": 8.3
@@ -17932,6 +18235,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
   "uptime": 14.6
@@ -17985,6 +18289,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
   "uptime": 1.2
@@ -18038,6 +18343,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
   "uptime": 1.3
@@ -18093,6 +18399,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
   "uptime": 1.0
@@ -18148,6 +18455,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
   "uptime": 3.9
@@ -18203,6 +18511,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
   "uptime": 0.5
@@ -18256,6 +18565,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
   "uptime": 1.7
@@ -18309,6 +18619,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
   "uptime": 1.8
@@ -18364,6 +18675,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
   "uptime": 0.9
@@ -18425,6 +18737,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
   "uptime": 5.0
@@ -18480,6 +18793,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.4,
   "uptime": 1.1
@@ -18535,6 +18849,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.4,
   "uptime": 2.1
@@ -18604,6 +18919,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.4,
   "uptime": 40.2
@@ -18660,6 +18976,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.4,
   "uptime": 0.7
@@ -18715,6 +19032,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.4,
   "uptime": 0.7
@@ -18778,6 +19096,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.5,
   "uptime": 2.1
@@ -18841,6 +19160,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.5,
   "uptime": 1.0
@@ -18925,6 +19245,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 6.5,
   "uptime": 1.5
@@ -18988,6 +19309,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.5,
   "uptime": 2.6
@@ -19043,6 +19365,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.5,
   "uptime": 1.6
@@ -19098,6 +19421,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.5,
   "uptime": 1.9
@@ -19190,6 +19514,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 6.55,
   "uptime": 0.9
@@ -19284,6 +19609,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 6.55,
   "uptime": 0.2
@@ -19368,6 +19694,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 6.55,
   "uptime": 1.6
@@ -19423,6 +19750,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.55,
   "uptime": 1.0
@@ -19478,6 +19806,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.55,
   "uptime": 0.3
@@ -19642,6 +19971,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 6.55,
   "uptime": 0.7
@@ -19695,6 +20025,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
   "uptime": 10.0
@@ -19746,6 +20077,7 @@
   "lure": "Modest",
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
   "uptime": 8.3
@@ -19800,6 +20132,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
   "uptime": 4.1
@@ -19853,6 +20186,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
   "uptime": 14.7
@@ -19920,6 +20254,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
   "uptime": 16.7
@@ -19974,6 +20309,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
   "uptime": 8.3
@@ -20025,6 +20361,7 @@
   "lure": "Ambitious",
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
   "uptime": 8.3
@@ -20076,6 +20413,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
   "uptime": 16.7
@@ -20127,6 +20465,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
   "uptime": 8.3
@@ -20188,6 +20527,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
   "uptime": 2.1
@@ -20243,6 +20583,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
   "uptime": 0.8
@@ -20294,6 +20635,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
   "uptime": 8.3
@@ -20348,6 +20690,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
   "uptime": 30.3
@@ -20411,6 +20754,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
   "uptime": 1.0
@@ -20464,6 +20808,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
   "uptime": 5.2
@@ -20517,6 +20862,7 @@
   "lure": "Ambitious",
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
   "uptime": 5.1
@@ -20572,6 +20918,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
   "uptime": 0.7
@@ -20625,6 +20972,7 @@
   "lure": "Ambitious",
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
   "uptime": 0.9
@@ -20678,6 +21026,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
   "uptime": 1.4
@@ -20741,6 +21090,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
   "uptime": 0.9
@@ -20792,6 +21142,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
   "uptime": 100.0
@@ -20848,6 +21199,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
   "uptime": 2.0
@@ -20901,6 +21253,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
   "uptime": 0.8
@@ -20983,6 +21336,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 7.3,
   "uptime": 0.8
@@ -21038,6 +21392,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
   "uptime": 1.0
@@ -21093,6 +21448,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.4,
   "uptime": 0.0
@@ -21156,6 +21512,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.4,
   "uptime": 0.2
@@ -21209,6 +21566,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.4,
   "uptime": 0.9
@@ -21291,6 +21649,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 7.4,
   "uptime": 1.3
@@ -21352,6 +21711,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.4,
   "uptime": 1.4
@@ -21407,6 +21767,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.4,
   "uptime": 0.1
@@ -21462,6 +21823,7 @@
   "lure": "Ambitious",
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.4,
   "uptime": 0.1
@@ -21574,6 +21936,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 7.4,
   "uptime": 0.2
@@ -21629,6 +21992,7 @@
   "lure": "Ambitious",
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
   "uptime": 0.2
@@ -21692,6 +22056,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
   "uptime": 0.1
@@ -21747,6 +22112,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
   "uptime": 0.1
@@ -21810,6 +22176,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
   "uptime": 0.6
@@ -21865,6 +22232,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
   "uptime": 0.2
@@ -21928,6 +22296,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
   "uptime": 0.2
@@ -22012,6 +22381,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": true,
   "patch": 7.5,
   "uptime": 0.3
@@ -22067,6 +22437,7 @@
   "lure": null,
   "folklore": false,
   "fishEyes": false,
+  "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
   "uptime": 0.4

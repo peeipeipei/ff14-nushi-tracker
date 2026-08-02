@@ -63,13 +63,19 @@ export function formatClock(ms: number): string {
 }
 
 /**
- * フィッシュアイが有効か = 時間帯の制約がある魚。
- * フィッシュアイは時間帯制限のみ解除するので、終日(0-24)の魚には効果がない。
+ * フィッシュアイが実際に有効か。次の2条件をどちらも満たす魚のみ。
+ *
+ * 1. 時間帯の制約がある — フィッシュアイは時間条件のみを解除する
+ *    (天候条件は解除されない) ので、終日(0-24)の魚には効果がない。
+ * 2. フィッシュアイの適用対象である — オオヌシは全拡張で対象外、
+ *    6.0(暁月)以降に追加された魚も対象外。
  */
 export function fishEyesEffective(f: {
   startHour: number;
   endHour: number;
+  fishEyesApplicable: boolean;
 }): boolean {
+  if (!f.fishEyesApplicable) return false;
   return !(f.startHour === 0 && f.endHour === 24);
 }
 

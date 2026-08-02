@@ -78,6 +78,11 @@ export interface Nushi {
   lure: string | null;
   folklore: boolean;
   fishEyes: boolean;
+  /**
+   * フィッシュアイの適用対象か (魚ごとのゲーム側データ)。
+   * オオヌシは全拡張で対象外、6.0(暁月)以降に追加された魚も対象外。
+   */
+  fishEyesApplicable: boolean;
   intuition: boolean;
   patch: number | string;
   /** 出現率 (%): 時間帯・天候条件を満たす実時間の割合。天候計算不可なら null */
