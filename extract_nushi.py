@@ -49,7 +49,7 @@ def load_repo_data():
     return json.loads(text)
 
 # --- 出現率 (uptime%) の計算: FF14 の天候アルゴリズムを移植してサンプリング ---
-FORECAST_WINDOWS = 12960  # 天候窓 (ET8時間) を約300実日ぶんサンプリング
+FORECAST_WINDOWS = 51840  # 天候窓 (ET8時間) を約1200実日ぶんサンプリング
 
 def forecast_target(unix_seconds):
     """FF14 の天候抽選値 (0-99)。lib/weather.ts と同一計算"""
@@ -90,7 +90,7 @@ def compute_uptime(start, end, wset, pwset, seq):
         if pws and (i == 0 or seq[i - 1] not in pws):
             continue
         avail += _overlap_hours(start, end, (i * 8) % 24)
-    return round(avail / (n * 8) * 100, 1)
+    return round(avail / (n * 8) * 100, 2)
 
 def add_uptime(nushi_list, weather_rates):
     # 天候シーケンスは territory 単位で 1 度だけ構築してキャッシュ

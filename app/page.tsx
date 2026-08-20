@@ -7,6 +7,7 @@ import weatherData from "@/data/weather_rates.json";
 import type { Nushi, UpcomingWindow, WeatherRate, WeatherTypeInfo } from "@/lib/types";
 import { findNextMatchingWeatherWindow } from "@/lib/weather";
 import { fishEyesEffective, formatWhen } from "@/lib/windowInfo";
+import { rarityTier } from "@/lib/rarity";
 import { iconUrl, SKILL_ICONS } from "@/lib/assets";
 import { useCaught, usePrep, usePinned } from "@/lib/useCaught";
 import EorzeaClock from "@/components/EorzeaClock";
@@ -55,7 +56,7 @@ const EXPANSIONS = [
 
 type TypeFilter = "all" | "nushi" | "oonushi";
 type AvailFilter = "all" | "active" | "always" | "timed";
-type SortMode = "window" | "patch" | "name";
+type SortMode = "window" | "patch" | "name" | "rarity";
 
 function expansionOf(patch: number | string): number {
   return Math.floor(parseFloat(String(patch)));
@@ -83,6 +84,8 @@ export default function Home() {
   const [expFilters, setExpFilters] = useState<number[]>([]);
   const [typeFilter, setTypeFilter] = useState<TypeFilter>("all");
   const [fishEyesOnly, setFishEyesOnly] = useState(false);
+  /** 表示する最低レア度 (0 = すべて) */
+  const [minRarity, setMinRarity] = useState(0);
   const [sortMode, setSortMode] = useState<SortMode>("window");
   const [expandedId, setExpandedId] = useState<number | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false); // モバイルでのフィルタ開閉
@@ -131,7 +134,8 @@ export default function Home() {
         if (["all", "nushi", "oonushi"].includes(f.typeFilter))
           setTypeFilter(f.typeFilter);
         if (typeof f.fishEyesOnly === "boolean") setFishEyesOnly(f.fishEyesOnly);
-        if (["window", "patch", "name"].includes(f.sortMode))
+        if (typeof f.minRarity === "number") setMinRarity(f.minRarity);
+        if (["window", "patch", "name", "rarity"].includes(f.sortMode))
           setSortMode(f.sortMode);
       }
     } catch {
@@ -192,6 +196,7 @@ export default function Home() {
           expFilters,
           typeFilter,
           fishEyesOnly,
+          minRarity,
           sortMode,
         })
       );
@@ -199,7 +204,7 @@ export default function Home() {
       // ストレージ不可でも動作は継続
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [availFilter, uncaughtOnly, expFilters, typeFilter, fishEyesOnly, sortMode]);
+  }, [availFilter, uncaughtOnly, expFilters, typeFilter, fishEyesOnly, minRarity, sortMode]);
 
   // 窓の再計算は30秒粒度 (計算自体は数十msなので体感遅延なし)
   const computeTick = nowMs === null ? null : Math.floor(nowMs / 30000);
@@ -280,6 +285,7 @@ export default function Home() {
       if (typeFilter === "nushi" && !n.bigFish) return false;
       if (typeFilter === "oonushi" && !n.oonushi) return false;
       if (fishEyesOnly && !fishEyesEffective(n)) return false;
+      if (minRarity > 0 && (rarityTier(n.uptime) ?? 0) < minRarity) return false;
       return matchesQuery(n);
     });
 
@@ -295,6 +301,14 @@ export default function Home() {
         return (a.nushi.nameJa ?? a.nushi.name).localeCompare(
           b.nushi.nameJa ?? b.nushi.name,
           "ja"
+        );
+      }
+      if (sortMode === "rarity") {
+        // 出現率が低い(=レア)ほど上。不明は最下部
+        const ua = a.nushi.uptime ?? Infinity;
+        const ub = b.nushi.uptime ?? Infinity;
+        return (
+          ua - ub || (a.nushi.nameJa ?? "").localeCompare(b.nushi.nameJa ?? "", "ja")
         );
       }
       // 窓が近い順 (安定化のため tick 時刻で計算)
@@ -316,6 +330,7 @@ export default function Home() {
     expFilters,
     typeFilter,
     fishEyesOnly,
+    minRarity,
     sortMode,
     caught,
     pinned,
@@ -454,6 +469,7 @@ export default function Home() {
               aria-label="並び順"
             >
               <option value="window">出現が近い順</option>
+              <option value="rarity">レア度順</option>
               <option value="patch">パッチ順</option>
               <option value="name">名前順</option>
             </select>
@@ -520,6 +536,29 @@ export default function Home() {
               key={key}
               onClick={() => setTypeFilter(key)}
               className={chipClass(typeFilter === key)}
+            >
+              {label}
+            </button>
+          ))}
+          <span className="mx-1 h-4 w-px bg-abyss-600" />
+          <span
+            className="mr-1 text-[11px] text-moonlight-faint"
+            title="出現率(時間帯・天候条件を満たす実時間の割合)から算出したレア度"
+          >
+            レア度
+          </span>
+          {(
+            [
+              [0, "すべて"],
+              [3, "やや稀↑"],
+              [4, "稀↑"],
+              [5, "極稀"],
+            ] as const
+          ).map(([key, label]) => (
+            <button
+              key={key}
+              onClick={() => setMinRarity(key)}
+              className={chipClass(minRarity === key)}
             >
               {label}
             </button>

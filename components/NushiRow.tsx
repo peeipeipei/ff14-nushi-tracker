@@ -16,6 +16,12 @@ import {
   nextWindow,
   windowStatus,
 } from "@/lib/windowInfo";
+import {
+  formatUptime,
+  isRareChanceNow,
+  rarityInfo,
+  rarityStars,
+} from "@/lib/rarity";
 import TideGauge from "./TideGauge";
 
 /** 天候をゲーム内アイコンで表示 */
@@ -466,6 +472,27 @@ function DetailPanel({
             </span>
           )}
         </div>
+        {(() => {
+          const r = rarityInfo(nushi.uptime);
+          if (!r) return null;
+          return (
+            <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+              <span className="mr-1 text-xs text-moonlight-faint">出現レア度</span>
+              <span className={`font-mono text-sm ${r.className}`}>
+                {rarityStars(r.tier)}
+              </span>
+              <span
+                className={`rounded border px-1.5 py-0.5 text-xs ${r.badgeClassName}`}
+              >
+                {r.label}
+              </span>
+              <span className="text-xs text-moonlight-dim">
+                出現率 {formatUptime(nushi.uptime!)}
+              </span>
+              <span className="text-xs text-moonlight-faint">・{r.description}</span>
+            </div>
+          );
+        })()}
         {nushi.folkloreNameJa && (
           <div>
             <span className="mr-2 text-xs text-moonlight-faint">伝承録</span>
@@ -517,6 +544,10 @@ export default function NushiRow({
     nushi.weatherSet.length > 0 || nushi.previousWeatherSet.length > 0;
 
   const status = windowStatus(win, nowMs);
+
+  // 出現レア度 (uptime ベース) と「いま窓が開いているレア魚」の判定
+  const rarity = rarityInfo(nushi.uptime);
+  const rareChance = isRareChanceNow(nushi.uptime, win);
 
   // 出現中の魚は「この窓が閉じた後、次にいつ出るか」を計算 (30秒粒度でメモ化)
   const activeNext = useMemo(() => {
@@ -651,6 +682,22 @@ export default function NushiRow({
                 height={16}
                 className="ml-1 inline-block align-middle"
               />
+            )}
+            {rarity && rarity.tier >= 3 && (
+              <span
+                title={`出現レア度 ${rarityStars(rarity.tier)} ${rarity.label} ・ 出現率 ${formatUptime(nushi.uptime!)} ・ ${rarity.description}`}
+                className={`ml-1.5 rounded border px-1 text-[10px] align-middle ${rarity.badgeClassName}`}
+              >
+                {rarity.label}
+              </span>
+            )}
+            {rareChance && (
+              <span
+                title="レアな窓がいま開いています。逃すと次の機会は遠くなります"
+                className="ml-1 rounded bg-rose-500/25 px-1 text-[10px] font-bold text-rose-200 align-middle"
+              >
+                今が好機
+              </span>
             )}
           </div>
           <div className="text-xs text-moonlight-faint">
