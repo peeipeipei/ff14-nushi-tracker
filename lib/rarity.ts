@@ -9,47 +9,16 @@ export type RarityTier = 1 | 2 | 3 | 4 | 5;
 
 export interface RarityInfo {
   tier: RarityTier;
-  /** 短いラベル (バッジ用) */
-  label: string;
-  /** 一覧の凡例・詳細で使う説明 */
-  description: string;
-  /** 文字色 */
+  /** ★の文字色 (レアなほど目立つ) */
   className: string;
-  /** バッジ (枠 + 背景 + 文字) */
-  badgeClassName: string;
 }
 
 const TIERS: Record<RarityTier, Omit<RarityInfo, "tier">> = {
-  5: {
-    label: "極稀",
-    description: "出現率1%未満。ほとんど窓が開かない最上級のレア",
-    className: "text-rose-300",
-    badgeClassName: "border-rose-400/60 bg-rose-500/15 text-rose-200",
-  },
-  4: {
-    label: "稀",
-    description: "出現率1〜3%。窓が開いたら優先したい",
-    className: "text-hookgold-bright",
-    badgeClassName: "border-hookgold/70 bg-hookgold/15 text-hookgold-bright",
-  },
-  3: {
-    label: "やや稀",
-    description: "出現率3〜8%。狙って待つ必要がある",
-    className: "text-moonlight",
-    badgeClassName: "border-moonlight-dim/50 bg-moonlight/10 text-moonlight",
-  },
-  2: {
-    label: "普通",
-    description: "出現率8〜20%。待てば比較的すぐ出る",
-    className: "text-moonlight-dim",
-    badgeClassName: "border-abyss-600 bg-abyss-800 text-moonlight-dim",
-  },
-  1: {
-    label: "頻出",
-    description: "出現率20%以上。いつでも狙いやすい",
-    className: "text-moonlight-faint",
-    badgeClassName: "border-abyss-600 bg-abyss-800 text-moonlight-faint",
-  },
+  5: { className: "text-rose-300" },
+  4: { className: "text-hookgold-bright" },
+  3: { className: "text-moonlight" },
+  2: { className: "text-moonlight-dim" },
+  1: { className: "text-moonlight-faint" },
 };
 
 /** uptime(%) からレア度を判定。uptime 不明なら null */

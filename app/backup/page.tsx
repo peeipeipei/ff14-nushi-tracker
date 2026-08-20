@@ -105,7 +105,7 @@ export default function BackupPage() {
           データの<span className="text-hookgold">バックアップ</span>
         </h1>
         <p className="mt-1 text-sm text-moonlight-dim">
-          釣獲済み・下ごしらえ・ピン留めの記録をファイルに保存／復元します。
+          釣獲済み・ピン留めの記録をファイルに保存／復元します。
         </p>
       </header>
 
@@ -120,11 +120,10 @@ export default function BackupPage() {
       {/* 現在の記録 */}
       <section className="mb-5 rounded-xl border border-abyss-700 bg-abyss-900/70 p-5 shadow-deep">
         <h2 className="mb-3 font-display text-lg text-moonlight">現在の記録</h2>
-        <div className="grid grid-cols-3 gap-3 text-center">
+        <div className="grid grid-cols-2 gap-3 text-center">
           {(
             [
               ["釣獲済み", current?.caught],
-              ["下ごしらえ", current?.prep],
               ["ピン留め", current?.pinned],
             ] as const
           ).map(([label, n]) => (
@@ -197,8 +196,6 @@ export default function BackupPage() {
             <div className="mb-3 text-sm text-moonlight-dim">
               釣獲済み{" "}
               <b className="text-hookgold-bright">{pending.data.caught.length}</b> 件 ・
-              下ごしらえ{" "}
-              <b className="text-hookgold-bright">{pending.data.prep.length}</b> 件 ・
               ピン留め{" "}
               <b className="text-hookgold-bright">{pending.data.pinned.length}</b> 件
               {pending.data.exportedAt && (

@@ -142,16 +142,12 @@ function hourRangeText(startHour: number, endHour: number): string {
 function PredatorItem({
   predator,
   weatherTypes,
-  checked,
   nowMs,
-  onToggle,
   onJump,
 }: {
   predator: Predator;
   weatherTypes: WeatherMap;
-  checked: boolean;
   nowMs: number;
-  onToggle: () => void;
   onJump?: () => void;
 }) {
   const c = predator.conditions;
@@ -162,19 +158,7 @@ function PredatorItem({
   const win = restricted ? nextWindow(c!, c!.territoryId, nowMs) : null;
   const status = win && !win.isAlways ? windowStatus(win, nowMs) : null;
   return (
-    <div
-      className={`flex items-start gap-2 rounded-lg border border-abyss-700 bg-abyss-800/50 px-2.5 py-2 ${
-        checked ? "opacity-55" : ""
-      }`}
-    >
-      <input
-        type="checkbox"
-        checked={checked}
-        onChange={onToggle}
-        onClick={(e) => e.stopPropagation()}
-        className="mt-0.5 h-4 w-4 shrink-0 accent-hookgold"
-        aria-label={`${predator.ja ?? predator.en} を釣った`}
-      />
+    <div className="flex items-start gap-2 rounded-lg border border-abyss-700 bg-abyss-800/50 px-2.5 py-2">
       <div className="min-w-0 flex-1">
         <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
           <ItemChip item={predator} />
@@ -344,19 +328,11 @@ function DetailPanel({
   nushi,
   weatherTypes,
   nowMs,
-  caught,
-  prep,
-  onTogglePrep,
-  onToggleCaughtId,
   onJumpTo,
 }: {
   nushi: Nushi;
   weatherTypes: WeatherMap;
   nowMs: number;
-  caught: Set<number>;
-  prep: Set<number>;
-  onTogglePrep: (id: number) => void;
-  onToggleCaughtId: (id: number) => void;
   onJumpTo?: (id: number) => void;
 }) {
   return (
@@ -404,21 +380,12 @@ function DetailPanel({
             <div className="grid gap-1.5 sm:grid-cols-2">
               {nushi.predators.map((p, i) => {
                 const isNushiPred = p.conditions?.bigFish ?? false;
-                const checked =
-                  p.id !== null &&
-                  (isNushiPred ? caught.has(p.id) : prep.has(p.id));
                 return (
                   <PredatorItem
                     key={p.id ?? i}
                     predator={p}
                     weatherTypes={weatherTypes}
-                    checked={checked}
                     nowMs={nowMs}
-                    onToggle={() => {
-                      if (p.id === null) return;
-                      if (isNushiPred) onToggleCaughtId(p.id);
-                      else onTogglePrep(p.id);
-                    }}
                     onJump={
                       isNushiPred && p.id !== null
                         ? () => onJumpTo?.(p.id!)
@@ -477,28 +444,17 @@ function DetailPanel({
           if (!r) return null;
           return (
             <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
-              <span className="mr-1 text-xs text-moonlight-faint">出現レア度</span>
+              <span className="mr-1 text-xs text-moonlight-faint">釣れる機会</span>
               <span className={`font-mono text-sm ${r.className}`}>
                 {rarityStars(r.tier)}
-              </span>
-              <span
-                className={`rounded border px-1.5 py-0.5 text-xs ${r.badgeClassName}`}
-              >
-                {r.label}
               </span>
               <span className="text-xs text-moonlight-dim">
                 出現率 {formatUptime(nushi.uptime!)}
               </span>
-              <span className="text-xs text-moonlight-faint">・{r.description}</span>
             </div>
           );
         })()}
-        {nushi.folkloreNameJa && (
-          <div>
-            <span className="mr-2 text-xs text-moonlight-faint">伝承録</span>
-            <span className="text-hookgold">{nushi.folkloreNameJa}</span>
-          </div>
-        )}
+
       </div>
     </div>
   );
@@ -512,10 +468,6 @@ export default function NushiRow({
   weatherTypes,
   isCaught,
   onToggleCaught,
-  caught,
-  prep,
-  onTogglePrep,
-  onToggleCaughtId,
   onJumpTo,
   isPinned,
   onTogglePin,
@@ -530,10 +482,6 @@ export default function NushiRow({
   weatherTypes: Record<string, WeatherTypeInfo>;
   isCaught: boolean;
   onToggleCaught: () => void;
-  caught: Set<number>;
-  prep: Set<number>;
-  onTogglePrep: (id: number) => void;
-  onToggleCaughtId: (id: number) => void;
   onJumpTo?: (id: number) => void;
   isPinned: boolean;
   onTogglePin: () => void;
@@ -685,10 +633,10 @@ export default function NushiRow({
             )}
             {rarity && rarity.tier >= 3 && (
               <span
-                title={`出現レア度 ${rarityStars(rarity.tier)} ${rarity.label} ・ 出現率 ${formatUptime(nushi.uptime!)} ・ ${rarity.description}`}
-                className={`ml-1.5 rounded border px-1 text-[10px] align-middle ${rarity.badgeClassName}`}
+                title={`釣れる機会 ${rarityStars(rarity.tier)} ・ 出現率 ${formatUptime(nushi.uptime!)} (低いほど窓が開きにくい)`}
+                className={`ml-1.5 font-mono text-[11px] align-middle ${rarity.className}`}
               >
-                {rarity.label}
+                {"★".repeat(rarity.tier)}
               </span>
             )}
             {rareChance && (
@@ -798,10 +746,6 @@ export default function NushiRow({
           nushi={nushi}
           weatherTypes={weatherTypes}
           nowMs={nowMs}
-          caught={caught}
-          prep={prep}
-          onTogglePrep={onTogglePrep}
-          onToggleCaughtId={onToggleCaughtId}
           onJumpTo={onJumpTo}
         />
       )}

@@ -9,7 +9,7 @@ import { findNextMatchingWeatherWindow } from "@/lib/weather";
 import { fishEyesEffective, formatWhen } from "@/lib/windowInfo";
 import { rarityTier } from "@/lib/rarity";
 import { iconUrl, SKILL_ICONS } from "@/lib/assets";
-import { useCaught, usePrep, usePinned } from "@/lib/useCaught";
+import { useCaught, usePinned } from "@/lib/useCaught";
 import EorzeaClock from "@/components/EorzeaClock";
 import NushiRow from "@/components/NushiRow";
 import SiteFooter from "@/components/SiteFooter";
@@ -94,7 +94,6 @@ export default function Home() {
   const [notifySupported, setNotifySupported] = useState(true);
   const notifiedRef = useRef<Set<string>>(new Set());
   const { caught, toggle } = useCaught();
-  const { prep, togglePrep } = usePrep();
   const { pinned, togglePin } = usePinned();
 
   // 釣獲チェック: 誤操作防止のため、付ける/外すどちらも確認する
@@ -389,6 +388,12 @@ export default function Home() {
             </button>
           )}
           <Link
+            href="/guide"
+            className="rounded-lg border border-hookgold-deep bg-abyss-800 px-2.5 py-2 text-sm text-hookgold transition-colors hover:bg-abyss-700 hover:text-hookgold-bright"
+          >
+            🔰<span className="hidden sm:inline"> 始め方</span>
+          </Link>
+          <Link
             href="/list"
             className="rounded-lg border border-hookgold-deep bg-abyss-800 px-2.5 py-2 text-sm text-hookgold transition-colors hover:bg-abyss-700 hover:text-hookgold-bright"
           >
@@ -469,7 +474,7 @@ export default function Home() {
               aria-label="並び順"
             >
               <option value="window">出現が近い順</option>
-              <option value="rarity">レア度順</option>
+              <option value="rarity">釣れる機会が少ない順</option>
               <option value="patch">パッチ順</option>
               <option value="name">名前順</option>
             </select>
@@ -543,16 +548,16 @@ export default function Home() {
           <span className="mx-1 h-4 w-px bg-abyss-600" />
           <span
             className="mr-1 text-[11px] text-moonlight-faint"
-            title="出現率(時間帯・天候条件を満たす実時間の割合)から算出したレア度"
+            title="釣れる機会の少なさ (出現率が低いほど★が多い)"
           >
-            レア度
+            釣れる機会
           </span>
           {(
             [
               [0, "すべて"],
-              [3, "やや稀↑"],
-              [4, "稀↑"],
-              [5, "極稀"],
+              [3, "★3↑"],
+              [4, "★4↑"],
+              [5, "★5"],
             ] as const
           ).map(([key, label]) => (
             <button
@@ -589,10 +594,6 @@ export default function Home() {
               onToggleCaught={() =>
                 r.nushi.id !== null && toggleCaughtSafe(r.nushi.id)
               }
-              caught={caught}
-              prep={prep}
-              onTogglePrep={togglePrep}
-              onToggleCaughtId={toggleCaughtSafe}
               onJumpTo={jumpTo}
               isPinned={r.nushi.id !== null && pinned.has(r.nushi.id)}
               onTogglePin={() => r.nushi.id !== null && togglePin(r.nushi.id)}

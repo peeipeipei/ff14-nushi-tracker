@@ -11,6 +11,10 @@ export default function SiteFooter() {
         FINAL FANTASY XIV © SQUARE ENIX CO., LTD. All Rights Reserved.
       </p>
       <p className="mt-2 flex flex-wrap items-center justify-center gap-x-3 gap-y-1">
+        <Link href="/guide" className="underline hover:text-moonlight">
+          ヌシ釣りの始め方
+        </Link>
+        <span className="text-abyss-600">|</span>
         <Link href="/about" className="underline hover:text-moonlight">
           このサイトについて
         </Link>
