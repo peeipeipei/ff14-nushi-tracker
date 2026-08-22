@@ -219,14 +219,6 @@ export const WEATHER_WINDOW_REAL_MS = 8 * REAL_MS_PER_EORZEA_HOUR;`}</Code>
             (広告・アフィリエイト等は掲載していません)。ゲーム画像・アイコンは同条件の範囲で利用しています。
           </p>
           <p className="flex flex-wrap gap-x-4 gap-y-1 pt-1">
-            <a
-              href="https://github.com/peeipeipei/ff14-nushi-tracker"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-hookgold underline"
-            >
-              → ソースコード (GitHub)
-            </a>
             <Link href="/" className="text-hookgold underline">
               → トラッカーを使う
             </Link>
