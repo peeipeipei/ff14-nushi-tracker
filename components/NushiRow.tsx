@@ -157,45 +157,143 @@ function PredatorItem({
       c.previousWeatherSet.length === 0);
   const win = restricted ? nextWindow(c!, c!.territoryId, nowMs) : null;
   const status = win && !win.isAlways ? windowStatus(win, nowMs) : null;
+  const feEffective =
+    c?.fishEyesApplicable && !(c.startHour === 0 && c.endHour === 24);
+
   return (
-    <div className="flex items-start gap-2 rounded-lg border border-abyss-700 bg-abyss-800/50 px-2.5 py-2">
-      <div className="min-w-0 flex-1">
-        <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
-          <ItemChip item={predator} />
-          <span className="font-mono text-xs text-hookgold-bright">×{predator.count}</span>
-          {status && (
-            <span className={`text-[11px] tabular-nums ${status.className}`}>
-              {status.label}
-            </span>
-          )}
-          {c?.bigFish && (
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                onJump?.();
-              }}
-              className="rounded border border-hookgold-deep px-1 text-[10px] text-hookgold hover:bg-abyss-700"
-              title="このヌシへ移動"
-            >
-              ヌシ ↗
-            </button>
-          )}
-        </div>
-        {c && (
-          <div className="mt-0.5 text-[11px] text-moonlight-dim">
-            {c.bait.length > 0 && (
-              <span>餌 {c.bait.map((b) => b.ja ?? b.en).join("→")}・</span>
-            )}
-            {hourRangeText(c.startHour, c.endHour)}
-            {c.weatherSet.length > 0 && (
-              <span>・{weatherNames(c.weatherSet, weatherTypes)}</span>
-            )}
-            {c.previousWeatherSet.length > 0 && (
-              <span> (前:{weatherNames(c.previousWeatherSet, weatherTypes)})</span>
-            )}
-          </div>
+    <div className="rounded-lg border border-abyss-700 bg-abyss-800/50 px-2.5 py-2">
+      {/* 見出し: 魚名 ×匹数 と 出現状況 */}
+      <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5">
+        <TugMark tug={predator.tug} />
+        <ItemChip item={predator} />
+        <span className="font-mono text-xs text-hookgold-bright">×{predator.count}</span>
+        {status && (
+          <span className={`text-[11px] tabular-nums ${status.className}`}>
+            {status.label}
+          </span>
+        )}
+        {c?.bigFish && (
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              onJump?.();
+            }}
+            className="rounded border border-hookgold-deep px-1 text-[10px] text-hookgold hover:bg-abyss-700"
+            title="このヌシへ移動"
+          >
+            ヌシ ↗
+          </button>
         )}
       </div>
+
+      {c && (
+        <div className="mt-1.5 space-y-1 text-[11px] leading-relaxed text-moonlight-dim">
+          {/* 釣り方: 餌 → 泳がせ中間魚 → この魚 */}
+          {c.bait.length > 0 && (
+            <div className="flex flex-wrap items-center gap-x-1 gap-y-0.5">
+              <span className="mr-0.5 text-moonlight-faint">釣り方</span>
+              {c.bait.map((b, i) => (
+                <span key={i} className="inline-flex items-center gap-1">
+                  <span className="inline-flex items-center gap-1">
+                    {i === 0 && (
+                      <span className="rounded bg-abyss-700 px-1 text-[10px] text-moonlight-dim">
+                        餌
+                      </span>
+                    )}
+                    {i >= 1 && b.tug && <TugMark tug={b.tug} />}
+                    <ItemChip item={b} />
+                    {i >= 1 && (
+                      <span className="inline-flex items-center gap-0.5 text-moonlight-dim">
+                        （<SkillIcon {...SKILL_ICONS.mooch} />泳がせ）
+                      </span>
+                    )}
+                  </span>
+                  <span className="text-moonlight-faint">→</span>
+                </span>
+              ))}
+              <span className="text-moonlight">{predator.ja ?? predator.en}</span>
+            </div>
+          )}
+
+          {/* アタリ・フッキング・引掛釣り・ルアー */}
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5">
+            {predator.tug && TUG_LABEL[predator.tug] && (
+              <span>
+                <span className="mr-1 text-moonlight-faint">アタリ</span>
+                <span className={TUG_MARK[predator.tug]?.cls}>
+                  {TUG_LABEL[predator.tug]}
+                </span>
+              </span>
+            )}
+            {c.hookset && (
+              <span className="inline-flex items-center gap-1">
+                <span className="text-moonlight-faint">フッキング</span>
+                {HOOKSET_SKILL[c.hookset] && (
+                  <SkillIcon {...HOOKSET_SKILL[c.hookset]} />
+                )}
+                <span className="text-moonlight">
+                  {HOOKSET_LABEL[c.hookset] ?? c.hookset}
+                </span>
+              </span>
+            )}
+            {c.snagging && <span className="text-moonlight">引っ掛け釣りが必要</span>}
+            {c.lure && (
+              <span className="text-hookgold-bright">
+                ルアー {c.lure === "Ambitious" ? "アンビシャス" : "モデスト"}
+              </span>
+            )}
+          </div>
+
+          {/* 釣り場・時間・天候 */}
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5">
+            {c.spotNameJa && (
+              <span>
+                <span className="mr-1 text-moonlight-faint">釣り場</span>
+                {c.spotId !== null ? (
+                  <Link
+                    href={spotUrl(c.spotId)}
+                    onClick={(e) => e.stopPropagation()}
+                    className="underline decoration-dotted underline-offset-2 hover:text-hookgold-bright"
+                  >
+                    {c.spotNameJa}
+                  </Link>
+                ) : (
+                  <span className="text-moonlight">{c.spotNameJa}</span>
+                )}
+              </span>
+            )}
+            <span>
+              <span className="mr-1 text-moonlight-faint">時間</span>
+              {hourRangeText(c.startHour, c.endHour)}
+            </span>
+            {(c.weatherSet.length > 0 || c.previousWeatherSet.length > 0) && (
+              <span className="inline-flex items-center gap-1">
+                <span className="text-moonlight-faint">天候</span>
+                {c.previousWeatherSet.length > 0 && (
+                  <>
+                    <WeatherIcons
+                      ids={c.previousWeatherSet}
+                      weatherTypes={weatherTypes}
+                    />
+                    <span className="text-moonlight-faint">→</span>
+                  </>
+                )}
+                {c.weatherSet.length > 0 ? (
+                  <WeatherIcons ids={c.weatherSet} weatherTypes={weatherTypes} />
+                ) : (
+                  <span className="text-moonlight-faint">不問</span>
+                )}
+              </span>
+            )}
+            {feEffective && (
+              <span className="inline-flex items-center gap-1 text-moonlight-dim">
+                <SkillIcon {...SKILL_ICONS.fishEyes} />
+                フィッシュアイ有効
+              </span>
+            )}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -377,7 +475,7 @@ function DetailPanel({
                 </span>
               )}
             </div>
-            <div className="grid gap-1.5 sm:grid-cols-2">
+            <div className="space-y-1.5">
               {nushi.predators.map((p, i) => {
                 const isNushiPred = p.conditions?.bigFish ?? false;
                 return (

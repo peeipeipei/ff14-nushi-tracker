@@ -366,8 +366,14 @@ def main():
                 "weatherSet": pf.get("weatherSet") or [],
                 "previousWeatherSet": pf.get("previousWeatherSet") or [],
                 "spotNameJa": pspot["name_ja"] if pspot else None,
+                "spotId": int(pf["location"]) if pf.get("location") else None,
                 "territoryId": pterr,
                 "bigFish": bool(pf.get("bigFish")),
+                # 予測魚自身の釣り方 (本命と同じ粒度で表示するため)
+                "hookset": pf.get("hookset"),
+                "snagging": bool(pf.get("snagging")),
+                "lure": pf.get("lure"),
+                "fishEyesApplicable": bool(pf.get("fishEyes")),
             }
 
         if repo_fish and repo_fish.get("bestCatchPath"):

@@ -5099,8 +5099,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "レッドマンティス滝",
+     "spotId": 58,
      "territoryId": 137,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -5256,8 +5261,13 @@
      ],
      "previousWeatherSet": [],
      "spotNameJa": "ロータノ海沖合：船尾",
+     "spotId": 108,
      "territoryId": 137,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -5656,8 +5666,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "タホトトル湖畔",
+     "spotId": 21,
      "territoryId": 154,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -5911,8 +5926,13 @@
      ],
      "previousWeatherSet": [],
      "spotNameJa": "唄う裂谷北部",
+     "spotId": 94,
      "territoryId": 156,
-     "bigFish": true
+     "bigFish": true,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -6016,8 +6036,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "ウエストウインド岬",
+     "spotId": 74,
      "territoryId": 140,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -6372,8 +6397,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "聖ダナフェンの落涙",
+     "spotId": 29,
      "territoryId": 155,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -6776,8 +6806,13 @@
      ],
      "previousWeatherSet": [],
      "spotNameJa": "ウルズの恵み",
+     "spotId": 17,
      "territoryId": 153,
-     "bigFish": true
+     "bigFish": true,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -9940,8 +9975,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "光輪の祭壇",
+     "spotId": 124,
      "territoryId": 398,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    },
    {
@@ -9968,8 +10008,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": null,
+     "spotId": null,
      "territoryId": null,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -10062,8 +10107,13 @@
      ],
      "previousWeatherSet": [],
      "spotNameJa": "アジス・ラー旗艦島",
+     "spotId": 146,
      "territoryId": 402,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -10153,8 +10203,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": null,
+     "spotId": null,
      "territoryId": null,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -10236,8 +10291,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "モック・ウーグル島",
+     "spotId": 139,
      "territoryId": 401,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    },
    {
@@ -10264,8 +10324,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": null,
+     "spotId": null,
      "territoryId": null,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -10355,8 +10420,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": null,
+     "spotId": null,
      "territoryId": null,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -10446,8 +10516,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": null,
+     "spotId": null,
      "territoryId": null,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -13877,8 +13952,13 @@
      ],
      "previousWeatherSet": [],
      "spotNameJa": "夫婦池",
+     "spotId": 190,
      "territoryId": 620,
-     "bigFish": true
+     "bigFish": true,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -13978,8 +14058,13 @@
      ],
      "previousWeatherSet": [],
      "spotNameJa": "ロッホ・セル湖",
+     "spotId": 196,
      "territoryId": 621,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -14131,8 +14216,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "七彩溝",
+     "spotId": 168,
      "territoryId": 614,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    },
    {
@@ -14167,8 +14257,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "七彩溝",
+     "spotId": 168,
      "territoryId": 614,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    },
    {
@@ -14200,8 +14295,13 @@
       2
      ],
      "spotNameJa": "七彩溝",
+     "spotId": 168,
      "territoryId": 614,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -16905,8 +17005,13 @@
       2
      ],
      "spotNameJa": "シーゲイザーの入江",
+     "spotId": 212,
      "territoryId": 814,
-     "bigFish": true
+     "bigFish": true,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    },
    {
@@ -16933,8 +17038,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "シーゲイザーの入江",
+     "spotId": 212,
      "territoryId": 814,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -17014,8 +17124,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "砂の川",
+     "spotId": 215,
      "territoryId": 815,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -17233,8 +17348,13 @@
      ],
      "previousWeatherSet": [],
      "spotNameJa": "キャリバン海底谷北西",
+     "spotId": 232,
      "territoryId": 818,
-     "bigFish": true
+     "bigFish": true,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": true
     }
    }
   ],
@@ -19206,8 +19326,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "マーヤーの幻泉",
+     "spotId": 268,
      "territoryId": 957,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
     }
    }
   ],
@@ -19475,8 +19600,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "ディープモート",
+     "spotId": 259,
      "territoryId": 956,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
     }
    }
   ],
@@ -19570,8 +19700,13 @@
      ],
      "previousWeatherSet": [],
      "spotNameJa": "薫香の浜",
+     "spotId": 269,
      "territoryId": 957,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
     }
    }
   ],
@@ -19655,8 +19790,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "エブラーナ不凍池",
+     "spotId": 270,
      "territoryId": 958,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
     }
    }
   ],
@@ -19868,8 +20008,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "リムニ・トゥリアβ",
+     "spotId": 285,
      "territoryId": 960,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
     }
    },
    {
@@ -19904,8 +20049,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "リムニ・トゥリアβ",
+     "spotId": 285,
      "territoryId": 960,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
     }
    },
    {
@@ -19932,8 +20082,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "リムニ・トゥリアβ",
+     "spotId": 285,
      "territoryId": 960,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
     }
    }
   ],
@@ -21299,8 +21454,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "ザ・ノーアブル",
+     "spotId": 328,
      "territoryId": 1192,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
     }
    }
   ],
@@ -21612,8 +21772,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "足首の小セノーテ",
+     "spotId": 313,
      "territoryId": 1189,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
     }
    }
   ],
@@ -21869,8 +22034,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "プロト・アレクサンドリア",
+     "spotId": 333,
      "territoryId": 1192,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Precision",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
     }
    },
    {
@@ -21897,8 +22067,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "プロト・アレクサンドリア",
+     "spotId": 333,
      "territoryId": 1192,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
     }
    }
   ],
@@ -22342,8 +22517,13 @@
      "weatherSet": [],
      "previousWeatherSet": [],
      "spotNameJa": "ゾーゴー海峡西",
+     "spotId": 321,
      "territoryId": 1190,
-     "bigFish": false
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
     }
    }
   ],

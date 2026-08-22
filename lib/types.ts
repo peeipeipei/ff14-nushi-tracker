@@ -18,10 +18,20 @@ export interface PredatorConditions {
   weatherSet: number[];
   previousWeatherSet: number[];
   spotNameJa: string | null;
+  /** 釣り場ページへのリンク用 */
+  spotId: number | null;
   /** 天候計算に使う TerritoryType ID */
   territoryId: number | null;
   /** この予測魚自体がヌシ (トラッカー掲載) か */
   bigFish: boolean;
+  /** 予測魚自身の釣り方 */
+  hookset: string | null;
+  /** 引っ掛け釣りが必要か */
+  snagging: boolean;
+  /** ルアーリング (黄金) */
+  lure: string | null;
+  /** フィッシュアイの適用対象か */
+  fishEyesApplicable: boolean;
 }
 
 /** 漁師の直感の対象魚 (先に釣る魚と匹数、その魚自身の条件) */
