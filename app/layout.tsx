@@ -1,5 +1,6 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 
 const SITE_NAME = "FFXIV 太公望への道";
 const SITE_URL = "https://ff14-nushi-tracker.vercel.app";
@@ -57,6 +58,25 @@ export const metadata: Metadata = {
     title: SITE_NAME,
     description: SITE_DESC,
   },
+  manifest: "/manifest.webmanifest",
+  appleWebApp: {
+    capable: true,
+    title: "太公望への道",
+    statusBarStyle: "black-translucent",
+  },
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/icon-192.png", sizes: "192x192", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+};
+
+/** アドレスバー等の色。PWA の表示色と揃える */
+export const viewport: Viewport = {
+  themeColor: "#050B18",
+  colorScheme: "dark",
 };
 
 /** 構造化データ (JSON-LD): 検索エンジンにサイト種別を伝える */
@@ -98,6 +118,7 @@ export default function RootLayout({
     <html lang="ja">
       <body className="font-body text-moonlight antialiased">
         {children}
+        <ServiceWorkerRegister />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

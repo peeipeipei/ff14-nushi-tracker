@@ -491,6 +491,13 @@ export default function GuidePage() {
                 — 「太公望」の進捗と、次に狙うべきヌシが分かります
               </li>
               <li>
+                <strong className="text-moonlight">ホーム画面に追加</strong>できます。
+                iPhone は共有メニューから「ホーム画面に追加」、Android は
+                メニューから「アプリをインストール」。アプリのように起動でき、
+                一度開いたあとは<strong className="text-moonlight">オフラインでも閲覧可能</strong>です
+                （時間・天候の計算は端末側で行うため、圏外でも次の窓が分かります）
+              </li>
+              <li>
                 釣獲チェックは自動保存されます。機種変更の際は{" "}
                 <Link href="/backup" className="text-hookgold underline">
                   バックアップ
