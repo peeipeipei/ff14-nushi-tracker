@@ -468,8 +468,15 @@ export default function GuidePage() {
                 ★が多いほど条件が揃いにくいので、揃っているうちに狙う価値があります
               </li>
               <li>
-                📌でピン留めすると一覧の先頭に固定でき、🔔をオンにすれば
-                出現の約10分前に通知が届きます（ページを開いている間）
+                📌でピン留めすると一覧の先頭に固定でき、🔔で出現の約10分前に通知、
+                🔊で<strong className="text-moonlight">音のお知らせ</strong>が届きます。
+                ゲームを全画面で遊んでいると通知は見えないので、音の併用がおすすめです
+                （どちらもページを開いている間）
+              </li>
+              <li>
+                詳細の<strong className="text-moonlight">「今後のチャンス」</strong>には
+                次の5回ぶんの開始時刻と<strong className="text-moonlight">窓の長さ</strong>が出ます。
+                5分しか開かない魚は先に準備を終えて待つ必要があります
               </li>
               <li>
                 <Link href="/bait" className="text-hookgold underline">

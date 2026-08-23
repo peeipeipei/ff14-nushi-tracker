@@ -49,7 +49,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2,
-  "uptime": 33.33
+  "uptime": 33.33,
+  "effectiveUptime": 33.33,
+  "gatedByIntuition": false
  },
  {
   "id": 4924,
@@ -120,7 +122,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2,
-  "uptime": 14.73
+  "uptime": 14.73,
+  "effectiveUptime": 14.73,
+  "gatedByIntuition": false
  },
  {
   "id": 4919,
@@ -181,7 +185,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7678,
@@ -233,7 +239,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 20.83
+  "uptime": 20.83,
+  "effectiveUptime": 20.83,
+  "gatedByIntuition": false
  },
  {
   "id": 7679,
@@ -285,7 +293,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 20.83
+  "uptime": 20.83,
+  "effectiveUptime": 20.83,
+  "gatedByIntuition": false
  },
  {
   "id": 7680,
@@ -337,7 +347,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7681,
@@ -389,7 +401,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7682,
@@ -445,7 +459,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 40.1
+  "uptime": 40.1,
+  "effectiveUptime": 40.1,
+  "gatedByIntuition": false
  },
  {
   "id": 7683,
@@ -505,7 +521,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 33.33
+  "uptime": 33.33,
+  "effectiveUptime": 33.33,
+  "gatedByIntuition": false
  },
  {
   "id": 7684,
@@ -573,7 +591,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 41.67
+  "uptime": 41.67,
+  "effectiveUptime": 41.67,
+  "gatedByIntuition": false
  },
  {
   "id": 7685,
@@ -625,7 +645,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 20.83
+  "uptime": 20.83,
+  "effectiveUptime": 20.83,
+  "gatedByIntuition": false
  },
  {
   "id": 7686,
@@ -688,7 +710,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 49.78
+  "uptime": 49.78,
+  "effectiveUptime": 49.78,
+  "gatedByIntuition": false
  },
  {
   "id": 7687,
@@ -740,7 +764,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 33.33
+  "uptime": 33.33,
+  "effectiveUptime": 33.33,
+  "gatedByIntuition": false
  },
  {
   "id": 7688,
@@ -792,7 +818,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7689,
@@ -848,7 +876,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 35.17
+  "uptime": 35.17,
+  "effectiveUptime": 35.17,
+  "gatedByIntuition": false
  },
  {
   "id": 7690,
@@ -900,7 +930,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7691,
@@ -952,7 +984,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 25.0
+  "uptime": 25.0,
+  "effectiveUptime": 25.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7692,
@@ -1004,7 +1038,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 41.67
+  "uptime": 41.67,
+  "effectiveUptime": 41.67,
+  "gatedByIntuition": false
  },
  {
   "id": 7693,
@@ -1059,7 +1095,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 10.31
+  "uptime": 10.31,
+  "effectiveUptime": 10.31,
+  "gatedByIntuition": false
  },
  {
   "id": 7694,
@@ -1119,7 +1157,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 25.0
+  "uptime": 25.0,
+  "effectiveUptime": 25.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7695,
@@ -1171,7 +1211,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 7696,
@@ -1223,7 +1265,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7697,
@@ -1279,7 +1323,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 40.1
+  "uptime": 40.1,
+  "effectiveUptime": 40.1,
+  "gatedByIntuition": false
  },
  {
   "id": 7698,
@@ -1331,7 +1377,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 20.83
+  "uptime": 20.83,
+  "effectiveUptime": 20.83,
+  "gatedByIntuition": false
  },
  {
   "id": 7699,
@@ -1383,7 +1431,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 20.83
+  "uptime": 20.83,
+  "effectiveUptime": 20.83,
+  "gatedByIntuition": false
  },
  {
   "id": 7700,
@@ -1437,7 +1487,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 3.72
+  "uptime": 3.72,
+  "effectiveUptime": 3.72,
+  "gatedByIntuition": false
  },
  {
   "id": 7701,
@@ -1492,7 +1544,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 4.1
+  "uptime": 4.1,
+  "effectiveUptime": 4.1,
+  "gatedByIntuition": false
  },
  {
   "id": 7702,
@@ -1547,7 +1601,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 11.99
+  "uptime": 11.99,
+  "effectiveUptime": 11.99,
+  "gatedByIntuition": false
  },
  {
   "id": 7703,
@@ -1599,7 +1655,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 7704,
@@ -1654,7 +1712,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 6.01
+  "uptime": 6.01,
+  "effectiveUptime": 6.01,
+  "gatedByIntuition": false
  },
  {
   "id": 7705,
@@ -1714,7 +1774,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7706,
@@ -1766,7 +1828,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 25.0
+  "uptime": 25.0,
+  "effectiveUptime": 25.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7707,
@@ -1826,7 +1890,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 33.33
+  "uptime": 33.33,
+  "effectiveUptime": 33.33,
+  "gatedByIntuition": false
  },
  {
   "id": 7708,
@@ -1878,7 +1944,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 25.0
+  "uptime": 25.0,
+  "effectiveUptime": 25.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7709,
@@ -1930,7 +1998,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 12.5
+  "uptime": 12.5,
+  "effectiveUptime": 12.5,
+  "gatedByIntuition": false
  },
  {
   "id": 7710,
@@ -1984,7 +2054,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 10.12
+  "uptime": 10.12,
+  "effectiveUptime": 10.12,
+  "gatedByIntuition": false
  },
  {
   "id": 7711,
@@ -2036,7 +2108,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7712,
@@ -2088,7 +2162,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 25.0
+  "uptime": 25.0,
+  "effectiveUptime": 25.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7713,
@@ -2143,7 +2219,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 7.48
+  "uptime": 7.48,
+  "effectiveUptime": 7.48,
+  "gatedByIntuition": false
  },
  {
   "id": 7714,
@@ -2198,7 +2276,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.2,
-  "uptime": 59.59
+  "uptime": 59.59,
+  "effectiveUptime": 59.59,
+  "gatedByIntuition": false
  },
  {
   "id": 7902,
@@ -2250,7 +2330,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 6.25
+  "uptime": 6.25,
+  "effectiveUptime": 6.25,
+  "gatedByIntuition": false
  },
  {
   "id": 7903,
@@ -2306,7 +2388,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 3.33
+  "uptime": 3.33,
+  "effectiveUptime": 3.33,
+  "gatedByIntuition": false
  },
  {
   "id": 7904,
@@ -2358,7 +2442,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 7905,
@@ -2421,7 +2507,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 3.08
+  "uptime": 3.08,
+  "effectiveUptime": 3.08,
+  "gatedByIntuition": false
  },
  {
   "id": 7906,
@@ -2473,7 +2561,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 2.08
+  "uptime": 2.08,
+  "effectiveUptime": 2.08,
+  "gatedByIntuition": false
  },
  {
   "id": 7907,
@@ -2525,7 +2615,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 7908,
@@ -2577,7 +2669,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 4.17
+  "uptime": 4.17,
+  "effectiveUptime": 4.17,
+  "gatedByIntuition": false
  },
  {
   "id": 7909,
@@ -2629,7 +2723,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 12.5
+  "uptime": 12.5,
+  "effectiveUptime": 12.5,
+  "gatedByIntuition": false
  },
  {
   "id": 7910,
@@ -2681,7 +2777,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 7911,
@@ -2743,7 +2841,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 10.12
+  "uptime": 10.12,
+  "effectiveUptime": 10.12,
+  "gatedByIntuition": false
  },
  {
   "id": 7912,
@@ -2805,7 +2905,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 14.83
+  "uptime": 14.83,
+  "effectiveUptime": 14.83,
+  "gatedByIntuition": false
  },
  {
   "id": 7913,
@@ -2860,7 +2962,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 6.65
+  "uptime": 6.65,
+  "effectiveUptime": 6.65,
+  "gatedByIntuition": false
  },
  {
   "id": 7914,
@@ -2912,7 +3016,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7915,
@@ -2975,7 +3081,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 6.14
+  "uptime": 6.14,
+  "effectiveUptime": 6.14,
+  "gatedByIntuition": false
  },
  {
   "id": 7916,
@@ -3027,7 +3135,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 12.5
+  "uptime": 12.5,
+  "effectiveUptime": 12.5,
+  "gatedByIntuition": false
  },
  {
   "id": 7917,
@@ -3086,7 +3196,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 5.01
+  "uptime": 5.01,
+  "effectiveUptime": 5.01,
+  "gatedByIntuition": false
  },
  {
   "id": 7918,
@@ -3140,7 +3252,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 4.12
+  "uptime": 4.12,
+  "effectiveUptime": 4.12,
+  "gatedByIntuition": false
  },
  {
   "id": 7919,
@@ -3191,7 +3305,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 4.39
+  "uptime": 4.39,
+  "effectiveUptime": 4.39,
+  "gatedByIntuition": false
  },
  {
   "id": 7920,
@@ -3243,7 +3359,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 20.83
+  "uptime": 20.83,
+  "effectiveUptime": 20.83,
+  "gatedByIntuition": false
  },
  {
   "id": 7921,
@@ -3298,7 +3416,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 13.77
+  "uptime": 13.77,
+  "effectiveUptime": 13.77,
+  "gatedByIntuition": false
  },
  {
   "id": 7922,
@@ -3361,7 +3481,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 19.82
+  "uptime": 19.82,
+  "effectiveUptime": 19.82,
+  "gatedByIntuition": false
  },
  {
   "id": 7923,
@@ -3419,7 +3541,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 2.13
+  "uptime": 2.13,
+  "effectiveUptime": 2.13,
+  "gatedByIntuition": false
  },
  {
   "id": 7924,
@@ -3473,7 +3597,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 11.04
+  "uptime": 11.04,
+  "effectiveUptime": 11.04,
+  "gatedByIntuition": false
  },
  {
   "id": 7925,
@@ -3525,7 +3651,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 12.5
+  "uptime": 12.5,
+  "effectiveUptime": 12.5,
+  "gatedByIntuition": false
  },
  {
   "id": 7926,
@@ -3579,7 +3707,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 10.12
+  "uptime": 10.12,
+  "effectiveUptime": 10.12,
+  "gatedByIntuition": false
  },
  {
   "id": 7927,
@@ -3631,7 +3761,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 11.46
+  "uptime": 11.46,
+  "effectiveUptime": 11.46,
+  "gatedByIntuition": false
  },
  {
   "id": 7928,
@@ -3685,7 +3817,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 4.91
+  "uptime": 4.91,
+  "effectiveUptime": 4.91,
+  "gatedByIntuition": false
  },
  {
   "id": 7929,
@@ -3739,7 +3873,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 10.12
+  "uptime": 10.12,
+  "effectiveUptime": 10.12,
+  "gatedByIntuition": false
  },
  {
   "id": 7930,
@@ -3801,7 +3937,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 19.72
+  "uptime": 19.72,
+  "effectiveUptime": 19.72,
+  "gatedByIntuition": false
  },
  {
   "id": 7931,
@@ -3863,7 +4001,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 5.67
+  "uptime": 5.67,
+  "effectiveUptime": 5.67,
+  "gatedByIntuition": false
  },
  {
   "id": 7932,
@@ -3917,7 +4057,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 19.72
+  "uptime": 19.72,
+  "effectiveUptime": 19.72,
+  "gatedByIntuition": false
  },
  {
   "id": 7933,
@@ -3969,7 +4111,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 25.0
+  "uptime": 25.0,
+  "effectiveUptime": 25.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7934,
@@ -4021,7 +4165,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 12.5
+  "uptime": 12.5,
+  "effectiveUptime": 12.5,
+  "gatedByIntuition": false
  },
  {
   "id": 7935,
@@ -4083,7 +4229,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 4.89
+  "uptime": 4.89,
+  "effectiveUptime": 4.89,
+  "gatedByIntuition": false
  },
  {
   "id": 7936,
@@ -4137,7 +4285,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 4.82
+  "uptime": 4.82,
+  "effectiveUptime": 4.82,
+  "gatedByIntuition": false
  },
  {
   "id": 7937,
@@ -4191,7 +4341,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 4.69
+  "uptime": 4.69,
+  "effectiveUptime": 4.69,
+  "gatedByIntuition": false
  },
  {
   "id": 7938,
@@ -4246,7 +4398,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 74.66
+  "uptime": 74.66,
+  "effectiveUptime": 74.66,
+  "gatedByIntuition": false
  },
  {
   "id": 7939,
@@ -4300,7 +4454,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 4.89
+  "uptime": 4.89,
+  "effectiveUptime": 4.89,
+  "gatedByIntuition": false
  },
  {
   "id": 7940,
@@ -4363,7 +4519,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 21.89
+  "uptime": 21.89,
+  "effectiveUptime": 21.89,
+  "gatedByIntuition": false
  },
  {
   "id": 7941,
@@ -4427,7 +4585,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 10.13
+  "uptime": 10.13,
+  "effectiveUptime": 10.13,
+  "gatedByIntuition": false
  },
  {
   "id": 7942,
@@ -4481,7 +4641,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 10.05
+  "uptime": 10.05,
+  "effectiveUptime": 10.05,
+  "gatedByIntuition": false
  },
  {
   "id": 7943,
@@ -4543,7 +4705,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 12.43
+  "uptime": 12.43,
+  "effectiveUptime": 12.43,
+  "gatedByIntuition": false
  },
  {
   "id": 7944,
@@ -4598,7 +4762,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 1.21
+  "uptime": 1.21,
+  "effectiveUptime": 1.21,
+  "gatedByIntuition": false
  },
  {
   "id": 7945,
@@ -4661,7 +4827,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 4.89
+  "uptime": 4.89,
+  "effectiveUptime": 4.89,
+  "gatedByIntuition": false
  },
  {
   "id": 7946,
@@ -4721,7 +4889,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 7947,
@@ -4775,7 +4945,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 2.21
+  "uptime": 2.21,
+  "effectiveUptime": 2.21,
+  "gatedByIntuition": false
  },
  {
   "id": 7948,
@@ -4835,7 +5007,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 6.6
+  "uptime": 6.6,
+  "effectiveUptime": 6.6,
+  "gatedByIntuition": false
  },
  {
   "id": 7949,
@@ -4898,7 +5072,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 3.12
+  "uptime": 3.12,
+  "effectiveUptime": 3.12,
+  "gatedByIntuition": false
  },
  {
   "id": 7950,
@@ -4978,7 +5154,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 16.65
+  "uptime": 16.65,
+  "effectiveUptime": 16.65,
+  "gatedByIntuition": false
  },
  {
   "id": 7951,
@@ -5032,7 +5210,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.3,
-  "uptime": 12.62
+  "uptime": 12.62,
+  "effectiveUptime": 12.62,
+  "gatedByIntuition": false
  },
  {
   "id": 8752,
@@ -5142,7 +5322,9 @@
   "fishEyesApplicable": true,
   "intuition": true,
   "patch": 2.4,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 8753,
@@ -5215,7 +5397,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 4.7
+  "uptime": 4.7,
+  "effectiveUptime": 4.7,
+  "gatedByIntuition": false
  },
  {
   "id": 8754,
@@ -5307,7 +5491,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 2.4,
-  "uptime": 10.12
+  "uptime": 10.12,
+  "effectiveUptime": 10.12,
+  "gatedByIntuition": false
  },
  {
   "id": 8755,
@@ -5371,7 +5557,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 8.26
+  "uptime": 8.26,
+  "effectiveUptime": 8.26,
+  "gatedByIntuition": false
  },
  {
   "id": 8756,
@@ -5438,7 +5626,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 6.6
+  "uptime": 6.6,
+  "effectiveUptime": 6.6,
+  "gatedByIntuition": false
  },
  {
   "id": 8757,
@@ -5509,7 +5699,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 14.49
+  "uptime": 14.49,
+  "effectiveUptime": 14.49,
+  "gatedByIntuition": false
  },
  {
   "id": 8758,
@@ -5566,7 +5758,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 12.64
+  "uptime": 12.64,
+  "effectiveUptime": 12.64,
+  "gatedByIntuition": false
  },
  {
   "id": 8759,
@@ -5623,7 +5817,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 12.68
+  "uptime": 12.68,
+  "effectiveUptime": 12.68,
+  "gatedByIntuition": false
  },
  {
   "id": 8760,
@@ -5709,7 +5905,9 @@
   "fishEyesApplicable": true,
   "intuition": true,
   "patch": 2.4,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 8761,
@@ -5779,7 +5977,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 18.74
+  "uptime": 18.74,
+  "effectiveUptime": 18.74,
+  "gatedByIntuition": false
  },
  {
   "id": 8762,
@@ -5849,7 +6049,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 12.46
+  "uptime": 12.46,
+  "effectiveUptime": 12.46,
+  "gatedByIntuition": false
  },
  {
   "id": 8763,
@@ -5969,7 +6171,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 2.4,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 12.46,
+  "gatedByIntuition": true
  },
  {
   "id": 8764,
@@ -6079,7 +6283,9 @@
   "fishEyesApplicable": true,
   "intuition": true,
   "patch": 2.4,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 8765,
@@ -6149,7 +6355,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 4.73
+  "uptime": 4.73,
+  "effectiveUptime": 4.73,
+  "gatedByIntuition": false
  },
  {
   "id": 8766,
@@ -6216,7 +6424,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 4.93
+  "uptime": 4.93,
+  "effectiveUptime": 4.93,
+  "gatedByIntuition": false
  },
  {
   "id": 8767,
@@ -6281,7 +6491,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 0.96
+  "uptime": 0.96,
+  "effectiveUptime": 0.96,
+  "gatedByIntuition": false
  },
  {
   "id": 8768,
@@ -6346,7 +6558,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 1.98
+  "uptime": 1.98,
+  "effectiveUptime": 1.98,
+  "gatedByIntuition": false
  },
  {
   "id": 8769,
@@ -6443,7 +6657,9 @@
   "fishEyesApplicable": true,
   "intuition": true,
   "patch": 2.4,
-  "uptime": 22.44
+  "uptime": 22.44,
+  "effectiveUptime": 22.44,
+  "gatedByIntuition": false
  },
  {
   "id": 8770,
@@ -6501,7 +6717,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 9.12
+  "uptime": 9.12,
+  "effectiveUptime": 9.12,
+  "gatedByIntuition": false
  },
  {
   "id": 8771,
@@ -6566,7 +6784,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 3.15
+  "uptime": 3.15,
+  "effectiveUptime": 3.15,
+  "gatedByIntuition": false
  },
  {
   "id": 8772,
@@ -6639,7 +6859,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 3.15
+  "uptime": 3.15,
+  "effectiveUptime": 3.15,
+  "gatedByIntuition": false
  },
  {
   "id": 8773,
@@ -6705,7 +6927,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 4.13
+  "uptime": 4.13,
+  "effectiveUptime": 4.13,
+  "gatedByIntuition": false
  },
  {
   "id": 8774,
@@ -6760,7 +6984,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 19.82
+  "uptime": 19.82,
+  "effectiveUptime": 19.82,
+  "gatedByIntuition": false
  },
  {
   "id": 8775,
@@ -6849,7 +7075,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 2.4,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 19.82,
+  "gatedByIntuition": true
  },
  {
   "id": 8776,
@@ -6914,7 +7142,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.4,
-  "uptime": 1.91
+  "uptime": 1.91,
+  "effectiveUptime": 1.91,
+  "gatedByIntuition": false
  },
  {
   "id": 10123,
@@ -6966,7 +7196,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 2.5,
-  "uptime": 12.5
+  "uptime": 12.5,
+  "effectiveUptime": 12.5,
+  "gatedByIntuition": false
  },
  {
   "id": 12802,
@@ -7026,7 +7258,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
-  "uptime": 10.42
+  "uptime": 10.42,
+  "effectiveUptime": 10.42,
+  "gatedByIntuition": false
  },
  {
   "id": 12803,
@@ -7080,7 +7314,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
-  "uptime": 13.02
+  "uptime": 13.02,
+  "effectiveUptime": 13.02,
+  "gatedByIntuition": false
  },
  {
   "id": 12821,
@@ -7132,7 +7368,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
-  "uptime": 31.25
+  "uptime": 31.25,
+  "effectiveUptime": 31.25,
+  "gatedByIntuition": false
  },
  {
   "id": 12825,
@@ -7192,7 +7430,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 12829,
@@ -7247,7 +7487,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
-  "uptime": 59.59
+  "uptime": 59.59,
+  "effectiveUptime": 59.59,
+  "gatedByIntuition": false
  },
  {
   "id": 12830,
@@ -7299,7 +7541,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
-  "uptime": 29.17
+  "uptime": 29.17,
+  "effectiveUptime": 29.17,
+  "gatedByIntuition": false
  },
  {
   "id": 12831,
@@ -7359,7 +7603,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
-  "uptime": 12.5
+  "uptime": 12.5,
+  "effectiveUptime": 12.5,
+  "gatedByIntuition": false
  },
  {
   "id": 12832,
@@ -7422,7 +7668,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
-  "uptime": 20.28
+  "uptime": 20.28,
+  "effectiveUptime": 20.28,
+  "gatedByIntuition": false
  },
  {
   "id": 12833,
@@ -7474,7 +7722,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
-  "uptime": 12.5
+  "uptime": 12.5,
+  "effectiveUptime": 12.5,
+  "gatedByIntuition": false
  },
  {
   "id": 12835,
@@ -7526,7 +7776,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 14211,
@@ -7578,7 +7830,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.2,
-  "uptime": 25.0
+  "uptime": 25.0,
+  "effectiveUptime": 25.0,
+  "gatedByIntuition": false
  },
  {
   "id": 14219,
@@ -7630,7 +7884,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.2,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 15439,
@@ -7682,7 +7938,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 15626,
@@ -7734,7 +7992,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 15627,
@@ -7786,7 +8046,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 15628,
@@ -7838,7 +8100,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 15629,
@@ -7894,7 +8158,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 29.69
+  "uptime": 29.69,
+  "effectiveUptime": 29.69,
+  "gatedByIntuition": false
  },
  {
   "id": 15630,
@@ -7950,7 +8216,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 4.95
+  "uptime": 4.95,
+  "effectiveUptime": 4.95,
+  "gatedByIntuition": false
  },
  {
   "id": 15631,
@@ -8010,7 +8278,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 15632,
@@ -8070,7 +8340,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 15633,
@@ -8122,7 +8394,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 15634,
@@ -8177,7 +8451,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 4.99
+  "uptime": 4.99,
+  "effectiveUptime": 4.99,
+  "gatedByIntuition": false
  },
  {
   "id": 15635,
@@ -8229,7 +8505,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 15636,
@@ -8283,7 +8561,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 10.32
+  "uptime": 10.32,
+  "effectiveUptime": 10.32,
+  "gatedByIntuition": false
  },
  {
   "id": 15637,
@@ -8343,7 +8623,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 15638,
@@ -8405,7 +8687,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.3,
-  "uptime": 7.24
+  "uptime": 7.24,
+  "effectiveUptime": 7.24,
+  "gatedByIntuition": false
  },
  {
   "id": 16742,
@@ -8469,7 +8753,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 3.11
+  "uptime": 3.11,
+  "effectiveUptime": 3.11,
+  "gatedByIntuition": false
  },
  {
   "id": 16743,
@@ -8533,7 +8819,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 3.14
+  "uptime": 3.14,
+  "effectiveUptime": 3.14,
+  "gatedByIntuition": false
  },
  {
   "id": 16744,
@@ -8597,7 +8885,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 11.07
+  "uptime": 11.07,
+  "effectiveUptime": 11.07,
+  "gatedByIntuition": false
  },
  {
   "id": 16745,
@@ -8662,7 +8952,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 11.41
+  "uptime": 11.41,
+  "effectiveUptime": 11.41,
+  "gatedByIntuition": false
  },
  {
   "id": 16746,
@@ -8724,7 +9016,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 6.53
+  "uptime": 6.53,
+  "effectiveUptime": 6.53,
+  "gatedByIntuition": false
  },
  {
   "id": 16747,
@@ -8782,7 +9076,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 1.64
+  "uptime": 1.64,
+  "effectiveUptime": 1.64,
+  "gatedByIntuition": false
  },
  {
   "id": 16748,
@@ -8844,7 +9140,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 6.22
+  "uptime": 6.22,
+  "effectiveUptime": 6.22,
+  "gatedByIntuition": false
  },
  {
   "id": 16749,
@@ -8900,7 +9198,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 0.42
+  "uptime": 0.42,
+  "effectiveUptime": 0.42,
+  "gatedByIntuition": false
  },
  {
   "id": 16750,
@@ -8955,7 +9255,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 7.37
+  "uptime": 7.37,
+  "effectiveUptime": 7.37,
+  "gatedByIntuition": false
  },
  {
   "id": 16751,
@@ -9007,7 +9309,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 16752,
@@ -9067,7 +9371,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 16753,
@@ -9127,7 +9433,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 16754,
@@ -9191,7 +9499,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 0.16
+  "uptime": 0.16,
+  "effectiveUptime": 0.16,
+  "gatedByIntuition": false
  },
  {
   "id": 16756,
@@ -9256,7 +9566,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.4,
-  "uptime": 11.41
+  "uptime": 11.41,
+  "effectiveUptime": 11.41,
+  "gatedByIntuition": false
  },
  {
   "id": 17577,
@@ -9310,7 +9622,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
-  "uptime": 0.81
+  "uptime": 0.81,
+  "effectiveUptime": 0.81,
+  "gatedByIntuition": false
  },
  {
   "id": 17578,
@@ -9366,7 +9680,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
-  "uptime": 8.19
+  "uptime": 8.19,
+  "effectiveUptime": 8.19,
+  "gatedByIntuition": false
  },
  {
   "id": 17579,
@@ -9430,7 +9746,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
-  "uptime": 0.57
+  "uptime": 0.57,
+  "effectiveUptime": 0.57,
+  "gatedByIntuition": false
  },
  {
   "id": 17580,
@@ -9486,7 +9804,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
-  "uptime": 1.82
+  "uptime": 1.82,
+  "effectiveUptime": 1.82,
+  "gatedByIntuition": false
  },
  {
   "id": 17581,
@@ -9550,7 +9870,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
-  "uptime": 11.07
+  "uptime": 11.07,
+  "effectiveUptime": 11.07,
+  "gatedByIntuition": false
  },
  {
   "id": 17582,
@@ -9616,7 +9938,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
-  "uptime": 0.26
+  "uptime": 0.26,
+  "effectiveUptime": 0.26,
+  "gatedByIntuition": false
  },
  {
   "id": 17583,
@@ -9680,7 +10004,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
-  "uptime": 2.38
+  "uptime": 2.38,
+  "effectiveUptime": 2.38,
+  "gatedByIntuition": false
  },
  {
   "id": 17584,
@@ -9747,7 +10073,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
-  "uptime": 6.77
+  "uptime": 6.77,
+  "effectiveUptime": 6.77,
+  "gatedByIntuition": false
  },
  {
   "id": 17585,
@@ -9812,7 +10140,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
-  "uptime": 2.04
+  "uptime": 2.04,
+  "effectiveUptime": 2.04,
+  "gatedByIntuition": false
  },
  {
   "id": 17586,
@@ -9868,7 +10198,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
-  "uptime": 0.93
+  "uptime": 0.93,
+  "effectiveUptime": 0.93,
+  "gatedByIntuition": false
  },
  {
   "id": 17587,
@@ -9924,7 +10256,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 3.5,
-  "uptime": 3.11
+  "uptime": 3.11,
+  "effectiveUptime": 3.11,
+  "gatedByIntuition": false
  },
  {
   "id": 17588,
@@ -10054,7 +10388,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 3.5,
-  "uptime": 12.68
+  "uptime": 12.68,
+  "effectiveUptime": 12.68,
+  "gatedByIntuition": false
  },
  {
   "id": 17589,
@@ -10152,7 +10488,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 3.5,
-  "uptime": 30.5
+  "uptime": 30.5,
+  "effectiveUptime": 30.5,
+  "gatedByIntuition": false
  },
  {
   "id": 17590,
@@ -10248,7 +10586,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 3.5,
-  "uptime": 3.73
+  "uptime": 3.73,
+  "effectiveUptime": 3.73,
+  "gatedByIntuition": false
  },
  {
   "id": 17591,
@@ -10369,7 +10709,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 3.5,
-  "uptime": 2.5
+  "uptime": 2.5,
+  "effectiveUptime": 2.5,
+  "gatedByIntuition": false
  },
  {
   "id": 17592,
@@ -10465,7 +10807,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 3.5,
-  "uptime": 2.46
+  "uptime": 2.46,
+  "effectiveUptime": 2.46,
+  "gatedByIntuition": false
  },
  {
   "id": 17593,
@@ -10561,7 +10905,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 3.5,
-  "uptime": 1.28
+  "uptime": 1.28,
+  "effectiveUptime": 1.28,
+  "gatedByIntuition": false
  },
  {
   "id": 20018,
@@ -10623,7 +10969,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
-  "uptime": 9.71
+  "uptime": 9.71,
+  "effectiveUptime": 9.71,
+  "gatedByIntuition": false
  },
  {
   "id": 20020,
@@ -10675,7 +11023,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 20027,
@@ -10727,7 +11077,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
-  "uptime": 33.33
+  "uptime": 33.33,
+  "effectiveUptime": 33.33,
+  "gatedByIntuition": false
  },
  {
   "id": 20040,
@@ -10789,7 +11141,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
-  "uptime": 2.55
+  "uptime": 2.55,
+  "effectiveUptime": 2.55,
+  "gatedByIntuition": false
  },
  {
   "id": 20051,
@@ -10843,7 +11197,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
-  "uptime": 9.79
+  "uptime": 9.79,
+  "effectiveUptime": 9.79,
+  "gatedByIntuition": false
  },
  {
   "id": 20074,
@@ -10897,7 +11253,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
-  "uptime": 10.18
+  "uptime": 10.18,
+  "effectiveUptime": 10.18,
+  "gatedByIntuition": false
  },
  {
   "id": 20100,
@@ -10952,7 +11310,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
-  "uptime": 8.2
+  "uptime": 8.2,
+  "effectiveUptime": 8.2,
+  "gatedByIntuition": false
  },
  {
   "id": 20104,
@@ -11004,7 +11364,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 20105,
@@ -11056,7 +11418,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 20141,
@@ -11111,7 +11475,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
-  "uptime": 59.59
+  "uptime": 59.59,
+  "effectiveUptime": 59.59,
+  "gatedByIntuition": false
  },
  {
   "id": 20143,
@@ -11182,7 +11548,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
-  "uptime": 10.12
+  "uptime": 10.12,
+  "effectiveUptime": 10.12,
+  "gatedByIntuition": false
  },
  {
   "id": 20524,
@@ -11250,7 +11618,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.0,
-  "uptime": 33.33
+  "uptime": 33.33,
+  "effectiveUptime": 33.33,
+  "gatedByIntuition": false
  },
  {
   "id": 21176,
@@ -11304,7 +11674,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.1,
-  "uptime": 1.67
+  "uptime": 1.67,
+  "effectiveUptime": 1.67,
+  "gatedByIntuition": false
  },
  {
   "id": 22394,
@@ -11367,7 +11739,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.2,
-  "uptime": 30.29
+  "uptime": 30.29,
+  "effectiveUptime": 30.29,
+  "gatedByIntuition": false
  },
  {
   "id": 22393,
@@ -11419,7 +11793,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.2,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 22392,
@@ -11482,7 +11858,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.2,
-  "uptime": 30.29
+  "uptime": 30.29,
+  "effectiveUptime": 30.29,
+  "gatedByIntuition": false
  },
  {
   "id": 22389,
@@ -11534,7 +11912,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.2,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 23057,
@@ -11594,7 +11974,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 23058,
@@ -11648,7 +12030,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 10.12
+  "uptime": 10.12,
+  "effectiveUptime": 10.12,
+  "gatedByIntuition": false
  },
  {
   "id": 23059,
@@ -11700,7 +12084,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 23060,
@@ -11754,7 +12140,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 5.14
+  "uptime": 5.14,
+  "effectiveUptime": 5.14,
+  "gatedByIntuition": false
  },
  {
   "id": 23061,
@@ -11814,7 +12202,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 23062,
@@ -11876,7 +12266,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 19.72
+  "uptime": 19.72,
+  "effectiveUptime": 19.72,
+  "gatedByIntuition": false
  },
  {
   "id": 23063,
@@ -11936,7 +12328,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 23064,
@@ -11984,7 +12378,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 23065,
@@ -12036,7 +12432,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 23066,
@@ -12098,7 +12496,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 9.71
+  "uptime": 9.71,
+  "effectiveUptime": 9.71,
+  "gatedByIntuition": false
  },
  {
   "id": 23067,
@@ -12150,7 +12550,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 23068,
@@ -12204,7 +12606,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 10.03
+  "uptime": 10.03,
+  "effectiveUptime": 10.03,
+  "gatedByIntuition": false
  },
  {
   "id": 23069,
@@ -12256,7 +12660,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 23070,
@@ -12310,7 +12716,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.3,
-  "uptime": 4.82
+  "uptime": 4.82,
+  "effectiveUptime": 4.82,
+  "gatedByIntuition": false
  },
  {
   "id": 24205,
@@ -12372,7 +12780,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 10.12
+  "uptime": 10.12,
+  "effectiveUptime": 10.12,
+  "gatedByIntuition": false
  },
  {
   "id": 24206,
@@ -12435,7 +12845,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 5.18
+  "uptime": 5.18,
+  "effectiveUptime": 5.18,
+  "gatedByIntuition": false
  },
  {
   "id": 24207,
@@ -12487,7 +12899,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 24208,
@@ -12541,7 +12955,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 10.32
+  "uptime": 10.32,
+  "effectiveUptime": 10.32,
+  "gatedByIntuition": false
  },
  {
   "id": 24209,
@@ -12595,7 +13011,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 2.5
+  "uptime": 2.5,
+  "effectiveUptime": 2.5,
+  "gatedByIntuition": false
  },
  {
   "id": 24210,
@@ -12651,7 +13069,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 5.32
+  "uptime": 5.32,
+  "effectiveUptime": 5.32,
+  "gatedByIntuition": false
  },
  {
   "id": 24211,
@@ -12705,7 +13125,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 2.47
+  "uptime": 2.47,
+  "effectiveUptime": 2.47,
+  "gatedByIntuition": false
  },
  {
   "id": 24212,
@@ -12764,7 +13186,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 4.05
+  "uptime": 4.05,
+  "effectiveUptime": 4.05,
+  "gatedByIntuition": false
  },
  {
   "id": 24213,
@@ -12812,7 +13236,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 24214,
@@ -12868,7 +13294,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 0.57
+  "uptime": 0.57,
+  "effectiveUptime": 0.57,
+  "gatedByIntuition": false
  },
  {
   "id": 24215,
@@ -12933,7 +13361,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 6.92
+  "uptime": 6.92,
+  "effectiveUptime": 6.92,
+  "gatedByIntuition": false
  },
  {
   "id": 24216,
@@ -12990,7 +13420,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 9.43
+  "uptime": 9.43,
+  "effectiveUptime": 9.43,
+  "gatedByIntuition": false
  },
  {
   "id": 24217,
@@ -13055,7 +13487,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 0.41
+  "uptime": 0.41,
+  "effectiveUptime": 0.41,
+  "gatedByIntuition": false
  },
  {
   "id": 24218,
@@ -13109,7 +13543,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.4,
-  "uptime": 1.36
+  "uptime": 1.36,
+  "effectiveUptime": 1.36,
+  "gatedByIntuition": false
  },
  {
   "id": 24881,
@@ -13165,7 +13601,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 5.0
+  "uptime": 5.0,
+  "effectiveUptime": 5.0,
+  "gatedByIntuition": false
  },
  {
   "id": 24882,
@@ -13227,7 +13665,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 1.7
+  "uptime": 1.7,
+  "effectiveUptime": 1.7,
+  "gatedByIntuition": false
  },
  {
   "id": 24883,
@@ -13283,7 +13723,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 1.38
+  "uptime": 1.38,
+  "effectiveUptime": 1.38,
+  "gatedByIntuition": false
  },
  {
   "id": 24884,
@@ -13340,7 +13782,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 2.17
+  "uptime": 2.17,
+  "effectiveUptime": 2.17,
+  "gatedByIntuition": false
  },
  {
   "id": 24885,
@@ -13394,7 +13838,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 9.79
+  "uptime": 9.79,
+  "effectiveUptime": 9.79,
+  "gatedByIntuition": false
  },
  {
   "id": 24886,
@@ -13450,7 +13896,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 8.43
+  "uptime": 8.43,
+  "effectiveUptime": 8.43,
+  "gatedByIntuition": false
  },
  {
   "id": 24887,
@@ -13504,7 +13952,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 3.5
+  "uptime": 3.5,
+  "effectiveUptime": 3.5,
+  "gatedByIntuition": false
  },
  {
   "id": 24888,
@@ -13558,7 +14008,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 1.8
+  "uptime": 1.8,
+  "effectiveUptime": 1.8,
+  "gatedByIntuition": false
  },
  {
   "id": 24889,
@@ -13614,7 +14066,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 1.88
+  "uptime": 1.88,
+  "effectiveUptime": 1.88,
+  "gatedByIntuition": false
  },
  {
   "id": 24890,
@@ -13668,7 +14122,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 1.64
+  "uptime": 1.64,
+  "effectiveUptime": 1.64,
+  "gatedByIntuition": false
  },
  {
   "id": 24891,
@@ -13725,7 +14181,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 0.73
+  "uptime": 0.73,
+  "effectiveUptime": 0.73,
+  "gatedByIntuition": false
  },
  {
   "id": 24892,
@@ -13781,7 +14239,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 1.91
+  "uptime": 1.91,
+  "effectiveUptime": 1.91,
+  "gatedByIntuition": false
  },
  {
   "id": 24893,
@@ -13847,7 +14307,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 2.98
+  "uptime": 2.98,
+  "effectiveUptime": 2.98,
+  "gatedByIntuition": false
  },
  {
   "id": 24990,
@@ -13907,7 +14369,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 24991,
@@ -13997,7 +14461,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 4.5,
-  "uptime": 5.14
+  "uptime": 5.14,
+  "effectiveUptime": 5.14,
+  "gatedByIntuition": false
  },
  {
   "id": 24992,
@@ -14101,7 +14567,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 4.5,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 2.55,
+  "gatedByIntuition": true
  },
  {
   "id": 24993,
@@ -14165,7 +14633,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 0.28
+  "uptime": 0.28,
+  "effectiveUptime": 0.28,
+  "gatedByIntuition": false
  },
  {
   "id": 24994,
@@ -14338,7 +14808,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 4.5,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 15.08,
+  "gatedByIntuition": true
  },
  {
   "id": 24995,
@@ -14394,7 +14866,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 4.5,
-  "uptime": 0.07
+  "uptime": 0.07,
+  "effectiveUptime": 0.07,
+  "gatedByIntuition": false
  },
  {
   "id": 27437,
@@ -14446,7 +14920,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.0,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 27456,
@@ -14509,7 +14985,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.0,
-  "uptime": 8.22
+  "uptime": 8.22,
+  "effectiveUptime": 8.22,
+  "gatedByIntuition": false
  },
  {
   "id": 27467,
@@ -14573,7 +15051,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.0,
-  "uptime": 25.0
+  "uptime": 25.0,
+  "effectiveUptime": 25.0,
+  "gatedByIntuition": false
  },
  {
   "id": 27464,
@@ -14625,7 +15105,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.0,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 27508,
@@ -14687,7 +15169,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.0,
-  "uptime": 3.37
+  "uptime": 3.37,
+  "effectiveUptime": 3.37,
+  "gatedByIntuition": false
  },
  {
   "id": 28065,
@@ -14739,7 +15223,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 28067,
@@ -14793,7 +15279,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
-  "uptime": 10.31
+  "uptime": 10.31,
+  "effectiveUptime": 10.31,
+  "gatedByIntuition": false
  },
  {
   "id": 28068,
@@ -14847,7 +15335,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
-  "uptime": 10.01
+  "uptime": 10.01,
+  "effectiveUptime": 10.01,
+  "gatedByIntuition": false
  },
  {
   "id": 28066,
@@ -14901,7 +15391,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
-  "uptime": 5.14
+  "uptime": 5.14,
+  "effectiveUptime": 5.14,
+  "gatedByIntuition": false
  },
  {
   "id": 28069,
@@ -14963,7 +15455,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
-  "uptime": 2.38
+  "uptime": 2.38,
+  "effectiveUptime": 2.38,
+  "gatedByIntuition": false
  },
  {
   "id": 28070,
@@ -15018,7 +15512,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
-  "uptime": 9.22
+  "uptime": 9.22,
+  "effectiveUptime": 9.22,
+  "gatedByIntuition": false
  },
  {
   "id": 28071,
@@ -15086,7 +15582,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 28072,
@@ -15140,7 +15638,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.1,
-  "uptime": 3.26
+  "uptime": 3.26,
+  "effectiveUptime": 3.26,
+  "gatedByIntuition": false
  },
  {
   "id": 28925,
@@ -15198,7 +15698,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.2,
-  "uptime": 4.97
+  "uptime": 4.97,
+  "effectiveUptime": 4.97,
+  "gatedByIntuition": false
  },
  {
   "id": 28926,
@@ -15250,7 +15752,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.2,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 28927,
@@ -15312,7 +15816,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.2,
-  "uptime": 3.37
+  "uptime": 3.37,
+  "effectiveUptime": 3.37,
+  "gatedByIntuition": false
  },
  {
   "id": 28928,
@@ -15369,7 +15875,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.2,
-  "uptime": 5.8
+  "uptime": 5.8,
+  "effectiveUptime": 5.8,
+  "gatedByIntuition": false
  },
  {
   "id": 28929,
@@ -15427,7 +15935,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.2,
-  "uptime": 6.11
+  "uptime": 6.11,
+  "effectiveUptime": 6.11,
+  "gatedByIntuition": false
  },
  {
   "id": 28930,
@@ -15482,7 +15992,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.2,
-  "uptime": 6.71
+  "uptime": 6.71,
+  "effectiveUptime": 6.71,
+  "gatedByIntuition": false
  },
  {
   "id": 30432,
@@ -15537,7 +16049,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
-  "uptime": 2.47
+  "uptime": 2.47,
+  "effectiveUptime": 2.47,
+  "gatedByIntuition": false
  },
  {
   "id": 30433,
@@ -15594,7 +16108,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
-  "uptime": 6.47
+  "uptime": 6.47,
+  "effectiveUptime": 6.47,
+  "gatedByIntuition": false
  },
  {
   "id": 30434,
@@ -15646,7 +16162,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 30435,
@@ -15700,7 +16218,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
-  "uptime": 0.79
+  "uptime": 0.79,
+  "effectiveUptime": 0.79,
+  "gatedByIntuition": false
  },
  {
   "id": 30436,
@@ -15757,7 +16277,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
-  "uptime": 7.99
+  "uptime": 7.99,
+  "effectiveUptime": 7.99,
+  "gatedByIntuition": false
  },
  {
   "id": 30437,
@@ -15814,7 +16336,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
-  "uptime": 1.37
+  "uptime": 1.37,
+  "effectiveUptime": 1.37,
+  "gatedByIntuition": false
  },
  {
   "id": 30438,
@@ -15870,7 +16394,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
-  "uptime": 0.5
+  "uptime": 0.5,
+  "effectiveUptime": 0.5,
+  "gatedByIntuition": false
  },
  {
   "id": 30439,
@@ -15924,7 +16450,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.3,
-  "uptime": 1.75
+  "uptime": 1.75,
+  "effectiveUptime": 1.75,
+  "gatedByIntuition": false
  },
  {
   "id": 32049,
@@ -15980,7 +16508,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.4,
-  "uptime": 0.68
+  "uptime": 0.68,
+  "effectiveUptime": 0.68,
+  "gatedByIntuition": false
  },
  {
   "id": 32050,
@@ -16037,7 +16567,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.4,
-  "uptime": 2.22
+  "uptime": 2.22,
+  "effectiveUptime": 2.22,
+  "gatedByIntuition": false
  },
  {
   "id": 32051,
@@ -16099,7 +16631,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.4,
-  "uptime": 1.21
+  "uptime": 1.21,
+  "effectiveUptime": 1.21,
+  "gatedByIntuition": false
  },
  {
   "id": 32052,
@@ -16155,7 +16689,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.4,
-  "uptime": 0.78
+  "uptime": 0.78,
+  "effectiveUptime": 0.78,
+  "gatedByIntuition": false
  },
  {
   "id": 32053,
@@ -16217,7 +16753,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.4,
-  "uptime": 1.27
+  "uptime": 1.27,
+  "effectiveUptime": 1.27,
+  "gatedByIntuition": false
  },
  {
   "id": 32054,
@@ -16273,7 +16811,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.4,
-  "uptime": 0.3
+  "uptime": 0.3,
+  "effectiveUptime": 0.3,
+  "gatedByIntuition": false
  },
  {
   "id": 33316,
@@ -16329,7 +16869,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
-  "uptime": 0.25
+  "uptime": 0.25,
+  "effectiveUptime": 0.25,
+  "gatedByIntuition": false
  },
  {
   "id": 33317,
@@ -16385,7 +16927,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
-  "uptime": 0.47
+  "uptime": 0.47,
+  "effectiveUptime": 0.47,
+  "gatedByIntuition": false
  },
  {
   "id": 33318,
@@ -16437,7 +16981,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 33319,
@@ -16494,7 +17040,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
-  "uptime": 0.97
+  "uptime": 0.97,
+  "effectiveUptime": 0.97,
+  "gatedByIntuition": false
  },
  {
   "id": 33320,
@@ -16560,7 +17108,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
-  "uptime": 1.29
+  "uptime": 1.29,
+  "effectiveUptime": 1.29,
+  "gatedByIntuition": false
  },
  {
   "id": 33322,
@@ -16616,7 +17166,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
-  "uptime": 0.66
+  "uptime": 0.66,
+  "effectiveUptime": 0.66,
+  "gatedByIntuition": false
  },
  {
   "id": 33321,
@@ -16668,7 +17220,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 33323,
@@ -16724,7 +17278,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
-  "uptime": 0.23
+  "uptime": 0.23,
+  "effectiveUptime": 0.23,
+  "gatedByIntuition": false
  },
  {
   "id": 33325,
@@ -16778,7 +17334,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
-  "uptime": 4.92
+  "uptime": 4.92,
+  "effectiveUptime": 4.92,
+  "gatedByIntuition": false
  },
  {
   "id": 33326,
@@ -16840,7 +17398,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
-  "uptime": 3.33
+  "uptime": 3.33,
+  "effectiveUptime": 3.33,
+  "gatedByIntuition": false
  },
  {
   "id": 33324,
@@ -16892,7 +17452,9 @@
   "fishEyesApplicable": true,
   "intuition": false,
   "patch": 5.5,
-  "uptime": 4.17
+  "uptime": 4.17,
+  "effectiveUptime": 4.17,
+  "gatedByIntuition": false
  },
  {
   "id": 33239,
@@ -16957,7 +17519,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 5.55,
-  "uptime": 2.05
+  "uptime": 2.05,
+  "effectiveUptime": 2.05,
+  "gatedByIntuition": false
  },
  {
   "id": 33240,
@@ -17081,7 +17645,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 5.55,
-  "uptime": 25.0
+  "uptime": 25.0,
+  "effectiveUptime": 0.97,
+  "gatedByIntuition": true
  },
  {
   "id": 33241,
@@ -17171,7 +17737,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 5.55,
-  "uptime": 0.08
+  "uptime": 0.08,
+  "effectiveUptime": 0.08,
+  "gatedByIntuition": false
  },
  {
   "id": 33242,
@@ -17227,7 +17795,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 5.55,
-  "uptime": 0.03
+  "uptime": 0.03,
+  "effectiveUptime": 0.03,
+  "gatedByIntuition": false
  },
  {
   "id": 33243,
@@ -17303,7 +17873,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 5.55,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 33244,
@@ -17395,7 +17967,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 5.55,
-  "uptime": 0.99
+  "uptime": 0.99,
+  "effectiveUptime": 0.99,
+  "gatedByIntuition": false
  },
  {
   "id": 36454,
@@ -17457,7 +18031,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.0,
-  "uptime": 39.94
+  "uptime": 39.94,
+  "effectiveUptime": 39.94,
+  "gatedByIntuition": false
  },
  {
   "id": 36472,
@@ -17519,7 +18095,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.0,
-  "uptime": 70.35
+  "uptime": 70.35,
+  "effectiveUptime": 70.35,
+  "gatedByIntuition": false
  },
  {
   "id": 36521,
@@ -17579,7 +18157,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.0,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 36679,
@@ -17631,7 +18211,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 36680,
@@ -17685,7 +18267,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
-  "uptime": 4.15
+  "uptime": 4.15,
+  "effectiveUptime": 4.15,
+  "gatedByIntuition": false
  },
  {
   "id": 36681,
@@ -17737,7 +18321,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 36682,
@@ -17791,7 +18377,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
-  "uptime": 4.99
+  "uptime": 4.99,
+  "effectiveUptime": 4.99,
+  "gatedByIntuition": false
  },
  {
   "id": 36683,
@@ -17853,7 +18441,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
-  "uptime": 44.79
+  "uptime": 44.79,
+  "effectiveUptime": 44.79,
+  "gatedByIntuition": false
  },
  {
   "id": 36684,
@@ -17907,7 +18497,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
-  "uptime": 2.51
+  "uptime": 2.51,
+  "effectiveUptime": 2.51,
+  "gatedByIntuition": false
  },
  {
   "id": 36685,
@@ -17961,7 +18553,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.1,
-  "uptime": 2.4
+  "uptime": 2.4,
+  "effectiveUptime": 2.4,
+  "gatedByIntuition": false
  },
  {
   "id": 37845,
@@ -18015,7 +18609,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
-  "uptime": 2.63
+  "uptime": 2.63,
+  "effectiveUptime": 2.63,
+  "gatedByIntuition": false
  },
  {
   "id": 37846,
@@ -18072,7 +18668,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
-  "uptime": 5.81
+  "uptime": 5.81,
+  "effectiveUptime": 5.81,
+  "gatedByIntuition": false
  },
  {
   "id": 37847,
@@ -18129,7 +18727,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
-  "uptime": 5.61
+  "uptime": 5.61,
+  "effectiveUptime": 5.61,
+  "gatedByIntuition": false
  },
  {
   "id": 37848,
@@ -18187,7 +18787,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
-  "uptime": 2.95
+  "uptime": 2.95,
+  "effectiveUptime": 2.95,
+  "gatedByIntuition": false
  },
  {
   "id": 37849,
@@ -18244,7 +18846,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
-  "uptime": 3.45
+  "uptime": 3.45,
+  "effectiveUptime": 3.45,
+  "gatedByIntuition": false
  },
  {
   "id": 37850,
@@ -18296,7 +18900,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 37853,
@@ -18358,7 +18964,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
-  "uptime": 14.91
+  "uptime": 14.91,
+  "effectiveUptime": 14.91,
+  "gatedByIntuition": false
  },
  {
   "id": 37851,
@@ -18412,7 +19020,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
-  "uptime": 1.22
+  "uptime": 1.22,
+  "effectiveUptime": 1.22,
+  "gatedByIntuition": false
  },
  {
   "id": 37852,
@@ -18466,7 +19076,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.2,
-  "uptime": 1.26
+  "uptime": 1.26,
+  "effectiveUptime": 1.26,
+  "gatedByIntuition": false
  },
  {
   "id": 38830,
@@ -18522,7 +19134,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
-  "uptime": 1.01
+  "uptime": 1.01,
+  "effectiveUptime": 1.01,
+  "gatedByIntuition": false
  },
  {
   "id": 38831,
@@ -18578,7 +19192,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
-  "uptime": 3.89
+  "uptime": 3.89,
+  "effectiveUptime": 3.89,
+  "gatedByIntuition": false
  },
  {
   "id": 38832,
@@ -18634,7 +19250,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
-  "uptime": 0.45
+  "uptime": 0.45,
+  "effectiveUptime": 0.45,
+  "gatedByIntuition": false
  },
  {
   "id": 38833,
@@ -18688,7 +19306,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
-  "uptime": 1.67
+  "uptime": 1.67,
+  "effectiveUptime": 1.67,
+  "gatedByIntuition": false
  },
  {
   "id": 38834,
@@ -18742,7 +19362,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
-  "uptime": 1.8
+  "uptime": 1.8,
+  "effectiveUptime": 1.8,
+  "gatedByIntuition": false
  },
  {
   "id": 38836,
@@ -18798,7 +19420,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
-  "uptime": 0.92
+  "uptime": 0.92,
+  "effectiveUptime": 0.92,
+  "gatedByIntuition": false
  },
  {
   "id": 38835,
@@ -18860,7 +19484,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.3,
-  "uptime": 4.94
+  "uptime": 4.94,
+  "effectiveUptime": 4.94,
+  "gatedByIntuition": false
  },
  {
   "id": 39879,
@@ -18916,7 +19542,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.4,
-  "uptime": 1.14
+  "uptime": 1.14,
+  "effectiveUptime": 1.14,
+  "gatedByIntuition": false
  },
  {
   "id": 39880,
@@ -18972,7 +19600,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.4,
-  "uptime": 2.17
+  "uptime": 2.17,
+  "effectiveUptime": 2.17,
+  "gatedByIntuition": false
  },
  {
   "id": 39881,
@@ -19042,7 +19672,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.4,
-  "uptime": 39.94
+  "uptime": 39.94,
+  "effectiveUptime": 39.94,
+  "gatedByIntuition": false
  },
  {
   "id": 39883,
@@ -19099,7 +19731,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.4,
-  "uptime": 0.75
+  "uptime": 0.75,
+  "effectiveUptime": 0.75,
+  "gatedByIntuition": false
  },
  {
   "id": 39882,
@@ -19155,7 +19789,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.4,
-  "uptime": 0.8
+  "uptime": 0.8,
+  "effectiveUptime": 0.8,
+  "gatedByIntuition": false
  },
  {
   "id": 41401,
@@ -19219,7 +19855,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.5,
-  "uptime": 2.02
+  "uptime": 2.02,
+  "effectiveUptime": 2.02,
+  "gatedByIntuition": false
  },
  {
   "id": 41402,
@@ -19283,7 +19921,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.5,
-  "uptime": 0.99
+  "uptime": 0.99,
+  "effectiveUptime": 0.99,
+  "gatedByIntuition": false
  },
  {
   "id": 41403,
@@ -19373,7 +20013,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 6.5,
-  "uptime": 1.4
+  "uptime": 1.4,
+  "effectiveUptime": 1.4,
+  "gatedByIntuition": false
  },
  {
   "id": 41404,
@@ -19437,7 +20079,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.5,
-  "uptime": 2.65
+  "uptime": 2.65,
+  "effectiveUptime": 2.65,
+  "gatedByIntuition": false
  },
  {
   "id": 41405,
@@ -19493,7 +20137,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.5,
-  "uptime": 1.67
+  "uptime": 1.67,
+  "effectiveUptime": 1.67,
+  "gatedByIntuition": false
  },
  {
   "id": 41406,
@@ -19549,7 +20195,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.5,
-  "uptime": 1.9
+  "uptime": 1.9,
+  "effectiveUptime": 1.9,
+  "gatedByIntuition": false
  },
  {
   "id": 41407,
@@ -19647,7 +20295,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 6.55,
-  "uptime": 0.87
+  "uptime": 0.87,
+  "effectiveUptime": 0.87,
+  "gatedByIntuition": false
  },
  {
   "id": 41408,
@@ -19747,7 +20397,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 6.55,
-  "uptime": 0.18
+  "uptime": 0.18,
+  "effectiveUptime": 0.18,
+  "gatedByIntuition": false
  },
  {
   "id": 41409,
@@ -19837,7 +20489,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 6.55,
-  "uptime": 1.61
+  "uptime": 1.61,
+  "effectiveUptime": 1.61,
+  "gatedByIntuition": false
  },
  {
   "id": 41411,
@@ -19893,7 +20547,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.55,
-  "uptime": 0.99
+  "uptime": 0.99,
+  "effectiveUptime": 0.99,
+  "gatedByIntuition": false
  },
  {
   "id": 41410,
@@ -19949,7 +20605,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 6.55,
-  "uptime": 0.29
+  "uptime": 0.29,
+  "effectiveUptime": 0.29,
+  "gatedByIntuition": false
  },
  {
   "id": 41412,
@@ -20129,7 +20787,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 6.55,
-  "uptime": 0.73
+  "uptime": 0.73,
+  "effectiveUptime": 0.73,
+  "gatedByIntuition": false
  },
  {
   "id": 44339,
@@ -20183,7 +20843,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
-  "uptime": 10.18
+  "uptime": 10.18,
+  "effectiveUptime": 10.18,
+  "gatedByIntuition": false
  },
  {
   "id": 44340,
@@ -20235,7 +20897,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 44341,
@@ -20290,7 +20954,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
-  "uptime": 4.15
+  "uptime": 4.15,
+  "effectiveUptime": 4.15,
+  "gatedByIntuition": false
  },
  {
   "id": 44343,
@@ -20344,7 +21010,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
-  "uptime": 14.68
+  "uptime": 14.68,
+  "effectiveUptime": 14.68,
+  "gatedByIntuition": false
  },
  {
   "id": 44342,
@@ -20412,7 +21080,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 44345,
@@ -20467,7 +21137,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
-  "uptime": 8.45
+  "uptime": 8.45,
+  "effectiveUptime": 8.45,
+  "gatedByIntuition": false
  },
  {
   "id": 44346,
@@ -20519,7 +21191,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 44344,
@@ -20571,7 +21245,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.1,
-  "uptime": 16.67
+  "uptime": 16.67,
+  "effectiveUptime": 16.67,
+  "gatedByIntuition": false
  },
  {
   "id": 47988,
@@ -20623,7 +21299,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 47989,
@@ -20685,7 +21363,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
-  "uptime": 2.02
+  "uptime": 2.02,
+  "effectiveUptime": 2.02,
+  "gatedByIntuition": false
  },
  {
   "id": 47990,
@@ -20741,7 +21421,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
-  "uptime": 0.82
+  "uptime": 0.82,
+  "effectiveUptime": 0.82,
+  "gatedByIntuition": false
  },
  {
   "id": 47991,
@@ -20793,7 +21475,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
-  "uptime": 8.33
+  "uptime": 8.33,
+  "effectiveUptime": 8.33,
+  "gatedByIntuition": false
  },
  {
   "id": 47992,
@@ -20848,7 +21532,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
-  "uptime": 30.13
+  "uptime": 30.13,
+  "effectiveUptime": 30.13,
+  "gatedByIntuition": false
  },
  {
   "id": 47993,
@@ -20912,7 +21598,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
-  "uptime": 0.98
+  "uptime": 0.98,
+  "effectiveUptime": 0.98,
+  "gatedByIntuition": false
  },
  {
   "id": 47994,
@@ -20966,7 +21654,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
-  "uptime": 5.17
+  "uptime": 5.17,
+  "effectiveUptime": 5.17,
+  "gatedByIntuition": false
  },
  {
   "id": 47995,
@@ -21020,7 +21710,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.2,
-  "uptime": 5.03
+  "uptime": 5.03,
+  "effectiveUptime": 5.03,
+  "gatedByIntuition": false
  },
  {
   "id": 46189,
@@ -21076,7 +21768,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
-  "uptime": 0.64
+  "uptime": 0.64,
+  "effectiveUptime": 0.64,
+  "gatedByIntuition": false
  },
  {
   "id": 46190,
@@ -21130,7 +21824,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
-  "uptime": 0.87
+  "uptime": 0.87,
+  "effectiveUptime": 0.87,
+  "gatedByIntuition": false
  },
  {
   "id": 46191,
@@ -21184,7 +21880,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
-  "uptime": 1.31
+  "uptime": 1.31,
+  "effectiveUptime": 1.31,
+  "gatedByIntuition": false
  },
  {
   "id": 46192,
@@ -21248,7 +21946,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
-  "uptime": 0.94
+  "uptime": 0.94,
+  "effectiveUptime": 0.94,
+  "gatedByIntuition": false
  },
  {
   "id": 46779,
@@ -21300,7 +22000,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
-  "uptime": 100.0
+  "uptime": 100.0,
+  "effectiveUptime": 100.0,
+  "gatedByIntuition": false
  },
  {
   "id": 46193,
@@ -21357,7 +22059,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
-  "uptime": 1.96
+  "uptime": 1.96,
+  "effectiveUptime": 1.96,
+  "gatedByIntuition": false
  },
  {
   "id": 46194,
@@ -21411,7 +22115,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
-  "uptime": 0.8
+  "uptime": 0.8,
+  "effectiveUptime": 0.8,
+  "gatedByIntuition": false
  },
  {
   "id": 46195,
@@ -21499,7 +22205,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 7.3,
-  "uptime": 0.79
+  "uptime": 0.79,
+  "effectiveUptime": 0.79,
+  "gatedByIntuition": false
  },
  {
   "id": 46196,
@@ -21555,7 +22263,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.3,
-  "uptime": 1.08
+  "uptime": 1.08,
+  "effectiveUptime": 1.08,
+  "gatedByIntuition": false
  },
  {
   "id": 49794,
@@ -21611,7 +22321,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.4,
-  "uptime": 0.03
+  "uptime": 0.03,
+  "effectiveUptime": 0.03,
+  "gatedByIntuition": false
  },
  {
   "id": 49795,
@@ -21675,7 +22387,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.4,
-  "uptime": 0.2
+  "uptime": 0.2,
+  "effectiveUptime": 0.2,
+  "gatedByIntuition": false
  },
  {
   "id": 49796,
@@ -21729,7 +22443,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.4,
-  "uptime": 0.87
+  "uptime": 0.87,
+  "effectiveUptime": 0.87,
+  "gatedByIntuition": false
  },
  {
   "id": 49797,
@@ -21817,7 +22533,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 7.4,
-  "uptime": 1.24
+  "uptime": 1.24,
+  "effectiveUptime": 1.24,
+  "gatedByIntuition": false
  },
  {
   "id": 49798,
@@ -21879,7 +22597,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.4,
-  "uptime": 1.31
+  "uptime": 1.31,
+  "effectiveUptime": 1.31,
+  "gatedByIntuition": false
  },
  {
   "id": 49799,
@@ -21935,7 +22655,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.4,
-  "uptime": 0.09
+  "uptime": 0.09,
+  "effectiveUptime": 0.09,
+  "gatedByIntuition": false
  },
  {
   "id": 49800,
@@ -21991,7 +22713,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.4,
-  "uptime": 0.08
+  "uptime": 0.08,
+  "effectiveUptime": 0.08,
+  "gatedByIntuition": false
  },
  {
   "id": 49801,
@@ -22114,7 +22838,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 7.4,
-  "uptime": 0.18
+  "uptime": 0.18,
+  "effectiveUptime": 0.18,
+  "gatedByIntuition": false
  },
  {
   "id": 51999,
@@ -22170,7 +22896,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
-  "uptime": 0.16
+  "uptime": 0.16,
+  "effectiveUptime": 0.16,
+  "gatedByIntuition": false
  },
  {
   "id": 52000,
@@ -22234,7 +22962,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
-  "uptime": 0.12
+  "uptime": 0.12,
+  "effectiveUptime": 0.12,
+  "gatedByIntuition": false
  },
  {
   "id": 52001,
@@ -22290,7 +23020,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
-  "uptime": 0.13
+  "uptime": 0.13,
+  "effectiveUptime": 0.13,
+  "gatedByIntuition": false
  },
  {
   "id": 52002,
@@ -22354,7 +23086,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
-  "uptime": 0.57
+  "uptime": 0.57,
+  "effectiveUptime": 0.57,
+  "gatedByIntuition": false
  },
  {
   "id": 52003,
@@ -22410,7 +23144,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
-  "uptime": 0.22
+  "uptime": 0.22,
+  "effectiveUptime": 0.22,
+  "gatedByIntuition": false
  },
  {
   "id": 52004,
@@ -22474,7 +23210,9 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
-  "uptime": 0.2
+  "uptime": 0.2,
+  "effectiveUptime": 0.2,
+  "gatedByIntuition": false
  },
  {
   "id": 52005,
@@ -22564,7 +23302,9 @@
   "fishEyesApplicable": false,
   "intuition": true,
   "patch": 7.5,
-  "uptime": 0.26
+  "uptime": 0.26,
+  "effectiveUptime": 0.26,
+  "gatedByIntuition": false
  },
  {
   "id": 52006,
@@ -22620,6 +23360,8 @@
   "fishEyesApplicable": false,
   "intuition": false,
   "patch": 7.5,
-  "uptime": 0.36
+  "uptime": 0.36,
+  "effectiveUptime": 0.36,
+  "gatedByIntuition": false
  }
 ]

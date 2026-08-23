@@ -26,6 +26,39 @@ export function nextWindow(
 }
 
 /**
+ * fromMs 以降の窓を最大 count 件。
+ * 各窓の終了直後から次を探すことで「次の次」以降も求める。
+ */
+export function nextWindows(
+  spec: WindowSpec,
+  territoryId: number | null,
+  fromMs: number,
+  count: number,
+  options?: { ignoreTime?: boolean }
+): UpcomingWindow[] {
+  const out: UpcomingWindow[] = [];
+  let cursor = fromMs;
+  for (let i = 0; i < count; i++) {
+    const w = nextWindow(spec, territoryId, cursor, options);
+    // 常時釣獲可 / これ以上見つからない場合は打ち切り
+    if (!w || w.isAlways) {
+      if (w && i === 0) out.push(w);
+      break;
+    }
+    out.push(w);
+    if (!Number.isFinite(w.endMs)) break;
+    cursor = w.endMs + 1000;
+  }
+  return out;
+}
+
+/** 窓の長さ (ms)。常時・無限窓は null */
+export function windowDuration(w: UpcomingWindow): number | null {
+  if (w.isAlways || !Number.isFinite(w.endMs)) return null;
+  return w.endMs - w.startMs;
+}
+
+/**
  * 残り/待機時間を「1日2時間」「3時間5分」「12分」、1分未満は「45秒」形式に。
  * withSeconds=true のとき、10分未満は「8分30秒」と秒まで表示する。
  */

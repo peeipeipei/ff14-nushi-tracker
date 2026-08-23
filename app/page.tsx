@@ -10,6 +10,7 @@ import { fishEyesEffective, formatWhen } from "@/lib/windowInfo";
 import { rarityTier } from "@/lib/rarity";
 import { iconUrl, SKILL_ICONS } from "@/lib/assets";
 import { useCaught, usePinned } from "@/lib/useCaught";
+import { playAlert, soundSupported, unlockAudio } from "@/lib/sound";
 import EorzeaClock from "@/components/EorzeaClock";
 import NushiRow from "@/components/NushiRow";
 import SiteFooter from "@/components/SiteFooter";
@@ -73,6 +74,7 @@ function chipClass(active: boolean): string {
 
 const FILTER_STORAGE_KEY = "nushi-filters-v1";
 const NOTIFY_STORAGE_KEY = "nushi-notify-v1";
+const SOUND_STORAGE_KEY = "nushi-sound-v1";
 const NOTIFY_LEAD_MS = 10 * 60 * 1000; // 出現の約10分前に通知
 
 export default function Home() {
@@ -91,6 +93,8 @@ export default function Home() {
   const [filtersOpen, setFiltersOpen] = useState(false); // モバイルでのフィルタ開閉
   // ピンした魚の出現通知
   const [notifyOn, setNotifyOn] = useState(false);
+  const [soundOn, setSoundOn] = useState(false);
+  const [soundAvailable, setSoundAvailable] = useState(true);
   const [notifySupported, setNotifySupported] = useState(true);
   const notifiedRef = useRef<Set<string>>(new Set());
   const { caught, toggle } = useCaught();
@@ -140,6 +144,9 @@ export default function Home() {
     } catch {
       // 壊れた保存値は無視
     }
+    // 音: 対応状況と前回の有効状態を復元 (通知と違い許可は不要)
+    setSoundAvailable(soundSupported());
+    if (localStorage.getItem(SOUND_STORAGE_KEY) === "1") setSoundOn(true);
     // 通知: 対応状況と前回の有効状態を復元
     if (typeof window === "undefined" || !("Notification" in window)) {
       setNotifySupported(false);
@@ -153,6 +160,22 @@ export default function Home() {
     const t = setInterval(() => setNowMs(Date.now()), 1000);
     return () => clearInterval(t);
   }, []);
+
+  // 音トグル: 有効化時にユーザー操作の中で AudioContext を起こし、確認音を鳴らす
+  const toggleSound = () => {
+    const next = !soundOn;
+    setSoundOn(next);
+    try {
+      localStorage.setItem(SOUND_STORAGE_KEY, next ? "1" : "0");
+    } catch {
+      /* noop */
+    }
+    if (next) {
+      unlockAudio();
+      notifiedRef.current.clear();
+      playAlert("soon");
+    }
+  };
 
   // 通知トグル: 有効化時に許可を要求
   const toggleNotify = async () => {
@@ -227,21 +250,41 @@ export default function Home() {
     });
   }, [computeTick, fishEyesOnly]);
 
-  // ピンした魚が約10分以内に出現するなら通知 (30秒粒度でチェック)
+  // ピンした魚の出現を知らせる (30秒粒度でチェック)。
+  // 通知と音は独立: ゲームを全画面で遊んでいると通知は見えないため音が効く。
   useEffect(() => {
-    if (!notifyOn || computeTick === null) return;
-    if (!("Notification" in window) || Notification.permission !== "granted") return;
+    if (computeTick === null) return;
+    if (!notifyOn && !soundOn) return;
+    const canNotify =
+      notifyOn && "Notification" in window && Notification.permission === "granted";
     const t = computeTick * 30000;
+    let soonHit = false;
+    let openHit = false;
+
     for (const r of rows) {
       const n = r.nushi;
       if (n.id === null || !pinned.has(n.id)) continue;
       const w = r.window;
-      if (!w || w.isAlways || w.isActiveNow) continue;
+      if (!w || w.isAlways) continue;
+
+      // 窓が開いた瞬間 (音のみ。狙い目を逃さないため)
+      if (w.isActiveNow) {
+        const openKey = `open:${n.id}:${w.startMs}`;
+        if (!notifiedRef.current.has(openKey)) {
+          notifiedRef.current.add(openKey);
+          // 初回描画時に過去の窓まで鳴らさないよう、開始直後のみ
+          if (t - w.startMs <= 60 * 1000) openHit = true;
+        }
+        continue;
+      }
+
       const until = w.startMs - t;
       if (until <= 0 || until > NOTIFY_LEAD_MS) continue;
       const key = `${n.id}:${w.startMs}`;
       if (notifiedRef.current.has(key)) continue;
       notifiedRef.current.add(key);
+      soonHit = true;
+      if (!canNotify) continue;
       const mins = Math.max(1, Math.round(until / 60000));
       try {
         new Notification(`まもなく出現: ${n.nameJa ?? n.name}`, {
@@ -255,7 +298,9 @@ export default function Home() {
         /* noop */
       }
     }
-  }, [computeTick, notifyOn, pinned, rows]);
+
+    if (soundOn && (soonHit || openHit)) playAlert(openHit ? "open" : "soon");
+  }, [computeTick, notifyOn, soundOn, pinned, rows]);
 
   const visible = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -284,7 +329,7 @@ export default function Home() {
       if (typeFilter === "nushi" && !n.bigFish) return false;
       if (typeFilter === "oonushi" && !n.oonushi) return false;
       if (fishEyesOnly && !fishEyesEffective(n)) return false;
-      if (minRarity > 0 && (rarityTier(n.uptime) ?? 0) < minRarity) return false;
+      if (minRarity > 0 && (rarityTier(n.effectiveUptime) ?? 0) < minRarity) return false;
       return matchesQuery(n);
     });
 
@@ -304,8 +349,8 @@ export default function Home() {
       }
       if (sortMode === "rarity") {
         // 出現率が低い(=レア)ほど上。不明は最下部
-        const ua = a.nushi.uptime ?? Infinity;
-        const ub = b.nushi.uptime ?? Infinity;
+        const ua = a.nushi.effectiveUptime ?? Infinity;
+        const ub = b.nushi.effectiveUptime ?? Infinity;
         return (
           ua - ub || (a.nushi.nameJa ?? "").localeCompare(b.nushi.nameJa ?? "", "ja")
         );
@@ -385,6 +430,25 @@ export default function Home() {
             >
               {notifyOn ? "🔔" : "🔕"}
               <span className="hidden sm:inline"> 通知</span>
+            </button>
+          )}
+          {soundAvailable && (
+            <button
+              onClick={toggleSound}
+              title={
+                soundOn
+                  ? "出現アラート音: オン (クリックでオフ)"
+                  : "ピン留めした魚の出現を音で知らせる。ゲームを全画面で遊んでいても気づけます (クリックでオン)"
+              }
+              aria-pressed={soundOn}
+              className={`rounded-lg border px-2.5 py-2 text-sm transition-colors ${
+                soundOn
+                  ? "border-hookgold bg-hookgold/15 text-hookgold-bright"
+                  : "border-abyss-600 bg-abyss-800 text-moonlight-dim hover:text-moonlight"
+              }`}
+            >
+              {soundOn ? "🔊" : "🔈"}
+              <span className="hidden sm:inline"> 音</span>
             </button>
           )}
           <Link

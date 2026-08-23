@@ -116,6 +116,53 @@ def add_uptime(nushi_list, weather_rates):
             f["startHour"], f["endHour"],
             f["weatherSet"], f["previousWeatherSet"], seq_cache[tid])
 
+    add_effective_uptime(nushi_list, weather_rates, seq_cache)
+
+
+def _uptime_of(cond, weather_rates, seq_cache):
+    """予測魚など任意の条件の uptime。計算不可なら None"""
+    sh, eh = cond.get("startHour", 0), cond.get("endHour", 24)
+    ws = cond.get("weatherSet") or []
+    pws = cond.get("previousWeatherSet") or []
+    if sh == 0 and eh == 24 and not ws and not pws:
+        return 100.0
+    if not ws and not pws:
+        return compute_uptime(sh, eh, [], [], [0] * FORECAST_WINDOWS)
+    tid = cond.get("territoryId")
+    wr = weather_rates.get(str(tid)) if tid else None
+    if not wr:
+        return None
+    if tid not in seq_cache:
+        seq_cache[tid] = build_weather_seq(wr["weather_rates"], FORECAST_WINDOWS)
+    return compute_uptime(sh, eh, ws, pws, seq_cache[tid])
+
+
+def add_effective_uptime(nushi_list, weather_rates, seq_cache):
+    """実効的な「釣れる機会」。
+
+    漁師の直感が必要な魚は、本命の窓が常時開いていても
+    先に予測魚を釣らねばならず、実際の機会は予測魚の窓に縛られる。
+    そこで「本命」と「最も窓が狭い予測魚」の小さい方を実効値とする
+    (下ごしらえの匹数や直感の持続時間までは織り込まない安全側の見積り)。
+    """
+    for f in nushi_list:
+        eff = f["uptime"]
+        gate = None
+        for p in f.get("predators") or []:
+            c = p.get("conditions")
+            if not c:
+                continue
+            u = _uptime_of(c, weather_rates, seq_cache)
+            if u is not None and (gate is None or u < gate):
+                gate = u
+        if gate is not None and (eff is None or gate < eff):
+            eff = gate
+        f["effectiveUptime"] = eff
+        # 直感の準備が実効値を決めている場合はフラグを立てて UI で説明する
+        f["gatedByIntuition"] = bool(
+            gate is not None and f["uptime"] is not None and gate < f["uptime"]
+        )
+
 
 def load_aetherytes():
     """aetheryte_data.json (Teamcraft由来 + XIVAPI名) を territory 別に。"""

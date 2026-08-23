@@ -12,8 +12,11 @@ import Link from "next/link";
 import { iconUrl, lodestoneUrl, mapUrl, SKILL_ICONS, spotUrl } from "@/lib/assets";
 import {
   fishEyesEffective,
+  formatCountdown,
   formatWhen,
   nextWindow,
+  nextWindows,
+  windowDuration,
   windowStatus,
 } from "@/lib/windowInfo";
 import {
@@ -427,11 +430,14 @@ function DetailPanel({
   weatherTypes,
   nowMs,
   onJumpTo,
+  fishEyesAssisted,
 }: {
   nushi: Nushi;
   weatherTypes: WeatherMap;
   nowMs: number;
   onJumpTo?: (id: number) => void;
+  /** 窓をフィッシュアイ前提 (時間条件を無視) で計算するか */
+  fishEyesAssisted?: boolean;
 }) {
   return (
     <div className="grid gap-4 border-b border-abyss-700/60 bg-abyss-900/80 px-5 py-4 shadow-[inset_4px_0_0_#D9A441] sm:grid-cols-[auto_1fr]">
@@ -538,7 +544,7 @@ function DetailPanel({
           )}
         </div>
         {(() => {
-          const r = rarityInfo(nushi.uptime);
+          const r = rarityInfo(nushi.effectiveUptime);
           if (!r) return null;
           return (
             <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
@@ -546,14 +552,96 @@ function DetailPanel({
               <span className={`font-mono text-sm ${r.className}`}>
                 {rarityStars(r.tier)}
               </span>
-              <span className="text-xs text-moonlight-dim">
-                出現率 {formatUptime(nushi.uptime!)}
-              </span>
+              {nushi.uptime !== null && (
+                <span className="text-xs text-moonlight-dim">
+                  出現率 {formatUptime(nushi.uptime)}
+                </span>
+              )}
+              {nushi.gatedByIntuition && nushi.effectiveUptime !== null && (
+                <span className="text-xs text-moonlight-faint">
+                  ・直感の下ごしらえ込みで実質 {formatUptime(nushi.effectiveUptime)}
+                </span>
+              )}
             </div>
           );
         })()}
 
+        <UpcomingWindows
+          nushi={nushi}
+          nowMs={nowMs}
+          weatherTypes={weatherTypes}
+          ignoreTime={fishEyesAssisted}
+        />
       </div>
+    </div>
+  );
+}
+
+/** 今後の釣獲チャンスを複数件、継続時間つきで表示 */
+function UpcomingWindows({
+  nushi,
+  nowMs,
+  weatherTypes,
+  ignoreTime,
+}: {
+  nushi: Nushi;
+  nowMs: number;
+  weatherTypes: WeatherMap;
+  ignoreTime?: boolean;
+}) {
+  // 30秒粒度でメモ化 (窓探索は少し重い)
+  const tick = Math.floor(nowMs / 30000);
+  const wins = useMemo(
+    () =>
+      nextWindows(nushi, nushi.territoryId, tick * 30000, 5,
+        ignoreTime ? { ignoreTime: true } : undefined),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [tick, nushi.id, ignoreTime]
+  );
+  // 常時釣獲可 / 窓なしのときは出さない
+  if (wins.length === 0 || wins[0].isAlways) return null;
+
+  return (
+    <div>
+      <div className="mb-1 text-xs text-moonlight-faint">
+        今後のチャンス
+        <span className="ml-1 text-moonlight-dim">(開始時刻 ・ 開いている長さ)</span>
+      </div>
+      <ul className="space-y-0.5 text-xs">
+        {wins.map((w, i) => {
+          const dur = windowDuration(w);
+          const active = w.isActiveNow;
+          return (
+            <li
+              key={w.startMs}
+              className={`flex flex-wrap items-center gap-x-2 tabular-nums ${
+                active ? "text-tide-active" : "text-moonlight-dim"
+              }`}
+            >
+              <span className="w-4 text-moonlight-faint">{i + 1}.</span>
+              <span className={active ? "font-bold" : "text-moonlight"}>
+                {active ? "出現中" : formatWhen(w.startMs, nowMs)}
+              </span>
+              {dur !== null && (
+                <span className="text-moonlight-faint">
+                  {active
+                    ? `残り ${formatCountdown(w.endMs - nowMs)}`
+                    : `${formatCountdown(dur)}間`}
+                </span>
+              )}
+              {w.previousWeatherId !== null && (
+                <span className="inline-flex items-center gap-0.5">
+                  <WeatherIcons ids={[w.previousWeatherId]} weatherTypes={weatherTypes} />
+                  <span className="text-moonlight-faint">→</span>
+                </span>
+              )}
+              {w.weatherId !== null && (
+                <WeatherIcons ids={[w.weatherId]} weatherTypes={weatherTypes} />
+              )}
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 }
@@ -592,8 +680,8 @@ export default function NushiRow({
   const status = windowStatus(win, nowMs);
 
   // 出現レア度 (uptime ベース) と「いま窓が開いているレア魚」の判定
-  const rarity = rarityInfo(nushi.uptime);
-  const rareChance = isRareChanceNow(nushi.uptime, win);
+  const rarity = rarityInfo(nushi.effectiveUptime);
+  const rareChance = isRareChanceNow(nushi.effectiveUptime, win);
 
   // 出現中の魚は「この窓が閉じた後、次にいつ出るか」を計算 (30秒粒度でメモ化)
   const activeNext = useMemo(() => {
@@ -731,7 +819,7 @@ export default function NushiRow({
             )}
             {rarity && rarity.tier >= 3 && (
               <span
-                title={`釣れる機会 ${rarityStars(rarity.tier)} ・ 出現率 ${formatUptime(nushi.uptime!)} (低いほど窓が開きにくい)`}
+                title={`釣れる機会 ${rarityStars(rarity.tier)}${nushi.uptime !== null ? ` ・ 出現率 ${formatUptime(nushi.uptime)}` : ""}${nushi.gatedByIntuition && nushi.effectiveUptime !== null ? ` (直感の下ごしらえ込みで実質 ${formatUptime(nushi.effectiveUptime)})` : ""}`}
                 className={`ml-1.5 font-mono text-[11px] align-middle ${rarity.className}`}
               >
                 {"★".repeat(rarity.tier)}
@@ -845,6 +933,7 @@ export default function NushiRow({
           weatherTypes={weatherTypes}
           nowMs={nowMs}
           onJumpTo={onJumpTo}
+          fishEyesAssisted={fishEyesAssisted}
         />
       )}
     </div>

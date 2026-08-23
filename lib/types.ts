@@ -97,6 +97,13 @@ export interface Nushi {
   patch: number | string;
   /** 出現率 (%): 時間帯・天候条件を満たす実時間の割合。天候計算不可なら null */
   uptime: number | null;
+  /**
+   * 実効的な「釣れる機会」(%)。漁師の直感が必要な魚は、
+   * 本命の窓が広くても予測魚の窓に縛られるため、その分を織り込んだ値。
+   */
+  effectiveUptime: number | null;
+  /** 実効値が直感の準備 (予測魚の窓) で決まっているか */
+  gatedByIntuition: boolean;
 }
 
 /** ゾーン(TerritoryType)ごとの天候抽選テーブル。[weatherTypeId, 累積確率(〜100)] の列 */
