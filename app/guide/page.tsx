@@ -441,6 +441,14 @@ export default function GuidePage() {
               を表示しています。効果時間も併記しているので、
               時間内に本命へ移れるよう段取りしてください。
             </p>
+            <p>
+              このサイトの一覧に出る時刻は、
+              <strong className="text-moonlight">
+                予測魚が釣れるようになる時刻まで含めた見込み
+              </strong>
+              です。本命に時間・天候の条件がなくても、予測魚に条件があれば
+              そちらに合わせた時刻を表示します（その行には直感のアイコンが付きます）。
+            </p>
             <p className="rounded-lg border border-abyss-600 bg-abyss-800/60 px-3 py-2 text-xs">
               直感が必要なヌシは全371件中28件、そのうち19件がオオヌシです。
               裏を返せば、大半のヌシは

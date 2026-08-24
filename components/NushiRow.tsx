@@ -650,6 +650,7 @@ export default function NushiRow({
   nushi,
   window: win,
   fishEyesAssisted = false,
+  intuitionAdjusted = false,
   nowMs,
   weatherTypes,
   isCaught,
@@ -664,6 +665,8 @@ export default function NushiRow({
   window: UpcomingWindow | null;
   /** 窓がフィッシュアイ前提 (時間条件を無視) で計算されているか */
   fishEyesAssisted?: boolean;
+  /** 窓が直感の準備 (予測魚が釣れる時刻) を織り込んで計算されているか */
+  intuitionAdjusted?: boolean;
   nowMs: number;
   weatherTypes: Record<string, WeatherTypeInfo>;
   isCaught: boolean;
@@ -894,6 +897,17 @@ export default function NushiRow({
           <div
             className={`flex items-center justify-end gap-1 text-sm tabular-nums ${status.className}`}
           >
+            {/* 直感の準備を織り込んだ窓であることを明示 */}
+            {intuitionAdjusted && (
+              <img
+                src={iconUrl(SKILL_ICONS.intuition.code)}
+                alt=""
+                width={14}
+                height={14}
+                title="漁師の直感の下ごしらえ (予測魚が釣れる時刻) を含めた見込み"
+                className="shrink-0"
+              />
+            )}
             {/* フィッシュアイ前提の窓であることを明示 */}
             {fishEyesAssisted && (
               <img

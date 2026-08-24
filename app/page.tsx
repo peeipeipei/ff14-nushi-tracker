@@ -7,6 +7,7 @@ import weatherData from "@/data/weather_rates.json";
 import type { Nushi, UpcomingWindow, WeatherRate, WeatherTypeInfo } from "@/lib/types";
 import { findNextMatchingWeatherWindow } from "@/lib/weather";
 import { fishEyesEffective, formatWhen } from "@/lib/windowInfo";
+import { intuitionAwareWindow } from "@/lib/intuition";
 import { rarityTier } from "@/lib/rarity";
 import { iconUrl, SKILL_ICONS } from "@/lib/assets";
 import { useCaught, usePinned } from "@/lib/useCaught";
@@ -26,6 +27,8 @@ const BIG_FISH_TOTAL = allNushi.filter((n) => n.bigFish).length;
 interface Row {
   nushi: Nushi;
   window: UpcomingWindow | null;
+  /** 直感の準備 (予測魚が釣れる時刻) を織り込んだ窓か */
+  intuitionAdjusted: boolean;
   /** この窓がフィッシュアイ前提 (時間条件を無視) で計算されたものか */
   fishEyesAssisted: boolean;
 }
@@ -237,15 +240,22 @@ export default function Home() {
       // フィッシュアイ ON のときは、適用対象の魚に限り時間条件を無視して
       // 天候条件だけで窓を求める (= フィッシュアイを使えば今釣れる判定)
       const assisted = fishEyesOnly && fishEyesEffective(nushi);
+      const base = findNextMatchingWeatherWindow(
+        nushi,
+        nushi.territoryId ? weatherRates[String(nushi.territoryId)] ?? null : null,
+        t,
+        assisted ? { ignoreTime: true } : undefined
+      );
+      // 直感が要る魚は、予測魚が釣れる時刻まで含めて実際のチャンスを求める
+      const withPrep =
+        nushi.predators.length > 0 && !assisted
+          ? intuitionAwareWindow(nushi, t)
+          : null;
       return {
         nushi,
         fishEyesAssisted: assisted,
-        window: findNextMatchingWeatherWindow(
-          nushi,
-          nushi.territoryId ? weatherRates[String(nushi.territoryId)] ?? null : null,
-          t,
-          assisted ? { ignoreTime: true } : undefined
-        ),
+        intuitionAdjusted: withPrep !== null,
+        window: withPrep ?? base,
       };
     });
   }, [computeTick, fishEyesOnly]);
@@ -652,6 +662,7 @@ export default function Home() {
               nushi={r.nushi}
               window={r.window}
               fishEyesAssisted={r.fishEyesAssisted}
+              intuitionAdjusted={r.intuitionAdjusted}
               nowMs={nowMs}
               weatherTypes={weatherTypes}
               isCaught={r.nushi.id !== null && caught.has(r.nushi.id)}
