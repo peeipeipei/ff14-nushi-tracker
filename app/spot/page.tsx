@@ -24,6 +24,118 @@ const spots = spotFishData as unknown as Record<string, SpotEntry>;
 const weatherTypes = (weatherData as unknown as { types: Record<string, WeatherTypeInfo> })
   .types;
 
+type BaitGroup = {
+  bait: SpotFish["bait"];
+  fish: SpotFish[];
+  active: SpotFish[];
+  byTug: Record<string, number>;
+  nushiActive: number;
+};
+
+/**
+ * いまこの釣り場でどの餌を使うべきかの比較。
+ *
+ * ゲームは魚ごとの釣獲確率を公開しておらず、信頼できる公開データも無いため
+ * 確率は表示しない。代わりに「いま条件を満たす魚が何種いるか」と
+ * 「そのうち何種が同じアタリか」を出す。候補が少ないほど狙った魚が掛かりやすく、
+ * 同じアタリの魚が少ないほど引きで見分けやすい、という実用的な指標になる。
+ */
+function BaitCompare({ groups }: { groups: BaitGroup[] }) {
+  const usable = groups.filter((g) => g.bait && g.active.length > 0);
+  if (usable.length === 0) return null;
+  // 候補が少ない = 狙った魚が掛かりやすい
+  const sorted = [...usable].sort(
+    (a, b) => a.active.length - b.active.length || b.nushiActive - a.nushiActive
+  );
+
+  return (
+    <section className="rounded-xl border border-abyss-700 bg-abyss-900/70 p-4 shadow-deep">
+      <h2 className="mb-1 font-display text-base text-moonlight">
+        いま使う餌の<span className="text-hookgold">比較</span>
+      </h2>
+      <p className="mb-3 text-xs leading-relaxed text-moonlight-faint">
+        いま時間・天候の条件を満たしている魚の数です。
+        <strong className="text-moonlight-dim">候補が少ない餌ほど狙った魚が掛かりやすく</strong>
+        、同じアタリの魚が少ないほど引きで見分けられます。
+      </p>
+      <div className="overflow-x-auto">
+        <table className="w-full min-w-[380px] border-collapse text-left text-xs">
+          <thead>
+            <tr className="text-moonlight-faint">
+              <th className="border-b border-abyss-600 px-2 py-1.5 font-normal">餌</th>
+              <th className="border-b border-abyss-600 px-2 py-1.5 font-normal">
+                いま候補
+              </th>
+              <th className="border-b border-abyss-600 px-2 py-1.5 font-normal">
+                アタリ内訳
+              </th>
+              <th className="border-b border-abyss-600 px-2 py-1.5 font-normal">ヌシ</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sorted.map((g, i) => (
+              <tr key={g.bait!.id ?? i}>
+                <td className="border-b border-abyss-700/60 px-2 py-1.5">
+                  <span className="inline-flex items-center gap-1.5 text-moonlight">
+                    <img
+                      src={iconUrl(g.bait!.icon)}
+                      alt=""
+                      width={20}
+                      height={20}
+                      className="rounded-sm border border-abyss-600"
+                    />
+                    {g.bait!.ja}
+                  </span>
+                </td>
+                <td className="border-b border-abyss-700/60 px-2 py-1.5 tabular-nums">
+                  <span className={i === 0 ? "font-bold text-tide-active" : "text-moonlight-dim"}>
+                    {g.active.length}種
+                  </span>
+                  <span className="text-moonlight-faint"> / {g.fish.length}</span>
+                </td>
+                <td className="border-b border-abyss-700/60 px-2 py-1.5">
+                  <span className="inline-flex gap-2 font-mono">
+                    {Object.entries(g.byTug)
+                      .sort((a, b) => b[0].length - a[0].length)
+                      .map(([mark, n]) => (
+                        <span
+                          key={mark}
+                          className={
+                            mark === "!!!"
+                              ? "text-rose-400"
+                              : mark === "!!"
+                                ? "text-hookgold-bright"
+                                : "text-sky-400"
+                          }
+                        >
+                          {mark}×{n}
+                        </span>
+                      ))}
+                  </span>
+                </td>
+                <td className="border-b border-abyss-700/60 px-2 py-1.5 text-moonlight-dim">
+                  {g.nushiActive > 0 ? (
+                    <span className="text-hookgold">{g.nushiActive}種</span>
+                  ) : (
+                    "—"
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p className="mt-2 text-[11px] leading-relaxed text-moonlight-faint">
+        ※ 魚ごとの釣獲確率・食いつくまでの秒数はゲーム内で公開されておらず、
+        信頼できる公開データも存在しないため数値は表示していません。
+        同じアタリの魚が複数いる場合は、掛かった魚を
+        <strong className="text-moonlight-dim">トレードリリース</strong>
+        で除外していくと目的の魚に絞り込めます。
+      </p>
+    </section>
+  );
+}
+
 /** アタリの強さ (tug) = 釣りやすさ / レア度の目安 */
 const TUG: Record<string, { mark: string; cls: string; label: string }> = {
   legendary: { mark: "!!!", cls: "text-rose-400", label: "レジェンダリー級 (最も強い引き)" },
@@ -190,7 +302,9 @@ function SpotContent() {
 
   const tick = nowMs === null ? 0 : Math.floor(nowMs / 30000) * 30000;
 
-  // 餌ごとに釣れる魚をまとめる
+  // 餌ごとに釣れる魚をまとめ、「いま条件を満たしている魚」を数える。
+  // 釣獲確率はゲーム側が公開していないため、確率の代わりに
+  // 「いま食いつく可能性がある魚」と「アタリの内訳」で見分けの手掛かりを示す。
   const groups = useMemo(() => {
     if (!entry) return [];
     const m = new Map<string, { bait: SpotFish["bait"]; fish: SpotFish[] }>();
@@ -199,8 +313,24 @@ function SpotContent() {
       if (!m.has(key)) m.set(key, { bait: f.bait, fish: [] });
       m.get(key)!.fish.push(f);
     }
-    return Array.from(m.values());
-  }, [entry]);
+    return Array.from(m.values()).map((g) => {
+      const active = g.fish.filter((f) => {
+        const w = nextWindow(f, entry.territoryId, tick);
+        return !!w && (w.isAlways || w.isActiveNow);
+      });
+      const byTug: Record<string, number> = {};
+      for (const f of active) {
+        const mark = TUG[f.tug]?.mark ?? "?";
+        byTug[mark] = (byTug[mark] ?? 0) + 1;
+      }
+      return {
+        ...g,
+        active,
+        byTug,
+        nushiActive: active.filter((f) => f.bigFish).length,
+      };
+    });
+  }, [entry, tick]);
 
   // オオヌシ/ヌシが必要とする予測魚 (重複排除)
   const predators = useMemo(() => {
@@ -290,6 +420,7 @@ function SpotContent() {
         <SpotMap entry={entry} />
 
         <div className="space-y-5">
+          <BaitCompare groups={groups} />
           {groups.map((g, gi) => (
             <section
               key={g.bait ? g.bait.id : `none-${gi}`}
@@ -325,9 +456,36 @@ function SpotContent() {
                 ) : (
                   <span className="text-moonlight-dim">不明</span>
                 )}
-                <span className="ml-auto text-xs text-moonlight-faint">
-                  {g.fish.length}種
-                </span>
+                <div className="ml-auto flex flex-wrap items-center justify-end gap-x-2 gap-y-0.5 text-xs">
+                  <span
+                    className={
+                      g.active.length > 0 ? "text-tide-active" : "text-moonlight-faint"
+                    }
+                    title="いま時間・天候の条件を満たしていて、食いつく可能性がある魚の数"
+                  >
+                    いま候補 {g.active.length}種
+                  </span>
+                  {Object.entries(g.byTug)
+                    .sort((a, b) => b[0].length - a[0].length)
+                    .map(([mark, n]) => {
+                      const cls =
+                        mark === "!!!"
+                          ? "text-rose-400"
+                          : mark === "!!"
+                            ? "text-hookgold-bright"
+                            : "text-sky-400";
+                      return (
+                        <span
+                          key={mark}
+                          className={`font-mono ${cls}`}
+                          title={`アタリ ${mark} の候補が ${n} 種。同じアタリの魚は引きで見分けられません`}
+                        >
+                          {mark}×{n}
+                        </span>
+                      );
+                    })}
+                  <span className="text-moonlight-faint">/ 全{g.fish.length}種</span>
+                </div>
               </div>
 
               {g.fish.map((f) => {
