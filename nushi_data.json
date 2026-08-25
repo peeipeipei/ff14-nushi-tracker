@@ -23363,5 +23363,606 @@
   "uptime": 0.36,
   "effectiveUptime": 0.36,
   "gatedByIntuition": false
+ },
+ {
+  "id": 52007,
+  "name": "Ner Lar Dor",
+  "nameJa": "ネー・ラァ・ドー",
+  "bigFish": true,
+  "oonushi": true,
+  "baitPath": [
+   {
+    "ja": "紅サシ",
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864",
+    "tug": null
+   }
+  ],
+  "predators": [],
+  "folkloreNameJa": "魚類伝承録:ヨカ・トラル",
+  "intuitionLength": null,
+  "mapCoords": [
+   6.30517578125,
+   20.3388671875
+  ],
+  "mapScale": 100,
+  "mapId": "y6f1/00",
+  "aetheryte": {
+   "nameJa": "ワチュン・ペロ",
+   "x": 28.26,
+   "y": 13.35
+  },
+  "icon": "028786",
+  "lodestoneId": null,
+  "spotId": 299,
+  "spotName": "Karvarhur the First",
+  "spotNameJa": "カーヴァーフー湖",
+  "zoneName": "Urqopacha",
+  "zoneNameJa": "オルコ・パチャ",
+  "territoryId": 1187,
+  "startHour": 15,
+  "endHour": 16,
+  "weatherSet": [
+   5
+  ],
+  "previousWeatherSet": [
+   4
+  ],
+  "tug": "heavy",
+  "hookset": "Precision",
+  "lure": "Modest",
+  "folklore": false,
+  "fishEyes": false,
+  "fishEyesApplicable": false,
+  "intuition": false,
+  "patch": 7.55,
+  "uptime": 0.04,
+  "effectiveUptime": 0.04,
+  "gatedByIntuition": false
+ },
+ {
+  "id": 52008,
+  "name": "Xehabopo'u",
+  "nameJa": "ヂェファ・ボポル",
+  "bigFish": true,
+  "oonushi": true,
+  "baitPath": [
+   {
+    "ja": "ゴールデンラーヴァ",
+    "en": "Golden Stonefly Nymph",
+    "id": 43849,
+    "icon": "027102",
+    "lodestoneId": "accb8e61412",
+    "tug": null
+   },
+   {
+    "ja": "ウッドキャット",
+    "en": "Driftwood Catfish",
+    "id": 43697,
+    "icon": "028576",
+    "lodestoneId": "a739ca9529d",
+    "tug": "medium"
+   }
+  ],
+  "predators": [
+   {
+    "ja": "ウッドキャット",
+    "en": "Driftwood Catfish",
+    "id": 43697,
+    "icon": "028576",
+    "lodestoneId": "a739ca9529d",
+    "tug": "medium",
+    "count": 6,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ゴールデンラーヴァ / ミツバチ",
+       "en": "Golden Stonefly Nymph / Honeybee",
+       "id": 43849,
+       "icon": "027102",
+       "lodestoneId": "accb8e61412",
+       "tug": null
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "ミヤカ・ベック下流",
+     "spotId": 302,
+     "territoryId": 1188,
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
+    }
+   }
+  ],
+  "folkloreNameJa": "魚類伝承録:ヨカ・トラル",
+  "intuitionLength": null,
+  "mapCoords": [
+   29.24755859375,
+   12.0107421875
+  ],
+  "mapScale": 100,
+  "mapId": "y6f2/00",
+  "aetheryte": {
+   "nameJa": "ポガ停船所",
+   "x": 37.26,
+   "y": 16.51
+  },
+  "icon": "028787",
+  "lodestoneId": null,
+  "spotId": 302,
+  "spotName": "Miyakabek'zu",
+  "spotNameJa": "ミヤカ・ベック下流",
+  "zoneName": "Kozama'uka",
+  "zoneNameJa": "コザマル・カ",
+  "territoryId": 1188,
+  "startHour": 12,
+  "endHour": 15,
+  "weatherSet": [
+   8
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "lure": null,
+  "folklore": false,
+  "fishEyes": false,
+  "fishEyesApplicable": false,
+  "intuition": true,
+  "patch": 7.55,
+  "uptime": 0.08,
+  "effectiveUptime": 0.08,
+  "gatedByIntuition": false
+ },
+ {
+  "id": 52009,
+  "name": "Skyfrond",
+  "nameJa": "スカイライトハート",
+  "bigFish": true,
+  "oonushi": true,
+  "baitPath": [
+   {
+    "ja": "紅サシ",
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864",
+    "tug": null
+   },
+   {
+    "ja": "トゥルーソーサー",
+    "en": "Flawless Saucer",
+    "id": 43740,
+    "icon": "028607",
+    "lodestoneId": "044cb14f1d3",
+    "tug": "medium"
+   }
+  ],
+  "predators": [
+   {
+    "ja": "アントゥルーソーサー",
+    "en": "Moonmarking Saucer",
+    "id": 52002,
+    "icon": "028764",
+    "lodestoneId": "80047efd616",
+    "tug": "heavy",
+    "count": 1,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "紅サシ",
+       "en": "Red Maggots",
+       "id": 43858,
+       "icon": "027109",
+       "lodestoneId": "41d9afb3864",
+       "tug": null
+      },
+      {
+       "ja": "トゥルーソーサー",
+       "en": "Flawless Saucer",
+       "id": 43740,
+       "icon": "028607",
+       "lodestoneId": "044cb14f1d3",
+       "tug": "medium"
+      }
+     ],
+     "startHour": 16,
+     "endHour": 21,
+     "weatherSet": [
+      7
+     ],
+     "previousWeatherSet": [
+      1
+     ],
+     "spotNameJa": "セノーテ・ジャユンジャ",
+     "spotId": 315,
+     "territoryId": 1189,
+     "bigFish": true,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
+    }
+   },
+   {
+    "ja": "トゥルーソーサー",
+    "en": "Flawless Saucer",
+    "id": 43740,
+    "icon": "028607",
+    "lodestoneId": "044cb14f1d3",
+    "tug": "medium",
+    "count": 3,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ミツバチ / 紅サシ",
+       "en": "Honeybee / Red Maggots",
+       "id": 43852,
+       "icon": "027105",
+       "lodestoneId": "5a1e82bf780",
+       "tug": null
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "セノーテ・ジャユンジャ",
+     "spotId": 315,
+     "territoryId": 1189,
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
+    }
+   }
+  ],
+  "folkloreNameJa": "魚類伝承録:ヨカ・トラル",
+  "intuitionLength": null,
+  "mapCoords": [
+   19.73828125,
+   31.9501953125
+  ],
+  "mapScale": 100,
+  "mapId": "y6f3/00",
+  "aetheryte": {
+   "nameJa": "マムーク",
+   "x": 36.11,
+   "y": 32.07
+  },
+  "icon": "028788",
+  "lodestoneId": null,
+  "spotId": 315,
+  "spotName": "Cenote Jayunja",
+  "spotNameJa": "セノーテ・ジャユンジャ",
+  "zoneName": "Yak T'el",
+  "zoneNameJa": "ヤクテル樹海",
+  "territoryId": 1189,
+  "startHour": 16,
+  "endHour": 21,
+  "weatherSet": [
+   7
+  ],
+  "previousWeatherSet": [
+   1
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "lure": null,
+  "folklore": false,
+  "fishEyes": false,
+  "fishEyesApplicable": false,
+  "intuition": true,
+  "patch": 7.55,
+  "uptime": 0.57,
+  "effectiveUptime": 0.57,
+  "gatedByIntuition": false
+ },
+ {
+  "id": 52010,
+  "name": "Rroneek Bichir",
+  "nameJa": "ロネークポリプテルス",
+  "bigFish": true,
+  "oonushi": true,
+  "baitPath": [
+   {
+    "ja": "ポッパールアー",
+    "en": "Popper Lure",
+    "id": 43855,
+    "icon": "027078",
+    "lodestoneId": "4b70dac3a32",
+    "tug": null
+   },
+   {
+    "ja": "ニーケレピトラウト",
+    "en": "Niikwerepi Trout",
+    "id": 43751,
+    "icon": "028611",
+    "lodestoneId": "935048fdce0",
+    "tug": "medium"
+   },
+   {
+    "ja": "ドクトー",
+    "en": "Ttokatoa",
+    "id": 47993,
+    "icon": "028672",
+    "lodestoneId": "73054dca5f2",
+    "tug": "heavy"
+   }
+  ],
+  "predators": [],
+  "folkloreNameJa": "魚類伝承録:サカ・トラル",
+  "intuitionLength": null,
+  "mapCoords": [
+   31.509765625,
+   13.75244140625
+  ],
+  "mapScale": 100,
+  "mapId": "x6f1/00",
+  "aetheryte": {
+   "nameJa": "メワヘイゾーン",
+   "x": 27.55,
+   "y": 10.18
+  },
+  "icon": "028789",
+  "lodestoneId": null,
+  "spotId": 320,
+  "spotName": "Lake Toari",
+  "spotNameJa": "トーリ湖",
+  "zoneName": "Shaaloani",
+  "zoneNameJa": "シャーローニ荒野",
+  "territoryId": 1190,
+  "startHour": 22,
+  "endHour": 24,
+  "weatherSet": [
+   11
+  ],
+  "previousWeatherSet": [
+   2
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "lure": null,
+  "folklore": false,
+  "fishEyes": false,
+  "fishEyesApplicable": false,
+  "intuition": false,
+  "patch": 7.55,
+  "uptime": 0.49,
+  "effectiveUptime": 0.49,
+  "gatedByIntuition": false
+ },
+ {
+  "id": 52297,
+  "name": "Great Ball of Lightning",
+  "nameJa": "ライトニングボール",
+  "bigFish": true,
+  "oonushi": true,
+  "baitPath": [
+   {
+    "ja": "紅サシ",
+    "en": "Red Maggots",
+    "id": 43858,
+    "icon": "027109",
+    "lodestoneId": "41d9afb3864",
+    "tug": null
+   }
+  ],
+  "predators": [
+   {
+    "ja": "ゴールデングルーパー",
+    "en": "Goldgrouper",
+    "id": 43775,
+    "icon": "028622",
+    "lodestoneId": "c1567146163",
+    "tug": "medium",
+    "count": 1,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ポッパールアー",
+       "en": "Popper Lure",
+       "id": 43855,
+       "icon": "027078",
+       "lodestoneId": "4b70dac3a32",
+       "tug": null
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [],
+     "previousWeatherSet": [],
+     "spotNameJa": "アレクサンドリア旧市街",
+     "spotId": 326,
+     "territoryId": 1191,
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": "Ambitious",
+     "fishEyesApplicable": false
+    }
+   }
+  ],
+  "folkloreNameJa": "魚類伝承録:アレクサンドリア",
+  "intuitionLength": null,
+  "mapCoords": [
+   6.765625,
+   33.97216796875
+  ],
+  "mapScale": 100,
+  "mapId": "x6f2/00",
+  "aetheryte": {
+   "nameJa": "エレクトロープ採石場",
+   "x": 16.9,
+   "y": 24.06
+  },
+  "icon": "028790",
+  "lodestoneId": null,
+  "spotId": 326,
+  "spotName": "Alexandrian Ruins",
+  "spotNameJa": "アレクサンドリア旧市街",
+  "zoneName": "Heritage Found",
+  "zoneNameJa": "ヘリテージファウンド",
+  "territoryId": 1191,
+  "startHour": 2,
+  "endHour": 4,
+  "weatherSet": [
+   50
+  ],
+  "previousWeatherSet": [
+   10
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "lure": null,
+  "folklore": false,
+  "fishEyes": false,
+  "fishEyesApplicable": false,
+  "intuition": true,
+  "patch": 7.55,
+  "uptime": 0.2,
+  "effectiveUptime": 0.2,
+  "gatedByIntuition": false
+ },
+ {
+  "id": 52011,
+  "name": "Triple Threat",
+  "nameJa": "三刃の鯱",
+  "bigFish": true,
+  "oonushi": true,
+  "baitPath": [
+   {
+    "ja": "ゴーストニッパー",
+    "en": "Ghost Nipper",
+    "id": 43859,
+    "icon": "027110",
+    "lodestoneId": "eebbabcf16e",
+    "tug": null
+   }
+  ],
+  "predators": [
+   {
+    "ja": "ブライトカッパーシャーク",
+    "en": "Shined Copper Shark",
+    "id": 52006,
+    "icon": "028167",
+    "lodestoneId": "1c3b22ccf40",
+    "tug": "heavy",
+    "count": 1,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ゴーストニッパー",
+       "en": "Ghost Nipper",
+       "id": 43859,
+       "icon": "027110",
+       "lodestoneId": "eebbabcf16e",
+       "tug": null
+      }
+     ],
+     "startHour": 8,
+     "endHour": 13,
+     "weatherSet": [
+      4
+     ],
+     "previousWeatherSet": [
+      3
+     ],
+     "spotNameJa": "カナルタウン北",
+     "spotId": 332,
+     "territoryId": 1192,
+     "bigFish": true,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": null,
+     "fishEyesApplicable": false
+    }
+   },
+   {
+    "ja": "カッパーシャーク",
+    "en": "Copper Shark",
+    "id": 43795,
+    "icon": "028131",
+    "lodestoneId": "45d29ae5ca1",
+    "tug": "medium",
+    "count": 2,
+    "conditions": {
+     "bait": [
+      {
+       "ja": "ゴーストニッパー",
+       "en": "Ghost Nipper",
+       "id": 43859,
+       "icon": "027110",
+       "lodestoneId": "eebbabcf16e",
+       "tug": null
+      }
+     ],
+     "startHour": 0,
+     "endHour": 24,
+     "weatherSet": [
+      3,
+      4
+     ],
+     "previousWeatherSet": [],
+     "spotNameJa": "カナルタウン北",
+     "spotId": 332,
+     "territoryId": 1192,
+     "bigFish": false,
+     "hookset": "Powerful",
+     "snagging": false,
+     "lure": "Ambitious",
+     "fishEyesApplicable": false
+    }
+   }
+  ],
+  "folkloreNameJa": "魚類伝承録:アレクサンドリア",
+  "intuitionLength": null,
+  "mapCoords": [
+   9.50830078125,
+   28.146484375
+  ],
+  "mapScale": 100,
+  "mapId": "x6f3/00",
+  "aetheryte": {
+   "nameJa": "レイノード・メモリス",
+   "x": 21.28,
+   "y": 37.67
+  },
+  "icon": "028168",
+  "lodestoneId": null,
+  "spotId": 332,
+  "spotName": "Canal Town North",
+  "spotNameJa": "カナルタウン北",
+  "zoneName": "Living Memory",
+  "zoneNameJa": "リビング・メモリー",
+  "territoryId": 1192,
+  "startHour": 8,
+  "endHour": 13,
+  "weatherSet": [
+   4
+  ],
+  "previousWeatherSet": [
+   3
+  ],
+  "tug": "heavy",
+  "hookset": "Powerful",
+  "lure": null,
+  "folklore": false,
+  "fishEyes": false,
+  "fishEyesApplicable": false,
+  "intuition": true,
+  "patch": 7.55,
+  "uptime": 0.36,
+  "effectiveUptime": 0.36,
+  "gatedByIntuition": false
  }
 ]

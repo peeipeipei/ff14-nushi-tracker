@@ -112,7 +112,7 @@ export default function GuidePage() {
             <p>
               さらに各拡張には、ヌシの中でも最上位の
               <strong className="text-moonlight">オオヌシ</strong>がいます。
-              オオヌシは条件が厳しく、後述の「漁師の直感」が必要なものがほとんどです。
+              オオヌシは条件が厳しく、36種のうち23種は後述の「漁師の直感」が必要です。
             </p>
             <p className="rounded-lg border border-hookgold-deep/50 bg-hookgold/[0.06] px-3 py-2 text-xs">
               普通の魚と違い、ヌシは
@@ -450,7 +450,7 @@ export default function GuidePage() {
               そちらに合わせた時刻を表示します（その行には直感のアイコンが付きます）。
             </p>
             <p className="rounded-lg border border-abyss-600 bg-abyss-800/60 px-3 py-2 text-xs">
-              直感が必要なヌシは全371件中28件、そのうち19件がオオヌシです。
+              直感が必要なヌシは全377件中32件、そのうち23件がオオヌシです。
               裏を返せば、大半のヌシは
               <strong className="text-moonlight">条件が揃えばそのまま狙えます</strong>。
               まずは直感の要らないヌシから慣れるのがおすすめです。

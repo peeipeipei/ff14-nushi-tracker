@@ -77,7 +77,7 @@ export default function TechPage() {
       </header>
 
       <div className="mb-5 grid grid-cols-3 gap-3">
-        <Stat n="329" label="掲載ヌシ" />
+        <Stat n="335" label="掲載ヌシ" />
         <Stat n="0" label="サーバーAPI" />
         <Stat n="~4,200" label="行 (TS+Py)" />
       </div>
@@ -186,7 +186,7 @@ export const WEATHER_WINDOW_REAL_MS = 8 * REAL_MS_PER_EORZEA_HOUR;`}</Code>
             <li>ゾーン別の天候累積確率テーブル、時間帯・天候条件、出現率(uptime%)の事前計算</li>
           </ul>
           <p className="text-xs text-moonlight-faint">
-            全 371 エントリの釣り餌を出典の bestCatchPath と 1件ずつ突き合わせて検証済み。
+            全 377 エントリの釣り餌を出典の bestCatchPath と 1件ずつ突き合わせて検証済み。
           </p>
         </Section>
 

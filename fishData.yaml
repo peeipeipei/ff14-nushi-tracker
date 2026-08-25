@@ -13813,7 +13813,7 @@
   location: Cenote Jayunja
   bestCatchPath:
   - - Honeybee
-    - Popper Lure
+    - Red Maggots
   tug: medium
   hookset: Powerful
   patch: 7.0
@@ -15475,3 +15475,111 @@
   lure:
   snagging:
   patch: 7.5
+# Patch 7.55 (2026-07-28)
+- name: Ner Lar Dor
+  location: Karvarhur the First
+  startHour: 15
+  endHour: 16
+  previousWeatherSet:
+  - Fog
+  weatherSet:
+  - Wind
+  bestCatchPath:
+  - Red Maggots
+  predators:
+  tug: heavy
+  hookset: Precision
+  lure: Modest
+  snagging:
+  patch: 7.55
+- name: Xehabopo'u
+  location: Miyakabek'zu
+  startHour: 12
+  endHour: 15
+  previousWeatherSet:
+  - Clouds
+  weatherSet:
+  - Showers
+  bestCatchPath:
+  - Golden Stonefly Nymph
+  - Driftwood Catfish
+  predators:
+    Driftwood Catfish: 6
+  tug: heavy
+  hookset: Powerful
+  lure:
+  snagging:
+  patch: 7.55
+  dataMissing: true
+- name: Skyfrond
+  location: Cenote Jayunja
+  startHour: 16
+  endHour: 21
+  previousWeatherSet:
+  - Clear Skies
+  weatherSet:
+  - Rain
+  bestCatchPath:
+  - Red Maggots
+  - Flawless Saucer
+  predators:
+    Moonmarking Saucer: 1
+    Flawless Saucer: 3
+  tug: heavy
+  hookset: Powerful
+  lure:
+  snagging:
+  patch: 7.55
+- name: Rroneek Bichir
+  location: Lake Toari
+  startHour: 22
+  endHour: 24
+  previousWeatherSet:
+  - Fair Skies
+  weatherSet:
+  - Dust Storms
+  bestCatchPath:
+  - Popper Lure
+  - Niikwerepi Trout
+  - Ttokatoa
+  predators:
+  tug: heavy
+  hookset: Powerful
+  lure:
+  snagging:
+  patch: 7.55
+- name: Great Ball of Lightning
+  location: Alexandrian Ruins
+  startHour: 2
+  endHour: 4
+  previousWeatherSet:
+  - Thunderstorms
+  weatherSet:
+  - Umbral Static
+  bestCatchPath:
+  - Red Maggots
+  predators:
+    Goldgrouper: 1
+  tug: heavy
+  hookset: Powerful
+  lure:
+  snagging:
+  patch: 7.55
+- name: Triple Threat
+  location: Canal Town North
+  startHour: 8
+  endHour: 13
+  previousWeatherSet:
+  - Clouds
+  weatherSet:
+  - Fog
+  bestCatchPath:
+  - Ghost Nipper
+  predators:
+    Shined Copper Shark: 1
+    Copper Shark: 2
+  tug: heavy
+  hookset: Powerful
+  lure:
+  snagging:
+  patch: 7.55
